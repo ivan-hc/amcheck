@@ -1,21 +1,453 @@
-name: Check environment variables from installation scripts
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+name: "Check variables in 250 apps"
 
 on:
+  push:
   workflow_dispatch:
+    inputs:
+      reset_stats:
+        description: "RESET stats (delete results)"
+        required: true
+        default: false
+        type: boolean
+      retest_failed:
+        description: "Retest failed"
+        required: true
+        default: false
+        type: boolean
+
+  schedule:
+    - cron: "23 0 * * *"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  show-stats:
+    name: "stats 📝"
+    runs-on: ubuntu-22.04
+    outputs:
+      all: ${{ steps.count.outputs.all }}
+      tested: ${{ steps.stats.outputs.tested }}
+      failed: ${{ steps.stats.outputs.failed }}
     steps:
-    - uses: actions/checkout@v4
+      - name: "Checkout programs 🏃"
+        uses: actions/checkout@v4
+        with:
+          repository: ivan-hc/AM
 
-    - name: build
-      if: always()
-      run: |
-        sudo apt-get -y update 2> /dev/null || apt-get -y update
-        sudo apt-get -y install wget curl torsocks zsync 2> /dev/null || apt-get -y install git wget curl torsocks zsync
-        chmod a+x ./amcheck.sh
-        ./amcheck.sh
+      - name: "Count programs 📊"
+        id: count
+        run: |
+          find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > x86.list
+          x64Count=$(wc -l < x86.list)
+          echo "all=$x64Count" >> $GITHUB_OUTPUT
+
+      - name: "Upload x86.list"
+        uses: actions/upload-artifact@v4
+        with:
+          name: x86.list
+          path: x86.list
+          retention-days: 1
+
+      - name: "Checkout results 🏃"
+        uses: actions/checkout@v4
+
+      - name: "Reseting stats"
+        if: github.event.inputs.reset_stats == 'true'
+        run: |
+          echo "Reseting stats" >> $GITHUB_STEP_SUMMARY
+          rm -f checklist
+          rm -f failcheck
+          rm -f log
+          rm -f failog
+
+      - name: "Count stats 📊"
+        id: stats
+        run: |
+          tested=$(wc -l < checklist 2> /dev/null || echo '0')
+          failed=$(wc -l < failcheck 2> /dev/null || echo '0')
+          echo "tested=$tested" >> $GITHUB_OUTPUT
+          echo "failed=$failed" >> $GITHUB_OUTPUT
+
+      - name: "Show stats 📊"
+        run: |
+          echo "### 🎬 apps" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.count.outputs.all }}" >> $GITHUB_STEP_SUMMARY
+          echo "### 🔨 tests" >> $GITHUB_STEP_SUMMARY
+          echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
+          echo " ❌ ${{ steps.stats.outputs.failed }}" >> $GITHUB_STEP_SUMMARY
+
+  generate-matrix:
+    name: "matrix 🌀"
+    needs: show-stats
+    runs-on: ubuntu-22.04
+    outputs:
+      skip: ${{ steps.set-matrix.outputs.skip }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+
+      - name: "Download x86.list"
+        uses: actions/download-artifact@v4
+        with:
+          name: x86.list
+
+      - name: "Generate Matrix 🏆"
+        id: set-matrix
+        if: github.event.inputs.retest_failed != 'true'
+        run: |
+          ls
+          if [[ -f checklist ]]; then
+            if diff -q x86.list checklist; then
+              echo "Everything checked" >> $GITHUB_STEP_SUMMARY
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            else
+              comm -23 x86.list checklist > totest_tmp.list
+            fi
+          else
+            echo "First run!" >> $GITHUB_STEP_SUMMARY
+            cp x86.list totest_tmp.list
+          fi
+          if [[ -f failcheck ]]; then
+            comm -23 totest_tmp.list failcheck > totest.list
+            if [ ! -s totest.list ]; then
+              echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+          else
+            mv totest_tmp.list totest.list
+          fi
+          FILES=$(shuf -n 250 totest.list | sort || cat totest.list | sort)
+          MATRIX="{\"include\": ["
+          for file in $FILES; do
+            MATRIX+="{\"file\": \"$file\"},"
+          done
+          MATRIX="${MATRIX%,}]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+      - name: "Generate Failed Matrix 🏆"
+        if: github.event.inputs.retest_failed == 'true'
+        id: failed-matrix
+        run: |
+          grep -Fxf failcheck x86.list > retest.list
+          echo "### Retesting failed" >> $GITHUB_STEP_SUMMARY
+          echo "Previously failed, removed: $(grep -vFxf x86.list failcheck)" >> $GITHUB_STEP_SUMMARY
+          FILES=$(cat retest.list)
+          MATRIX="{\"include\": ["
+          for file in $FILES; do
+            MATRIX+="{\"file\": \"$file\"},"
+          done
+          MATRIX="${MATRIX%,}]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          echo "Removing failcheck"
+          git rm failcheck
+
+  run-actions:
+    name: "🔨"
+    needs: generate-matrix
+    runs-on: ubuntu-22.04
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    env:
+      TIMEOUT: 5
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v4
+        with:
+          repository: ivan-hc/AM
+
+      - name: "Install dependencies"
+        run: |
+          apt-get -y update || sudo apt-get -y update
+          apt-get -y install torsocks || sudo apt-get -y install torsocks
+
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          path: results
+
+      - name: "Create directory"
+        working-directory: programs/x86_64
+        run: |
+          echo "Creating results directory"
+          mkdir -p results
+
+      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
+        id: on-github
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+            echo "GITHUB='yes'" | tee -a results/log-"${{ matrix.file }}"
+          else
+            echo "EXIT_CODE=9" >> $GITHUB_ENV
+            echo "GITHUB='no'" | tee -a results/log-"${{ matrix.file }}" results/ko-"${{ matrix.file }}"
+          fi
+
+      - name: "Is ${{ matrix.file }} AppImage? 🚧"
+        id: is-appimage
+        working-directory: programs/x86_64
+        run: |
+          if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
+            echo "APPIMAGE='yes'" | tee -a results/log-"${{ matrix.file }}"
+          else
+            echo "EXIT_CODE=99" >> $GITHUB_ENV
+            echo "APPIMAGE='no'" | tee -a results/log-"${{ matrix.file }}" results/ko-"${{ matrix.file }}"
+          fi
+
+      - name: "APP ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^APP=" "${{ matrix.file }}" 2>/dev/null; then
+            APP=$(eval echo "$(grep -i '^APP=' "${{ matrix.file }}" | head -1 | sed 's/APP=//g')")
+            echo "APP=\"$APP\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "REPO ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^REPO=" "${{ matrix.file }}" 2>/dev/null; then
+            REPO=$(eval echo "$(grep -i '^REPO=' "${{ matrix.file }}" | head -1 | sed 's/REPO=//g')")
+            echo "REPO=\"$REPO\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "SITE ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
+            SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
+            echo "SITE=\"$SITE\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "d ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^d=" "${{ matrix.file }}" 2>/dev/null; then
+            d=$(eval echo "$(grep -i '^d=' "${{ matrix.file }}" | head -1 | sed 's/d=//g')")
+            echo "d=\"$d\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "dl ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^dl=" "${{ matrix.file }}" 2>/dev/null; then
+            dl=$(eval echo "$(grep -i '^dl=' "${{ matrix.file }}" | head -1 | sed 's/dl=//g')")
+            echo "dl=\"$dl\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "rel ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^rel=" "${{ matrix.file }}" 2>/dev/null; then
+            rel=$(eval echo "$(grep -i '^rel=' "${{ matrix.file }}" | head -1 | sed 's/rel=//g')")
+            echo "rel=\"$rel\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "tag ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^tag=" "${{ matrix.file }}" 2>/dev/null; then
+            tag=$(eval echo "$(grep -i '^tag=' "${{ matrix.file }}" | head -1 | sed 's/tag=//g')")
+            echo "tag=\"$tag\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "v ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^v=" "${{ matrix.file }}" 2>/dev/null; then
+            v=$(eval echo "$(grep -i '^v=' "${{ matrix.file }}" | head -1 | sed 's/v=//g')")
+            echo "v=\"$v\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "ver ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^ver=" "${{ matrix.file }}" 2>/dev/null; then
+            ver=$(eval echo "$(grep -i '^ver=' "${{ matrix.file }}" | head -1 | sed 's/ver=//g')")
+            echo "ver=\"$ver\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "version ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
+            version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+            if [ -z "$version" ]; then
+              sed -i 's/curl -Ls/torsocks curl -Ls/g' "${{ matrix.file }}"
+              version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              if [ -z "$version" ]; then
+                sudo systemctl restart tor.service || systemctl restart tor.service
+                wait
+                version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              fi
+            fi
+            [ -n "$version" ] && echo "version=\"$version\"" | tee -a results/log-"${{ matrix.file }}"
+          fi
+          echo '-----------------------------------------------------------------' | tee -a results/log-"${{ matrix.file }}"
+
+      - name: "Upload failed ⬆️"
+        if: (env.EXIT_CODE == '99' || env.EXIT_CODE == '9')
+        uses: actions/upload-artifact@v4
+        with:
+          name: ko-${{ matrix.file }}
+          path: programs/x86_64/results/ko-${{ matrix.file }}
+          if-no-files-found: warn
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Upload logs ⬆️"
+        uses: actions/upload-artifact@v4
+        with:
+          name: log-${{ matrix.file }}
+          path: programs/x86_64/results/log-${{ matrix.file }}
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+  update-checked:
+    name: "results 📰"
+    needs: run-actions
+    runs-on: ubuntu-22.04
+    if: always()
+    steps:
+      - name: "Checkout repository 🏃"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: "Download results ⬇️"
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: results
+
+      - name: "Download x86.list"
+        uses: actions/download-artifact@v4
+        with:
+          name: x86.list
+
+      - name: "Git Config"
+        run: |
+          git config --global user.name "ivan-hc"
+          git config --global user.email "noreply@github.com"
+
+      - name: "Process log results"
+        run: |
+          echo "Results:"
+          echo '-----------------------------------------------------------------'
+          ls -R results/
+          echo '-----------------------------------------------------------------'
+          for log_file in results/log-*; do
+            [ -f "$log_file" ] || continue
+            appname=$(basename "$log_file" | cut -d'-' -f2-)
+            ko_file="results/ko-$appname"
+            if [[ -f "$ko_file" ]]; then
+              echo "$appname" | tee -a failist failcheck
+              rm -f "$ko_file"
+              cat "$log_file" >> failog
+              rm -f "$log_file"
+              sort -u failcheck -o failcheck
+              sort -u failist -o failist
+            else
+              cat "$log_file" >> log
+              echo "$appname" >> checklist
+              rm -f "$log_file"
+            fi
+          done
+          sort -u checklist -o checklist
+          git add failcheck failog checklist log
+
+      - name: "Push"
+        run: |
+          if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
+            echo "This is a Pull Request. Not saving results."
+          else
+            echo "Creating new commit"
+            git commit -m "update results"
+            git push origin main
+          fi
+
+      - name: "Show results"
+        run: |
+          tested=$(wc -l < checklist 2>/dev/null || echo 0)
+          failed=$(wc -l < failcheck 2>/dev/null || echo 0)
+          fail=$(wc -l < failist 2>/dev/null || echo 0)
+          count=$(wc -l < x86.list)
+          remaining=$((count - tested - failed - fail))
+          echo "remaining=$remaining"
+          (( remaining < 0 )) && remaining=0
+          echo "### 🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
+          echo "## 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+          echo "😱 $failed fails listed" >> $GITHUB_STEP_SUMMARY
+          echo ":x: $fail failed now" >> $GITHUB_STEP_SUMMARY
+
+      - name: "Merge commits"
+        run: |
+          LAST_MSG=$(git log -1 --pretty=%s)
+          PREV_MSG=$(git log -2 --pretty=%s | tail -n1)
+          echo "LAST: $LAST_MSG"
+          echo "PREV: $PREV_MSG"
+          if [[ "$LAST_MSG" == 'update results' ]] && [[ "$PREV_MSG" == 'update results' ]]; then
+            git checkout main
+            echo "Merging last two update commits..."
+            git reset --soft HEAD~2
+            git commit -m "update results"
+            git push origin main --force
+            echo "Done!"
+          fi
+
+  delete-all-artifacts:
+    name: "cleanup 🧹"
+    runs-on: ubuntu-22.04
+    needs: update-checked
+    if: always()
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+
+      - name: "Delete Artifacts 🙈"
+        env:
+          REPO_NAME: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching and deleting all artifacts for run ID: $RUN_ID"
+          PAGE=1
+          DELETED=0
+          while true; do
+            RESPONSE=$(curl -s -H "Authorization: token $TOKEN" \
+             "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=100&page=$PAGE")
+            ARTIFACT_IDS=$(echo "$RESPONSE" | jq -r '.artifacts[].id')
+            if [[ -z "$ARTIFACT_IDS" ]]; then
+              echo "No more artifacts to delete. Total deleted: $DELETED"
+              break
+            fi
+            for ARTIFACT_ID in $ARTIFACT_IDS; do
+              echo "Deleting artifact with ID: $ARTIFACT_ID"
+              curl -X DELETE -s -H "Authorization: token $TOKEN" \
+               "https://api.github.com/repos/$REPO_NAME/actions/artifacts/$ARTIFACT_ID"
+              ((DELETED+=1))
+            done
+            ((PAGE+=1))
+          done
+          echo "Successfully deleted $DELETED artifacts."
+
+  already-tested:
+    name: "all 🏁"
+    runs-on: ubuntu-22.04
+    needs: generate-matrix
+    if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
+    steps:
+      - name: "Mark as Successfull"
+        run: |
+          echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+          exit 0
