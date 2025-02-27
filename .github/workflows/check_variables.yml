@@ -317,7 +317,7 @@ jobs:
     name: "results 📰"
     needs: run-actions
     runs-on: ubuntu-22.04
-    if: always()
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
     steps:
       - name: "Checkout repository 🏃"
         uses: actions/checkout@v4
