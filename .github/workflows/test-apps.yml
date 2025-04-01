@@ -838,13 +838,15 @@ jobs:
           fi
           rm -f appslist
           rm -f results/appslist
-          #rm -f results/ok-*
+          rm -f results/ok-*
+          rm -rf results/results
           echo '-----------------------------------------------------------------'
           echo "Missed results:"
           echo '-----------------------------------------------------------------'
           ls -R results/
           for rest in results/*; do
-            cat "$rest"
+            echo "suspended for now"
+            #cat "$rest"
           done
           echo '-----------------------------------------------------------------'
 
@@ -865,6 +867,7 @@ jobs:
             git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
           fi
+          git clean -f
 
   # delete-all-artifacts:
   #   name: "cleanup 🧹"
