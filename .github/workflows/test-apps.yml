@@ -581,10 +581,11 @@ jobs:
 
       - name: "Retest"
         id: retest
+        working-directory: programs/x86_64
         run: |
           for fail in $(cat failing); do
             #echo "fail: $fail"
-            cd programs/x86_64
+            #cd programs/x86_64
             mkdir -p results
             echo "APP=\"$fail\"" | tee -a "results/out-$fail"
             if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" ./"$fail" 1>/dev/null; then
@@ -728,17 +729,13 @@ jobs:
             echo '-----------------------------------------------------------------'
 
             if [ -z "$size" ]; then
-
               size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
               echo "size is $size"
-
             fi
 
             if [ -z "$version" ]; then
-
               version=$(cat "$LogFile" | grep 'version' | cut -d'=' -f2)
               echo "version is $version"
-
             fi
 
             cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
@@ -749,28 +746,23 @@ jobs:
           done
 
           if [ -f failed ]; then
-
             for fail in failed; do
-
               echo ":x: $fail excluded now" >> $GITHUB_STEP_SUMMARY
-
             done
-
           fi
 
           if [ -f results/tested ]; then
-
             sort -u results/tested -o results/tested
             git add results/tested
-            git add results/log
+          fi
 
+          if [ -f results/log ]; then
+            git add results/log
           fi
 
           if [ -f results/excluded ]; then
-
-              sort -u results/excluded -o results/excluded
-              git add results/excluded
-
+            sort -u results/excluded -o results/excluded
+            git add results/excluded
           fi
 
           git add results
@@ -779,18 +771,24 @@ jobs:
         if: (always() && needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true')
         run: |
           if [[ -f results/tested ]]; then
+            echo "tested found"
             tested=$(wc -l < results/tested 2>/dev/null || echo 0)
           else
+            echo "tested not found"
             tested='0'
           fi
           if [[ -f results/excluded ]]; then
+            echo "excluded found"
             excluded=$(wc -l < results/excluded 2>/dev/null || echo 0)
           else
+            echo "excluded not found"
             excluded='0'
           fi
           if [[ -f failed ]]; then
+            echo "failed found"
             fail=$(wc -l < failed 2>/dev/null || echo 0)
           else
+            echo "failed not found"
             fail='0'
           fi
           count=$(wc -l < appslist)
@@ -804,6 +802,12 @@ jobs:
             echo "😱 $excluded excluded" >> $GITHUB_STEP_SUMMARY
           fi
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+          echo '-----------------------------------------------------------------'
+          git status
+          echo '-----------------------------------------------------------------'
+          if [ -f log ]; then
+            git add log
+          fi
           rm -f appslist
           rm -f results/appslist
           #rm -f results/ok-*
@@ -826,9 +830,9 @@ jobs:
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
             exit 0
           else
-            #git status
-            #git log --oneline -5
-            #git diff
+            git status
+            git log --oneline -5
+            git diff
             git add results
             git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
