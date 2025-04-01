@@ -632,3 +632,43 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ruanformigoni/flatimage"
 -----------------------------------------------------------------
+APP="archimage-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ivan-hc/ArchImage"
+link=https://api.github.com/repos/ivan-hc/ArchImage/zipball/4.3
+size=1 MB
+version=4.3
+-----------------------------------------------------------------
+APP="archimede"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="gennaro-tedesco/archimede"
+link=https://github.com/gennaro-tedesco/archimede/releases/download/v0.0.2/linux-amd64
+size=4 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="archipel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arso-project/archipel"
+link=https://github.com/arso-project/archipel/releases/download/v0.1.0/archipel-0.1.0.AppImage
+size=93 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="archipelago"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArchipelagoMW/Archipelago"
+link=https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.0/Archipelago_0.6.0_linux-x86_64.AppImage
+size=94 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="archisteamfarm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="JustArchiNET/ArchiSteamFarm"
+link=https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.4.3/ASF-linux-x64.zip
+size=53 MB
+version=6.1.4.3
+-----------------------------------------------------------------
