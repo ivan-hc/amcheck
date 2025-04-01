@@ -527,3 +527,43 @@ link=https://github.com/TheAssassin/AppImageLauncher/releases/download/v3.0.0-al
 size=37 MB
 version=3.0.0
 -----------------------------------------------------------------
+APP="appimagelint"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheAssassin/appimagelint"
+link=https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage
+size=106 MB
+version=2025.02.14
+-----------------------------------------------------------------
+APP="appimagen"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ivan-hc/AppImaGen"
+link=https://api.github.com/repos/ivan-hc/AppImaGen/zipball/2.1
+size=1 MB
+version=2.1
+-----------------------------------------------------------------
+APP="appimagepool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="prateekmedia/appimagepool"
+link=https://github.com/prateekmedia/appimagepool/releases/download/5.1.0/appimagepool-5.1.0-x86_64.AppImage
+size=11 MB
+version=5.1.0
+-----------------------------------------------------------------
+APP="appimagetool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImage/appimagetool"
+link=https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+size=15 MB
+version=2025.03.10
+-----------------------------------------------------------------
+APP="appimageupdate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImage/AppImageUpdate"
+link=https://github.com/AppImageCommunity/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage
+size=47 MB
+version=2025.02.15
+-----------------------------------------------------------------
