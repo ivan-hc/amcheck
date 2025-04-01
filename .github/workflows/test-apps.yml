@@ -554,6 +554,11 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
 
+      - name: "Git Config"
+        run: |
+           git config --global user.name "${{ github.repository_owner }}"
+           git config --global user.email "noreply@github.com"
+
       - name: "Checkout AM"
         uses: actions/checkout@v4
         with:
