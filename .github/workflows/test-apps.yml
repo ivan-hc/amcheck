@@ -661,17 +661,7 @@ jobs:
               fi
             fi
             rm -f "$KoFile"
-
           done
-
-            rm -f failing
-            if [ -f results/excluded ]; then
-              sort -u results/excluded -o results/excluded
-              git add results/excluded
-            fi
-            git add results
-            git commit -m "retest"
-            git push
 
       - name: "Upload KO Results ☝️"
         if: failure()
@@ -707,6 +697,22 @@ jobs:
           if-no-files-found: warn
           retention-days: 1
           compression-level: 0
+
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: commit
+        run: |
+          rm -f failing
+          if [ -f results/excluded ]; then
+            sort -u results/excluded -o results/excluded
+            git add results/excluded
+          fi
+          git add results/log
+          git add results/tested
+          git add results
+          git commit -m "retest"
+          git push
 
   update-results:
     name: "results 📰"
