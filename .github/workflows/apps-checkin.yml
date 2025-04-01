@@ -247,6 +247,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+      max-parallel: 10
     env:
       TIMEOUT: 5
     steps:
@@ -348,15 +349,15 @@ jobs:
           
             if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
 
-              echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service && wait && echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 || systemctl restart tor.service && wait && echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1
+              echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
 
-              echo y | timeout "$TIMEOUT"m am -i bat "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service && wait && echo y | timeout "$TIMEOUT"m am -i bat "${{ matrix.file }}" --debug 2>&1 || systemctl restart tor.service && wait && echo y | timeout "$TIMEOUT"m am -i bat "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout "$TIMEOUT"m am -i bat "${{ matrix.file }}" --debug 2>&1
 
             else
 
-              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service && wait && echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 || systemctl restart tor.service && wait && echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1
 
             fi
 
