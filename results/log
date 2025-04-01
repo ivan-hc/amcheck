@@ -2467,3 +2467,43 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="keyboardio/Chrysalis"
 -----------------------------------------------------------------
+APP="ciaa-suite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinribelotta/embedded-ide-builder"
+link=https://github.com/martinribelotta/embedded-ide-builder/releases/download/v0.6/CIAA_Suite-v0.6-x86_64.AppImage
+size=166 MB
+version=0.6
+-----------------------------------------------------------------
+APP="cicada"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mitnk/cicada"
+link=https://github.com/mitnk/cicada/releases/download/v1.0.3/cicada-x86_64-unknown-linux-gnu
+size=6 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="cinelerra-gg"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cinelerra-gg.org"
+link=https://cinelerra-gg.org/download/images/CinGG-20250331-x86_64.AppImage
+size=160 MB
+version=20250331
+-----------------------------------------------------------------
+APP="cinny"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cinnyapp/cinny-desktop"
+link=https://github.com/cinnyapp/cinny-desktop/releases/download/v4.6.0/Cinny_desktop-x86_64.AppImage
+size=82 MB
+version=4.6.0
+-----------------------------------------------------------------
+APP="circle-z"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rossprogram/circle-z"
+link=https://github.com/rossprogram/circle-z/releases/download/v1.14.0/Circle-Z-1.14.0.AppImage
+size=118 MB
+version=1.14.0
+-----------------------------------------------------------------
