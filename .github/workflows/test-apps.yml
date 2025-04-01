@@ -583,12 +583,12 @@ jobs:
           pwd
           find -name failing
           find -name results
-          ls - 
+          ls -R results/
           for fail in $(cat failing); do
-            echo "$fail"
+            echo "fail: $fail"
             cd programs/x86_64
-            echo "APP=\"$fail\"" | tee -a results/out-"$fail"
-            if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$fail" 1>/dev/null; then
+            echo "APP=\"$fail\"" | tee "results/out-$fail"
+            if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" ./"$fail" 1>/dev/null; then
               echo "APPIMAGE='yes'" | tee -a results/out-"$fail"
             else
               #echo "EXIT_CODE=99" >> $GITHUB_ENV
