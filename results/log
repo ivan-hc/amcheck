@@ -737,3 +737,43 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://around.co"
 -----------------------------------------------------------------
+APP="artifact"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.bitbreeds.com"
+link=
+size=175 MB
+version=1.0.4
+-----------------------------------------------------------------
+APP="artisan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="artisan-roaster-scope/artisan"
+link=https://github.com/artisan-roaster-scope/artisan/releases/download/v3.1.0/artisan-linux-3.1.0.AppImage
+size=299 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="artix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.artix.com"
+link=https://launch.artix.com/latest/Artix_Games_Launcher-x86_64.AppImage
+size=79 MB
+version=2.1.2
+-----------------------------------------------------------------
+APP="asarui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="myazarc/AsarUI"
+link=https://github.com/myazarc/AsarUI/releases/download/v1.0.2/asarui-1.0.2-x86_64.AppImage
+size=51 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="asgardex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="asgardex/asgardex-desktop"
+link=https://github.com/asgardex/asgardex-desktop/releases/download/v1.30.3/ASGARDEX-1.30.3-linux.AppImage
+size=351 MB
+version=1.30.3
+-----------------------------------------------------------------
