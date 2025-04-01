@@ -582,12 +582,8 @@ jobs:
       - name: "Retest"
         id: retest
         run: |
-          pwd
-          find -name failing
-          find -name results
-          ls -R results/
           for fail in $(cat failing); do
-            echo "fail: $fail"
+            #echo "fail: $fail"
             cd programs/x86_64
             mkdir -p results
             echo "APP=\"$fail\"" | tee -a "results/out-$fail"
@@ -622,7 +618,7 @@ jobs:
             fi
             echo '-----------------------------------------------------------------' | tee -a results/out-"$fail"
             if [[ "$fail" =~ (gimp|libreoffice|mpv|wine) ]]; then
-              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
+              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
                 size=$(cat "results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
                 Preversion=$(cat "results/out-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
                 echo "pre version is $Preversion"
@@ -632,7 +628,7 @@ jobs:
                 echo "$fail" | tee -a results/excluded failed
               fi
             elif [[ "$fail" =~ (bat-extras) ]]; then
-              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
+              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
                 size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
                 Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -2 | head -1)
                 echo "pre version is $Preversion"
@@ -642,7 +638,7 @@ jobs:
                 echo "$fail" | tee -a results/excluded failed
               fi
             else
-              if command -v echo y | am -i "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
+              if command -v echo y | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
                 size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
                 Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1)
                 echo "pre version is $Preversion"
