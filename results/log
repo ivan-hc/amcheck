@@ -72,3 +72,43 @@ link=https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/Ab
 size=64 MB
 version=3.0.6
 -----------------------------------------------------------------
+APP="accessimap-lecteur-der"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="makinacorpus/accessimap-lecteur-der"
+link=https://github.com/makinacorpus/accessimap-lecteur-der/releases/download/0.0.35/accessimap-lecteur-der-0.0.34-x86_64.AppImage
+size=52 MB
+version=0.0.34
+-----------------------------------------------------------------
+APP="acreom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Acreom/releases"
+link=https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage
+size=162 MB
+version=1.20.2
+-----------------------------------------------------------------
+APP="actual"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="actualbudget/releases"
+link=https://github.com/actualbudget/releases/releases/download/0.0.148/Actual-0.0.148-x86_64.AppImage
+size=93 MB
+version=0.0.148
+-----------------------------------------------------------------
+APP="admin-tools"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage"
+link=https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage
+size=84 MB
+version=2025.01.02
+-----------------------------------------------------------------
+APP="advanced-passgen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CodeDead/Advanced-PassGen"
+link=https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.5.2/advanced-passgen_2.5.2_amd64.AppImage
+size=117 MB
+version=2.5.2
+-----------------------------------------------------------------
