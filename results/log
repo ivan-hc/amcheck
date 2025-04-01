@@ -777,3 +777,1603 @@ link=https://github.com/asgardex/asgardex-desktop/releases/download/v1.30.3/ASGA
 size=351 MB
 version=1.30.3
 -----------------------------------------------------------------
+APP="astroffers"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jayhasyee/astroffers"
+link=https://github.com/hasyee/astroffers/releases/download/v1.1.3/astroffers-1.1.3-x86_64.AppImage
+size=110 MB
+version=1.1.3
+-----------------------------------------------------------------
+APP="astrofox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://astrofox.io"
+link=https://files.astrofox.io/download/Astrofox-1.4.0.AppImage
+size=124 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="astroshutter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vleeuwenmenno/AstroShutter"
+link=https://github.com/vleeuwenmenno/AstroShutter/releases/download/v0.0.3/AstroShutter-x86_64.AppImage
+size=34 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="asunder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/asunder/Asunder-CD-Ripper_3.0.1-2-archimage4.3-x86_64.AppImage
+size=59 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="atomicwallet"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://get.atomicwallet.io/download"
+link=https://get.atomicwallet.io/download/atomicwallet-2.76.4.AppImage
+size=99 MB
+version=atomicwallet-2.76.4.AppImage
+-----------------------------------------------------------------
+APP="atuin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="atuinsh/atuin"
+link=https://github.com/atuinsh/atuin/releases/download/v18.5.0-beta.1/atuin-x86_64-unknown-linux-musl.tar.gz
+size=34 MB
+version=18.5.0
+-----------------------------------------------------------------
+APP="audacious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/audacious/Audacious_4.4.2-1-archimage4.3-x86_64.AppImage
+size=100 MB
+version=4.4.2
+-----------------------------------------------------------------
+APP="audacity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="audacity/audacity"
+link=https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/audacity-linux-3.7.3-x64-20.04.AppImage
+size=115 MB
+version=3.7.3
+-----------------------------------------------------------------
+APP="audapolis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bugbakery/audapolis"
+link=https://github.com/bugbakery/audapolis/releases/download/v0.3.0/audapolis-linux-x86_64-0.3.0_4.AppImage
+size=282 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="audiomoth"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenAcousticDevices/AudioMoth-Configuration-App"
+link=https://github.com/OpenAcousticDevices/AudioMoth-Configuration-App/releases/download/1.12.1/AudioMothConfigurationAppSetup1.12.1.AppImage
+size=97 MB
+version=1.12.1
+-----------------------------------------------------------------
+APP="audiorelay"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://audiorelay.net"
+link=https://dl.audiorelay.net/setups/linux/audiorelay-0.27.5.tar.gz
+size=97 MB
+version=0.27.5
+-----------------------------------------------------------------
+APP="augur"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AugurProject/augur-app"
+link=https://github.com/AugurProject/augur-app/releases/download/v1.16.11/linux-Augur-1.16.11.AppImage
+size=159 MB
+version=1.16.11
+-----------------------------------------------------------------
+APP="auryo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Superjo149/auryo"
+link=https://github.com/sneljo1/auryo/releases/download/v2.5.4/Auryo-2.5.4.AppImage
+size=90 MB
+version=2.5.4
+-----------------------------------------------------------------
+APP="authme"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Levminer/authme"
+link=https://github.com/Levminer/authme/releases/download/6.0.3/authme-6.0.3-linux-x64.appimage
+size=133 MB
+version=6.0.3
+-----------------------------------------------------------------
+APP="authy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ryuuzaki42/Authy_AppImage"
+link=https://github.com/ryuuzaki42/Authy_AppImage/releases/download/2.5.0/Authy_Desktop-2.5.0.glibc2.17-x86_64-1_JB.AppImage
+size=83 MB
+version=2.5.0.glibc2.17
+-----------------------------------------------------------------
+APP="autoedit2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenNewsLabs/autoEdit_2"
+link=https://github.com/OpenNewsLabs/autoEdit_2/releases/download/1.0.24/autoEdit2-1.0.24-x86_64.AppImage
+size=126 MB
+version=1.0.24
+-----------------------------------------------------------------
+APP="avantgarde"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kuiperzone/AvantGarde"
+link=https://github.com/kuiperzone/AvantGarde/releases/download/v1.5.1/AvantGarde.x86_64.AppImage
+size=48 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="avidemux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mean00/avidemux2"
+link=https://github.com/mean00/avidemux2/releases/download/2.8.1/avidemux_2.8.1.appImage
+size=43 MB
+version=2.8.1
+-----------------------------------------------------------------
+APP="avidemux-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Avidemux-unofficial-appimage"
+link=https://github.com/ivan-hc/Avidemux-unofficial-appimage/releases/download/continuous/Avidemux_2.8.1-6-archimage4.3-x86_64.AppImage
+size=81 MB
+version=2.8.1
+-----------------------------------------------------------------
+APP="avocado"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://avocado-builds.czekanski.info"
+link=https://bitfighter.org/files/bitfighter-022-Build0.glibc2.14-x86_64.AppImage
+size=12 MB
+version=022
+-----------------------------------------------------------------
+APP="avogadro2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenChemistry/avogadroapp"
+link=https://github.com/OpenChemistry/avogadroapp/releases/download/1.100.0/Avogadro2-x86_64.AppImage
+size=136 MB
+version=1.100.0
+-----------------------------------------------------------------
+APP="awakened-poe-trade"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SnosMe/awakened-poe-trade"
+link=https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.25.104/Awakened-PoE-Trade-3.25.104.AppImage
+size=111 MB
+version=3.25.104
+-----------------------------------------------------------------
+APP="axe-electrum"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AXErunners/electrum-axe"
+link=https://github.com/AXErunners/electrum-axe/releases/download/3.3.8.9/Axe-Electrum-3.3.8.9-x86_64.AppImage
+size=49 MB
+version=3.3.8.9
+-----------------------------------------------------------------
+APP="axolotl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nanu-c/axolotl"
+link=https://github.com/axolotl-chat/axolotl/releases/download/v2.0.1/axolotl_2.0.1_amd64.AppImage
+size=96 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="aya"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="liriliri/aya"
+link=https://github.com/liriliri/aya/releases/download/v1.5.0/AYA-1.5.0-linux-x86_64.AppImage
+size=112 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="badlion"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://client.badlion.net"
+link=https://client-updates-cdn77.badlion.net/BadlionClient
+size=199 MB
+version=4.5.4
+-----------------------------------------------------------------
+APP="baijimangaviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shizkun/manga-viewer"
+link=https://github.com/jmarioste/manga-viewer/releases/download/v1.2.3/baiji-manga-viewer-1.2.3-x86_64.AppImage
+size=69 MB
+version=1.2.3
+-----------------------------------------------------------------
+APP="bambustudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bambulab/BambuStudio"
+link=https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_linux_fedora-v02.00.01.50.AppImage
+size=123 MB
+version=02.00.01.50
+-----------------------------------------------------------------
+APP="banban"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HubertK05/banban"
+link=https://github.com/HubertK05/banban/releases/download/v0.2.0/banban_0.2.0_amd64.AppImage
+size=94 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bandwhich"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="imsnif/bandwhich"
+link=https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz
+size=4 MB
+version=0.23.1
+-----------------------------------------------------------------
+APP="baobab-gtk3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/baobab3/Disk_Usage_Analyzer-3.38.0-x86_64.AppImage
+size=4 MB
+version=3.38.0
+-----------------------------------------------------------------
+APP="barnacal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mike-engel/Barnacal"
+link=https://github.com/mike-engel/Barnacal/releases/download/v0.9.4/Barnacal-0.9.4.AppImage
+size=56 MB
+version=0.9.4
+-----------------------------------------------------------------
+APP="bastyon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pocketnetteam/pocketnet.gui"
+link=https://github.com/pocketnetteam/pocketnet.gui/releases/download/v0.9.116/Bastyon.AppImage
+size=151 MB
+version=0.9.116
+-----------------------------------------------------------------
+APP="bat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/bat"
+link=https://github.com/sharkdp/bat/releases/download/v0.25.0/bat-v0.25.0-x86_64-unknown-linux-musl.tar.gz
+size=7 MB
+version=0.25.0
+-----------------------------------------------------------------
+APP="bat-extras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eth-p/bat-extras"
+link=https://github.com/eth-p/bat-extras/releases/download/v2024.08.24/bat-extras-2024.08.24.zip
+size=1 MB
+version=2024.08.24.zip
+-----------------------------------------------------------------
+APP="batch-explorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Azure/BatchExplorer"
+link=https://github.com/Azure/BatchExplorer/releases/download/v2.22.0-stable.1076/BatchExplorer-2.22.0-stable.1076.AppImage
+size=197 MB
+version=2.22.0
+-----------------------------------------------------------------
+APP="battop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="svartalf/rust-battop"
+link=https://github.com/svartalf/rust-battop/releases/download/v0.2.4/battop-v0.2.4-x86_64-unknown-linux-gnu
+size=3 MB
+version=0.2.4
+-----------------------------------------------------------------
+APP="bauh"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vinifmor/bauh"
+link=https://github.com/vinifmor/bauh/releases/download/0.10.7/bauh-0.10.7-x86_64.AppImage
+size=80 MB
+version=0.10.7
+-----------------------------------------------------------------
+APP="bazecor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dygmalab/Bazecor"
+link=https://github.com/Dygmalab/Bazecor/releases/download/v1.7.0/Bazecor-1.7.0-x64.AppImage
+size=133 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="bbg"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bbg-contributors/bbg"
+link=https://github.com/bbg-contributors/bbg/releases/download/20250311/bbg-20250311-x86_64.AppImage
+size=110 MB
+version=20250311
+-----------------------------------------------------------------
+APP="bdash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bdash-app/bdash"
+link=https://github.com/bdash-app/bdash/releases/download/v1.17.1/Bdash-1.17.1.AppImage
+size=93 MB
+version=1.17.1
+-----------------------------------------------------------------
+APP="beam-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BeamMW/beam-ui"
+link=https://github.com/BeamMW/beam-ui/releases/download/beam-7.5.13840.5763/Linux-Beam-Wallet-7.5.13840.5763.zip
+size=168 MB
+version=7.5.13840.5763.zip
+-----------------------------------------------------------------
+APP="bearly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bearlyai/releases"
+link=https://github.com/bearlyai/releases/releases/download/v3.0.0/Bearly-3.0.0.AppImage
+size=97 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="beatconnect-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yadPe/beatconnect_client"
+link=https://github.com/yadPe/beatconnect_client/releases/download/v0.3.9/Beatconnect-Client-0.3.9.AppImage
+size=78 MB
+version=0.3.9
+-----------------------------------------------------------------
+APP="beatmapexporter"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="kabiiQ/BeatmapExporter"
+link=https://github.com/kabiiQ/BeatmapExporter/releases/download/v2.5.0/linux-BeatmapExporterCLI
+size=39 MB
+version=2.5.0
+-----------------------------------------------------------------
+APP="beaver-notes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Beaver-Notes/Beaver-Notes"
+link=https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes-3.9.0.AppImage
+size=115 MB
+version=3.9.0
+-----------------------------------------------------------------
+APP="beekeeper-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="beekeeper-studio/beekeeper-studio"
+link=https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.1.5/Beekeeper-Studio-5.1.5.AppImage
+size=203 MB
+version=5.1.5
+-----------------------------------------------------------------
+APP="beeper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.beeper.com"
+link=https://beeper-desktop.download.beeper.com/builds/Beeper-4.0.570.AppImage
+size=178 MB
+version=4.0.570
+-----------------------------------------------------------------
+APP="bemoji"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="marty-oehme/bemoji"
+link=https://github.com/marty-oehme/bemoji/releases/download/v/bemoji-0.4.0.tar.gz
+size=1 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="bench-cli"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/bench-cli"
+link=https://github.com/Lateralus138/bench-cli/releases/download/Continuous/bench-x86_64.AppImage
+size=3 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="better-osu-skills"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="straightcurve/better-osuskills"
+link=https://github.com/straightcurve/better-osuskills/releases/download/v1.0.6/better-osu-skills-1.0.6.AppImage
+size=149 MB
+version=1.0.6
+-----------------------------------------------------------------
+APP="bettercrewlink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OhMyGuus/BetterCrewLink"
+link=https://github.com/OhMyGuus/BetterCrewLink/releases/download/v3.1.3/Better-CrewLink-3.1.3.AppImage
+size=131 MB
+version=3.1.3
+-----------------------------------------------------------------
+APP="bettersis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mario33881/betterSIS"
+link=https://github.com/mario33881/betterSIS/releases/download/1.2.1/BetterSIS-1.2.1-x86_64.AppImage
+size=51 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="beurerscalemanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="daald/beurerscalemanager-appimage"
+link=https://github.com/daald/beurerscalemanager-appimage/releases/download/v0.1-g6da5b6e-pf5d43a8/BeurerScaleManager-x86_64.AppImage
+size=8 MB
+version=0.1
+-----------------------------------------------------------------
+APP="beyond-all-reason"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="beyond-all-reason/BYAR-Chobby"
+link=https://github.com/beyond-all-reason/BYAR-Chobby/releases/download/v1.2988.0/Beyond-All-Reason-1.2988.0.AppImage
+size=118 MB
+version=1.2988.0
+-----------------------------------------------------------------
+APP="bezique"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Sriep/Bezique"
+link=https://github.com/Sriep/Bezique/releases/download/1.0.1/Bezique-x86_64.AppImage
+size=30 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="bforartists"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bforartists/Bforartists"
+link=https://github.com/Bforartists/Bforartists/releases/download/v4.3.3/Bforartists-4.3.3-x86_64.AppImage
+size=495 MB
+version=4.3.3
+-----------------------------------------------------------------
+APP="biblemultithelife"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/hotlittlewhitedog/BibleTheLife"
+link=https://gitlab.com/api/v4/projects/17175284/uploads/caa00a30e4fef52175512637eabf6c76/BibleMultiTheLife-1.27.4-x86_64.AppImage
+size=69 MB
+version=1.27.4
+-----------------------------------------------------------------
+APP="bidirectional"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="samirdjelal/bidirectional"
+link=https://github.com/samirdjelal/bidirectional/releases/download/app-v0.3.0/bidirectional_0.3.0_amd64.AppImage
+size=71 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="bilibili"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="msojocs/bilibili-linux"
+link=https://github.com/msojocs/bilibili-linux/releases/download/v1.16.3-3/bilibili-1.16.3-x86_64.AppImage
+size=307 MB
+version=1.16.3
+-----------------------------------------------------------------
+APP="bilibilivideodownload"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blogwy/BilibiliVideoDownload"
+link=https://github.com/BilibiliVideoDownload/BilibiliVideoDownload/releases/download/v3.3.3/BilibiliVideoDownload-3.3.3.AppImage
+size=114 MB
+version=3.3.3
+-----------------------------------------------------------------
+APP="biliup-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ForgQi/biliup-app"
+link=https://github.com/biliup/biliup-app/releases/download/app-v0.5.3/biliup-app_0.5.3_amd64.AppImage
+size=124 MB
+version=0.5.3
+-----------------------------------------------------------------
+APP="billard-gl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/billard-gl/Billard-GL-1.75-17-x86_64.AppImage
+size=2 MB
+version=1.75
+-----------------------------------------------------------------
+APP="billyfrontier"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/BillyFrontier"
+link=https://github.com/jorio/BillyFrontier/releases/download/v1.1.1/BillyFrontier-1.1.1-linux-x86_64.AppImage
+size=83 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="bin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="marcosnils/bin"
+link=https://github.com/marcosnils/bin/releases/download/v0.20.0/bin_0.20.0_linux_amd64
+size=15 MB
+version=0.20.0
+-----------------------------------------------------------------
+APP="binclock"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="TeddyDD/binclock"
+link=https://github.com/TeddyDD/binclock/releases/download/v6.0.3/binclock-v6.0.3-linux-amd64.tar.gz
+size=3 MB
+version=6.0.3
+-----------------------------------------------------------------
+APP="binfinder"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aquasecurity/binfinder"
+link=https://github.com/aquasecurity/binfinder/releases/download/v0.2.0/binfinder_0.2.0_Linux_amd64.tar.gz
+size=6 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bingada"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jfuica/bingada"
+link=https://github.com/jfuica/bingada/releases/download/v1.0.0/BingAda-1.0.0-x86_64.AppImage
+size=17 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="binglite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="I-Info/BingLite"
+link=https://github.com/I-Info/BingLite/releases/download/v0.2.1/bing-lite_0.2.1_amd64.AppImage
+size=72 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="bioanimation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ccnydss/bioanimation"
+link=https://github.com/ccnydss/bioanimation/releases/download/v0.3.0/bioanimation-0.3.0-x86_64.AppImage
+size=77 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="biplanes-revival"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="regular-dev/biplanes-revival"
+link=https://github.com/regular-dev/biplanes-revival/releases/download/v1.2.1/BiplanesRevival-v1.2.1-x86_64.AppImage
+size=7 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="birds-kitchen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fredserva/birdskitchen"
+link=https://github.com/fredserva/birdskitchen/releases/download/v0.8.3/Birds-Kitchen-0.8.3.AppImage
+size=225 MB
+version=0.8.3
+-----------------------------------------------------------------
+APP="bitbox-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="digitalbitbox/bitbox-wallet-app"
+link=https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.47.2/BitBox-4.47.2-x86_64.AppImage
+size=159 MB
+version=4.47.2
+-----------------------------------------------------------------
+APP="bitfighter"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://bitfighter.org"
+link=https://bitfighter.org/files/bitfighter-022-Build0.glibc2.14-x86_64.AppImage
+size=12 MB
+version=022
+-----------------------------------------------------------------
+APP="bitshares"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bitshares/bitshares-ui"
+link=https://github.com/bitshares/bitshares-ui/releases/download/5.0.210216/BitShares.5.0.210216.AppImage
+size=60 MB
+version=5.0.210216
+-----------------------------------------------------------------
+APP="bitwarden"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bitwarden/clients"
+link=https://github.com/bitwarden/clients/releases/download/desktop-v2025.2.1/Bitwarden-2025.2.1-x86_64.AppImage
+size=118 MB
+version=2025.2.1
+-----------------------------------------------------------------
+APP="biying"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iovxw/biying"
+link=https://github.com/iovxw/biying/releases/download/v1.1.1/Biying-v1.1.1-x86_64.AppImage
+size=43 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="bk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aeosynth/bk"
+link=https://github.com/aeosynth/bk/releases/download/v0.6.0/bk-linux
+size=1 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="black-chocobo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sithlord48/blackchocobo"
+link=https://github.com/sithlord48/blackchocobo/releases/download/continuous/Black_Chocobo-continuous-x86_64.AppImage
+size=36 MB
+version=2025.03.16
+-----------------------------------------------------------------
+APP="blacknut"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.blacknut.com"
+link=https://releases.blacknut.com/player/last/Blacknut.AppImage
+size=97 MB
+version=4.1.0
+-----------------------------------------------------------------
+APP="blank"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FPurchess/blank"
+link=https://github.com/FPurchess/blank/releases/download/v1.2.0/blank_1.2.0_amd64.AppImage
+size=85 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="blastem"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/blastem"
+link=https://github.com/mantralunar/blastem/releases/download/blastem64-0.6.3-pre-0e3118325c1c/BlastEm-x86_64.AppImage
+size=6 MB
+version=0.6.3
+-----------------------------------------------------------------
+APP="blender"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.blender.org"
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.0-stable+v44.05377985c527-linux.x86_64-release.tar.xz
+size=1120 MB
+version=4.4.0
+-----------------------------------------------------------------
+APP="blender-alpha"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.blender.org"
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.6397a4fb9a93-linux.x86_64-release.tar.xz
+size=1111 MB
+version=4.5.0
+-----------------------------------------------------------------
+APP="blender-beta"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.blender.org"
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.0-beta+v44.1ba20699e933-linux.x86_64-release.tar.xz
+size=1119 MB
+version=4.4.0
+-----------------------------------------------------------------
+APP="blender-rc"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.blender.org"
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.0651fc56e30c-linux.x86_64-release.tar.xz
+size=1111 MB
+version=4.4.1
+-----------------------------------------------------------------
+APP="blensor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.blensor.org"
+link=https://www.blensor.org/dload/Blensor-x64.AppImage
+size=159 MB
+version=1.0.18
+-----------------------------------------------------------------
+APP="blimp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="merlinfuchs/blimp"
+link=https://github.com/merlinfuchs/blimp/releases/download/v0.4.0/blimp_0.4.0_linux_amd64.tar.gz
+size=9 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="blink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ychclone/blink"
+link=https://github.com/ychclone/blink/releases/download/1.7.4/Blink-x86_64.AppImage
+size=40 MB
+version=1.7.4
+-----------------------------------------------------------------
+APP="blizzard-4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="danielfspencer/blizzard-4"
+link=https://github.com/danielfspencer/blizzard-4/releases/download/v1.4.0/blizzard-4-v1.4.0-linux.AppImage
+size=75 MB
+version=4
+-----------------------------------------------------------------
+APP="blob-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="MicheleCioccarelli/blob-dl"
+link=https://github.com/MicheleCioccarelli/blob-dl/releases/download/v1.0.2/blob-dl-x86_64-unknown-linux-gnu.tar.xz
+size=4 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="blobdrop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vimpostor/blobdrop"
+link=https://github.com/vimpostor/blobdrop/releases/download/v2.1/blobdrop-x86_64.AppImage
+size=36 MB
+version=2.1
+-----------------------------------------------------------------
+APP="block-dx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BlocknetDX/blockdx-ui"
+link=https://github.com/blocknetdx/block-dx/releases/download/v1.9.5/BLOCK-DX-1.9.5-linux-x86_64.AppImage
+size=127 MB
+version=1.9.5
+-----------------------------------------------------------------
+APP="blockbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JannisX11/blockbench"
+link=https://github.com/JannisX11/blockbench/releases/download/v4.12.4/Blockbench_4.12.4.AppImage
+size=109 MB
+version=4.12.4
+-----------------------------------------------------------------
+APP="blockstream-green"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Blockstream/green_qt"
+link=https://github.com/Blockstream/green_qt/releases/download/release_2.0.23/BlockstreamGreen-x86_64.AppImage
+size=68 MB
+version=2.0.23
+-----------------------------------------------------------------
+APP="bloks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eoscafe/bloks-desktop"
+link=https://github.com/eoscafe/bloks-desktop/releases/download/2.0.0/Bloks-Linux-2.0.0.AppImage
+size=88 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="bloomee"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="HemantKArya/BloomeeTunes"
+link=https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.11.5%2B170/bloomee_tunes_linux_v2.11.5_dev%2B49.zip
+size=58 MB
+version=2.11.5
+-----------------------------------------------------------------
+APP="bloomrpc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="uw-labs/bloomrpc"
+link=https://github.com/bloomrpc/bloomrpc/releases/download/1.5.3/BloomRPC-1.5.3.AppImage
+size=103 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="blowfish"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kremalicious/blowfish"
+link=https://github.com/kremalicious/blowfish/releases/download/v1.6.0/Blowfish-1.6.0.AppImage
+size=80 MB
+version=1.6.0
+-----------------------------------------------------------------
+APP="blueglow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/blue-glow"
+link=https://github.com/antony-jr/blue-glow/releases/download/development/BlueGlow-ad96b38-x86_64.AppImage
+size=36 MB
+version=ad96b38
+-----------------------------------------------------------------
+APP="bluetuith"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="darkhz/bluetuith"
+link=https://github.com/bluetuith-org/bluetuith/releases/download/v0.2.3/bluetuith_0.2.3_Linux_x86_64.tar.gz
+size=9 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="boardgamestar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RyanMcMahon/BoardGameStar"
+link=https://github.com/RyanMcMahon/BoardGameStar/releases/download/v0.2.0/boardgamestar-0.2.0.AppImage
+size=155 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bodacious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bleonard252/bodacious"
+link=https://github.com/bleonard252/bodacious/releases/download/v0.9.0/bodacious-x86_64.AppImage
+size=12 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="bodhi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bodhiproject/bodhi-app"
+link=https://github.com/bodhiproject/bodhi-app/releases/download/0.9.0/Bodhi-0.9.0-c0-d3-x86_64-testnet.AppImage
+size=122 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="boilr"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PhilipK/BoilR"
+link=https://github.com/PhilipK/BoilR/releases/download/v.1.9.6/linux_BoilR
+size=29 MB
+version=1.9.6
+-----------------------------------------------------------------
+APP="bonsai-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+link=https://download.kde.org/stable/maui/bonsai/1.1.3/bonsai-stable-v1.1.3-git+2cfadec-amd64.AppImage
+size=121 MB
+version=1.1.3
+-----------------------------------------------------------------
+APP="book-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bdTechies/book-manager"
+link=https://github.com/bdTechies/book-manager/releases/download/v1.0.1/book-manager-1.0.1-x86_64.AppImage
+size=88 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="bookmarks-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hunlongyu/bookmarks-manager"
+link=https://github.com/Hunlongyu/bookmarks-manager/releases/download/v0.1.2/Bookmark-Manager-0.1.2.AppImage
+size=98 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="boost-note"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BoostIO/BoostNote-App"
+link=https://github.com/BoostIO/BoostNote-App/releases/download/v0.23.1/boost-note-linux.AppImage
+size=82 MB
+version=0.23.1
+-----------------------------------------------------------------
+APP="boostchanger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nbebaw/boostchanger"
+link=https://github.com/nbebaw/boostchanger/releases/download/v5.0.3/boostchanger-5.0.3.AppImage
+size=94 MB
+version=5.0.3
+-----------------------------------------------------------------
+APP="botclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DarkGuy10/BotClient"
+link=https://github.com/DarkGuy10/BotClient/releases/download/v0.12.1-alpha/BotClient-linux-x86_64.AppImage
+size=134 MB
+version=0.12.1
+-----------------------------------------------------------------
+APP="botframework-emulator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="microsoft/BotFramework-Emulator"
+link=https://github.com/microsoft/BotFramework-Emulator/releases/download/v4.15.1/BotFramework-Emulator-4.15.1-linux-x86_64.AppImage
+size=255 MB
+version=4.15.1
+-----------------------------------------------------------------
+APP="botim"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://botim.me"
+link=https://cdn-web-sg.botim.me/downloads/desktop/linux/1.7.5/Botim-1.7.5.AppImage
+size=101 MB
+version=1.7.5
+-----------------------------------------------------------------
+APP="bottlebats"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZeusWPI/MOZAIC"
+link=https://github.com/ZeusWPI/MOZAIC/releases/download/0.4.0/bottlebats-0.4.0-x86_64.AppImage
+size=57 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="bottlenose"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quinton-ashley/bottlenose"
+link=https://github.com/quinton-ashley/nostlan/releases/download/2.6.x/nostlan.AppImage
+size=135 MB
+version=2.6
+-----------------------------------------------------------------
+APP="bottles"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Bottles-appimage"
+link=https://github.com/ivan-hc/Bottles-appimage/releases/download/51.17-3/Bottles_51.17-3-archimage4.3-x86_64.AppImage
+size=274 MB
+version=51.17
+-----------------------------------------------------------------
+APP="bottom"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ClementTsang/bottom"
+link=https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-unknown-linux-musl.tar.gz
+size=6 MB
+version=unknown
+-----------------------------------------------------------------
+APP="boxxy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="queer/boxxy"
+link=https://github.com/queer/boxxy/releases/download/v0.8.5/boxxy-v0.8.5-x86_64-unknown-linux-gnu.tar.xz
+size=33 MB
+version=0.8.5
+-----------------------------------------------------------------
+APP="brainverse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ReproNim/brainverse"
+link=https://github.com/ReproNim/brainverse/releases/download/v0.0.8-alpha/BrainVerse-0.0.8-alpha-x86_64.AppImage
+size=114 MB
+version=0.0.8
+-----------------------------------------------------------------
+APP="brainwaves"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="makebrainwaves/BrainWaves"
+link=https://github.com/makebrainwaves/BrainWaves/releases/download/v0.15.1/BrainWaves-0.15.1.AppImage
+size=101 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="brave"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link=https://github.com/brave/brave-browser/releases/download/v1.76.82/brave-browser-1.76.82-linux-amd64.zip
+size=389 MB
+version=1.76.82
+-----------------------------------------------------------------
+APP="brave-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-stable/Brave-Web-Browser-stable-1.76.82-x86_64.AppImage
+size=155 MB
+version=1.76.82
+-----------------------------------------------------------------
+APP="brave-beta"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link=https://github.com/brave/brave-browser/releases/download/v1.78.72/brave-browser-beta-1.78.72-linux-amd64.zip
+size=391 MB
+version=1.78.72
+-----------------------------------------------------------------
+APP="brave-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.78.71-x86_64.AppImage
+size=155 MB
+version=1.78.71
+-----------------------------------------------------------------
+APP="brave-nightly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link=https://github.com/brave/brave-browser/releases/download/v1.79.20/brave-browser-nightly-1.79.20-linux-amd64.zip
+size=392 MB
+version=1.79.20
+-----------------------------------------------------------------
+APP="brave-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.14-x86_64.AppImage
+size=155 MB
+version=1.79.14
+-----------------------------------------------------------------
+APP="bread"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pegvin/bread"
+link=https://github.com/pegvin/bread/releases/download/v0.7.2/bread-0.7.2-x86_64.AppImage
+size=29 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="breaktimer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tom-james-watson/breaktimer-app"
+link=https://github.com/tom-james-watson/breaktimer-app/releases/download/v1.3.2/BreakTimer.AppImage
+size=109 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="brickstore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rgriebl/brickstore"
+link=https://github.com/rgriebl/brickstore/releases/download/v2024.12.3/Linux-AppImage-BrickStore-2024.12.3-x86_64.AppImage
+size=77 MB
+version=2024.12.3
+-----------------------------------------------------------------
+APP="bridge"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://quixel.com"
+link=https://d2shgxa8i058x8.cloudfront.net/bridge/linux/Bridge.AppImage
+size=364 MB
+version=2025.0.0
+-----------------------------------------------------------------
+APP="brisk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="AminBhst/brisk"
+link=https://github.com/AminBhst/brisk/releases/download/v2.1.1/Brisk-v2.1.1-linux-x86_64.tar.xz
+size=48 MB
+version=2.1.1
+-----------------------------------------------------------------
+APP="brisqi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Brisqi/releases"
+link=https://github.com/Brisqi/releases/releases/download/v0.18.0/Brisqi-setup-0.18.0-linux-x86_64.AppImage
+size=166 MB
+version=0.18.0
+-----------------------------------------------------------------
+APP="browservice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ttalvitie/browservice"
+link=https://github.com/ttalvitie/browservice/releases/download/v0.9.11.1/browservice-v0.9.11.1-x86_64.AppImage
+size=258 MB
+version=0.9.11.1
+-----------------------------------------------------------------
+APP="brs-emu-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lvcabral/brs-emu-app"
+link=https://github.com/lvcabral/brs-desktop/releases/download/v1.4.0/brs-desktop-1.4.0-linux-x86_64.AppImage
+size=102 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="bruno"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="usebruno/bruno"
+link=https://github.com/usebruno/bruno/releases/download/v2.0.0/bruno_2.0.0_x86_64_linux.AppImage
+size=125 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="brutespray"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="x90skysn3k/brutespray"
+link=https://github.com/x90skysn3k/brutespray/releases/download/v2.3.1/brutespray_2.3.1_linux_amd64.tar.gz
+size=27 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="bscanfftwebcam"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/FDOCT"
+link=https://github.com/hn-88/FDOCT/releases/download/v1.20/BscanFFTwebcam1.20-x86_64.AppImage
+size=16 MB
+version=1.20
+-----------------------------------------------------------------
+APP="btop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aristocratos/btop"
+link=https://github.com/aristocratos/btop/releases/download/v1.4.0/btop-x86_64-linux-musl.tbz
+size=3 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="bts-ce-lite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bodastage/bts-ce-lite"
+link=https://github.com/bodastage/bts-ce-lite/releases/download/v0.5.2/Boda-Lite-0.5.2-x86_64.AppImage
+size=283 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="buche"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="breuleux/buche"
+link=https://github.com/breuleux/buche/releases/download/v0.1.5/buche-0.1.4-x86_64.AppImage
+size=61 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="buckets"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="buckets/application"
+link=https://github.com/buckets/application/releases/download/v0.75.0/Buckets-linux-latest-amd64-0.75.0.AppImage
+size=113 MB
+version=0.75.0
+-----------------------------------------------------------------
+APP="bugdom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Bugdom"
+link=https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-linux-x86_64.AppImage
+size=51 MB
+version=1.3.4
+-----------------------------------------------------------------
+APP="bugdom2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Bugdom2"
+link=https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-x86_64.AppImage
+size=130 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="buho-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+link=https://download.kde.org/stable/maui/buho/3.1.0/buho-stable-v3.1.0-git+d1a4550-amd64.AppImage
+size=59 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="bulkreviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bulk-reviewer/bulk-reviewer"
+link=https://github.com/bulk-reviewer/bulk-reviewer/releases/download/v0.3.1/BulkReviewer-0.3.1.AppImage
+size=98 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="bulkurlopener"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EuanRiggans/BulkURLOpener"
+link=https://github.com/EuanRiggans/BulkURLOpener/releases/download/1.12.0/bulkurlopener-1.12.0-linux.AppImage
+size=81 MB
+version=1.12.0
+-----------------------------------------------------------------
+APP="bunnyfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Rosettea/bunnyfetch"
+link=https://github.com/Rosettea/bunnyfetch/releases/download/v0.2.0/bunnyfetch-v0.2.0-linux-amd64.tar.gz
+size=6 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bunqdesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BunqCommunity/BunqDesktop"
+link=https://github.com/bunqCommunity/bunqDesktop/releases/download/0.9.10/bunqDesktop-0.9.10-x86_64.AppImage
+size=80 MB
+version=0.9.10
+-----------------------------------------------------------------
+APP="burning-series"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DATL4G/BurningSeries-Android"
+link=https://github.com/DatL4g/Burning-Series/releases/download/v6.1.0/Burning-Series-v6.1.0-x86_64.AppImage
+size=195 MB
+version=6.1.0
+-----------------------------------------------------------------
+APP="buttercup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="buttercup/buttercup-desktop"
+link=https://github.com/buttercup/buttercup-desktop/releases/download/v2.28.1/Buttercup-linux-x86_64.AppImage
+size=100 MB
+version=2.28.1
+-----------------------------------------------------------------
+APP="bypass-cors"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chrishham/BypassCors"
+link=https://github.com/chrishham/BypassCors/releases/download/v0.4.3/Bypass-Cors-0.4.3.AppImage
+size=52 MB
+version=0.4.3
+-----------------------------------------------------------------
+APP="bytespeichertrayicon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bytespeicher/BytespeicherTrayIcon"
+link=https://github.com/Bytespeicher/BytespeicherTrayIcon/releases/download/20190425140011/byteicon-d94707a-x86_64.AppImage
+size=23 MB
+version=d94707a
+-----------------------------------------------------------------
+APP="cabal-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cabal-club/cabal-desktop"
+link=https://github.com/cabal-club/cabal-desktop/releases/download/v8.0.0/cabal-desktop-8.0.0-linux-x86_64.AppImage
+size=115 MB
+version=8.0.0
+-----------------------------------------------------------------
+APP="cacher"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.cacher.io"
+link=https://s3.amazonaws.com/download.cacher.io/Cacher-2.47.6.AppImage
+size=107 MB
+version=2.47.6
+-----------------------------------------------------------------
+APP="cadmus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="josh-richardson/cadmus"
+link=https://github.com/josh-richardson/cadmus/releases/download/0.0.3/cadmus.AppImage
+size=33 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="caesium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="larygwil/caesium-image-compressor"
+link=https://github.com/larygwil/caesium-image-compressor/releases/download/v2.6.0/Caesium_Image_Compressor-x86_64_v2.6.0_ubu20_qt66.AppImage
+size=40 MB
+version=2.6.0
+-----------------------------------------------------------------
+APP="calibre"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE=""
+link=https://raw.githubusercontent.com/ivan-hc/AM/main/appimage-bulder-scripts/x86_64/calibre.sh
+size=232 MB
+version=8.1.1
+-----------------------------------------------------------------
+APP="calm-circles"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/calm"
+link=https://github.com/VitoVan/calm/releases/download/1.3.2/Circles.AppImage
+size=23 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="calm-fan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/calm"
+link=https://github.com/VitoVan/calm/releases/download/1.3.2/Fan.AppImage
+size=23 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="calm-meditator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/calm"
+link=https://github.com/VitoVan/calm/releases/download/1.3.2/Meditator.AppImage
+size=24 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="calm-mondrian"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/calm"
+link=https://github.com/VitoVan/calm/releases/download/1.3.2/Mondrian.AppImage
+size=23 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="calmly-writer"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.calmlywriter.com"
+link=https://www.calmlywriter.com/releases/linux/targz/x64/download.php
+size=497 MB
+version=2.0.58
+-----------------------------------------------------------------
+APP="camelot"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="IngvarX/Camelot"
+link=https://github.com/IngvarX/Camelot/releases/download/v0.3.1/CamelotLinuxSingleExe.tar.gz
+size=157 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="candycrisis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/CandyCrisis"
+link=https://github.com/jorio/CandyCrisis/releases/download/v3.0.0/CandyCrisis-3.0.0-linux-x86_64.AppImage
+size=10 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="capbattleship"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/webcamoid/Webcamoid_9.2.3-1-archimage4.3-x86_64.AppImage
+size=173 MB
+version=9.2.3
+-----------------------------------------------------------------
+APP="caprine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sindresorhus/caprine"
+link=https://github.com/sindresorhus/caprine/releases/download/v2.60.3/Caprine-2.60.3.AppImage
+size=108 MB
+version=2.60.3
+-----------------------------------------------------------------
+APP="carbonyl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="fathyb/carbonyl"
+link=https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-amd64.zip
+size=170 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="cardo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="n0vella/cardo"
+link=https://github.com/cardo-podcast/cardo/releases/download/1.10.0/cardo_1.10.0_amd64.AppImage
+size=88 MB
+version=1.10.0
+-----------------------------------------------------------------
+APP="cargo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="StratusFearMe21/cargo-appimage"
+link=https://github.com/StratusFearMe21/cargo-appimage/releases/download/v2.2.0/cargo-appimage-runner.AppImage
+size=2 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="carpenters"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="uhlibraries-digital/carpenters"
+link=https://github.com/uhlibraries-digital/carpenters/releases/download/v2.5.2/carpenters-2.5.2-x86_64.AppImage
+size=55 MB
+version=2.5.2
+-----------------------------------------------------------------
+APP="carta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CARTAvis/carta"
+link=https://github.com/CARTAvis/carta/releases/download/v4.1.0/carta-v4.1.0-x86_64.AppImage
+size=106 MB
+version=4.1.0
+-----------------------------------------------------------------
+APP="cask"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cask-pkg/cask.rs"
+link=https://github.com/cask-pkg/cask.rs/releases/download/v0.4.13/cask-x86_64-unknown-linux-gnu.tar.gz
+size=5 MB
+version=0.4.13
+-----------------------------------------------------------------
+APP="casm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="casm-lang/casm"
+link=https://github.com/sealangdotorg/sea/releases/download/0.6.0/casm-linux-x86_64.AppImage
+size=4 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="casterr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sbondCo/Casterr"
+link=https://github.com/sbondCo/Casterr/releases/download/v2.0.0/Casterr-2.0.0.AppImage
+size=107 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="castersoundboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="covarianttensor/CasterSoundboard"
+link=https://github.com/covarianttensor/CasterSoundboard/releases/download/continuous/CasterSoundboard-1a84315-x86_64.AppImage
+size=23 MB
+version=1a84315
+-----------------------------------------------------------------
+APP="catalyst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CatalystDevOrg/Catalyst"
+link=https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.9.6/catalyst-3.9.6.AppImage
+size=119 MB
+version=3.9.6
+-----------------------------------------------------------------
+APP="catapult"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="qrrk/Catapult"
+link=https://github.com/qrrk/Catapult/releases/download/24.11a/catapult-linux-x64-24.11a
+size=59 MB
+version=24.11a
+-----------------------------------------------------------------
+APP="catcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="testathor/CATcher"
+link=https://github.com/CATcher-org/CATcher/releases/download/V3.4.7/CATcher-3.4.7.AppImage
+size=108 MB
+version=3.4.7
+-----------------------------------------------------------------
+APP="cavoke"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cavoke-project/cavoke"
+link=https://github.com/cavoke-project/cavoke/releases/download/v1.0-beta/cavoke-v1.0-beta-linux.AppImage
+size=73 MB
+version=1.0
+-----------------------------------------------------------------
+APP="cbetar2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MrMYHuang/cbetar2"
+link=https://github.com/MrMYHuang/cbetar2/releases/download/v22.0.0/cbetar2_22.0.0_linux_x86_64.AppImage
+size=95 MB
+version=22.0.0
+-----------------------------------------------------------------
+APP="cccp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cortex-command-community/Cortex-Command-Community-Project"
+link=https://github.com/cortex-command-community/Cortex-Command-Community-Project/releases/download/nightly/CortexCommand.linux.zip
+size=108 MB
+version=205972658
+-----------------------------------------------------------------
+APP="celeste64"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ExOK/Celeste64"
+link=https://github.com/EXOK/Celeste64/releases/download/v1.1.1/Celeste64-v1.1.1-Linux-x64.zip
+size=84 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="celestia"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://celestiaproject.space"
+link=https://download.opensuse.org/repositories/home:/munix9/AppImage/celestia-1.6.4+git11.ca0d641-lp154.27.1.Build27.2.glibc2.29-x86_64.AppImage
+size=51 MB
+version=1.6.4+git11.ca0d641
+-----------------------------------------------------------------
+APP="celestia-dev"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://celestiaproject.space"
+link=https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250316+d9a82c1-lp154.26.1.Build26.1.glibc2.17-x86_64.AppImage
+size=242 MB
+version=1.7.0~git20250316+d9a82c1
+-----------------------------------------------------------------
+APP="celestia-enanched"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Celestia-appimage"
+link=https://github.com/ivan-hc/Celestia-appimage/releases/download/continuous/Celestia-Enanced_1.6.4-3-archimage4.3-x86_64.AppImage
+size=191 MB
+version=1.6.4
+-----------------------------------------------------------------
+APP="celoterminal-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zviadm/celoterminal"
+link=https://github.com/zviadm/celoterminal/releases/download/v2.4.3/Celo-Terminal-2.4.3-linux-x64.AppImage
+size=114 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="cemu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cemu-project/Cemu"
+link=https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage
+size=59 MB
+version=2.6
+-----------------------------------------------------------------
+APP="cerebral-debugger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cerebral/cerebral-debugger"
+link=https://github.com/cerebral/cerebral-debugger/releases/download/v3.1.0/cerebral-debugger-3.1.0-x86_64.AppImage
+size=51 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="cerebro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cerebroapp/cerebro"
+link=https://github.com/cerebroapp/cerebro/releases/download/v0.11.0/Cerebro-0.11.0.AppImage
+size=91 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="chain-desktop-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="crypto-com/chain-desktop-wallet"
+link=https://github.com/crypto-com/chain-desktop-wallet/releases/download/v1.5.1/Crypto.com-DeFi-Desktop-Wallet-1.5.1.AppImage
+size=237 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="chainx-signer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chainx-org/chainx-signer"
+link=https://github.com/chainx-org/chainx-signer/releases/download/v1.1.0/ChainX-Signer-1.1.0.AppImage
+size=103 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="chat-gpt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lencx/ChatGPT"
+link=https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.AppImage.tar.gz
+size=79 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="chatall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sunner/ChatALL"
+link=https://github.com/ai-shifu/ChatALL/releases/download/v1.84.109/ChatALL-1.84.109-linux-x86_64.AppImage
+size=88 MB
+version=1.84.109
+-----------------------------------------------------------------
+APP="chatbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bin-Huang/chatbox"
+link=https://github.com/chatboxai/chatbox/releases/download/v0.10.4/Chatbox.CE-0.10.4-x86_64.AppImage
+size=96 MB
+version=0.10.4
+-----------------------------------------------------------------
+APP="chatgpt-next-web"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ChatGPTNextWeb/ChatGPT-Next-Web"
+link=https://github.com/ChatGPTNextWeb/NextChat/releases/download/v2.15.8/next-chat_2.15.8_amd64.AppImage
+size=88 MB
+version=2.15.8
+-----------------------------------------------------------------
+APP="chatpad-ai"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://chatpad.ai"
+link=https://dl.todesktop.com/230313oyppkw40a
+size=101 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="chatterino2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chatterino/chatterino2"
+link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
+size=36 MB
+version=2025.03.29
+-----------------------------------------------------------------
+APP="chatterino2-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chatterino/chatterino2"
+link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
+size=36 MB
+version=2025.03.29
+-----------------------------------------------------------------
+APP="cheat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cheat/cheat"
+link=https://github.com/cheat/cheat/releases/download/4.4.2/cheat-linux-amd64.gz
+size=11 MB
+version=4.4.2
+-----------------------------------------------------------------
+APP="cheatbreaker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CheatBreakerNet/Launcher"
+link=https://github.com/CheatBreakerNet/Launcher/releases/download/3.0.4/CheatBreaker.AppImage
+size=123 MB
+version=3.0.4
+-----------------------------------------------------------------
