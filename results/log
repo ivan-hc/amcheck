@@ -672,3 +672,43 @@ link=https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.4.3/AS
 size=53 MB
 version=6.1.4.3
 -----------------------------------------------------------------
+APP="arduino-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arduino/arduino-ide"
+link=https://github.com/arduino/arduino-ide/releases/download/2.3.4/arduino-ide_2.3.4_Linux_64bit.AppImage
+size=183 MB
+version=2.3.4
+-----------------------------------------------------------------
+APP="arena-tracker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="supertriodo/Arena-Tracker"
+link=https://github.com/supertriodo/Arena-Tracker/releases/download/v25.01/ArenaTracker.Linux.AppImage
+size=22 MB
+version=25.01
+-----------------------------------------------------------------
+APP="aretext"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aretext/aretext"
+link=https://github.com/aretext/aretext/releases/download/v1.4.0/aretext_1.4.0_linux_amd64.tar.gz
+size=10 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="ark.desktop.wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArkEcosystem/desktop-wallet"
+link=https://github.com/ArkEcosystem/desktop-wallet/releases/download/2.9.5/ark-desktop-wallet-linux-x86_64-2.9.5.AppImage
+size=102 MB
+version=2.9.5
+-----------------------------------------------------------------
+APP="arkaway"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="son-link/arkaway"
+link=https://github.com/son-link/arkaway/releases/download/20230301/Arkaway-20230301-x86_64.AppImage
+size=18 MB
+version=20230301
+-----------------------------------------------------------------
