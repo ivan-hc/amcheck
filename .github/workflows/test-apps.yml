@@ -703,16 +703,16 @@ jobs:
 
       - name: commit
         run: |
-          rm -f failing
+          rm -f failing || echo "Removing failing failed"
           if [ -f results/excluded ]; then
-            sort -u results/excluded -o results/excluded
-            git add results/excluded
+            sort -u results/excluded -o results/excluded  || echo "Sorting failed"
+            git add results/excluded || echo "Excluded not added"
           fi
-          git add results/log
-          git add results/tested
-          git add results
-          git commit -m "retest"
-          git push
+          git add results/log || echo "Log not added"
+          git add results/tested || echo "Tested not added"
+          git add results || echo "Results dir not added"
+          git commit -m "retest" || echo "Not commited"
+          git push || echo "Not pushed"
 
   update-results:
     name: "results 📰"
