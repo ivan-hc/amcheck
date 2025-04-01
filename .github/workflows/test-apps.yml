@@ -541,7 +541,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: failing
-          path: failing
+          path: ./
           if-no-files-found: ignore
           retention-days: 1
 
@@ -560,7 +560,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: failing
-          path: failing
+          path: ./
 
         # Added ripgrep for bat
       - name: "Cache dependencies"
@@ -580,8 +580,10 @@ jobs:
         id: retest
         run: |
           mkdir -p results
+          pwd
           find -name failing
-          for fail in $(cat $(find -name failing)); do
+          find -name results
+          for fail in $(cat failing); do
               echo "$fail"
               cd programs/x86_64
               echo "APP=\"$fail\"" | tee -a results/out-"$fail"
