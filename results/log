@@ -217,3 +217,23 @@ link=https://github.com/foucdeg/x-plane-map-electron/releases/download/v2.6.0/ai
 size=56 MB
 version=2.6.0
 -----------------------------------------------------------------
+APP="aisap"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgord9518/aisap"
+-----------------------------------------------------------------
+APP="aisleriot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Aisleriot-appimage"
+-----------------------------------------------------------------
+APP="akasha"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AkashaProject/Community"
+-----------------------------------------------------------------
+APP="albafetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="alba4k/albafetch"
+-----------------------------------------------------------------
