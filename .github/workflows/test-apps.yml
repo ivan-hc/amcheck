@@ -563,7 +563,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: failing
-          path: ./
+          path: results
 
         # Added ripgrep for bat
       - name: "Cache dependencies"
@@ -583,8 +583,14 @@ jobs:
         id: retest
         working-directory: programs/x86_64
         run: |
-          for fail in $(cat failing); do
-            #echo "fail: $fail"
+          find -name 'results'
+          echo "-----------------------"
+          find -name 'failing'
+          echo "-----------------------"
+          ls -R
+          echo "-----------------------"
+          for fail in $(cat results/failing); do
+            echo "fail: $fail"
             #cd programs/x86_64
             mkdir -p results
             echo "APP=\"$fail\"" | tee -a "results/out-$fail"
@@ -621,7 +627,7 @@ jobs:
             if [[ "$fail" =~ (gimp|libreoffice|mpv|wine) ]]; then
               if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
                 size=$(cat "results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-                Preversion=$(cat "results/out-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
+                Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
                 echo "pre version is $Preversion"
                 version=$(echo "$Preversion" | awk '{print $3}')
                 echo "version=$version" | tee -a "results/out-$fail"
@@ -662,14 +668,6 @@ jobs:
             git commit -m "retest"
             git push
 
-      - name: "Upload out ⬆️"
-        uses: actions/upload-artifact@v4
-        with:
-          path: programs/x86_64/results/out-*
-          if-no-files-found: warn
-          retention-days: 1
-          compression-level: 0
-
       - name: "Upload KO Results ☝️"
         if: failure()
         uses: actions/upload-artifact@v4
@@ -677,7 +675,17 @@ jobs:
           path: programs/x86_64/results/ko-*
           if-no-files-found: warn
           retention-days: 1
+          compression-level: 0
 
+      - name: "Upload failed"
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          path: programs/x86_64/results/failed
+          if-no-files-found: warn
+          retention-days: 1
+          compression-level: 0
+  
       - name: "Upload OK Results ⬆️"
         # if: success()
         uses: actions/upload-artifact@v4
@@ -685,6 +693,15 @@ jobs:
           path: programs/x86_64/results/ok-*
           if-no-files-found: ignore
           retention-days: 1
+          compression-level: 0
+
+      - name: "Upload out ⬆️"
+        uses: actions/upload-artifact@v4
+        with:
+          path: programs/x86_64/results/out-*
+          if-no-files-found: warn
+          retention-days: 1
+          compression-level: 0
 
   update-results:
     name: "results 📰"
@@ -718,7 +735,7 @@ jobs:
         if: (always() && needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true')
         run: |
           mkdir -p results
-
+          ls -R
           for LogFile in results/out-*; do
 
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
