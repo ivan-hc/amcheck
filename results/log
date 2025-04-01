@@ -177,3 +177,43 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Alexsussa/AIDM"
 -----------------------------------------------------------------
+APP="aillio-ts"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="roastworld/roast-time-release"
+link=https://github.com/roastworld/roast-time-release/releases/download/v1.1.2/aillio-ts-1.1.2-x86_64.AppImage
+size=62 MB
+version=1.1.2
+-----------------------------------------------------------------
+APP="aim"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mihaigalos/aim"
+link=https://github.com/mihaigalos/aim/releases/download/1.8.6/aim-1.8.6-x86_64-unknown-linux-gnu.tar.gz
+size=20 MB
+version=1.8.6
+-----------------------------------------------------------------
+APP="aiming-pro"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://aiming.pro"
+link=https://aiming.pro//desktop-app/Aiming-Pro-1.0.4.AppImage
+size=94 MB
+version=1.0.4
+-----------------------------------------------------------------
+APP="air-controller-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="air-controller/air-controller-desktop"
+link=https://github.com/air-controller/air-controller-desktop/releases/download/0.4.0/AirController_0.4.0.AppImage
+size=13 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="airspaces"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="foucdeg/x-plane-map-electron"
+link=https://github.com/foucdeg/x-plane-map-electron/releases/download/v2.6.0/airspaces-electron-2.6.0-x86_64.AppImage
+size=56 MB
+version=2.6.0
+-----------------------------------------------------------------
