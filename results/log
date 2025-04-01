@@ -35,3 +35,40 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="mysteryx93/NaturalGroundingPlayer"
 -----------------------------------------------------------------
+APP="7zip"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.7-zip.org"
+link=https://www.7-zip.org/a/7z2409-linux-x64.tar.xz
+size=7 MB
+version=7z2409
+-----------------------------------------------------------------
+APP="86box"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="86Box/86Box"
+-----------------------------------------------------------------
+APP="9launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wearrrrr/9Launcher"
+link=https://github.com/wearrrrr/9Launcher/releases/download/v.1.3.1/9launcher_1.3.1_amd64.AppImage
+size=131 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="aaaaxy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="divVerent/aaaaxy"
+link=https://github.com/divVerent/aaaaxy/releases/download/v1.6.64/AAAAXY-x86_64.AppImage
+size=34 MB
+version=1.6.64
+-----------------------------------------------------------------
+APP="abiword"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Abiword-appimage"
+link=https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/AbiWord_3.0.6-2-archimage4.3-x86_64.AppImage
+size=64 MB
+version=3.0.6
+-----------------------------------------------------------------
