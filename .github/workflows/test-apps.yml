@@ -524,7 +524,7 @@ jobs:
       - name: "Process failed results"
         id: proces
         run: |
-          mkdir -p results
+          find -name 'ko-*'
           for KoFile in results/ko-*; do
             [ -f "$KoFile" ] || continue
             appname=$(basename "$KoFile" | cut -d'-' -f2-)
