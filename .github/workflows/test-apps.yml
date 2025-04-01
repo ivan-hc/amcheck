@@ -295,14 +295,14 @@ jobs:
 
       - name: "APP ${{ matrix.file }} 🚧"
         working-directory: programs/x86_64
-        run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
+        run: echo "APP=\"${{ matrix.file }}\"" | tee -a "results/out-${{ matrix.file }}"
 
       - name: "Is ${{ matrix.file }} AppImage? 🚧"
         id: is-appimage
         working-directory: programs/x86_64
         run: |
           if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
-            echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
+            echo "APPIMAGE='yes'" | tee -a "results/out-${{ matrix.file }}"
           else
             #echo "EXIT_CODE=99" >> $GITHUB_ENV
             echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
@@ -313,7 +313,7 @@ jobs:
         working-directory: programs/x86_64
         run: |
           if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
-            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
+            echo "GITHUB='yes'" | tee -a "results/out-${{ matrix.file }}"
           else
             echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
           fi
@@ -323,7 +323,7 @@ jobs:
         run: |
           if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
             SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
-            echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
+            echo "SITE=\"$SITE\"" | tee -a "results/out-${{ matrix.file }}"
           fi
 
       - name: "test ${{ matrix.file }} 🚧"
@@ -351,23 +351,23 @@ jobs:
           # Install the application
 
           if [[ "$pure_arg" =~ (kvrt|suyu|vikunja) ]]; then
-            echo "This application cannot be installed in github actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "This application cannot be installed in github actions" | tee -a "results/log-${{ matrix.file }}"
             echo "This application is excluded. Cannot be installed in github actions" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
           else
           
             if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
 
-              echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
+              echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
 
               echo y | timeout "$TIMEOUT"m am -i bat --debug 2>/dev/null | tee /dev/null
-              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
+              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"
 
             else
 
-              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
+              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"
 
             fi
 
@@ -398,32 +398,32 @@ jobs:
               # Check structure of directories in /opt
               echo " Structure of the directory in /opt"
               echo ""
-              ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
+              ls /opt/"$LASTDIR" | tee -a "results/log-${{ matrix.file }}"
 
               printf "\n-------------------------------------------------------------\n\n"
 
               # Check the command in /usr/local/bin
               echo " Command in \$PATH"
               echo ""
-              command -v "$pure_arg" | tee -a results/log-"${{ matrix.file }}" || command -v "$LASTDIR" | tee -a results/log-"${{ matrix.file }}" || ls /usr/local/bin | tee -a results/log-"${{ matrix.file }}"
+              command -v "$pure_arg" | tee -a "results/log-${{ matrix.file }}" || command -v "$LASTDIR" | tee -a "results/log-${{ matrix.file }}" || ls /usr/local/bin | tee -a "results/log-${{ matrix.file }}"
 
               printf "\n-------------------------------------------------------------\n\n"
 
               # Check launchers in /usr/local/share/applications
-              echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
+              echo " Launchers in /usr/local/share/applications" | tee -a "results/log-${{ matrix.file }}"
               echo ""
 
               if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
 
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a "results/log-${{ matrix.file }}"
 
               elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
 
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a "results/log-${{ matrix.file }}"
 
               else
 
-                 echo "No .desktop file available" | tee -a results/log-"${{ matrix.file }}"
+                 echo "No .desktop file available" | tee -a "results/log-${{ matrix.file }}"
 
               fi
 
@@ -454,10 +454,10 @@ jobs:
               fi
 
               rawlink=$(grep 'https://' < "results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
-              echo "link=${rawlink}" | tee -a results/out-"${{ matrix.file }}"
+              echo "link=${rawlink}" | tee -a "results/out-${{ matrix.file }}"
 
-              echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
-              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
+              echo "size=${size}" | tee -a "results/out-${{ matrix.file }}"
+              echo "version=${version}" | tee -a "results/out-${{ matrix.file }}"
 
               # Remove the application
               am -R "$LASTDIR"
@@ -551,6 +551,9 @@ jobs:
     runs-on: ubuntu-22.04
     if: needs.check-failed.outputs.failed == 'true'
     steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
       - name: "Checkout AM"
         uses: actions/checkout@v4
         with:
@@ -587,18 +590,18 @@ jobs:
           for fail in $(cat failing); do
             echo "fail: $fail"
             cd programs/x86_64
-            echo "APP=\"$fail\"" | tee "results/out-$fail"
+            echo "APP=\"$fail\"" | tee -a "results/out-$fail"
             if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" ./"$fail" 1>/dev/null; then
               echo "APPIMAGE='yes'" | tee -a results/out-"$fail"
             else
               #echo "EXIT_CODE=99" >> $GITHUB_ENV
-              echo "APPIMAGE='no'" >> results/out-"$fail"
+              echo "APPIMAGE='no'" >> "results/out-$fail"
             fi
             if grep -q "api.github.com" "$fail" 2>/dev/null; then
-              echo "GITHUB='yes'" | tee -a results/out-"$fail"
+              echo "GITHUB='yes'" | tee -a "results/out-$fail"
             else
               #echo "EXIT_CODE=9" >> $GITHUB_ENV
-              echo "GITHUB='no'" >> results/out-"$fail"
+              echo "GITHUB='no'" >> "results/out-$fail"
             fi
             if grep -q "^SITE=" "$fail" 2>/dev/null; then
               SITE=$(eval echo "$(grep -i '^SITE=' "$fail" | head -1 | sed 's/SITE=//g')")
@@ -619,9 +622,9 @@ jobs:
             fi
             echo '-----------------------------------------------------------------' | tee -a results/out-"$fail"
             if [[ "$fail" =~ (gimp|libreoffice|mpv|wine) ]]; then
-              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee "results/log-$fail"; then
-                size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-                Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
+              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
+                size=$(cat "results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                Preversion=$(cat "results/out-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
                 echo "pre version is $Preversion"
                 version=$(echo "$Preversion" | awk '{print $3}')
                 echo "version=$version" | tee -a "results/out-$fail"
@@ -629,7 +632,7 @@ jobs:
                 echo "$fail" | tee -a results/excluded failed
               fi
             elif [[ "$fail" =~ (bat-extras) ]]; then
-              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee "results/log-$fail"; then
+              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
                 size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
                 Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -2 | head -1)
                 echo "pre version is $Preversion"
@@ -639,7 +642,7 @@ jobs:
                 echo "$fail" | tee -a results/excluded failed
               fi
             else
-              if command -v echo y | am -i "$fail" --debug 2>&1 | tee "results/log-$fail"; then
+              if command -v echo y | am -i "$fail" --debug 2>&1 | tee -a "results/out-$fail"; then
                 size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
                 Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1)
                 echo "pre version is $Preversion"
