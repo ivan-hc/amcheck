@@ -4373,3 +4373,1774 @@ link=https://github.com/asivery/ElectronWMD/releases/download/v0.5.0-1.5.0/elect
 size=128 MB
 version=0.5.0
 -----------------------------------------------------------------
+APP="electrum"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://electrum.org"
+link=https://download.electrum.org/4.5.8/electrum-4.5.8-x86_64.AppImage
+size=60 MB
+version=4.5.8
+-----------------------------------------------------------------
+APP="electrum-ltc"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://electrum-ltc.org"
+link=https://electrum-ltc.org/download/electrum-ltc-4.2.2.1-x86_64.AppImage
+size=67 MB
+version=4.2.2.1
+-----------------------------------------------------------------
+APP="electrum-nmc"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.namecoin.org"
+link=https://www.namecoin.org/files/electrum-nmc/electrum-nmc-4.0.6/electrum-nmc-nc4.0.6-x86_64.AppImage
+size=51 MB
+version=4.0.6
+-----------------------------------------------------------------
+APP="electrum-ravencoin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Electrum-RVN-SIG/electrum-ravencoin"
+link=https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases/download/v1.2.4/electrum-ravencoin-v1.2.4-x86_64.AppImage
+size=58 MB
+version=1.2.4
+-----------------------------------------------------------------
+APP="electrumfair"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="faircoin/electrumfair"
+link=https://github.com/faircoin/electrumfair/releases/download/3.3.4/ElectrumFair-3.3.4.AppImage
+size=74 MB
+version=3.3.4
+-----------------------------------------------------------------
+APP="element"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/element-appimage"
+link=https://github.com/srevinsaju/element-appimage/releases/download/stable/Element-v1.11.70.glibc2.35.AppImage
+size=133 MB
+version=1.11.70
+-----------------------------------------------------------------
+APP="elementary-code"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="titenko/elementary-code"
+link=https://github.com/titenko/elementary-code/releases/download/6.2.0/io.elementary.code-x86_64.AppImage
+size=36 MB
+version=6.2.0
+-----------------------------------------------------------------
+APP="elements"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FlorianFe/Elements"
+link=https://github.com/FlorianFe/Elements/releases/download/v1.2.1/Elements.AppImage
+size=77 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="elk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elk-zone/elk-native"
+link=https://github.com/elk-zone/elk-native/releases/download/elk-native-v0.4.0/Elk_0.4.0_linux_x86_64.AppImage
+size=77 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="ellas-war"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="V-Paranoiaque/Ellas-War"
+link=https://github.com/V-Paranoiaque/Ellas-War/releases/download/v2.1.5/EllasWar-2.1.5.AppImage
+size=115 MB
+version=2.1.5
+-----------------------------------------------------------------
+APP="elphyre-walletshell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elphyrecoin/elphyre-wallet-electron"
+link=https://github.com/SpookyPool/elphyre-wallet-electron/releases/download/2.0.4/Elphyre-WalletShell-v2.0.4-linux.AppImage
+size=76 MB
+version=2.0.4
+-----------------------------------------------------------------
+APP="elvish"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://elv.sh"
+link=https://dl.elv.sh/linux-amd64/elvish-v0.21.0.tar.gz
+size=10 MB
+version=0.21.0
+-----------------------------------------------------------------
+APP="elzabrowser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elzabrowser/elza"
+link=https://github.com/elzabrowser/elza/releases/download/v0.6.1/ElzaBrowser.Setup.AppImage
+size=114 MB
+version=0.6.1
+-----------------------------------------------------------------
+APP="emacs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Emacs-appimage"
+link=https://github.com/ivan-hc/Emacs-appimage/releases/download/continuous/Emacs_30.1-4-archimage4.3-x86_64.AppImage
+size=162 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-nox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-nox-x86_64.AppImage
+size=177 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-nox-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14183976008/Emacs-master-nox-x86_64.AppImage
+size=177 MB
+version=14183976008
+-----------------------------------------------------------------
+APP="emacs-pgtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-pgtk-x86_64.AppImage
+size=181 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-pgtk-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14183976008/Emacs-master-pgtk-x86_64.AppImage
+size=181 MB
+version=14183976008
+-----------------------------------------------------------------
+APP="emacs-x11"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-x11-x86_64.AppImage
+size=182 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-x11-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14183976008/Emacs-master-x11-x86_64.AppImage
+size=182 MB
+version=x11
+-----------------------------------------------------------------
+APP="embedded-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinribelotta/embedded-ide"
+link=https://github.com/martinribelotta/embedded-ide/releases/download/continuous/Embedded_IDE-6961d5f-x86_64.AppImage
+size=50 MB
+version=6961d5f
+-----------------------------------------------------------------
+APP="ember"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.worldforge.org/"
+link=https://amber.worldforge.org/ember/releases/unstable/Ember-x86_64.AppImage
+size=56 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="emoji-keyboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OzymandiasTheGreat/emoji-keyboard"
+link=https://github.com/OzymandiasTheGreat/emoji-keyboard/releases/download/v4.0.0/emoji-keyboard_4.0.0_amd64.AppImage
+size=72 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="emudeck"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EmuDeck/emudeck-electron"
+link=https://github.com/EmuDeck/emudeck-electron/releases/download/v2.4.3/EmuDeck-2.4.3.AppImage
+size=107 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="en-croissant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="franciscoBSalgueiro/en-croissant"
+link=https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.11.1/en-croissant_0.11.1_amd64.AppImage
+size=91 MB
+version=0.11.1
+-----------------------------------------------------------------
+APP="encryptpad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="evpo/EncryptPad"
+link=https://github.com/evpo/EncryptPad/releases/download/v0.5.0.4/encryptpad0_5_0_4.AppImage
+size=29 MB
+version=5
+-----------------------------------------------------------------
+APP="endless-sky"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="endless-sky/endless-sky"
+link=https://github.com/endless-sky/endless-sky/releases/download/continuous/Endless_Sky-continuous-x86_64.AppImage
+size=343 MB
+version=2025.03.31
+-----------------------------------------------------------------
+APP="enoseannotator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Tilagiho/eNoseAnnotator"
+link=https://github.com/Tilagiho/eNoseAnnotator/releases/download/continuous/eNoseAnnotator-12e032a-x86_64.AppImage
+size=128 MB
+version=12e032a
+-----------------------------------------------------------------
+APP="ente-auth"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ente-io/ente"
+link=https://github.com/ente-io/ente/releases/download/auth-v4.3.2/ente-auth-v4.3.2-x86_64.AppImage
+size=23 MB
+version=4.3.2
+-----------------------------------------------------------------
+APP="ente-photos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ente-io/photos-desktop"
+link=https://github.com/ente-io/photos-desktop/releases/download/v1.7.12-beta/ente-1.7.12-beta-x86_64.AppImage
+size=424 MB
+version=1.7.12
+-----------------------------------------------------------------
+APP="enve"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MaurycyLiebner/enve"
+link=https://github.com/MaurycyLiebner/enve/releases/download/continuous-linux/enve-d919d4d-9_25_22-x86_64.AppImage
+size=144 MB
+version=d919d4d
+-----------------------------------------------------------------
+APP="envkey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="envkey/envkey-ui"
+link=https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.5.10/EnvKey-1.5.10.AppImage
+size=61 MB
+version=1.5.10
+-----------------------------------------------------------------
+APP="eosvc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bedrich-schindler/e-osvc"
+link=https://github.com/bedrich-schindler/e-osvc/releases/download/v1.1.0/eOSVC-1.1.0.AppImage
+size=89 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="eplee"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Janglee123/eplee"
+link=https://github.com/Janglee123/eplee/releases/download/%24%28tagName%29/eplee-x86_64-0.4.0.AppImage
+size=83 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="eqonomize"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eqonomize/Eqonomize"
+link=https://github.com/Eqonomize/Eqonomize/releases/download/v1.5.9/Eqonomize-1.5.9.AppImage
+size=28 MB
+version=1.5.9
+-----------------------------------------------------------------
+APP="equibop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Equicord/Equibop"
+link=https://github.com/Equicord/Equibop/releases/download/v2.1.2/Equibop-linux-x86_64.AppImage
+size=108 MB
+version=2.1.2
+-----------------------------------------------------------------
+APP="era"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://era.sh"
+link=https://era.sh/download/linux
+size=107 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="erscaffold"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fxdave/ERScaffold"
+link=https://github.com/fxdave/ERScaffold/releases/download/v0.6-alpha/erscaffold-linux.1.0.0.AppImage
+size=88 MB
+version=0.6
+-----------------------------------------------------------------
+APP="es-de"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://es-de.org"
+link=https://gitlab.com/es-de/emulationstation-de/-/package_files/164503028/download
+size=129 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="escrcpy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="viarotel-org/escrcpy"
+link=https://github.com/viarotel-org/escrcpy/releases/download/v1.29.2/Escrcpy-1.29.2-linux-x86_64.AppImage
+size=293 MB
+version=1.29.2
+-----------------------------------------------------------------
+APP="esearch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xushengfeng/eSearch"
+link=https://github.com/xushengfeng/eSearch/releases/download/14.6.2/eSearch-14.6.2-linux-x64.AppImage
+size=369 MB
+version=14.6.2
+-----------------------------------------------------------------
+APP="espanso"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="espanso/espanso"
+link=https://github.com/espanso/espanso/releases/download/v2.2.3/Espanso-X11.AppImage
+size=18 MB
+version=2.2.3
+-----------------------------------------------------------------
+APP="espi"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://low-hiss.com"
+link=https://low-hiss.com/eSPi-1.0.5-x64.AppImage
+size=126 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="etcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="balena-io/etcher"
+link=https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage
+size=151 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="etcher-latest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="balena-io/etcher"
+link=https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage
+size=151 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="eternal-lands"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raduprv/Eternal-Lands"
+link=https://github.com/raduprv/Eternal-Lands/releases/download/1.9.7.0-4/EternalLands-Linux-x86_64_1.9.7.0.AppImage
+size=210 MB
+version=1.9.7.0
+-----------------------------------------------------------------
+APP="eternalmodmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PowerBall253/EternalModManager-Avalonia"
+link=https://github.com/brunoanc/EternalModManager/releases/download/v4.2.1/EternalModManager-4.2.1-x86_64.AppImage
+size=40 MB
+version=4.2.1
+-----------------------------------------------------------------
+APP="etherealengine-cc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EtherealEngine/etherealengine-control-center"
+link=https://github.com/EtherealEngine/ir-engine-launcher/releases/download/v0.4.6/Ethereal-Engine-Control-Center-0.4.6.AppImage
+size=98 MB
+version=0.4.6
+-----------------------------------------------------------------
+APP="etichetta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trikko/etichetta"
+link=https://github.com/trikko/etichetta/releases/download/v0.1.4/etichetta-x86_64.AppImage
+size=38 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="eudic"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.eudic.net"
+link=https://www.eudic.net/download/eudic.AppImage
+size=231 MB
+version=13.5.2
+-----------------------------------------------------------------
+APP="evalit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MTDonovan/Evalit"
+link=https://github.com/MTDonovan/Evalit/releases/download/1.0.0/Evalit-1.0.0.AppImage
+size=109 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="everdo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://everdo.net"
+link=https://release.everdo.net/1.9.0/Everdo-1.9.0.AppImage
+size=119 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="everinst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leo60228/everinst"
+link=https://github.com/leo60228/everinst/releases/download/1.0/EverInst-0.1.0.glibc2.18-x86_64.AppImage
+size=12 MB
+version=0.1.0.glibc2.18
+-----------------------------------------------------------------
+APP="evince"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Evince-appimage"
+link=https://github.com/ivan-hc/Evince-appimage/releases/download/continuous/Document-Viewer_48.0-1-archimage4.3-x86_64.AppImage
+size=61 MB
+version=48.0
+-----------------------------------------------------------------
+APP="evoplex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="evoplex/evoplex"
+link=https://github.com/evoplex/evoplex/releases/download/v0.2.1/evoplex-0.2.1.x86_64.AppImage
+size=27 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="excel-parser-processor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="btargac/excel-parser-processor"
+link=https://github.com/btargac/excel-parser-processor/releases/download/v1.3.1/Excel-Parser-Processor-1.3.1.AppImage
+size=92 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="exe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="exelearning/iteexe"
+link=https://github.com/exelearning/iteexe/releases/download/2.9/eXeLearning-2.9.glibc2.29-x86_64.AppImage
+size=98 MB
+version=2.9.glibc2.29
+-----------------------------------------------------------------
+APP="exeqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AlexandruIstrate/ExeQt"
+link=https://github.com/AlexandruIstrate/ExeQt/releases/download/v1.2.2/ExeQt-v1-2-2-x86_64.AppImage
+size=33 MB
+version=1
+-----------------------------------------------------------------
+APP="exifcleaner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="szTheory/exifcleaner"
+link=https://github.com/szTheory/exifcleaner/releases/download/v3.6.0/ExifCleaner-3.6.0.AppImage
+size=79 MB
+version=3.6.0
+-----------------------------------------------------------------
+APP="eximchain-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eximchain/EximchainWallet"
+link=https://github.com/Eximchain/EximchainWallet/releases/download/v1.0.0-prerelease%2Bbuild/linux-x86_64_1.0.0-prerelease_EximchainWallet.AppImage
+size=71 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="exodus"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://exodus.com"
+link=https://downloads.exodus.com/releases/exodus-linux-x64-25.13.3.zip
+size=400 MB
+version=25.13.3.zip
+-----------------------------------------------------------------
+APP="explorook"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Rookout/explorook"
+link=https://github.com/Rookout/explorook/releases/download/v1.16.5/Rookout-Desktop-App-1.16.5.AppImage
+size=103 MB
+version=1.16.5
+-----------------------------------------------------------------
+APP="exportoo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NiklasMerz/exportoo"
+link=https://github.com/NiklasMerz/exportoo/releases/download/v1.2.0/exportoo-1.2.0-x86_64.AppImage
+size=76 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="exsplode.re"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AmarOk1412/Eksplode.re"
+link=https://github.com/AmarOk1412/Eksplode.re/releases/download/v0.0.0/Eksplode.re-x86_64.AppImage
+size=107 MB
+version=0.0.0
+-----------------------------------------------------------------
+APP="extraterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sedwards2009/extraterm"
+link=https://github.com/sedwards2009/extraterm/releases/download/v0.81.0/ExtratermQt-0.81.0.glibc2.34-x86_64.AppImage
+size=59 MB
+version=0.81.0.glibc2.34
+-----------------------------------------------------------------
+APP="extrema"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="esternin/eXtrema"
+link=https://github.com/esternin/eXtrema/releases/download/v4.7.0/eXtrema-x86_64.AppImage
+size=25 MB
+version=4.7.0
+-----------------------------------------------------------------
+APP="extremetuxracer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/extremetuxracer/Extreme_Tux_Racer-0.8.2-1-x86_64.AppImage
+size=43 MB
+version=0.8.2
+-----------------------------------------------------------------
+APP="eyestalker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tbrouns/eyestalker"
+link=https://github.com/tbrouns/eyestalker/releases/download/v1.0.2/EyeStalker-x86_64.AppImage
+size=48 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="eza"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eza-community/eza"
+link=https://github.com/eza-community/eza/releases/download/v0.20.24/eza_x86_64-unknown-linux-musl.tar.gz
+size=3 MB
+version=0.20.24
+-----------------------------------------------------------------
+APP="ezup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HuakunShen/EzUp"
+link=https://github.com/HuakunShen/EzUp/releases/download/v0.1.15/ez-up_0.1.15_amd64.AppImage
+size=77 MB
+version=0.1.15
+-----------------------------------------------------------------
+APP="f-crm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jgaa/f-crm"
+link=https://github.com/jgaa/f-crm/releases/download/v0.2.0-beta/f-crm-x86_64-0.2.0.AppImage
+size=25 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="f1mv-lights-integration"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JustJoostNL/F1MV-Lights-Integration"
+link=https://github.com/JustJoostNL/F1MV-Lights-Integration/releases/download/v3.2.1/F1MV-Lights-Integration-3.2.1.AppImage
+size=131 MB
+version=F1MV
+-----------------------------------------------------------------
+APP="fafarunner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fafarunner/fafarunner"
+link=https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.0.0%2B378/fafarunner_2.0.0%2B378_linux_amd64.AppImage
+size=24 MB
+version=2.0.0%2B378
+-----------------------------------------------------------------
+APP="fairshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fairdataihub/FAIRshare"
+link=https://github.com/fairdataihub/FAIRshare/releases/download/v2.1.0/FAIRshare-2.1.0.AppImage
+size=121 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="fakedata"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lucapette/fakedata"
+link=https://github.com/lucapette/fakedata/releases/download/v1.5.0/fakedata_1.5.0_linux_amd64.tar.gz
+size=4 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="falkon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/falkon/Falkon_24.12.3-1-archimage4.3-x86_64.AppImage
+size=345 MB
+version=24.12.3
+-----------------------------------------------------------------
+APP="fantascene-dynamic-wallpaper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://github.com/dependon/fantascene-dynamic-wallpaper"
+link=https://sourceforge.net/projects/fantascene-dynamic-wallpaper/files/1.9.8/fantacy_x86-64-1.9.8.AppImage/download
+size=150 MB
+version=1.9.8
+-----------------------------------------------------------------
+APP="fantasia-archive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Elvanos/fantasia-archive"
+link=https://github.com/vishiri/fantasia-archive-v1/releases/download/v0.1.15/Fantasia.Archive-0.1.15-linux-appImage.zip
+size=174 MB
+version=0.1.15
+-----------------------------------------------------------------
+APP="farmhand"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeremyckahn/farmhand"
+link=https://github.com/jeremyckahn/farmhand/releases/download/1.18.26/Farmhand-1.18.26.AppImage
+size=230 MB
+version=1.18.26
+-----------------------------------------------------------------
+APP="fastcompmgr"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tycho-kirchner/fastcompmgr"
+link=https://github.com/tycho-kirchner/fastcompmgr/releases/download/v0.5/fastcompmgr
+size=1 MB
+version=0.5
+-----------------------------------------------------------------
+APP="fastfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="fastfetch-cli/fastfetch"
+link=https://github.com/fastfetch-cli/fastfetch/releases/download/2.39.1/fastfetch-linux-amd64.tar.gz
+size=29 MB
+version=2.39.1
+-----------------------------------------------------------------
+APP="fasttrack"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FastTrackOrg/FastTrack"
+link=https://github.com/FastTrackOrg/FastTrack/releases/download/v6.3.4/FastTrack-x86_64.AppImage
+size=119 MB
+version=6.3.4
+-----------------------------------------------------------------
+APP="fat-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Factom-Asset-Tokens/wallet"
+link=https://github.com/Factom-Asset-Tokens/wallet/releases/download/v1.0.3/FAT.Wallet-1.0.3.AppImage
+size=78 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="fchat"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://wiki.f-list.net"
+link=https://client.f-list.net/fchat.AppImage
+size=67 MB
+version=3.0.16
+-----------------------------------------------------------------
+APP="fcp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Svetlitski/fcp"
+link=https://github.com/Svetlitski/fcp/releases/download/v0.2.1/fcp-0.2.1-x86_64-unknown-linux-gnu.zip
+size=1 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="fd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/fd"
+link=https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-x86_64-unknown-linux-musl.tar.gz
+size=5 MB
+version=10.2.0
+-----------------------------------------------------------------
+APP="fdc3-sail"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="finos/FDC3-Sail"
+link=https://github.com/finos/FDC3-Sail/releases/download/v22.12.6-1030/FDC3-Sail-22.12.6-1030.AppImage
+size=106 MB
+version=FDC3
+-----------------------------------------------------------------
+APP="fdm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE=""
+link=https://raw.githubusercontent.com/ivan-hc/AM/main/appimage-bulder-scripts/x86_64/fdm.sh
+size=56 MB
+version=6.26.1
+-----------------------------------------------------------------
+APP="feather-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="feather-wallet/feather"
+link=https://github.com/feather-wallet/feather/releases/download/2.7.0/feather-2.7.0.AppImage
+size=26 MB
+version=2.7.0
+-----------------------------------------------------------------
+APP="feebas"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timzatko/feebas"
+link=https://github.com/timzatko/feebas/releases/download/v0.3.0/feebas-desktop-app-0.3.0.AppImage
+size=90 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="feedseries"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="matthieuy/feedseries"
+link=https://github.com/matthieuy/feedseries/releases/download/v1.3.3/FeedSeries-1.3.3.AppImage
+size=74 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="feidao"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://oss.fei-dao.com"
+link=https://oss.fei-dao.com/resources/application/linux/feidao_latest.AppImage
+size=92 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="feishin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeffvli/feishin"
+link=https://github.com/jeffvli/feishin/releases/download/v0.12.3/Feishin-0.12.3-linux-x86_64.AppImage
+size=112 MB
+version=0.12.3
+-----------------------------------------------------------------
+APP="ferdium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ferdium/ferdium-app"
+link=https://github.com/ferdium/ferdium-app/releases/download/v7.0.1-nightly.13/Ferdium-linux-Portable-7.0.1-nightly.13-x86_64.AppImage
+size=145 MB
+version=7.0.1
+-----------------------------------------------------------------
+APP="fetchit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Ruturajn/fetchit"
+link=https://github.com/Ruturajn/fetchit/releases/download/v0.1.1/fetchit-0.1.1-x86_64.tar.gz
+size=1 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="ff-password-exporter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kspearrin/ff-password-exporter"
+link=https://github.com/kspearrin/ff-password-exporter/releases/download/v1.2.0/FF-Password-Exporter-1.2.0-x86_64.AppImage
+size=56 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="ffdec"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jindrapetrik/jpexs-decompiler"
+link=https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/ffdec_22.0.2.zip
+size=20 MB
+version=22.0.2.zip
+-----------------------------------------------------------------
+APP="ffdec-nightly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jindrapetrik/jpexs-decompiler"
+link=https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/ffdec_22.0.2.zip
+size=20 MB
+version=22.0.2.zip
+-----------------------------------------------------------------
+APP="fflogs-uploader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RPGLogs/Uploaders-fflogs"
+link=https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v8.16.31/fflogs-v8.16.31.AppImage
+size=108 MB
+version=8.16.31
+-----------------------------------------------------------------
+APP="ffsend"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="timvisee/ffsend"
+link=https://github.com/timvisee/ffsend/releases/download/v0.2.77/ffsend-v0.2.77-linux-x64
+size=12 MB
+version=0.2.77
+-----------------------------------------------------------------
+APP="ffvim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fivim/fivim"
+link=https://github.com/enassi/enassi/releases/download/v2.1.1/enassi_2.1.1_amd64.AppImage
+size=125 MB
+version=2.1.1
+-----------------------------------------------------------------
+APP="ficus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Thysrael/Ficus"
+link=https://github.com/Thysrael/Ficus/releases/download/v0.2.1/ficus-0.2.1.AppImage
+size=119 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="fidias-database-migration-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="open-fidias/db-migration-app"
+link=https://github.com/open-fidias/db-migration-app/releases/download/v0.1.4/db-migration-app-0.1.4-x86_64.AppImage
+size=58 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="fiery-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+link=https://download.kde.org/stable/maui/fiery/1.1.3/fiery-stable-v1.1.3-git+2f029ba-amd64.AppImage
+size=117 MB
+version=1.1.3
+-----------------------------------------------------------------
+APP="fifo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SnailDOS/Fifo-Browser"
+link=https://github.com/snaildos/Fifo-Browser/releases/download/v1.3.1/Fifo-1.3.1.AppImage
+size=97 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="figma-linux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Figma-Linux/figma-linux"
+link=https://github.com/Figma-Linux/figma-linux/releases/download/v0.11.5/figma-linux_0.11.5_linux_x86_64.AppImage
+size=105 MB
+version=0.11.5
+-----------------------------------------------------------------
+APP="file-commander"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VioletGiraffe/file-commander"
+link=https://github.com/VioletGiraffe/file-commander/releases/download/0.9.9.3/FileCommander.AppImage
+size=39 MB
+version=0.9.9.3
+-----------------------------------------------------------------
+APP="file-converter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TimothySimon123/file-converter"
+link=https://github.com/TimothySimon123/file-converter/releases/download/0.3-beta/file-converter-0.3-beta-x86_64.AppImage
+size=1 MB
+version=0.3
+-----------------------------------------------------------------
+APP="file-to-c"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Wallby/file-to-c"
+link=https://github.com/Wallby/file-to-c/releases/download/1.0.0/file-to-c-x86_64.AppImage
+size=1 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="filen"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://filen.io"
+link=https://cdn.filen.io/desktop/release/filen_x86_64.AppImage
+size=119 MB
+version=3.0.47
+-----------------------------------------------------------------
+APP="filen-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FilenCloudDienste/filen-cli"
+link=https://github.com/FilenCloudDienste/filen-cli/releases/download/v0.0.32/filen-cli-v0.0.32-linux-x64
+size=127 MB
+version=0.0.32
+-----------------------------------------------------------------
+APP="filezilla"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://filezilla-project.org"
+link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=tjNOgZBcmk-BxnhAQ3dk_g&x=1743551109
+size=48 MB
+version=3.68.1
+-----------------------------------------------------------------
+APP="filmulator-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CarVac/filmulator-gui"
+link=https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage
+size=41 MB
+version=0.11.1
+-----------------------------------------------------------------
+APP="fingrom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lyskouski/app-finance"
+link=https://github.com/lyskouski/app-finance/releases/download/v6.3.0/fingrom_Linux.AppImage
+size=48 MB
+version=6.3.0
+-----------------------------------------------------------------
+APP="firealpaca"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://firealpaca.com"
+link=https://firealpaca.com/download/linux
+size=135 MB
+version=2.12.0
+-----------------------------------------------------------------
+APP="firedragon"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://firedragon.garudalinux.org"
+link=https://gitlab.com/api/v4/projects/55893651/packages/generic/firedragon-catppuccin/11.25.0-1/firedragon-catppuccin-v11.25.0-1.appimage-x86_64.AppImage
+size=111 MB
+version=11.25.0
+-----------------------------------------------------------------
+APP="firefly-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iotaledger/firefly"
+link=https://github.com/iotaledger/firefly/releases/download/desktop-shimmer-2.1.16/firefly-shimmer-desktop-2.1.16.AppImage
+size=128 MB
+version=2.1.16
+-----------------------------------------------------------------
+APP="firefox"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=
+size=259 MB
+version=137.0
+-----------------------------------------------------------------
+APP="firefox-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox/firefox-136.0.r20250326231000-x86_64.AppImage
+size=99 MB
+version=136.0.r20250326231000
+-----------------------------------------------------------------
+APP="firefox-beta"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-beta-latest&os=linux64&lang=
+size=262 MB
+version=138.0
+-----------------------------------------------------------------
+APP="firefox-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250331153038-x86_64.AppImage
+size=100 MB
+version=138.0.r20250331153038
+-----------------------------------------------------------------
+APP="firefox-dev"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64&lang=
+size=262 MB
+version=138.0
+-----------------------------------------------------------------
+APP="firefox-devedition-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250331153038-x86_64.AppImage
+size=100 MB
+version=138.0.r20250331153038
+-----------------------------------------------------------------
+APP="firefox-esr"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-esr-latest&os=linux64&lang=
+size=244 MB
+version=128.9.0
+-----------------------------------------------------------------
+APP="firefox-esr-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-esr/firefox-esr-128.8.r20250326232952-x86_64.AppImage
+size=94 MB
+version=128.8.r20250326232952
+-----------------------------------------------------------------
+APP="firefox-nightly"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=
+size=317 MB
+version=139.0a1
+-----------------------------------------------------------------
+APP="firefox-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250331215235-x86_64.AppImage
+size=112 MB
+version=139.0.r20250331215235
+-----------------------------------------------------------------
+APP="firetail"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kawuchuu/firetail"
+link=https://github.com/kawuchuu/firetail/releases/download/v0.7.0/Firetail-0.7.0.AppImage
+size=107 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="firetv-toolkit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AnthonyGress/Android-Toolkit"
+link=https://github.com/AnthonyGress/Android-Toolkit/releases/download/v1.5.25/Android-Toolkit-x86_64.AppImage
+size=95 MB
+version=1.5.25
+-----------------------------------------------------------------
+APP="firework"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://firework.cloud"
+link=https://cdn-firework.com/fw/download/packages/Firework-linux-x64.zip
+size=339 MB
+version=4.39
+-----------------------------------------------------------------
+APP="fish"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Maverobot/fish.AppImage"
+link=https://github.com/Maverobot/fish.AppImage/releases/download/v3.7.0/fish-3.7.0-x86_64.AppImage
+size=22 MB
+version=3.7.0
+-----------------------------------------------------------------
+APP="fishing-funds"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="1zilc/fishing-funds"
+link=https://github.com/1zilc/fishing-funds/releases/download/v8.4.1/Fishing-Funds-8.4.1.AppImage
+size=105 MB
+version=8.4.1
+-----------------------------------------------------------------
+APP="fishterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kuronekouwu/FishTerm"
+link=https://github.com/mrwan2546/FishTerm/releases/download/v0.0.1-alpha.1/fishterm-0.0.1-alpha.1.AppImage
+size=105 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="fixit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eugene-babichenko/fixit"
+link=https://github.com/eugene-babichenko/fixit/releases/download/v0.9.0/fixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz
+size=3 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="flacon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flacon/flacon"
+link=https://github.com/flacon/flacon/releases/download/v12.0.0/flacon-12.0.0-x86_64.AppImage
+size=34 MB
+version=12.0.0
+-----------------------------------------------------------------
+APP="flameshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flameshot-org/flameshot"
+link=https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/Flameshot-12.1.0.x86_64.AppImage
+size=50 MB
+version=12.1.0
+-----------------------------------------------------------------
+APP="flare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flareteam/flare-game"
+link=https://github.com/flareteam/flare-game/releases/download/v1.14/flare-linux64-v1.14.AppImage
+size=128 MB
+version=1.14
+-----------------------------------------------------------------
+APP="flashpoint"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://flashpointarchive.org"
+link=https://download.unstable.life/upload/fp14.0.1_lin_main_20250222.7z
+size=2370 MB
+version=fp14.0.1
+-----------------------------------------------------------------
+APP="flawesome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ashishBharadwaj/flawesome"
+link=https://github.com/ashishBharadwaj/flawesome/releases/download/v0.2.3/Flawesome-0.2.3.AppImage
+size=98 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="flb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FLB-Music/FLB-Music-Player"
+link=https://github.com/FLB-Music/FLB-Music-Player/releases/download/v1.2.1/FLB-Music-1.2.1.AppImage
+size=78 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="flightgear"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.flightgear.org"
+link=https://gitlab.com/flightgear/fgmeta/-/jobs/9261456028/artifacts/raw/FlightGear-2024.1.1-x86_64.AppImage
+size=541 MB
+version=2024.1.1
+-----------------------------------------------------------------
+APP="flightgear-airports"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Portree-Kid/flightgear-airports"
+link=https://github.com/Portree-Kid/flightgear-airports/releases/download/v0.0.34/flightgear-airports-0.0.34.AppImage
+size=100 MB
+version=0.0.34
+-----------------------------------------------------------------
+APP="flippy-qualitative-testbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flippy-fyp/flippy-qualitative-testbench"
+link=https://github.com/flippy-fyp/flippy-qualitative-testbench/releases/download/v0.1.2/Flippy-Qualitative-Testbench-0.1.2.AppImage
+size=178 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="floorp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Floorp-Projects/Floorp"
+link=https://github.com/Floorp-Projects/Floorp/releases/download/v11.25.0/floorp-11.25.0.linux-x86_64.tar.bz2
+size=292 MB
+version=11.25.0.linux
+-----------------------------------------------------------------
+APP="flowinity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Flowinity/Desktop"
+link=https://github.com/Flowinity/Desktop/releases/download/1.0.7/flowinity-desktop-1.0.7.AppImage
+size=144 MB
+version=1.0.7
+-----------------------------------------------------------------
+APP="fluent-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yang991178/fluent-reader"
+link=https://github.com/yang991178/fluent-reader/releases/download/v1.1.4/Fluent.Reader.1.1.4.AppImage
+size=100 MB
+version=1.1.4
+-----------------------------------------------------------------
+APP="fluffychat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="krille-chan/fluffychat"
+link=https://github.com/krille-chan/fluffychat/releases/download/v1.25.0/fluffychat-linux-x64.tar.gz
+size=89 MB
+version=1.25.0
+-----------------------------------------------------------------
+APP="flycast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flyinghead/flycast"
+link=https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_64.AppImage
+size=17 MB
+version=2.4
+-----------------------------------------------------------------
+APP="flycast-dojo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blueminder/flycast-dojo"
+link=https://github.com/blueminder/flycast-dojo/releases/download/dojo-6.53/linux-flycast-dojo-6.53.zip
+size=15 MB
+version=6.53.zip
+-----------------------------------------------------------------
+APP="flyctl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="superfly/flyctl"
+link=https://github.com/superfly/flyctl/releases/download/v0.3.96/flyctl_0.3.96_Linux_x86_64.tar.gz
+size=90 MB
+version=0.3.96
+-----------------------------------------------------------------
+APP="flyingcarpet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spieglt/flyingcarpet"
+link=https://github.com/spieglt/FlyingCarpet/releases/download/v9.0.0/linux_FlyingCarpet_9.0.0_amd64.AppImage
+size=133 MB
+version=9.0.0
+-----------------------------------------------------------------
+APP="fman"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nore-dev/fman"
+link=https://github.com/nore-dev/fman/releases/download/v1.20.1/fman_1.20.1_linux_amd64.tar.gz
+size=8 MB
+version=1.20.1
+-----------------------------------------------------------------
+APP="fmradio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dmooney65/fmradio"
+link=https://github.com/dmooney65/fmradio/releases/download/untagged-d88616653b8f7b6d1402/fmradio-0.9.4-x86_64.AppImage
+size=50 MB
+version=0.9.4
+-----------------------------------------------------------------
+APP="fms-file-explorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AllenInstitute/aics-fms-file-explorer-app"
+link=https://github.com/AllenInstitute/biofile-finder/releases/download/v8.3.0/BioFile-Finder-8.3.0.AppImage
+size=117 MB
+version=8.3.0
+-----------------------------------------------------------------
+APP="focalizzare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/focalizzare"
+link=https://github.com/VitoVan/focalizzare/releases/download/1.1.5/Focalizzare.AppImage
+size=23 MB
+version=1.1.5
+-----------------------------------------------------------------
+APP="focus"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ayoisaiah/focus"
+link=https://github.com/ayoisaiah/focus/releases/download/nightly/focus_master_linux_amd64.tar.gz
+size=24 MB
+version=2024.08.22
+-----------------------------------------------------------------
+APP="focusatwill"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://focusatwill.com"
+link=https://faw-desktop.s3.amazonaws.com/focusatwill-3.4.0.AppImage
+size=80 MB
+version=3.4.0
+-----------------------------------------------------------------
+APP="focuswriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/focuswriter"
+link=https://github.com/probonopd/focuswriter/releases/download/continuous/FocusWriter-a9815c7-x86_64.AppImage
+size=32 MB
+version=a9815c7
+-----------------------------------------------------------------
+APP="fontbase"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://fontba.se"
+link=https://releases.fontba.se/linux/FontBase-2.21.0.AppImage
+size=106 MB
+version=2.21.0
+-----------------------------------------------------------------
+APP="fontforge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fontforge/fontforge"
+link=https://github.com/fontforge/fontforge/releases/download/20230101/FontForge-2023-01-01-a1dad3e-x86_64.AppImage
+size=41 MB
+version=2023
+-----------------------------------------------------------------
+APP="fontlet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fontlet/fontlet-explorer"
+link=https://github.com/akuru-io/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage
+size=57 MB
+version=0.0.29
+-----------------------------------------------------------------
+APP="foobar2000"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/foobar2000_AppImage"
+link=https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64-wp/foobar2000-x64_2.24.3_WP-x86_64.AppImage
+size=289 MB
+version=2.24.3
+-----------------------------------------------------------------
+APP="forkgram"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="forkgram/tdesktop"
+link=https://github.com/forkgram/tdesktop/releases/download/v5.13.1/Telegram.tar.xz
+size=58 MB
+version=5.13.1
+-----------------------------------------------------------------
+APP="four"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FYDesktop/FOUR"
+link=https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four-1.0.0-x86_64.AppImage
+size=68 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="foxfolio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="foxfolio/foxfolio-desktop"
+link=https://github.com/foxfolio/foxfolio-desktop/releases/download/v0.0.10/foxfolio-0.0.10-x86_64.AppImage
+size=51 MB
+version=0.0.10
+-----------------------------------------------------------------
+APP="fpm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jlambert360/FPM-AppImage"
+link=https://github.com/jlambert360/FPM-AppImage/releases/download/v3.0.5/Faster_Project_Plus-x86-64.AppImage
+size=120 MB
+version=3.0.5
+-----------------------------------------------------------------
+APP="fractale"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PJK136/Fractale"
+link=https://github.com/PJK136/Fractale/releases/download/continuous/Fractale-cadfc6e-x86_64.AppImage
+size=22 MB
+version=cadfc6e
+-----------------------------------------------------------------
+APP="fraidycat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kickscondor/fraidycat"
+link=https://github.com/kickscondor/fraidycat/releases/download/v1.1.7/Fraidycat-1.1.7.AppImage
+size=115 MB
+version=1.1.7
+-----------------------------------------------------------------
+APP="fraktal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fraktal-JS/fraktal"
+link=https://github.com/Fraktal-JS/fraktal/releases/download/v1.1.1/fraktal-1.1.1-x86_64.AppImage
+size=55 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="frame-eth-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="floating/frame"
+link=https://github.com/floating/frame/releases/download/v0.6.11/Frame-0.6.11.AppImage
+size=170 MB
+version=0.6.11
+-----------------------------------------------------------------
+APP="francetv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Paullux/FranceTV"
+link=https://github.com/Paullux/FranceTV/releases/download/1.1/FranceTV-1.1-x86_64.AppImage
+size=250 MB
+version=1.1
+-----------------------------------------------------------------
+APP="franz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="meetfranz/franz"
+link=https://github.com/meetfranz/franz/releases/download/v5.10.0/Franz-5.10.0.AppImage
+size=91 MB
+version=5.10.0
+-----------------------------------------------------------------
+APP="frappebooks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="frappe/books"
+link=https://github.com/frappe/books/releases/download/v0.28.0/Frappe-Books-0.28.0.AppImage
+size=100 MB
+version=0.28.0
+-----------------------------------------------------------------
+APP="freac"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="enzo1982/freac"
+link=https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-x86_64.AppImage
+size=21 MB
+version=1.1.7
+-----------------------------------------------------------------
+APP="freecad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeCAD/FreeCAD-Bundle"
+link=https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/devel-qt5/FreeCAD_devel-qt5-40655-conda-Linux-x86_64-py311.AppImage
+size=650 MB
+version=qt5
+-----------------------------------------------------------------
+APP="freecad-assembly3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="realthunder/FreeCAD"
+link=https://github.com/realthunder/FreeCAD/releases/download/20241003stable/FreeCAD-Link-Stable-Linux-x86_64-py3.11-20241003.AppImage
+size=850 MB
+version=py3.11
+-----------------------------------------------------------------
+APP="freefilesync"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="hkneptune/FreeFileSync"
+link=https://github.com/hkneptune/FreeFileSync/releases/download/v14.3/FreeFileSync_14.3_Linux.tar.gz
+size=33 MB
+version=14.3
+-----------------------------------------------------------------
+APP="freeman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="matthew-matvei/freeman"
+link=https://github.com/matthew-matvei/freeman/releases/download/v0.9.1/freeman-0.9.1-x86_64.AppImage
+size=60 MB
+version=0.9.1
+-----------------------------------------------------------------
+APP="freeshow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ChurchApps/FreeShow"
+link=https://github.com/ChurchApps/FreeShow/releases/download/v1.4.0-beta.1/FreeShow-1.4.0-beta.1-x86_64.AppImage
+size=136 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="freetexturepacker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="odrick/free-tex-packer"
+link=https://github.com/odrick/free-tex-packer/releases/download/v0.6.7/FreeTexturePacker-x86_64.AppImage
+size=75 MB
+version=0.6.7
+-----------------------------------------------------------------
+APP="freetube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeTubeApp/FreeTube"
+link=https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.3-beta/freetube-0.23.3-amd64.AppImage
+size=96 MB
+version=0.23.3
+-----------------------------------------------------------------
+APP="freeze"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/freeze"
+link=https://github.com/charmbracelet/freeze/releases/download/v0.2.1/freeze_0.2.1_Linux_x86_64.tar.gz
+size=14 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="freezer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eNV25/freezer-releases"
+link=https://github.com/eNV25/freezer-releases/releases/download/pc1.1.24/Freezer-1.1.24.AppImage
+size=84 MB
+version=1.1.24
+-----------------------------------------------------------------
+APP="freshfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="K4rakara/freshfetch"
+link=https://github.com/K4rakara/freshfetch/releases/download/v0.2.0/freshfetch.tar.gz
+size=11 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="friction"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="friction2d/friction"
+link=https://github.com/friction2d/friction/releases/download/v1.0.0-rc.1/Friction-1.0.0-rc.1-x86_64.AppImage
+size=33 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="friture"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tlecomte/friture"
+link=https://github.com/tlecomte/friture/releases/download/v0.51/friture-0.51-20240722.AppImage
+size=100 MB
+version=0.51
+-----------------------------------------------------------------
+APP="fromscratch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kilian/fromscratch"
+link=https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch.1.4.3.AppImage
+size=74 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="frontimer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="seita1996/frontimer"
+link=https://github.com/seita1996/frontimer/releases/download/v0.1.17/frontimer-0.1.17.AppImage
+size=186 MB
+version=0.1.17
+-----------------------------------------------------------------
+APP="fspy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stuffmatic/fSpy"
+link=https://github.com/stuffmatic/fSpy/releases/download/1.1.0-beta.3/fSpy-1.1.0-beta.3.AppImage
+size=78 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="fukayo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JiPaix/Fukayo"
+link=https://github.com/JiPaix/Fukayo/releases/download/v0.20.7-beta/Fukayo-0.20.7-beta.AppImage
+size=143 MB
+version=0.20.7
+-----------------------------------------------------------------
+APP="funkin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FunkinCrew/Funkin"
+link=https://github.com/FunkinCrew/Funkin/releases/download/v0.5.3/funkin-linux-64bit.zip
+size=829 MB
+version=64bit.zip
+-----------------------------------------------------------------
+APP="funkin-legacy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="NotHyper-474/Funkin-Legacy-Linux"
+link=https://github.com/NotHyper-474/Funkin-Legacy-Linux/releases/download/v0.5.3/funkin-linux-64bit-unofficial.tar.gz
+size=830 MB
+version=64bit
+-----------------------------------------------------------------
+APP="funkin-psych"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Munoida/FNF-PsychEngine-Linux-Releases"
+link=https://github.com/Munoida/FNF-PsychEngine-Linux-Releases/releases/download/0.7.3/PsyEngLinx073.zip
+size=230 MB
+version=PsyEngLinx073.zip
+-----------------------------------------------------------------
+APP="funterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zhangfuwen/FunTerm"
+link=https://github.com/zhangfuwen/FunTerm/releases/download/v0.1/FunTerm-a764287-x86_64.AppImage
+size=27 MB
+version=a764287
+-----------------------------------------------------------------
+APP="fx"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="antonmedv/fx"
+link=https://github.com/antonmedv/fx/releases/download/35.0.0/fx_linux_amd64
+size=16 MB
+version=35.0.0
+-----------------------------------------------------------------
+APP="fynodoro"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tomsquest/fynodoro"
+link=https://github.com/tomsquest/fynodoro/releases/download/v1.16.0/fynodoro_1.16.0_linux_amd64
+size=9 MB
+version=1.16.0
+-----------------------------------------------------------------
+APP="fzf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="junegunn/fzf"
+link=https://github.com/junegunn/fzf/releases/download/v0.61.0/fzf-0.61.0-linux_amd64.tar.gz
+size=4 MB
+version=0.61.0
+-----------------------------------------------------------------
+APP="gaiasky"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://zah.uni-heidelberg.de"
+link=https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.7.5160f2cfe_x86_64.appimage
+size=89 MB
+version=3.6.7.5160f2cfe
+-----------------------------------------------------------------
+APP="galacteek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eversum/galacteek"
+link=https://github.com/PancakesArchitect/galacteek/releases/download/v0.5.0/Galacteek-0.5.0-x86_64.AppImage
+size=237 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="gallery-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mikf/gallery-dl"
+link=https://github.com/mikf/gallery-dl/releases/download/v1.29.3/gallery-dl.bin
+size=25 MB
+version=1.29.3
+-----------------------------------------------------------------
+APP="gameconqueror"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lucasmz1/Game_Conqueror_AppImage"
+link=https://github.com/lucasmz1/Game_Conqueror_AppImage/releases/download/0.17_2/Game_Conqueror2.AppImage
+size=32 MB
+version=0.17
+-----------------------------------------------------------------
+APP="gamehub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tkashkin/GameHub"
+link=https://github.com/tkashkin/GameHub/releases/download/0.16.3-6-dev/GameHub-jammy-0.16.3-6-dev-0e3146a-x86_64.AppImage
+size=50 MB
+version=0.16.3
+-----------------------------------------------------------------
+APP="gameimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruanformigoni/gameimage"
+link=https://github.com/ruanformigoni/gameimage/releases/download/v1.6.1/gameimage.flatimage
+size=99 MB
+version=1.6.1
+-----------------------------------------------------------------
+APP="gams-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GAMS-dev/studio"
+link=https://github.com/GAMS-dev/studio/releases/download/v1.20.3/GAMS_Studio-1.20.3-x86_64.AppImage
+size=177 MB
+version=1.20.3
+-----------------------------------------------------------------
+APP="ganache"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trufflesuite/ganache-ui"
+link=https://github.com/trufflesuite/ganache-ui/releases/download/v2.7.1/ganache-2.7.1-linux-x86_64.AppImage
+size=348 MB
+version=2.7.1
+-----------------------------------------------------------------
+APP="gaphor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gaphor/gaphor"
+link=https://github.com/gaphor/gaphor/releases/download/2.18.1/Gaphor-2.18.1-x86_64.AppImage
+size=74 MB
+version=2.18.1
+-----------------------------------------------------------------
+APP="gargoyle-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="garglk/garglk"
+link=https://github.com/garglk/garglk/releases/download/2023.1/Gargoyle-x86_64.AppImage
+size=52 MB
+version=2023.1
+-----------------------------------------------------------------
+APP="gaucho"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="angrykoala/gaucho"
+link=https://github.com/angrykoala/gaucho/releases/download/1.1.0/Gaucho_Linux_1.1.0.AppImage
+size=82 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="gdesktopsuite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alexkim205/G-Desktop-Suite"
+link=https://github.com/alexkim205/G-Desktop-Suite/releases/download/v0.3.1/G-Desktop-Suite-0.3.1.AppImage
+size=70 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="gdevelop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="4ian/GDevelop"
+link=https://github.com/4ian/GDevelop/releases/download/v5.5.228/GDevelop-5-5.5.228.AppImage
+size=158 MB
+version=5
+-----------------------------------------------------------------
+APP="gdlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gorilla-devs/GDLauncher"
+link=https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-linux-setup.AppImage
+size=98 MB
+version=1.1.30
+-----------------------------------------------------------------
+APP="gdm-settings"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gdm-settings/gdm-settings"
+link=https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage
+size=66 MB
+version=5.0
+-----------------------------------------------------------------
+APP="geany"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ecmu/geany.AppImage"
+link=https://github.com/ecmu/geany.AppImage/releases/download/2.0.0/Geany-2.0.0-x86_64.AppImage
+size=40 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="gedit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Gedit-appimage"
+link=https://github.com/ivan-hc/Gedit-appimage/releases/download/continuous/gedit_48.1-3-archimage4.3-x86_64.AppImage
+size=52 MB
+version=48.1
+-----------------------------------------------------------------
+APP="geeqie"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BestImageViewer/geeqie"
+link=https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage
+size=152 MB
+version=2025.04.01
+-----------------------------------------------------------------
+APP="geforcenow-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hmlendea/gfn-electron"
+link=https://github.com/hmlendea/gfn-electron/releases/download/v2.1.3/geforcenow-electron_2.1.3_linux.AppImage
+size=104 MB
+version=2.1.3
+-----------------------------------------------------------------
+APP="gemalaya"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gemalaya.gitlab.io/"
+link=https://gitlab.com/cipres/gemgemgem/-/releases/continuous-master/downloads/Gemalaya-latest-x86_64.AppImage
+size=136 MB
+version=2024.11.07
+-----------------------------------------------------------------
+APP="gemget"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="makew0rld/gemget"
+link=https://github.com/makew0rld/gemget/releases/download/v1.9.0/gemget_1.9.0_linux_64-bit
+size=5 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="genact"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="svenstaro/genact"
+link=https://github.com/svenstaro/genact/releases/download/v1.4.2/genact-1.4.2-x86_64-unknown-linux-musl
+size=2 MB
+version=1.4.2
+-----------------------------------------------------------------
+APP="genesis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GenesisKernel/genesis-front"
+link=https://github.com/GenesisKernel/genesis-front/releases/download/v0.11.1/genesis-front-0.11.1-x86_64.AppImage
+size=78 MB
+version=0.11.1
+-----------------------------------------------------------------
+APP="geofs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jminding/GeoFS-Desktop"
+link=https://github.com/Jminding/GeoFS-Desktop/releases/download/v1.6/GeoFS.AppImage
+size=164 MB
+version=1.6
+-----------------------------------------------------------------
+APP="geometrize"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Tw1ddle/geometrize"
+link=https://github.com/Tw1ddle/geometrize/releases/download/v1.0.1/geometrize_1.0.1_linux.AppImage
+size=32 MB
+version=1.0.1
+-----------------------------------------------------------------
