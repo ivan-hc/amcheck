@@ -581,7 +581,7 @@ jobs:
 
       - name: "Retest"
         id: retest
-        working-directory: programs/x86_64
+        #working-directory: programs/x86_64
         run: |
           find -name 'results'
           echo "-----------------------"
