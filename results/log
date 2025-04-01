@@ -112,3 +112,43 @@ link=https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.5.2/advan
 size=117 MB
 version=2.5.2
 -----------------------------------------------------------------
+APP="advanced-rest-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="advanced-rest-client/arc-electron"
+link=https://github.com/advanced-rest-client/arc-electron/releases/download/v17.0.9/arc-linux-17.0.9-x86_64.AppImage
+size=121 MB
+version=17.0.9
+-----------------------------------------------------------------
+APP="afetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Asthowen/AFetch"
+link=https://github.com/Asthowen/AFetch/releases/download/0.0.7/afetch-0.0.7-x86_64-unknown-linux-gnu
+size=3 MB
+version=0.0.7
+-----------------------------------------------------------------
+APP="affine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="toeverything/AFFiNE"
+link=https://github.com/toeverything/AFFiNE/releases/download/v0.20.5/affine-0.20.5-stable-linux-x64.appimage
+size=178 MB
+version=0.20.5
+-----------------------------------------------------------------
+APP="affine-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="toeverything/AFFiNE"
+link=https://github.com/toeverything/AFFiNE/releases/download/v0.20.5-beta.1/affine-0.20.5-beta.1-beta-linux-x64.appimage
+size=178 MB
+version=0.20.5
+-----------------------------------------------------------------
+APP="affine-canary"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="toeverything/AFFiNE"
+link=https://github.com/toeverything/AFFiNE/releases/download/v0.21.0-canary.10/affine-0.21.0-canary.10-canary-linux-x64.appimage
+size=184 MB
+version=0.21.0
+-----------------------------------------------------------------
