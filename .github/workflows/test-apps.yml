@@ -582,7 +582,6 @@ jobs:
       - name: "Retest"
         id: retest
         run: |
-          mkdir -p results
           pwd
           find -name failing
           find -name results
@@ -590,6 +589,7 @@ jobs:
           for fail in $(cat failing); do
             echo "fail: $fail"
             cd programs/x86_64
+            mkdir -p results
             echo "APP=\"$fail\"" | tee -a "results/out-$fail"
             if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" ./"$fail" 1>/dev/null; then
               echo "APPIMAGE='yes'" | tee -a results/out-"$fail"
