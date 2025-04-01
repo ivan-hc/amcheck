@@ -2532,3 +2532,43 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="dave-theunsub/clamtk"
 -----------------------------------------------------------------
+APP="clash-verge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zzzgydi/clash-verge"
+link=https://github.com/zzzgydi/clash-verge/releases/download/v1.3.8/clash-verge_1.3.8_amd64.AppImage
+size=105 MB
+version=1.3.8
+-----------------------------------------------------------------
+APP="classicimageviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="classicimageviewer/ClassicImageViewer"
+link=https://github.com/classicimageviewer/ClassicImageViewer/releases/download/v1.1.3/ClassicImageViewer-x86_64.AppImage
+size=51 MB
+version=1.1.3
+-----------------------------------------------------------------
+APP="cleepdesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tangb/CleepDesktop"
+link=https://github.com/CleepDevice/cleep-desktop/releases/download/v0.2.0/CleepDesktop-0.2.0-linux-x86_64.AppImage
+size=94 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="clementineremote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mbruel/ClementineRemote"
+link=https://github.com/mbruel/ClementineRemote/releases/download/v1.2/ClemRemote_v1.2-x86_64.AppImage
+size=41 MB
+version=1.2
+-----------------------------------------------------------------
+APP="clifm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="leo-arch/clifm"
+link=https://github.com/leo-arch/clifm/releases/download/v1.24/clifm-1.24-linux-x86_64.tar.gz
+size=2 MB
+version=1.24
+-----------------------------------------------------------------
