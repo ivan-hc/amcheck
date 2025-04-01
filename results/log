@@ -487,3 +487,43 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="francesco-gaglione/AppHub"
 -----------------------------------------------------------------
+APP="appimage-builder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImageCrafters/appimage-builder"
+link=https://github.com/AppImageCrafters/appimage-builder/releases/download/Continuous/appimage-builder-1.1.1.dev32%2Bg2709a3b-x86_64.AppImage
+size=54 MB
+version=1.1.1.dev32%2Bg2709a3b
+-----------------------------------------------------------------
+APP="appimage-creator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hiko-Seijuro-23/AppImage-creator"
+link=https://github.com/Hiko-Seijuro-23/AppImage-creator/releases/download/AppImage/AppImage-creator-0.0.1.AppImage
+size=24 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="appimagecraft"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheAssassin/appimagecraft"
+link=https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage
+size=102 MB
+version=2025.03.25
+-----------------------------------------------------------------
+APP="appimagehelper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/posktomten/appimagehelper"
+link=https://bin.ceicer.com/appimagehelper/bin/appimagehelper-x86_64.AppImage
+size=31 MB
+version=2022
+-----------------------------------------------------------------
+APP="appimagelauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheAssassin/AppImageLauncher"
+link=https://github.com/TheAssassin/AppImageLauncher/releases/download/v3.0.0-alpha-4/appimagelauncher-lite-3.0.0-alpha-4-gha253-x86_64.AppImage
+size=37 MB
+version=3.0.0
+-----------------------------------------------------------------
