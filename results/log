@@ -7147,3 +7147,23 @@ link=https://github.com/gristlabs/grist-desktop/releases/download/v0.3.2/grist-d
 size=250 MB
 version=0.3.2
 -----------------------------------------------------------------
+APP="ffwa-facebook"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-github"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-gmail"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-netflix"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-reddit"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
