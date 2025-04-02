@@ -453,7 +453,7 @@ jobs:
 
               fi
 
-              rawlink=$(grep 'https://' < "results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
+              rawlink=$(grep -E 'https?://' < "results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
               echo "link=${rawlink}" | tee -a "results/out-${{ matrix.file }}"
 
               echo "size=${size}" | tee -a "results/out-${{ matrix.file }}"
@@ -656,6 +656,8 @@ jobs:
                 echo "pre version is $Preversion"
                 version=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
                 echo "version=$version" | tee -a "results/out-$fail"
+                rawlink=$(grep -E 'https?://' < "results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
+                echo "link=${rawlink}" | tee -a "results/out-${{ matrix.file }}"
               else
                 echo "$fail" | tee -a results/excluded failed
               fi
