@@ -196,7 +196,7 @@ jobs:
             FILES="${{ github.event.inputs.what_test }}"
           elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
             echo "Testing excluded"
-            if [ -f result-var/excluded ]; then
+            if [ -f results/excluded ]; then
               if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
                 echo "Used workflow dispatch"
                 how_many="${{ github.event.inputs.how_many }}"
@@ -213,7 +213,7 @@ jobs:
                   how_many="$TOTEST"
                 fi
               fi
-              cat result-var/excluded > totest.list
+              cat results/excluded > totest.list
             else
               echo "Nothing excluded!"
               echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
