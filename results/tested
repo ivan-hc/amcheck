@@ -1103,7 +1103,9 @@ kdenlive-daily
 kdeutils
 kdf
 kdialog
+kdiamond
 kdiskmark
+keditbookmarks
 keepassxc
 keepassxc-devel
 keeweb
@@ -1115,6 +1117,9 @@ keycombiner
 keymanager
 keyrier-json
 keys
+keysmith
+kfind
+kfourinline
 kibi
 kicad
 kiibohd-configurator
