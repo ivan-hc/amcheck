@@ -7938,3 +7938,23 @@ link=https://sourceforge.net/projects/jdtextedit/files/11.2/jdTextEdit-11.2-Linu
 size=111 MB
 version=11.2
 -----------------------------------------------------------------
+APP="ffwa-reddit"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-twitter"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-whatsapp"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-wikipedia"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+APP="ffwa-youtube"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
