@@ -1092,12 +1092,17 @@ kboard
 kbounce
 kbreakout
 kcalc
+kcharselect
+kclock
 kcov
+kdebugsettings
 kdeconnect
 kdegames
 kdenlive
 kdenlive-daily
 kdeutils
+kdf
+kdialog
 kdiskmark
 keepassxc
 keepassxc-devel
