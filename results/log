@@ -16900,3 +16900,1768 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/KDE-utils-appimage"
 -----------------------------------------------------------------
+APP="tagspaces"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tagspaces/tagspaces"
+link=https://github.com/tagspaces/tagspaces/releases/download/v6.4.4/tagspaces-linux-x86_64-6.4.4.AppImage
+size=149 MB
+version=6.4.4
+-----------------------------------------------------------------
+APP="tagstoo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tagstoo.sourceforge.io"
+link=https://sourceforge.net/projects/tagstoo/files/Tagstoo%202.0.1%20linux64/Tagstoo.AppImage/download
+size=55 MB
+version=2019.06.20
+-----------------------------------------------------------------
+APP="tagtime-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mykter/TagTime-desktop"
+link=https://github.com/mykter/TagTime-desktop/releases/download/v0.7.1/TagTime-desktop-0.7.1-x86_64.AppImage
+size=55 MB
+version=0.7.1
+-----------------------------------------------------------------
+APP="tangent"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.tangentnotes.com"
+link=https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.8.4.AppImage
+size=112 MB
+version=0.8.4
+-----------------------------------------------------------------
+APP="taskade"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.taskade.com"
+link=https://apps.taskade.com/updates/Taskade_4.4.5_x86_64.AppImage
+size=107 MB
+version=4.4.5
+-----------------------------------------------------------------
+APP="taskell"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="smallhadroncollider/taskell"
+link=https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/taskell-1.11.4_x86-64-linux.tar.gz
+size=32 MB
+version=1.11.4
+-----------------------------------------------------------------
+APP="taskizer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SimonBrandner/TaskizerDesktop"
+link=https://github.com/SimonBrandner/TaskizerDesktop/releases/download/v2.0.0-rc.2/taskizer-2.0.0-rc.2-linux-x86_64.AppImage
+size=103 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="tastee-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tastee/tastee-ui"
+link=https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage
+size=104 MB
+version=0.9.6
+-----------------------------------------------------------------
+APP="tb"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="araaha/tb.go"
+link=https://github.com/araaha/tb.go/releases/download/v1.0.2-1/tb.go-1.0.2-1-linux_amd64.tar.gz
+size=9 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="tc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mccxiv/tc"
+link=https://github.com/mccxiv/tc/releases/download/v15.7.0/tc-linux-15.7.0.AppImage
+size=48 MB
+version=15.7.0
+-----------------------------------------------------------------
+APP="tdlib-rs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FedericoBruzzone/tdlib-rs"
+link=https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.0.5/tdlib-1.8.29-linux-x86_64.zip
+size=169 MB
+version=1.8.29
+-----------------------------------------------------------------
+APP="teams"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="IsmaelMartinez/teams-for-linux"
+link=https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.0.0/teams-for-linux-2.0.0.AppImage
+size=121 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="teamviewer"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+link=https://download.teamviewer.com/download/linux/teamviewer_amd64.tar.xz
+size=395 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teamviewer-host"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+link=https://download.teamviewer.com/download/linux/teamviewer-host_amd64.tar.xz
+size=385 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teamviewer-qs"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+link=https://download.teamviewer.com/download/teamviewer_qs.tar.gz
+size=40 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teledrive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KhushrajRathod/TeleDrive"
+link=https://github.com/khrj/teledrive/releases/download/v1.2.0/TeleDrive-1.2.0-x86_64.AppImage
+size=85 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="telegram"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="telegramdesktop/tdesktop"
+link=https://github.com/telegramdesktop/tdesktop/releases/download/v5.13.1/tsetup.5.13.1.tar.xz
+size=180 MB
+version=5.13.1
+-----------------------------------------------------------------
+APP="tenacity"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="tenacityteam/tenacity"
+link=https://codeberg.org/tenacityteam/tenacity/releases/download/v1.3.4/tenacity-linux-v1.3.4.AppImage
+size=62 MB
+version=1.3.4
+-----------------------------------------------------------------
+APP="tere"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mgunyho/tere"
+link=https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-gnu.zip
+size=4 MB
+version=1.6.0
+-----------------------------------------------------------------
+APP="terminalos-sim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="justmaxcz/terminalOS-simulator"
+link=https://github.com/stuffbymax/terminalOS-simulator-archive/releases/download/v0.0.5/teminal-0_0_5-linux.AppImage
+size=84 MB
+version=0
+-----------------------------------------------------------------
+APP="termshot"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="homeport/termshot"
+link=https://github.com/homeport/termshot/releases/download/v0.4.1/termshot_0.4.1_linux_amd64.tar.gz
+size=7 MB
+version=0.4.1
+-----------------------------------------------------------------
+APP="teslacam-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BobStrogg/teslacam-browser"
+link=https://github.com/BobStrogg/teslacam-browser/releases/download/v0.0.956/TeslaCam-Browser-0.0.956.AppImage
+size=75 MB
+version=0.0.956
+-----------------------------------------------------------------
+APP="tesler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="j-catania/TeslaSentinelViewer"
+link=https://github.com/j-catania/TeslaSentinelViewer/releases/download/v0.2.3/TesLEr-0.2.3.AppImage
+size=112 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="tess"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="SquitchYT/Tess"
+link=https://github.com/Squitch1/Tess/releases/download/0.7-alpha.12/tess-x86_64-unknown-linux-gnu
+size=5 MB
+version=0.7
+-----------------------------------------------------------------
+APP="tesseract"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AlexanderP/tesseract-appimage"
+link=https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.0/tesseract-5.5.0-x86_64.AppImage
+size=57 MB
+version=5.5.0
+-----------------------------------------------------------------
+APP="testdisk"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.cgsecurity.org/wiki/TestDisk_Download"
+link=https://www.cgsecurity.org/testdisk-7.3-WIP.linux26-x86_64.tar.bz2
+size=19 MB
+version=7.3
+-----------------------------------------------------------------
+APP="texmacs"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/slowphil:"
+link=https://download.opensuse.org/repositories/home:/slowphil:/texmacs-devel/AppImage/texmacs-0-Build173.1.glibc2.15-x86_64.AppImage
+size=57 MB
+version=0
+-----------------------------------------------------------------
+APP="texstudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="texstudio-org/texstudio"
+link=https://github.com/texstudio-org/texstudio/releases/download/4.8.6/texstudio-4.8.6-x86_64.AppImage
+size=120 MB
+version=4.8.6
+-----------------------------------------------------------------
+APP="textnote"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dkaslovsky/textnote"
+link=https://github.com/dkaslovsky/textnote/releases/download/v1.3.2/textnote_linux_amd64
+size=5 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="textosaurus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinrotter/textosaurus"
+link=https://github.com/martinrotter/textosaurus/releases/download/0.9.13/textosaurus-0.9.13-9cb7064-linux64.AppImage
+size=29 MB
+version=0.9.13
+-----------------------------------------------------------------
+APP="texts"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://texts.com"
+link=https://texts.com//api/install/linux/x64/latest.AppImage
+size=133 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="tgpt"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aandrew-me/tgpt"
+link=https://github.com/aandrew-me/tgpt/releases/download/v2.9.2/tgpt-linux-amd64
+size=10 MB
+version=2.9.2
+-----------------------------------------------------------------
+APP="the-way"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="out-of-cheese-error/the-way"
+link=https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz
+size=10 MB
+version=0.20.3
+-----------------------------------------------------------------
+APP="thedesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cutls/TheDesk"
+link=https://github.com/cutls/TheDesk/releases/download/v24.2.1/TheDesk-24.2.1.AppImage
+size=125 MB
+version=24.2.1
+-----------------------------------------------------------------
+APP="theframe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vicr123/theFrame"
+link=https://github.com/vicr123/theFrame/releases/download/continuous/theframe-linux.AppImage
+size=28 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="theia-blueprint"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.eclipse.org"
+link=https://download.eclipse.org/theia/latest/linux/TheiaBlueprint.AppImage
+size=227 MB
+version=2025
+-----------------------------------------------------------------
+APP="thermusqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yschutz/ThermusQt"
+link=https://github.com/yschutz/ThermusQt/releases/download/continuous/ThermusQt-x86_64.AppImage
+size=30 MB
+version=2021.12.08
+-----------------------------------------------------------------
+APP="theweb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vicr123/theweb"
+link=https://github.com/vicr123/theweb/releases/download/continuous/theWeb-linux.AppImage
+size=98 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="thief"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cteamx/Thief"
+link=https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage
+size=79 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="thinreports-section-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thinreports/thinreports-section-editor"
+link=https://github.com/thinreports/thinreports-section-editor/releases/download/v1.0.0-dev/thinreports-section-editor-1.0.0-dev-linux-20240116-67b3e2.AppImage
+size=111 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="thlink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="weilinfox/youmu-thlink"
+link=https://github.com/weilinfox/youmu-thlink/releases/download/v0.0.12/thlink-client-gtk-v0.0.12-amd64-linux.AppImage
+size=36 MB
+version=0.0.12
+-----------------------------------------------------------------
+APP="thoptv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kkdops/thoptv"
+link=https://github.com/kkdops/thoptv/releases/download/46.3.0/thoptv.46.3.0.AppImage
+size=71 MB
+version=46.3.0
+-----------------------------------------------------------------
+APP="thorium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link=https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX.AppImage
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-avx2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link=https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX2.AppImage
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Thorium-Sim/thorium-kiosk"
+link=https://github.com/Thorium-Sim/thorium-kiosk/releases/download/v2.0.8/thorium-kiosk-2.0.8-x86_64.AppImage
+size=76 MB
+version=2.0.8
+-----------------------------------------------------------------
+APP="thorium-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="edrlab/thorium-reader"
+link=https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.14173947180.AppImage
+size=131 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="thorium-sse3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link=https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_SSE3.AppImage
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-sse4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link=https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_SSE4.AppImage
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thunderbird"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=thunderbird-latest&os=linux64&lang=
+size=272 MB
+version=137.0
+-----------------------------------------------------------------
+APP="thunderbird-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link=https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/stable/Thunderbird-115.5_20231208140222.AppImage
+size=88 MB
+version=115.5
+-----------------------------------------------------------------
+APP="thunderbird-beta"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=thunderbird-beta-latest&os=linux64&lang=
+size=273 MB
+version=137.0
+-----------------------------------------------------------------
+APP="thunderbird-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link=https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/beta/ThunderbirdBeta-121.0_20231211172949.AppImage
+size=89 MB
+version=121.0
+-----------------------------------------------------------------
+APP="thunderbird-nightly"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=thunderbird-nightly-latest&os=linux64&lang=
+size=332 MB
+version=138.0a1
+-----------------------------------------------------------------
+APP="thunderbird-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link=https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/nightly/ThunderbirdNightly-122.0_20231214101505.AppImage
+size=100 MB
+version=122.0
+-----------------------------------------------------------------
+APP="ticker"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="achannarasappa/ticker"
+link=https://github.com/achannarasappa/ticker/releases/download/v4.8.1/ticker-4.8.1-linux-amd64.tar.gz
+size=4 MB
+version=4.8.1
+-----------------------------------------------------------------
+APP="tidal-hifi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mastermindzh/tidal-hifi"
+link=https://github.com/Mastermindzh/tidal-hifi/releases/download/5.18.2/tidal-hifi-5.18.2.AppImage
+size=122 MB
+version=5.18.2
+-----------------------------------------------------------------
+APP="tilde-podcast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="paologiua/tilde"
+link=https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage
+size=80 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="tiled"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bjorn/tiled"
+link=https://github.com/mapeditor/tiled/releases/download/v1.11.2/Tiled-1.11.2_Linux_Qt-5_x86_64.AppImage
+size=41 MB
+version=1.11.2
+-----------------------------------------------------------------
+APP="tilinggenerator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PJK136/TilingGenerator"
+link=https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage
+size=22 MB
+version=9ad9652
+-----------------------------------------------------------------
+APP="timely"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Timely/desktop-releases"
+link=https://github.com/Timely/desktop-releases/releases/download/linux-x64-dev-1.2.2-dev.135/Timely-1.2.2-dev.135.AppImage
+size=96 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="timenaut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kmteras/timenaut"
+link=https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage
+size=73 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="timer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tdeo/timer"
+link=https://github.com/tdeo/timer/releases/download/v1.0.1/timer-1.0.1-x86_64.AppImage
+size=48 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="tipitaka-pali-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bksubhuti/tipitaka-pali-reader"
+link=https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/v2.6.7%2B84/tipitaka_pali_reader.AppImage
+size=165 MB
+version=2.6.7
+-----------------------------------------------------------------
+APP="tlock"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eklairs/tlock"
+link=https://github.com/eklairs/tlock/releases/download/v1.0.0/tlock-v1.0.0-linux-amd64.tar.gz
+size=8 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="tmon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gmagno/tmon"
+link=https://github.com/gmagno/tmon/releases/download/v0.4.0/tmon-466ae00-x86_64.AppImage
+size=27 MB
+version=466ae00
+-----------------------------------------------------------------
+APP="tmux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nelsonenzo/tmux-appimage"
+link=https://github.com/nelsonenzo/tmux-appimage/releases/download/3.3a/tmux.appimage
+size=6 MB
+version=3.3
+-----------------------------------------------------------------
+APP="tnt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="foolo/tnt"
+link=https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage
+size=78 MB
+version=0.3
+-----------------------------------------------------------------
+APP="tockler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MayGo/tockler"
+link=https://github.com/MayGo/tockler/releases/download/v4.0.18/Tockler-4.0.18.AppImage
+size=120 MB
+version=4.0.18
+-----------------------------------------------------------------
+APP="tod"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="alanvardy/tod"
+link=https://github.com/alanvardy/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz
+size=11 MB
+version=0.6.28
+-----------------------------------------------------------------
+APP="todesktop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.todesktop.com"
+link=https://builder.todesktop.com/
+size=118 MB
+version=0.26.0
+-----------------------------------------------------------------
+APP="todo-bash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/todo-bash"
+link=https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="todoist"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://todoist.com"
+link=https://electron-dl.todoist.net/linux/Todoist-linux-9.13.0-x86_64-latest.AppImage
+size=109 MB
+version=9.13.0
+-----------------------------------------------------------------
+APP="todorant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="backmeupplz/todorant-releases"
+link=https://github.com/backmeupplz/todorant-releases/releases/download/v1.0.14/todorant-1.0.14-linux-x86_64.AppImage
+size=75 MB
+version=1.0.14
+-----------------------------------------------------------------
+APP="todorust"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gustavo-tomas/ToDoRust"
+link=https://github.com/gustavo-tomas/ToDoRust/releases/download/app-v0.2.0/to-do-rust_0.1.0_amd64.AppImage
+size=68 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="toerings"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="acarl005/toerings"
+link=https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.0.0_amd64.AppImage
+size=88 MB
+version=0.0.0
+-----------------------------------------------------------------
+APP="toipe"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Samyak2/toipe"
+link=https://github.com/Samyak2/toipe/releases/download/v0.5.0/toipe_v0.5.0_x86_64-unknown-linux-musl.tar.gz
+size=3 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="tomatox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yanjiaxuan/TOMATOX"
+link=https://github.com/FreeIess/TOMATOX/releases/download/v2.0.2/TOMATOX-2.0.2.AppImage
+size=51 MB
+version=2.0.2
+-----------------------------------------------------------------
+APP="tonuino-toolbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raph-ael/tonuino-toolbox"
+link=https://github.com/raph-ael/tonuino-toolbox/releases/download/v1.1.9/tonuino-toolbox-1.1.9-linux-x86_64.AppImage
+size=80 MB
+version=1.1.9
+-----------------------------------------------------------------
+APP="topgrade"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="topgrade-rs/topgrade"
+link=https://github.com/topgrade-rs/topgrade/releases/download/v16.0.2/topgrade-v16.0.2-x86_64-unknown-linux-gnu.tar.gz
+size=17 MB
+version=16.0.2
+-----------------------------------------------------------------
+APP="tor-browser"
+APPIMAGE='no'
+GITHUB='no'
+link=https://dist.torproject.org/torbrowser/14.0.9/tor-browser-linux-x86_64-14.0.9.tar.xz
+size=294 MB
+version=14.0.9
+-----------------------------------------------------------------
+APP="tor-browser-alpha"
+APPIMAGE='no'
+GITHUB='no'
+link=https://dist.torproject.org/torbrowser/14.5a5/tor-browser-linux-x86_64-14.5a5.tar.xz
+size=311 MB
+version=14.5a5
+-----------------------------------------------------------------
+APP="torcs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Torcs-appimage"
+link=https://github.com/ivan-hc/Torcs-appimage/releases/download/continuous/TORCS_1.3.7-6-archimage3.4-x86_64.AppImage
+size=447 MB
+version=1.3.7
+-----------------------------------------------------------------
+APP="torrenttools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fbdtemme/torrenttools"
+link=https://github.com/fbdtemme/torrenttools/releases/download/v0.6.2/torrenttools-0.6.2-linux-x86_64.AppImage
+size=34 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="toru"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sweetbbak/toru"
+link=https://github.com/sweetbbak/toru/releases/download/v0.3.3/toru_Linux_x86_64.tar.gz
+size=6 MB
+version=0.3.3
+-----------------------------------------------------------------
+APP="torzu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Torzu-AppImage"
+link=https://github.com/pkgforge-dev/Torzu-AppImage/releases/download/20250330-152425/Torzu-r27206.eaa9c9e3a-anylinux-x86_64_v3.AppImage
+size=126 MB
+version=r27206.eaa9c9e3a
+-----------------------------------------------------------------
+APP="toughcookies"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.toughcookies.net"
+link=https://downloads.toughcookies.net/v0.45.0/Tough-Cookies-0.45.0.AppImage
+size=96 MB
+version=0.45.0
+-----------------------------------------------------------------
+APP="trackaudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pierr3/TrackAudio"
+link=https://github.com/pierr3/TrackAudio/releases/download/1.3.1/trackaudio-1.3.1-x86_64.AppImage
+size=121 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="trader"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ftp.zap.org.au"
+link=https://ftp.zap.org.au/pub/trader/unix/binary/appimage/trader-7.20-x86_64.AppImage
+size=2 MB
+version=7.20
+-----------------------------------------------------------------
+APP="trans"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="soimort/translate-shell"
+link=https://www.soimort.org/translate-shell/trans
+size=1 MB
+version=0.9.7.1
+-----------------------------------------------------------------
+APP="transfernow"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.transfernow.net"
+link=https://get.transfernow.net/linux
+size=105 MB
+version=2025.01.31
+-----------------------------------------------------------------
+APP="translatium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="atomery/translatium"
+link=https://github.com/webcatalog/translatium-legacy/releases/download/v20.4.0/Translatium-20.4.0.AppImage
+size=100 MB
+version=20.4.0
+-----------------------------------------------------------------
+APP="transmission-gtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Transmission-gtk-appimage"
+link=https://github.com/ivan-hc/Transmission-gtk-appimage/releases/download/continuous/Transmission_4.0.6-9-archimage4.3-x86_64.AppImage
+size=55 MB
+version=4.0.6
+-----------------------------------------------------------------
+APP="transmissionic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="6c65726f79/Transmissionic"
+link=https://github.com/6c65726f79/Transmissionic/releases/download/v1.8.0/Transmissionic-linux-x86_64-v1.8.0.AppImage
+size=98 MB
+version=1.8.0
+-----------------------------------------------------------------
+APP="trezor-suite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trezor/trezor-suite"
+link=https://github.com/trezor/trezor-suite/releases/download/v25.2.2/Trezor-Suite-25.2.2-linux-x86_64.AppImage
+size=171 MB
+version=25.2.2
+-----------------------------------------------------------------
+APP="trgui-ng"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openscopeproject/TrguiNG"
+link=https://github.com/openscopeproject/TrguiNG/releases/download/v1.4.0/trgui-ng_1.4.0_amd64.AppImage
+size=87 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="triagem-touch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="novosga/triagem-touch"
+link=https://github.com/novosga/triage-app/releases/download/v2.0.1/triagem-touch-2.0.1-x86_64.AppImage
+size=49 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="trilium"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zadam/trilium"
+link=https://github.com/zadam/trilium/releases/download/v0.63.7/trilium-linux-x64-0.63.7.tar.xz
+size=425 MB
+version=0.63.7
+-----------------------------------------------------------------
+APP="trinity-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iotaledger/trinity-wallet"
+link=https://github.com/iotaledger/trinity-wallet/releases/download/desktop-1.6.2/trinity-desktop-1.6.2.AppImage
+size=104 MB
+version=1.6.2
+-----------------------------------------------------------------
+APP="tropy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tropy/tropy"
+link=https://github.com/tropy/tropy/releases/download/v1.16.3-beta.2/Tropy-1.16.3-beta.2-x86_64.AppImage
+size=115 MB
+version=1.16.3
+-----------------------------------------------------------------
+APP="tssh"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="trzsz/trzsz-ssh"
+link=https://github.com/trzsz/trzsz-ssh/releases/download/v0.1.22/tssh_0.1.22_linux_aarch64.tar.gz
+size=12 MB
+version=0.1.22
+-----------------------------------------------------------------
+APP="tt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pm98zz-c/tT"
+link=https://github.com/pm98zz-c/tT/releases/download/1.2.0/tt-1.2.0.AppImage
+size=68 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="tts-now"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="funnyzak/tts-now"
+link=https://github.com/funnyzak/tts-now/releases/download/1.0.6/tts-now-ubuntu-latest-1.0.6-33ac5a4.AppImage
+size=133 MB
+version=1.0.6
+-----------------------------------------------------------------
+APP="ttth"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yafp/ttth"
+link=https://github.com/yafp/ttth/releases/download/1.8.20210416/ttth-1.8.20210416-linux-x86_64.AppImage
+size=90 MB
+version=1.8.20210416
+-----------------------------------------------------------------
+APP="ttyper"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="max-niederman/ttyper"
+link=https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-unknown-linux-musl.tar.gz
+size=3 MB
+version=aarch64
+-----------------------------------------------------------------
+APP="tulip"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/auber"
+-----------------------------------------------------------------
+APP="tumblr-downloader-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neuro-sys/tumblr-likes-downloader"
+link=https://github.com/neuro-sys/tumblr-likes-downloader/releases/download/0.0.6/Tumblr_Downloader_GUI-x86_64.AppImage
+size=28 MB
+version=0.0.6
+-----------------------------------------------------------------
+APP="tumblr-scraper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lluisrojass/tumblr-scraper"
+link=https://github.com/lluisrojass/tumblr-scraper/releases/download/v1.2/tumblr-scraper-1.2.0-x86_64.AppImage
+size=44 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="tunepack"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tunepack/tunepack-desktop"
+link=https://github.com/tunepack/tunepack-desktop/releases/download/v1.2.1/tunepack-desktop-1.2.1-x86_64.AppImage
+size=78 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="turbowarp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TurboWarp/desktop"
+link=https://github.com/TurboWarp/desktop/releases/download/v1.14.0/TurboWarp-linux-x86_64-1.14.0.AppImage
+size=158 MB
+version=1.14.0
+-----------------------------------------------------------------
+APP="tusk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="klauscfhq/tusk"
+link=https://github.com/klaudiosinani/tusk/releases/download/v0.23.0/tusk-0.23.0-x86_64.AppImage
+size=76 MB
+version=0.23.0
+-----------------------------------------------------------------
+APP="tutanota"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mail.tutanota.com"
+link=https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
+size=153 MB
+version=275.250326.0
+-----------------------------------------------------------------
+APP="tuxplorer"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Pand3ru/Tuxplorer"
+link=https://github.com/Pand3ru/Tuxplorer/releases/download/v1.0.2/tuxplorer
+size=1 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="twake"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="linagora/Twake-Desktop"
+link=https://github.com/linagora/Twake-Desktop/releases/download/v1.3.3/Setup_Twake_lastest.AppImage
+size=79 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="tweaksophia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GeovaneSchmitz/tweakSophia"
+link=https://github.com/GeovaneSchmitz/tweakSophia/releases/download/v1.0.7-beta/TweakSophia.Linux.1.0.7.AppImage
+size=73 MB
+version=1.0.7
+-----------------------------------------------------------------
+APP="tweet-tray"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jonathontoon/tweet-tray"
+link=https://github.com/jonathontoon/tweet-tray/releases/download/v1.1.5/tweet-tray-1.1.5.AppImage
+size=47 MB
+version=1.1.5
+-----------------------------------------------------------------
+APP="twetter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NiewidzialnyCzlowiek/pubsub-webapp"
+link=https://github.com/NiewidzialnyCzlowiek/Twetter/releases/download/2.1.0/Twetter.64bit.2.1.0.AppImage
+size=48 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="twitch-wrapper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simoniz0r/twitch-wrapper"
+link=https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage
+size=61 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="typioca"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bloznelis/typioca"
+link=https://github.com/bloznelis/typioca/releases/download/3.1.0/typioca-linux-amd64
+size=9 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="tzared"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tza.red"
+link=https://cdn.tza.red/tzared.linux.AppImage
+size=74 MB
+version=2024.04.26
+-----------------------------------------------------------------
+APP="uad-ng"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+link=https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/download/v1.0.3/uad-ng-noselfupdate-linux.zip
+size=22 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="ubiquity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="opensourcecheemsburgers/ubiquity"
+link=https://github.com/opensourcecheemsburgers/ubiquity/releases/download/v0.4.0/ubiquity_0.4.0_amd64.AppImage
+size=119 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="ubports-installer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ubports/ubports-installer"
+link=https://github.com/ubports/ubports-installer/releases/download/0.10.0/ubports-installer_0.10.0_linux_x86_64.AppImage
+size=119 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="uhk.agent"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="UltimateHackingKeyboard/agent"
+link=https://github.com/UltimateHackingKeyboard/agent/releases/download/v6.0.0/UHK.Agent-6.0.0-linux-x86_64.AppImage
+size=117 MB
+version=6.0.0
+-----------------------------------------------------------------
+APP="uivonim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smolck/uivonim"
+link=https://github.com/smolck/uivonim/releases/download/v0.29.0/uivonim-0.29.0.AppImage
+size=99 MB
+version=0.29.0
+-----------------------------------------------------------------
+APP="ultimmc"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="UltimMC/Launcher"
+link=https://nightly.link/UltimMC/Launcher/workflows/main/develop/mmc-cracked-lin64.zip
+size=9 MB
+version=c95dfe8
+-----------------------------------------------------------------
+APP="ultragrid"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CESNET/UltraGrid"
+link=https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage
+size=147 MB
+version=2025.04.01
+-----------------------------------------------------------------
+APP="ultrascreen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="w3yden/ultrascreen"
+link=https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen-1.0.0.AppImage
+size=82 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="ums"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="UniversalMediaServer/UniversalMediaServer"
+link=https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/14.11.0/UMS-Linux-14.11.0-x86_64.AppImage
+size=149 MB
+version=14.11.0
+-----------------------------------------------------------------
+APP="uncov"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xaizek/uncov"
+link=https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage
+size=18 MB
+version=0.5
+-----------------------------------------------------------------
+APP="unetbootin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="unetbootin/unetbootin"
+link=https://github.com/unetbootin/unetbootin/releases/download/702/unetbootin-linux64-702.bin
+size=6 MB
+version=702.bin
+-----------------------------------------------------------------
+APP="ungoogled-chromium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ungoogled-software/ungoogled-chromium-portablelinux"
+link=https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/134.0.6998.165-1/ungoogled-chromium_134.0.6998.165-1.AppImage
+size=177 MB
+version=134.0.6998.165
+-----------------------------------------------------------------
+APP="unishellect"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/unishellectv2"
+link=https://github.com/Lateralus138/unishellectv2/releases/download/2.0.1661201987/UniShellect-x86_64.AppImage
+size=1 MB
+version=2.0.1661201987
+-----------------------------------------------------------------
+APP="unoffical-flomo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V3.1.1/Flomo_x86_64.AppImage
+size=88 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="unoffical-microsoft-loop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V2.0.0/Loop_x86_64.AppImage
+size=74 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="unoffical-qwerty-learner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V3.1.1/Qwerty_x86_64.AppImage
+size=88 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="unoffical-sonos-controller"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pascalopitz/unoffical-sonos-controller-for-linux"
+link=https://github.com/pascalopitz/unoffical-sonos-controller-for-linux/releases/download/v0.4.0-rc1/sonos-controller-unofficial-0.4.0-rc1.AppImage
+size=109 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="unoffical-weread"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V3.1.1/WeRead_x86_64.AppImage
+size=87 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="unoffical-xiaohongshu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V3.1.1/XiaoHongShu_x86_64.AppImage
+size=88 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="unoffical-yuque"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link=https://github.com/tw93/Pake/releases/download/V2.0.0/YuQue_x86_64.AppImage
+size=74 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="unofficial-homestuck-collection"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GiovanH/unofficial-homestuck-collection"
+link=https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.5.6/The-Unofficial-Homestuck-Collection-2.5.6.AppImage
+size=127 MB
+version=2.5.6
+-----------------------------------------------------------------
+APP="unofficial-zalo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SafeStudio/unofficial-zalo"
+link=https://github.com/safestudio/unofficial-zalo/releases/download/v1.0.3/unofficial-zalo-1.0.3-x86_64.AppImage
+size=46 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="unreel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="linux-man/unreel"
+link=https://github.com/linux-man/unreel/releases/download/v1.4.0/unreel-1.4.0-x86_64.AppImage
+size=63 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="unveil"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="oknozor/unveil-rs"
+link=https://github.com/oknozor/unveil-rs/releases/download/0.1.2-alpha1/unveil-0.1.2-alpha1-x86_64-unknown-linux-gnu.tar.gz
+size=10 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="unyo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="K3vinb5/Unyo"
+link=https://github.com/K3vinb5/Unyo/releases/download/v0.6.7/Unyo-v0.6.7-linux.AppImage
+size=43 MB
+version=0.6.7
+-----------------------------------------------------------------
+APP="updatedeployqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheFutureShell/updatedeployqt"
+link=https://github.com/antony-jr/updatedeployqt/releases/download/continuous/updatedeployqt-continuous-x86_64.AppImage
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="upgit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pluveto/upgit"
+link=https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_cgo_linux_amd64
+size=12 MB
+version=0.2.25
+-----------------------------------------------------------------
+APP="upnote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://getupnote.com"
+link=https://download.getupnote.com/app/UpNote.AppImage
+size=114 MB
+version=2025.03.22
+-----------------------------------------------------------------
+APP="upnotes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="upnotes-io/upnotes-website"
+link=https://github.com/upnotes-io/upnotes-website/releases/download/v2.5.2-beta/Upnotes-2.5.2-beta.AppImage
+size=94 MB
+version=2.5.2
+-----------------------------------------------------------------
+APP="upscayl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="upscayl/upscayl"
+link=https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage
+size=299 MB
+version=2.15.0
+-----------------------------------------------------------------
+APP="urbanterror"
+APPIMAGE='no'
+GITHUB='no'
+SITE="http://www.urbanterror.info"
+link=http://cdn.urbanterror.info/urt/43/releases/zips/UrbanTerror434_full.zip
+size=1420 MB
+version=4.3.4
+-----------------------------------------------------------------
+APP="utilso"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://utilso.com"
+link=https://cdn.utilso.com/Utilso-4.4.0.AppImage
+size=126 MB
+version=4.4.0
+-----------------------------------------------------------------
+APP="uv"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="astral-sh/uv"
+link=https://github.com/astral-sh/uv/releases/download/0.6.11/uv-x86_64-unknown-linux-musl.tar.gz
+size=40 MB
+version=0.6.11
+-----------------------------------------------------------------
+APP="uwufetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ad-oliviero/uwufetch"
+link=https://github.com/ad-oliviero/uwufetch/releases/download/2.1/uwufetch_2.1-linux.tar.gz
+size=3 MB
+version=2.1
+-----------------------------------------------------------------
+APP="uyou"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tonylu110/uyou-todo-electron"
+link=https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.0/uyou.ToDo-3.1.0.AppImage
+size=105 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="v2ray-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dr-Incognito/V2Ray-Desktop"
+link=https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.4.0/V2Ray-Desktop-v2.4.0-linux-x86_64.AppImage
+size=43 MB
+version=V2Ray
+-----------------------------------------------------------------
+APP="valentina"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://smart-pattern.com.ua"
+link=https://bitbucket.org/valentinaproject/valentinaproject.bitbucket.io/downloads/valentina_0.7.53_x86_64.AppImage
+size=103 MB
+version=0.7.53
+-----------------------------------------------------------------
+APP="valeronoi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ccoors/Valeronoi"
+link=https://github.com/ccoors/Valeronoi/releases/download/v0.2.2/Valeronoi-current-x86_64.AppImage
+size=33 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="vcloudcam"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quocson95/vCloudcam"
+link=https://github.com/quocson95/vCloudcam/releases/download/v5.6.4/default.AppImage
+size=125 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="vechain"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vechain/thor-sync.electron"
+link=https://github.com/vechain/thor-sync.electron/releases/download/v1.3.2/Sync-linux-x86_64-1.3.2.AppImage
+size=56 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="vegeta"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tsenart/vegeta"
+link=https://github.com/tsenart/vegeta/releases/download/v12.12.0/vegeta_12.12.0_linux_amd64.tar.gz
+size=11 MB
+version=12.12.0
+-----------------------------------------------------------------
+APP="ventoy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ventoy/Ventoy"
+link=https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-linux.tar.gz
+size=24 MB
+version=1.1.05
+-----------------------------------------------------------------
+APP="verto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Volentix/verto"
+link=https://github.com/Volentix/verto/releases/download/v0.9.1/verto-linux-0.9.1.AppImage
+size=99 MB
+version=0.9.1
+-----------------------------------------------------------------
+APP="vesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Vencord/Vesktop"
+link=https://github.com/Vencord/Vesktop/releases/download/v1.5.5/Vesktop-1.5.5.AppImage
+size=106 MB
+version=1.5.5
+-----------------------------------------------------------------
+APP="vgmtrans"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vgmtrans/vgmtrans"
+link=https://github.com/vgmtrans/vgmtrans/releases/download/v1.1/vgmtrans-preview-v1.1.AppImage
+size=28 MB
+version=1.1
+-----------------------------------------------------------------
+APP="vhc-viewer-wayland"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vulkan.gpuinfo.org"
+link=https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64_wayland.AppImage
+size=27 MB
+version=4.00
+-----------------------------------------------------------------
+APP="vhc-viewer-x11"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vulkan.gpuinfo.org"
+link=https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64.AppImage
+size=27 MB
+version=4.00
+-----------------------------------------------------------------
+APP="vhs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/vhs"
+link=https://github.com/charmbracelet/vhs/releases/download/v0.9.0/vhs_0.9.0_Linux_x86_64.tar.gz
+size=22 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="via"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="the-via/releases"
+link=https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-linux.AppImage
+size=93 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="vial"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vial-kb/vial-gui"
+link=https://github.com/vial-kb/vial-gui/releases/download/v0.7.3/Vial-v0.7.3-x86_64.AppImage
+size=42 MB
+version=0.7.3
+-----------------------------------------------------------------
+APP="viber"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.viber.com"
+link=https://download.cdn.viber.com/desktop/Linux/viber.AppImage
+size=249 MB
+version=24.7.0
+-----------------------------------------------------------------
+APP="vidcutter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ozmartian/vidcutter"
+link=https://github.com/ozmartian/vidcutter/releases/download/6.0.5.1/VidCutter-6.0.5.1-x86_64.AppImage
+size=152 MB
+version=6.0.5.1
+-----------------------------------------------------------------
+APP="viddy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sachaos/viddy"
+link=https://github.com/sachaos/viddy/releases/download/v1.3.0/viddy-v1.3.0-linux-x86_64.tar.gz
+size=9 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="video-hub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="whyboris/Video-Hub-App"
+link=https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage
+size=169 MB
+version=Video.Hub.App.3.Demo
+-----------------------------------------------------------------
+APP="videomass"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeanslack/Videomass"
+link=https://github.com/jeanslack/Videomass/releases/download/v5.0.2/Videomass-5.0.2-x86_64.AppImage
+size=188 MB
+version=5.0.2
+-----------------------------------------------------------------
+APP="vieb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jelmerro/Vieb"
+link=https://github.com/Jelmerro/Vieb/releases/download/12.2.0/Vieb-12.2.0.AppImage
+size=106 MB
+version=12.2.0
+-----------------------------------------------------------------
+APP="vifm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vifm/vifm"
+link=https://github.com/vifm/vifm/releases/download/v0.14/vifm-v0.14-x86_64.AppImage
+size=2 MB
+version=0.14
+-----------------------------------------------------------------
+APP="vigad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VisualGameData/VIGAD"
+link=https://github.com/VisualGameData/VIGAD/releases/download/v1.0.0/Vigad-1.0.0.AppImage
+size=128 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="vikunja"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vikunja.io"
+-----------------------------------------------------------------
+APP="vimeo-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="akiomik/vimeo-dl"
+link=https://github.com/akiomik/vimeo-dl/releases/download/v0.2.0/vimeo-dl_0.2.0_linux_amd64.tar.gz
+size=7 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="viper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="0neGal/viper"
+link=https://github.com/0neGal/viper/releases/download/v1.12.1/Viper-1.12.1.AppImage
+size=108 MB
+version=1.12.1
+-----------------------------------------------------------------
+APP="viper-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LeFroid/Viper-Browser"
+link=https://github.com/LeFroid/Viper-Browser/releases/download/continuous/Viper_Browser-1-x86_64.AppImage
+size=129 MB
+version=1
+-----------------------------------------------------------------
+APP="vipster"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sgsaenger/vipster"
+link=https://github.com/sgsaenger/vipster/releases/download/v1.19.1b/Vipster-Linux-x86_64.AppImage
+size=91 MB
+version=1.19.1
+-----------------------------------------------------------------
+APP="vircadia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vircadia/vircadia-native-core"
+link=https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage
+size=726 MB
+version=2022.1.1
+-----------------------------------------------------------------
+APP="virtscreen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kbumsik/VirtScreen"
+link=https://github.com/kbumsik/VirtScreen/releases/download/0.3.1/VirtScreen.AppImage
+size=176 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="virtualbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/VirtualBox-appimage"
+link=https://github.com/ivan-hc/VirtualBox-appimage/releases/download/20250331-015611/VirtualBox-KVM_7.1.6-archimage4.3-x86_64.AppImage
+size=203 MB
+version=7.1.6
+-----------------------------------------------------------------
+APP="visipics"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/visipics/VisiPics-1.3-x86_64.AppImage
+size=210 MB
+version=1.3
+-----------------------------------------------------------------
+APP="visual-define-xml-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="defineEditor/editor"
+link=https://github.com/defineEditor/editor/releases/download/v1.1.16-current/DefineEditor.1.1.16-current.AppImage
+size=86 MB
+version=DefineEditor.1.1.16
+-----------------------------------------------------------------
+APP="visualfamilytree"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jisco/VisualFamilyTree"
+link=https://github.com/Jisco/VisualFamilyTree/releases/download/v1.4.0/VisualFamilyTree.1.4.0.AppImage
+size=130 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="vita3k"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Vita3K/Vita3K"
+link=https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage
+size=16 MB
+version=2025.04.02
+-----------------------------------------------------------------
+APP="vitomu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="digimezzo/vitomu"
+link=https://github.com/digimezzo/vitomu/releases/download/v2.1.0/Vitomu-2.1.0.AppImage
+size=96 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="viu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="atanunq/viu"
+link=https://github.com/atanunq/viu/releases/download/v1.5.1/viu-x86_64-unknown-linux-musl
+size=5 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="vivaldi-snapshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+link=https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.4.3648.3-1-x86_64.AppImage
+size=156 MB
+version=7.4.3648.3
+-----------------------------------------------------------------
+APP="vivaldi-stable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+link=https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.3.3635.4-1-x86_64.AppImage
+size=156 MB
+version=7.3.3635.4
+-----------------------------------------------------------------
+APP="vivifyscrum"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Vivify-Ideas/vivifyscrum2-electron"
+link=https://github.com/Vivify-Ideas/vivifyscrum2-electron/releases/download/linux-x64-prod-2.4.29/VivifyScrum-2.4.29.AppImage
+size=96 MB
+version=2.4.29
+-----------------------------------------------------------------
+APP="vizgraph"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jcf94/vizgraph"
+link=https://github.com/jcf94/vizgraph/releases/download/v0.0.8/vizgraph-0.0.8-x86_64.AppImage
+size=84 MB
+version=0.0.8
+-----------------------------------------------------------------
+APP="vk-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="danyadev/vk-desktop"
+link=https://github.com/danyadev/vk-desktop/releases/download/0.0.5/VK.Desktop.0.0.5-Linux-x64.appimage
+size=79 MB
+version=VK.Desktop.0.0.5
+-----------------------------------------------------------------
+APP="vk-music-fs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vodka2/vk-music-fs"
+link=https://github.com/vodka2/vk-music-fs/releases/download/1.3.2/vk_music_fs-x86_64.AppImage
+size=4 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="vlc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/VLC-appimage"
+link=https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-16-archimage4.3-x86_64.AppImage
+size=139 MB
+version=3.0.21
+-----------------------------------------------------------------
+APP="vlc+"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/VLC-appimage"
+link=https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-with-plugins/VLC-media-player_3.0.21-16-jre8-with-plugins-archimage4.3-x86_64.AppImage
+size=144 MB
+version=3.0.21
+-----------------------------------------------------------------
+APP="vlc-git"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/VLC-appimage"
+link=https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r33545.g21b98cf-1-archimage3.5-x86_64.AppImage
+size=224 MB
+version=4.0.0.r33545.g21b98cf
+-----------------------------------------------------------------
+APP="vnote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tamlok/vnote"
+link=https://github.com/vnotex/vnote/releases/download/continuous-build/VNote-3.18.2-linux-x64.AppImage
+size=216 MB
+version=3.18.2
+-----------------------------------------------------------------
+APP="vocabsieve"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeLanguageTools/vocabsieve"
+link=https://github.com/FreeLanguageTools/vocabsieve/releases/download/v0.12.4/VocabSieve-v0.12.4-linux-amd64.AppImage
+size=202 MB
+version=0.12.4
+-----------------------------------------------------------------
+APP="voicevox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VOICEVOX/voicevox"
+link=https://github.com/VOICEVOX/voicevox/releases/download/0.24.0-dev/VOICEVOX.AppImage.7z.001
+size=2792 MB
+version=0.24.0
+-----------------------------------------------------------------
+APP="volaris"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="volar-is/volaris-gui"
+link=https://github.com/volar-is/volaris-gui/releases/download/app-v0.6.0/Volaris_0.6.0_amd64.AppImage
+size=82 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="vpaint"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dalboris/vpaint"
+link=https://github.com/dalboris/vpaint/releases/download/v1.7/VPaint-1.7-x86_64.AppImage
+size=30 MB
+version=1.7
+-----------------------------------------------------------------
+APP="vrest-ng"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Optimizory/vrest-ng"
+link=https://github.com/Optimizory/vrest-ng/releases/download/v3.3.0/vrest-ng-enterprise-linux-3.3.0.AppImage
+size=154 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="vrew"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vrew.ai"
+link=https://vrew-files.voyagerx.com/Vrew-2.12.2-x86_64.AppImage
+size=220 MB
+version=2.12.2
+-----------------------------------------------------------------
+APP="vscodium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VSCodium/vscodium"
+link=https://github.com/VSCodium/vscodium/releases/download/1.98.2.25078/VSCodium-1.98.2.25078.glibc2.29-x86_64.AppImage
+size=135 MB
+version=1.98.2.25078.glibc2.29
+-----------------------------------------------------------------
+APP="vt"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="VirusTotal/vt-cli"
+link=https://github.com/VirusTotal/vt-cli/releases/download/1.0.1/Linux64.zip
+size=14 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="vtm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="directvt/vtm"
+link=https://github.com/directvt/vtm/releases/download/v0.9.99.70/vtm_linux_x86_64.zip
+size=7 MB
+version=0.9.99.70
+-----------------------------------------------------------------
+APP="vue-calc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="el3um4s/vue-calc"
+link=https://github.com/el3um4s/vue-calc/releases/download/v0.18.04.15/vue-calc-x86_64.AppImage
+size=55 MB
+version=0.18.04.15
+-----------------------------------------------------------------
+APP="vuerd"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vuerd/vuerd-electron"
+link=https://github.com/dineug/vuerd-electron/releases/download/v1.0.2/vuerd_1.0.2.AppImage
+size=51 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="vup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vup-app/vup"
+link=https://github.com/vup-app/vup/releases/download/v0.15.0/Vup-0.15.0-BETA-Linux.AppImage
+size=17 MB
+version=0.15.0
+-----------------------------------------------------------------
+APP="vvave-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+link=https://download.kde.org/stable/maui/vvave/3.1.0/vvave-stable-v3.1.0-git+8147565-amd64.AppImage
+size=70 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="w2vgrep"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="arunsupe/semantic-grep"
+link=https://github.com/arunsupe/semantic-grep/releases/download/v0.7.0/w2vgrep.linux.amd64
+size=4 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="walc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cstayyab/WALC"
+link=https://github.com/WAClient/WALC/releases/download/v0.3.3/WALC-0.3.3.AppImage
+size=103 MB
+version=0.3.3
+-----------------------------------------------------------------
+APP="walk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="antonmedv/walk"
+link=https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_linux_amd64
+size=12 MB
+version=1.13.0
+-----------------------------------------------------------------
+APP="wallettech"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bytechcoin/bytech-wallet-electron"
+link=https://github.com/bytechcoin/bytech-wallet-electron/releases/download/v0.3.6/WalletTech-v0.3.6-linux.AppImage
+size=79 MB
+version=0.3.6
+-----------------------------------------------------------------
+APP="warp-terminal"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.warp.dev"
+link=https://app.warp.dev/download?package=appimage
+size=51 MB
+version=0.2025.03.26.08.10.stable
+-----------------------------------------------------------------
+APP="wasistlos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xeco23/WasIstLos"
+link=https://github.com/xeco23/WasIstLos/releases/download/v1.7.0/wasistlos-1.7.0-x86_64.AppImage
+size=240 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="watched"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mediaurl/mediaurl-js"
+link=https://www.watched.com/update/download?app=com.watched.play&platform=linux&arch=x64
+size=97 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="watchflower"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="emericg/WatchFlower"
+link=https://github.com/emericg/WatchFlower/releases/download/v5.4/WatchFlower-5.4-linux64.AppImage
+size=53 MB
+version=5.4
+-----------------------------------------------------------------
