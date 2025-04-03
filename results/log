@@ -10645,3 +10645,1776 @@ link=https://github.com/unruhschuh/MrWriter/releases/download/v0.0.7/MrWriter-0.
 size=30 MB
 version=0.0.7
 -----------------------------------------------------------------
+APP="ms-365-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="agam778/MS-365-Electron"
+link=https://github.com/agam778/MS-365-Electron/releases/download/v2.0.0/MS-365-Electron-v2.0.0-linux-x86_64.AppImage
+size=118 MB
+version=365
+-----------------------------------------------------------------
+APP="mtcelledit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.marktyler.org"
+link=not
+size=22 MB
+version=3.8
+-----------------------------------------------------------------
+APP="mudita-center"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mudita/mudita-center"
+link=https://github.com/mudita/mudita-center/releases/download/3.0.1/Mudita-Center.AppImage
+size=103 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="mudlet"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mudlet.org"
+link=https://www.mudlet.org/wp-content/files/Mudlet-4.19.1-linux-x64.AppImage.tar
+size=77 MB
+version=4.19.1
+-----------------------------------------------------------------
+APP="muffon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="staniel359/muffon"
+link=https://github.com/staniel359/muffon/releases/download/v2.1.0/muffon-2.1.0-linux-x86_64.AppImage
+size=97 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="mullvad-browser"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mullvad/mullvad-browser"
+link=https://github.com/mullvad/mullvad-browser/releases/download/14.0.9/mullvad-browser-linux-x86_64-14.0.9.tar.xz
+size=239 MB
+version=14.0.9
+-----------------------------------------------------------------
+APP="multimc"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://multimc.org/#Download"
+link=https://files.multimc.org/downloads/mmc-develop-lin64.tar.gz
+size=9 MB
+version=unknown
+-----------------------------------------------------------------
+APP="munt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muntorg/munt-official"
+link=https://github.com/muntorg/munt-official/releases/download/v3.0.7/Munt-3.0.7-x64.AppImage
+size=108 MB
+version=3.0.7
+-----------------------------------------------------------------
+APP="mupdf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="m59peacemaker/mupdf-appimage"
+link=https://github.com/m59peacemaker/mupdf-appimage/releases/download/1.18.0/MuPDF-1.18.0-x86_64.AppImage
+size=31 MB
+version=1.18.0
+-----------------------------------------------------------------
+APP="muse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muse-sequencer/muse"
+link=https://github.com/muse-sequencer/muse/releases/download/latest/MusE-master-x86_64.AppImage
+size=56 MB
+version=2025.02.20
+-----------------------------------------------------------------
+APP="museeks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KeitIG/museeks"
+link=https://github.com/martpie/museeks/releases/download/0.20.9/Museeks_0.20.9_amd64.AppImage
+size=95 MB
+version=0.20.9
+-----------------------------------------------------------------
+APP="musescore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="musescore/MuseScore"
+link=https://github.com/musescore/MuseScore/releases/download/v4.5.1/MuseScore-Studio-4.5.1.250800846-x86_64.AppImage
+size=170 MB
+version=4.5.1.250800846
+-----------------------------------------------------------------
+APP="music-assistant-companion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="music-assistant/companion"
+link=https://github.com/music-assistant/tauri-companion-app/releases/download/v0.0.85/Music.Assistant.Companion_0.0.85_amd64.AppImage
+size=238 MB
+version=0.0.85
+-----------------------------------------------------------------
+APP="music-blocks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sugarlabs/musicblocks-launcher"
+link=https://github.com/sugarlabs/musicblocks-launcher/releases/download/continuous/MusicBlocks-3.5.1-x86_64.AppImage
+size=132 MB
+version=3.5.1
+-----------------------------------------------------------------
+APP="music-kitten"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CorySanin/Kitten-for-CSGO"
+link=https://github.com/CorySanin/Kitten-for-CSGO/releases/download/v2.5.0/Music.Kitten-2.5.1.AppImage
+size=56 MB
+version=2.5.0
+-----------------------------------------------------------------
+APP="music-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LucasHazardous/music-player"
+link=https://github.com/LucasHazardous/music-player/releases/download/v2.12.5/music-player-2.12.5.AppImage
+size=96 MB
+version=2.12.5
+-----------------------------------------------------------------
+APP="music-quiz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MusicQuizCPP/Music-Quiz_CPP"
+link=https://github.com/MusicQuizCPP/Music-Quiz_CPP/releases/download/221/MusicQuizGUI.AppImage
+size=99 MB
+version=221
+-----------------------------------------------------------------
+APP="musicalypse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tgambet/musicalypse"
+link=https://github.com/tgambet/musicalypse/releases/download/v1.0.0/Musicalypse-1.0.0-x64.AppImage
+size=117 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mutool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="m59peacemaker/mupdf-appimage"
+link=https://github.com/m59peacemaker/mupdf-appimage/releases/download/1.18.0/MuPDF-1.18.0-x86_64.AppImage
+size=31 MB
+version=1.18.0
+-----------------------------------------------------------------
+APP="muwire"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zlatinb/muwire"
+link=https://github.com/zlatinb/muwire/releases/download/0.8.13-beta5/MuWire-0.8.13-beta5.AppImage
+size=53 MB
+version=0.8.13
+-----------------------------------------------------------------
+APP="my-budget"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="reZach/my-budget"
+link=https://github.com/reZach/my-budget/releases/download/3.4.2-beta/my-budget-3.4.2-beta-x86_64.AppImage
+size=157 MB
+version=3.4.2
+-----------------------------------------------------------------
+APP="my-jira"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dhso/my-jira"
+link=https://github.com/dhso/my-jira/releases/download/linux-x64-prod-v0.0.5/My.Jira.0.0.5.AppImage
+size=83 MB
+version=0.0.5
+-----------------------------------------------------------------
+APP="mybelka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Leinnan/mybelka"
+link=https://github.com/Leinnan/mybelka/releases/download/MyBelka-v0.1.72/MyBelka-0ec48da-x86_64.AppImage
+size=20 MB
+version=0ec48da
+-----------------------------------------------------------------
+APP="mycroft-ai"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AIIX/Mycroft-Ai-QtApplication"
+link=https://github.com/AIIX/Mycroft-Ai-QtApplication/releases/download/V1.3/Mycroft-QtApplication-x86_64.AppImage
+size=373 MB
+version=1.3
+-----------------------------------------------------------------
+APP="mycrypto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MyCryptoHQ/MyCrypto"
+link=https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-64_1.7.17_MyCrypto.AppImage
+size=72 MB
+version=1.7.17
+-----------------------------------------------------------------
+APP="mypaint"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mypaint/mypaint"
+link=https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage
+size=46 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="mystiq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="swl-x/MystiQ"
+link=https://github.com/swl-x/MystiQ/releases/download/continuous/MystiQ-master--603-x86_64.AppImage
+size=106 MB
+version=603
+-----------------------------------------------------------------
+APP="mytonwallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mytonwalletorg/mytonwallet"
+link=https://github.com/mytonwalletorg/mytonwallet/releases/download/v3.5.2/MyTonWallet-x86_64.AppImage
+size=107 MB
+version=3.5.2
+-----------------------------------------------------------------
+APP="n3h"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="holochain/n3h"
+link=https://github.com/holochain/n3h/releases/download/v0.0.20-alpha/n3h-0.0.20-alpha-linux-x64.AppImage
+size=31 MB
+version=0.0.20
+-----------------------------------------------------------------
+APP="naev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="naev/naev"
+link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B72.g7fe4bff4c8-linux-x86-64.AppImage
+size=486 MB
+version=0.13.0
+-----------------------------------------------------------------
+APP="nami"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="txthinking/nami"
+link=https://github.com/txthinking/nami/releases/download/v20240902/nami_linux_amd64
+size=9 MB
+version=20240902
+-----------------------------------------------------------------
+APP="nanosaur"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Nanosaur"
+link=https://github.com/jorio/Nanosaur/releases/download/v1.4.4/Nanosaur-1.4.4-linux-x86_64.AppImage
+size=17 MB
+version=1.4.4
+-----------------------------------------------------------------
+APP="nanosaur2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Nanosaur2"
+link=https://github.com/jorio/Nanosaur2/releases/download/v2.1.0/Nanosaur2-2.1.0-linux-x86_64.AppImage
+size=106 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="nanovault"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cronoh/nanovault"
+link=https://github.com/cronoh/nanovault/releases/download/v1.2.1/NanoVault-1.2.1-x86_64.AppImage
+size=67 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="nap"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="maaslalani/nap"
+link=https://github.com/maaslalani/nap/releases/download/v0.1.1/nap_0.1.1_linux_amd64.tar.gz
+size=7 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="naruto-arena"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://naruto-arena.app"
+link=https://arena-game.app/releases/Arena-Games_Lin64.zip
+size=88 MB
+version=Lin64.zip
+-----------------------------------------------------------------
+APP="nault-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nault/Nault"
+link=https://github.com/Nault/Nault/releases/download/v1.18.2/Nault-1.18.2-Linux.AppImage
+size=107 MB
+version=1.18.2
+-----------------------------------------------------------------
+APP="navi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="denisidoro/navi"
+link=https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz
+size=2 MB
+version=2.24.0
+-----------------------------------------------------------------
+APP="nazuna"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Sazzo/nazuna"
+link=https://github.com/Sazzo/nazuna/releases/download/1.0.3/nazuna_1.0.3_x86_64-unknown-linux-musl.tar.gz
+size=13 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="ncsa-mosaic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImage/NCSA-Mosaic-AppImage"
+link=https://github.com/AppImageCommunity/NCSA-Mosaic-AppImage/releases/download/1/NCSA_Mosaic-git.6f488cb-x86_64.AppImage
+size=4 MB
+version=git.6f488cb
+-----------------------------------------------------------------
+APP="ncspot"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="hrkfdn/ncspot"
+link=https://github.com/hrkfdn/ncspot/releases/download/v1.2.2/ncspot-v1.2.2-linux-x86_64.tar.gz
+size=21 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="neanes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neanes/neanes"
+link=https://github.com/neanes/neanes/releases/download/v0.4.80/Neanes-0.4.80.AppImage
+size=241 MB
+version=0.4.80
+-----------------------------------------------------------------
+APP="neko"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="crgimenes/neko"
+link=https://github.com/crgimenes/neko/releases/download/v0.1.33/neko-linux-amd64.gz
+size=11 MB
+version=0.1.33
+-----------------------------------------------------------------
+APP="neohtop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Abdenasser/neohtop"
+link=https://github.com/Abdenasser/neohtop/releases/download/v1.1.2/NeoHtop_1.1.2_x86_64.AppImage
+size=82 MB
+version=1.1.2
+-----------------------------------------------------------------
+APP="neon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CityOfZion/neon-wallet"
+link=https://github.com/CityOfZion/neon-wallet/releases/download/v2.25.0/Neon.2.25.0.AppImage
+size=176 MB
+version=2.25.0
+-----------------------------------------------------------------
+APP="neovide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neovide/neovide"
+link=https://github.com/neovide/neovide/releases/download/0.15.0/neovide.AppImage
+size=12 MB
+version=0.15.0
+-----------------------------------------------------------------
+APP="nepaliunicode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nirooj56/nepaliunicode"
+link=https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/NepaliUnicode.AppImage
+size=49 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="nerdfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ThatOneCalculator/NerdFetch"
+link=https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
+size=1 MB
+version=8.3.1
+-----------------------------------------------------------------
+APP="nerimity-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nerimity/nerimity-desktop"
+link=https://github.com/Nerimity/nerimity-desktop/releases/download/v1.5.2/Nerimity-1.5.2.AppImage
+size=114 MB
+version=1.5.2
+-----------------------------------------------------------------
+APP="nest-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nest-desktop/nest-desktop-AppImage"
+link=https://github.com/nest-desktop/nest-desktop-AppImage/releases/download/v4.0.5/nest-desktop-4.0.5.AppImage
+size=153 MB
+version=4.0.5
+-----------------------------------------------------------------
+APP="netbeans"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="codelerity/netbeans-installers"
+link=https://github.com/codelerity/netbeans-installers/releases/download/v25-build1/Apache_NetBeans-25-x86_64.AppImage
+size=702 MB
+version=25
+-----------------------------------------------------------------
+APP="netpad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tareqimbasher/NetPad"
+link=https://github.com/tareqimbasher/NetPad/releases/download/v0.8.0/netpad-0.8.0-linux-x86_64.AppImage
+size=137 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="netpanzer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="netpanzer/netpanzer"
+link=https://github.com/netpanzer/netpanzer/releases/download/v0.9.0/NetPanzer-0.9.0-linux-x86_64.AppImage
+size=45 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="newlogic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ericm/newlogic"
+link=https://github.com/ericm/newlogic/releases/download/v0.1.5-beta/newlogic-0.1.5-beta-x86_64.AppImage
+size=49 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="newton-adventure"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://play.devnewton.fr"
+link=https://codeberg.org/api/packages/devnewton/generic/newton_adventure/1.18/Newton_Adventure-x86_64.AppImage
+size=110 MB
+version=1.18
+-----------------------------------------------------------------
+APP="nextcloud"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nextcloud-releases/desktop"
+link=https://github.com/nextcloud-releases/desktop/releases/download/v3.16.2/Nextcloud-3.16.2-x86_64.AppImage
+size=199 MB
+version=3.16.2
+-----------------------------------------------------------------
+APP="nextplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sudormroot/nextplayer-project"
+link=https://github.com/sudormroot/nextplayer-project/releases/download/nextplayer-bin.linux.1.7.6-1.amd64/nextplayer-bin.linux.1.7.6-1.amd64.AppImage
+size=46 MB
+version=bin.linux.1.7.6
+-----------------------------------------------------------------
+APP="nexus-mods"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nexus-Mods/NexusMods.App"
+link=https://github.com/Nexus-Mods/NexusMods.App/releases/download/v0.8.3/NexusMods.App.x86_64.AppImage
+size=131 MB
+version=0.8.3
+-----------------------------------------------------------------
+APP="nexus-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nexusoft/NexusInterface"
+link=https://github.com/Nexusoft/NexusInterface/releases/download/v3.1.5/nexus_wallet-Linux-3.1.5.AppImage
+size=128 MB
+version=3.1.5
+-----------------------------------------------------------------
+APP="nfctools"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wakdev.com"
+link=https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage
+size=71 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="ngpost"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mbruel/ngPost"
+link=https://github.com/mbruel/ngPost/releases/download/v4.16/ngPost_v4.16-x86_64_debian8.AppImage
+size=34 MB
+version=4.16
+-----------------------------------------------------------------
+APP="ngrev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgechev/ngrev"
+link=https://github.com/mgechev/ngrev/releases/download/v0.0.35/ngrev-0.0.35.AppImage
+size=115 MB
+version=0.0.35
+-----------------------------------------------------------------
+APP="nheko"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nheko-Reborn/nheko"
+link=https://github.com/Nheko-Reborn/nheko/releases/download/v0.11.3/nheko-v0.11.3-x86_64.AppImage
+size=63 MB
+version=0.11.3
+-----------------------------------------------------------------
+APP="niffler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="grinfans/niffler"
+link=https://github.com/grinfans/Niffler/releases/download/v0.7.0/Niffler-v0.7.0-linux-amd64.AppImage
+size=71 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="nightpdf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lunarequest/NightPDF"
+link=https://github.com/Lunarequest/NightPDF/releases/download/v3.0.0/NightPDF-3.0.0-beta5-x86_64.AppImage
+size=110 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="nightwave-plaza-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jjoshm/nightwave-plaza-electron"
+link=https://github.com/jjoshm/nightwave-plaza-electron/releases/download/v0.5.1-alpha/nightwave-plaza-electron_v0.5.1-alpha_linux.AppImage
+size=101 MB
+version=0.5.1
+-----------------------------------------------------------------
+APP="nimbus-weather"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tgrowden/nimbus-weather"
+link=https://github.com/tgrowden/nimbus-weather/releases/download/v0.9.0/nimbus-weather-electron-0.9.0-x86_64.AppImage
+size=65 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="nitch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ssleert/nitch"
+link=https://github.com/ssleert/nitch/releases/download/0.1.6/nitchNerd
+size=1 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="nitrokey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nitrokey/nitrokey-app"
+link=https://github.com/Nitrokey/nitrokey-app/releases/download/v1.5-RC8/Nitrokey_App-x86_64-nitrokey-app-v1.5-RC8.AppImage
+size=29 MB
+version=1.5
+-----------------------------------------------------------------
+APP="nix-bucks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="margual56/nix-bucks"
+link=https://github.com/margual56/nix-bucks/releases/download/v0.1.3/nix-bucks_0.1.3_amd64.AppImage
+size=91 MB
+version=0.1.3
+-----------------------------------------------------------------
+APP="nixnote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="robert7/nixnote2"
+link=https://github.com/robert7/nixnote2/releases/download/continuous/NixNote2-x86_64.AppImage
+size=68 MB
+version=2024.07.19
+-----------------------------------------------------------------
+APP="nmeasimulator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="panaaj/nmeasimulator"
+link=https://github.com/panaaj/nmeasimulator/releases/download/v1.6.1/NMEASimulator-1.6.1.AppImage
+size=98 MB
+version=1.6.1
+-----------------------------------------------------------------
+APP="nnn"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jarun/nnn"
+link=https://github.com/jarun/nnn/releases/download/v5.1/nnn-emoji-static-5.1.x86_64.tar.gz
+size=1 MB
+version=5.1
+-----------------------------------------------------------------
+APP="no-fwl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lencx/nofwl"
+link=https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz
+size=74 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="node"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://nodejs.org"
+link=https://nodejs.org/dist/latest/node-v23.11.0-linux-x64.tar.gz
+size=196 MB
+version=23.11.0
+-----------------------------------------------------------------
+APP="nodeflow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="maxnth/NodeFlow"
+link=https://github.com/maxnth/NodeFlow/releases/download/0.0.2-alpha/NodeFlow-0.0.2.AppImage
+size=104 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="nodes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nodes-io/nodes-io"
+link=https://github.com/nodes-io/nodes-io/releases/download/v1.0.0-beta.2/Nodes-1.0.0-beta.2.AppImage
+size=199 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="nootka"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://nootka.sourceforge.io"
+link=https://sourceforge.net/projects/nootka/files/Testing/nootka-2.1.7-devel-b5166-Linux-x86_64.AppImage/download
+size=67 MB
+version=2.1.7
+-----------------------------------------------------------------
+APP="nora"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Sandakan/Nora"
+link=https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage
+size=156 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="nordvpn-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martijnmichel/nordvpn-linux"
+link=https://github.com/martijnmichel/nordvpn-linux/releases/download/v0.6.0/NordVPN.for.Linux-0.6.0.AppImage
+size=228 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="normcap"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dynobo/normcap"
+link=https://github.com/dynobo/normcap/releases/download/v0.5.9/NormCap-0.5.9-x86_64.AppImage
+size=88 MB
+version=0.5.9
+-----------------------------------------------------------------
+APP="nosqlbooster"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.nosqlbooster.com"
+link=https://s3.nosqlbooster.com/download/releasesv9/nosqlbooster4mongo-9.1.6.AppImage
+size=112 MB
+version=9.1.6
+-----------------------------------------------------------------
+APP="nostlan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quinton-ashley/nostlan"
+link=https://github.com/quinton-ashley/nostlan/releases/download/2.6.x/nostlan.AppImage
+size=135 MB
+version=2.6
+-----------------------------------------------------------------
+APP="nota-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+link=https://download.kde.org/stable/maui/nota/3.1.0/nota-stable-v3.1.0-git+019f694-amd64.AppImage
+size=60 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="notable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fabiospampinato/notable"
+link=https://github.com/notable/notable/releases/download/v1.8.4/Notable-1.8.4.AppImage
+size=70 MB
+version=1.8.4
+-----------------------------------------------------------------
+APP="notedown"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruralad/notedown"
+link=https://github.com/ruralad/notedown/releases/download/v0.8.0/notedown_0.8.0_amd64.AppImage
+size=72 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="notekit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blackhole89/notekit"
+link=https://github.com/blackhole89/notekit/releases/download/v0.2.0/notekit-0.2.0%2Bgit1.73c1a86-Build6.1.glibc2.14-x86_64.AppImage
+size=14 MB
+version=0.2.0%2Bgit1.73c1a86
+-----------------------------------------------------------------
+APP="notemaster"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LiamRiddell/NoteMaster"
+link=https://github.com/LiamRiddell/NoteMaster/releases/download/v0.3.1/NoteMaster-0.3.1.AppImage
+size=82 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="notepad++"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/notepad-plus-plus_AppImage"
+link=https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.6.9-x86_64.AppImage
+size=267 MB
+version=8.6.9
+-----------------------------------------------------------------
+APP="notepadnext"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dail8859/NotepadNext"
+link=https://github.com/dail8859/NotepadNext/releases/download/v0.11/NotepadNext-v0.11-x86_64.AppImage
+size=32 MB
+version=0.11
+-----------------------------------------------------------------
+APP="noter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PabloF7/noter"
+link=https://github.com/doquen/noter/releases/download/v0.3-alpha/NoTer-x86_64.AppImage
+size=34 MB
+version=0.3
+-----------------------------------------------------------------
+APP="notes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuttyartist/notes"
+link=https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes_2.3.1-Qt5.15.2-x86_64.AppImage
+size=42 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="notes-nc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mscharley/notes-nc"
+link=https://github.com/mscharley/notes-nc/releases/download/v0.8.0/Notes-0.8.0.AppImage
+size=97 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="noteshrink-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="clapautius/noteshrink-qt"
+link=https://github.com/clapautius/noteshrink-qt/releases/download/v11-beta/noteshrink-qt-v11-beta-linux-x86_64.AppImage
+size=77 MB
+version=11
+-----------------------------------------------------------------
+APP="notesnook"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://notesnook.com"
+link=https://notesnook.com/releases/linux/notesnook_linux_x86_64.AppImage
+size=107 MB
+version=3.0.32
+-----------------------------------------------------------------
+APP="novelwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vkbo/novelwriter"
+link=https://github.com/vkbo/novelWriter/releases/download/v2.6.3/novelWriter-2.6.3.AppImage
+size=91 MB
+version=2.6.3
+-----------------------------------------------------------------
+APP="nrf-connect"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NordicSemiconductor/pc-nrfconnect-core"
+link=https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.1.0/nrfconnect-5.1.0-x86_64.AppImage
+size=208 MB
+version=5.1.0
+-----------------------------------------------------------------
+APP="nteract"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nteract/nteract"
+link=https://github.com/nteract/nteract/releases/download/v0.28.0/nteract-0.28.0.AppImage
+size=102 MB
+version=0.28.0
+-----------------------------------------------------------------
+APP="ntfydesktop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="emmaexe/ntfyDesktop"
+link=https://github.com/emmaexe/ntfyDesktop/releases/download/v1.4.0/ntfyDesktop-1.4.0.tar.gz
+size=1 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="nu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nushell/nushell"
+link=https://github.com/nushell/nushell/releases/download/0.103.0/nu-0.103.0-x86_64-unknown-linux-gnu.tar.gz
+size=184 MB
+version=0.103.0
+-----------------------------------------------------------------
+APP="nuclear"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nukeop/nuclear"
+link=https://github.com/nukeop/nuclear/releases/download/v0.6.45/nuclear-v0.6.45-x86_64.AppImage
+size=186 MB
+version=0.6.45
+-----------------------------------------------------------------
+APP="nuclia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuclia/frontend"
+link=https://github.com/nuclia/frontend/releases/download/2.7.9/NucliaDesktop-2.7.9.AppImage
+size=143 MB
+version=2.7.9
+-----------------------------------------------------------------
+APP="nuclino"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.nuclino.com"
+link=https://s3.eu-central-1.amazonaws.com/repository.nuclino.com/downloads/Nuclino.AppImage
+size=105 MB
+version=1.6.8
+-----------------------------------------------------------------
+APP="numara"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bornova/numara-calculator"
+link=https://github.com/bornova/numara-calculator/releases/download/v5.8.3/Numara-5.8.3-x86_64.AppImage
+size=110 MB
+version=5.8.3
+-----------------------------------------------------------------
+APP="nuxeo-drive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuxeo/nuxeo-drive"
+link=https://community.nuxeo.com/static/drive-updates/nuxeo-drive-x86_64.AppImage
+size=69 MB
+version=5.5.1
+-----------------------------------------------------------------
+APP="nvim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neovim/neovim"
+link=https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.appimage
+size=11 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="nvim-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neovim/neovim"
+link=https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
+size=19 MB
+version=2025.04.03
+-----------------------------------------------------------------
+APP="nvtop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Syllo/nvtop"
+link=https://github.com/Syllo/nvtop/releases/download/3.2.0/nvtop-3.2.0-x86_64.AppImage
+size=3 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="nx-software-center"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nomad-desktop/nx-software-center"
+link=https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage
+size=79 MB
+version=2024.05.05
+-----------------------------------------------------------------
+APP="nxshell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nxshell/nxshell"
+link=https://github.com/nxshell/nxshell/releases/download/v1.9.3/NxShell-x86_64-linux-1.9.3-202303220832.AppImage
+size=85 MB
+version=1.9.3
+-----------------------------------------------------------------
+APP="nyaa"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Beastwick18/nyaa"
+link=https://github.com/Beastwick18/nyaa/releases/download/v0.9.1/nyaa-0.9.1-x86_64-unknown-linux-gnu
+size=13 MB
+version=0.9.1
+-----------------------------------------------------------------
+APP="nyan"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="toshimaru/nyan"
+link=https://github.com/toshimaru/nyan/releases/download/v1.0.10/nyan_Linux_amd64.tar.gz
+size=10 MB
+version=1.0.10
+-----------------------------------------------------------------
+APP="nychess"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nnisarggada/NyChess"
+link=https://github.com/hect1k/NyChess/releases/download/Linux/NyChess_Chess_Game.AppImage
+size=27 MB
+version=2023.05.11
+-----------------------------------------------------------------
+APP="nym-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nymtech/nym"
+link=https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.16/nym-wallet_1.2.16_amd64.AppImage
+size=80 MB
+version=1.2.16
+-----------------------------------------------------------------
+APP="nyrna"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Merrit/nyrna"
+link=https://github.com/Merrit/nyrna/releases/download/v2.24.0/Nyrna-Linux-Portable.tar.gz
+size=25 MB
+version=2.24.0
+-----------------------------------------------------------------
+APP="obliqoro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mrjackwills/obliqoro"
+link=https://github.com/mrjackwills/obliqoro/releases/download/v0.1.15/Obliqoro_linux_x86_64.AppImage
+size=79 MB
+version=0.1.15
+-----------------------------------------------------------------
+APP="obs-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/OBS-Studio-appimage"
+link=https://github.com/ivan-hc/OBS-Studio-appimage/releases/download/continuous/OBS-Studio_31.0.3-1-archimage4.3-x86_64.AppImage
+size=190 MB
+version=31.0.3
+-----------------------------------------------------------------
+APP="obs-studio-full"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/OBS-Studio-appimage"
+link=https://github.com/ivan-hc/OBS-Studio-appimage/releases/download/continuous-full/OBS-Studio-FULL_31.0.3-1-archimage4.3-x86_64.AppImage
+size=404 MB
+version=31.0.3
+-----------------------------------------------------------------
+APP="obsidian"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="obsidianmd/obsidian-releases"
+link=https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.9/Obsidian-1.8.9.AppImage
+size=112 MB
+version=1.8.9
+-----------------------------------------------------------------
+APP="obsidian-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Yakitrak/obsidian-cli"
+link=https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.8/obsidian-cli_0.1.8_linux_amd64.tar.gz
+size=5 MB
+version=0.1.8
+-----------------------------------------------------------------
+APP="ocat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ic005k/OCAuxiliaryTools"
+link=https://github.com/ic005k/OCAuxiliaryTools/releases/download/20240004/OCAT-Linux-x86_64.AppImage
+size=41 MB
+version=ic005k
+-----------------------------------------------------------------
+APP="ocenaudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/ocenaudio-appimage"
+link=https://github.com/ivan-hc/ocenaudio-appimage/releases/download/continuous/ocenaudio_3.14.10-1-archimage4.3-x86_64.AppImage
+size=90 MB
+version=3.14.10
+-----------------------------------------------------------------
+APP="ocvvid2fulldome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/OCVvid2fulldome"
+link=https://github.com/hn-88/OCVvid2fulldome/releases/download/v1.61/OCVvid2fulldome-1.61-x86_64.AppImage
+size=91 MB
+version=OCVvid2dome
+-----------------------------------------------------------------
+APP="ocvwarp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/OCVWarp"
+link=https://github.com/hn-88/OCVWarp/releases/download/v4.01/OCVWarp-4.01-x86_64.AppImage
+size=91 MB
+version=4.01
+-----------------------------------------------------------------
+APP="odicto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aandrew-me/odicto"
+link=https://github.com/aandrew-me/odicto/releases/download/v0.7.0/odicto_0.7.0_amd64.AppImage
+size=75 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="oh"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="michaelmacinnis/oh"
+link=https://github.com/michaelmacinnis/oh/releases/download/v0.8.3/oh-v0.8.3-linux-amd64
+size=3 MB
+version=0.8.3
+-----------------------------------------------------------------
+APP="oh-my-git"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://ohmygit.org"
+-----------------------------------------------------------------
+APP="oh-mymd"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="virtua1thread/support.ohmymd.app"
+link=https://github.com/virtua1thread/support.ohmymd.app/releases/download/0.5.0/Oh.Mymd-0.5.0.AppImage
+size=103 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="olive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="olive-editor/olive"
+link=https://github.com/olive-editor/olive/releases/download/0.2.0-nightly/Olive-8ac191ce-Linux-x86_64.AppImage
+size=148 MB
+version=8ac191ce
+-----------------------------------------------------------------
+APP="olive-legacy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="olive-editor/olive"
+link=https://github.com/olive-editor/olive/releases/download/0.1.0/Olive-1e3cf53-x86_64.AppImage
+size=63 MB
+version=1e3cf53
+-----------------------------------------------------------------
+APP="ollama"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ollama/ollama"
+link=https://github.com/ollama/ollama/releases/download/v0.6.4/ollama-linux-amd64.tgz
+size=1640 MB
+version=0.6.4
+-----------------------------------------------------------------
+APP="omekasy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ikanago/omekasy"
+link=https://github.com/ikanago/omekasy/releases/download/v1.3.1/omekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz
+size=2 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="ommpfritt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pasbi/ommpfritt"
+link=https://github.com/pasbi/ommpfritt/releases/download/v0.1.5/ommpfritt-x86_64.AppImage
+size=102 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="omnispeak"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/omnispeak"
+link=https://github.com/mantralunar/omnispeak/releases/download/omnispeak-3ab0072-x86_64/omnispeak-x86_64.AppImage
+size=2 MB
+version=3ab0072
+-----------------------------------------------------------------
+APP="one-gpt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="1595901624/gpt-aggregated-edition"
+link=https://github.com/1595901624/gpt-aggregated-edition/releases/download/v0.9.2/one-gpt_0.9.2_amd64.AppImage
+size=76 MB
+version=0.9.2
+-----------------------------------------------------------------
+APP="onedrive-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bpozdena/OneDriveGUI"
+link=https://github.com/bpozdena/OneDriveGUI/releases/download/v1.1.1a/OneDriveGUI-1.1.1-x86_64.AppImage
+size=61 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="onefetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="o2sh/onefetch"
+link=https://github.com/o2sh/onefetch/releases/download/2.23.1/onefetch-linux.tar.gz
+size=15 MB
+version=2.23.1
+-----------------------------------------------------------------
+APP="onekey-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OneKeyHQ/app-monorepo"
+link=https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.6.1/OneKey-Wallet-5.6.1-linux-x86_64.AppImage
+size=180 MB
+version=5.6.1
+-----------------------------------------------------------------
+APP="onenote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrikx3/onenote"
+link=https://github.com/patrikx3/onenote/releases/download/v2025.4.124/P3X-OneNote-2025.4.124.AppImage
+size=113 MB
+version=P3X
+-----------------------------------------------------------------
+APP="onionmediax"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="onionware-github/OnionMedia-X"
+link=https://github.com/onionware-github/OnionMedia-X/releases/download/2.0.0.2C/onionware-onionmedia_x-x64.zip
+size=358 MB
+version=2.0.0.2
+-----------------------------------------------------------------
+APP="onlyoffice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ONLYOFFICE/DesktopEditors"
+link=https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.3.2/DesktopEditors-x86_64.AppImage
+size=411 MB
+version=8.3.2
+-----------------------------------------------------------------
+APP="onlyrefs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fantasy-programming/Onlyrefs"
+link=https://github.com/Fantasy-programming/Onlyrefs/releases/download/v0.0.4/only-refs_0.0.4_amd64.AppImage
+size=75 MB
+version=0.0.4
+-----------------------------------------------------------------
+APP="onnx2bnn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JDAI-CV/dabnn"
+link=https://github.com/JDAI-CV/dabnn/releases/download/v0.2.6/onnx2bnn.AppImage
+size=1 MB
+version=0.2.6
+-----------------------------------------------------------------
+APP="onnx2daq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JDAI-CV/DNNLibrary"
+link=https://github.com/JDAI-CV/DNNLibrary/releases/download/v0.9.0/onnx2daq.AppImage
+size=2 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="onshape"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="develar/onshape-desktop-shell"
+link=https://github.com/develar/onshape-desktop-shell/releases/download/v0.5.18/Onshape-0.5.18-x86_64.AppImage
+size=49 MB
+version=0.5.18
+-----------------------------------------------------------------
+APP="onyx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MainframeHQ/onyx"
+link=https://github.com/Mainframe-Archive/onyx/releases/download/v0.5.2/Onyx-0.5.2-linux-amd64.AppImage
+size=69 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="opal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CodeDead/opal"
+link=https://github.com/CodeDead/opal/releases/download/v1.5.0/Opal-x86_64-1.5.0.AppImage
+size=110 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="open-ai-translator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yetone/openai-translator"
+link=https://github.com/openai-translator/openai-translator/releases/download/v0.4.32/OpenAI.Translator_0.4.32_amd64.AppImage
+size=171 MB
+version=0.4.32
+-----------------------------------------------------------------
+APP="open-markup-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kettek/open-markup-editor"
+link=https://github.com/kettek/open-markup-editor/releases/download/v3.1.1/Open.Markup.Editor-3.1.1.AppImage
+size=96 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="open-typer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Open-Typer/Open-Typer"
+link=https://github.com/Open-Typer/Open-Typer/releases/download/v5.2.1/Open-Typer-x86_64.AppImage
+size=45 MB
+version=5.2.1
+-----------------------------------------------------------------
+APP="open-video-downloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="StefanLobbenmeier/youtube-dl-gui"
+link=https://github.com/StefanLobbenmeier/youtube-dl-gui/releases/download/v2.5.5/Open-Video-Downloader-2.5.5.AppImage
+size=100 MB
+version=2.5.5
+-----------------------------------------------------------------
+APP="openapi-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zaghaghi/openapi-tui"
+link=https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-x86_64.tar.gz
+size=16 MB
+version=0.10.2
+-----------------------------------------------------------------
+APP="openarena"
+APPIMAGE='no'
+GITHUB='no'
+SITE="http://openarena.ws"
+link=https://sourceforge.net/projects/oarena/files/openarena-0.8.8.zip/download
+size=428 MB
+version=0.8.8.zip
+-----------------------------------------------------------------
+APP="openaudible"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openaudible/openaudible"
+link=https://github.com/openaudible/openaudible/releases/download/v4.5.3/OpenAudible_4.5.3_x86_64.AppImage
+size=99 MB
+version=4.5.3
+-----------------------------------------------------------------
+APP="openblok"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmatyas/openblok"
+link=https://github.com/mmatyas/openblok/releases/download/v0.8.7/openblok_v087_linux-x64.AppImage
+size=12 MB
+version=087
+-----------------------------------------------------------------
+APP="openbor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/openbor"
+link=https://github.com/mantralunar/openbor/releases/download/OpenBOR-2e2519b-x86_64/OpenBOR-x86_64.AppImage
+size=5 MB
+version=2e2519b
+-----------------------------------------------------------------
+APP="opencomic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ollm/OpenComic"
+link=https://github.com/ollm/OpenComic/releases/download/v1.4.1/OpenComic-1.4.1.AppImage
+size=169 MB
+version=1.4.1
+-----------------------------------------------------------------
+APP="openhv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenHV/OpenHV"
+link=https://github.com/OpenHV/OpenHV/releases/download/20250209/OpenHV-20250209-x86_64.AppImage
+size=138 MB
+version=20250209
+-----------------------------------------------------------------
+APP="openlens"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MuhammedKalkan/OpenLens"
+link=https://github.com/MuhammedKalkan/OpenLens/releases/download/v6.5.2-366/OpenLens-6.5.2-366.x86_64.AppImage
+size=192 MB
+version=6.5.2
+-----------------------------------------------------------------
+APP="openmw"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="OpenMW/openmw"
+link=https://github.com/OpenMW/openmw/releases/download/openmw-49-rc6/openmw-0.49.0-Linux-64BitRC6.tar.gz
+size=200 MB
+version=0.49.0
+-----------------------------------------------------------------
+APP="openop2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenOP2/OpenOP2"
+link=https://github.com/OpenOP2/OpenOP2/releases/download/20210823/OpenOP2-20210823-x86_64.AppImage
+size=20 MB
+version=20210823
+-----------------------------------------------------------------
+APP="openosrs-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="open-osrs/launcher"
+link=https://github.com/open-osrs/launcher/releases/download/3.0.0/OpenOSRS.AppImage
+size=46 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="openpilot-workbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openpilot-community/workbench"
+link=https://github.com/jfrux/workbench/releases/download/v0.1.5/Workbench-v0.1.5.linux.AppImage
+size=57 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="openra-dune"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link=https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Dune-2000-x86_64.AppImage
+size=47 MB
+version=2000
+-----------------------------------------------------------------
+APP="openra-red-alert"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link=https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Red-Alert-x86_64.AppImage
+size=43 MB
+version=20250330
+-----------------------------------------------------------------
+APP="openra-tiberian-dawn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link=https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Tiberian-Dawn-x86_64.AppImage
+size=53 MB
+version=20250330
+-----------------------------------------------------------------
+APP="openramodsdk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRAModSDK"
+link=https://github.com/OpenRA/OpenRAModSDK/releases/download/20231010/ExampleMod-20231010-x86_64.AppImage
+size=43 MB
+version=20231010
+-----------------------------------------------------------------
+APP="openrct2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRCT2/OpenRCT2"
+link=https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.20/OpenRCT2-v0.4.20-linux-x86_64.AppImage
+size=95 MB
+version=0.4.20
+-----------------------------------------------------------------
+APP="openrgb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openrgb.org"
+link=https://openrgb.org/releases/release_candidate_1.0rc1/OpenRGB_1.0rc1_x86_64_1fbacde.AppImage
+size=32 MB
+version=1.0rc1
+-----------------------------------------------------------------
+APP="openscad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openscad/openscad"
+link=https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86_64.AppImage
+size=39 MB
+version=2021.01
+-----------------------------------------------------------------
+APP="openshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenShot/openshot-qt"
+link=https://github.com/OpenShot/openshot-qt/releases/download/v3.3.0/OpenShot-v3.3.0-x86_64.AppImage
+size=231 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="openstream-music"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openstreamorg/openstreammusic"
+link=https://github.com/openstreamorg/openstreammusic/releases/download/v1.3.3/OpenStream.Music-1.3.3.AppImage
+size=106 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="opentodolist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mhoeher/opentodolist"
+link=https://github.com/mhoeher/opentodolist/releases/download/3.49.0/OpenTodoList-3.49.0-x86_64.AppImage
+size=73 MB
+version=3.49.0
+-----------------------------------------------------------------
+APP="opentrons"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Opentrons/opentrons"
+link=https://github.com/Opentrons/opentrons/releases/download/v8.3.1/Opentrons-v8.3.1-linux-b53327.AppImage
+size=386 MB
+version=8.3.1
+-----------------------------------------------------------------
+APP="openxcom"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openxcom.org"
+link=https://openxcom.org/download/nightlies/openxcom_git_2025_02_07_2001-x86_64.AppImage
+size=13 MB
+version=2025
+-----------------------------------------------------------------
+APP="opera"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link=https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-117.0.5408.197-x86_64.AppImage
+size=162 MB
+version=117.0.5408.197
+-----------------------------------------------------------------
+APP="opera-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link=https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-beta-118.0.5461.21-x86_64.AppImage
+size=164 MB
+version=118.0.5461.21
+-----------------------------------------------------------------
+APP="opera-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link=https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-119.0.5489.0-x86_64.AppImage
+size=164 MB
+version=119.0.5489.0
+-----------------------------------------------------------------
+APP="orange"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="naaive/orange"
+link=https://github.com/naaive/orange/releases/download/orange-v0.6.5/orange_0.6.5_amd64.AppImage
+size=75 MB
+version=0.6.5
+-----------------------------------------------------------------
+APP="oras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="oras-project/oras"
+link=https://github.com/oras-project/oras/releases/download/v1.3.0-beta.2/oras_1.3.0-beta.2_linux_amd64.tar.gz
+size=11 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="orcaslicer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SoftFever/OrcaSlicer"
+link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0.AppImage
+size=109 MB
+version=Ubuntu2404
+-----------------------------------------------------------------
+APP="orcaslicer-any"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SoftFever/OrcaSlicer"
+link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0.AppImage
+size=109 MB
+version=Ubuntu2404
+-----------------------------------------------------------------
+APP="orcaslicer-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SoftFever/OrcaSlicer"
+link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0-beta/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0-beta.AppImage
+size=117 MB
+version=Ubuntu2404
+-----------------------------------------------------------------
+APP="orcaslicer-rc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SoftFever/OrcaSlicer"
+link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0-rc/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0-rc.AppImage
+size=109 MB
+version=Ubuntu2404
+-----------------------------------------------------------------
+APP="osrs-tools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EricTurf/osrs-tools"
+link=https://github.com/egfanboy/osrs-tools/releases/download/v1.1.0/osrs-tools-1.1.0-x86_64.AppImage
+size=73 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="ossia-score"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OSSIA/score"
+link=https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage
+size=338 MB
+version=2025.04.03
+-----------------------------------------------------------------
+APP="ostara"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="krud-dev/ostara"
+link=https://github.com/krud-dev/ostara/releases/download/v0.12.0/Ostara-0.12.0.AppImage
+size=267 MB
+version=0.12.0
+-----------------------------------------------------------------
+APP="osu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ppy/osu"
+link=https://github.com/ppy/osu/releases/download/2025.321.0/osu.AppImage
+size=152 MB
+version=2025.321.0
+-----------------------------------------------------------------
+APP="ots"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sniptt-official/ots"
+link=https://github.com/sniptt-official/ots/releases/download/v0.3.1/ots_0.3.1_linux_amd64.tar.gz
+size=9 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="ottomatic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/OttoMatic"
+link=https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-linux-x86_64.AppImage
+size=142 MB
+version=4.0.1
+-----------------------------------------------------------------
+APP="outer-wilds-mod-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bwc9876/ow-mod-man"
+link=https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.1/Outer.Wilds.Mod.Manager_0.15.1_amd64.AppImage
+size=85 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="outline-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jigsaw-Code/outline-client"
+link=https://github.com/Jigsaw-Code/outline-apps/releases/download/v1.10.1/Outline-Client.AppImage
+size=106 MB
+version=1.10.1
+-----------------------------------------------------------------
+APP="outline-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jigsaw-Code/outline-server"
+link=https://github.com/Jigsaw-Code/outline-server/releases/download/manager-v1.14.0/Outline-Manager.AppImage
+size=103 MB
+version=1.14.0
+-----------------------------------------------------------------
+APP="overbind"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cjonas1999/OverBind"
+link=https://github.com/cjonas1999/OverBind/releases/download/1.5.1/OverBind_1.5.1_amd64.AppImage
+size=91 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="overte"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="overte-org/overte"
+link=https://github.com/overte-org/overte/releases/download/2024.07.1-rc2/Overte-2024.07.1-rc2-nodebug-x86_64.AppImage
+size=510 MB
+version=2024.07.1
+-----------------------------------------------------------------
+APP="ovideo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="colin-i/ostream"
+link=https://github.com/colin-i/ostream/releases/download/1-191/ovideo.amd64.AppImage
+size=144 MB
+version=1
+-----------------------------------------------------------------
+APP="ow-mod-man"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ow-mods/ow-mod-man"
+link=https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.1/Outer.Wilds.Mod.Manager_0.15.1_amd64.AppImage
+size=85 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="owallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ontio/OWallet"
+link=https://github.com/ontio/OWallet/releases/download/v0.10.1/OWallet-0.10.1-Linux.AppImage
+size=112 MB
+version=0.10.1
+-----------------------------------------------------------------
+APP="owncloud"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://owncloud.com"
+link=https://download.owncloud.com/desktop/ownCloud/stable/latest/linux-appimage/ownCloud-5.3.2.15463-x86_64.AppImage
+size=53 MB
+version=5.3.2.15463
+-----------------------------------------------------------------
+APP="oxen-gui-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oxen-io/oxen-electron-gui-wallet"
+link=https://github.com/oxen-io/oxen-electron-gui-wallet/releases/download/v1.8.1/oxen-electron-wallet-1.8.1-linux.AppImage
+size=73 MB
+version=1.8.1
+-----------------------------------------------------------------
+APP="p2p-chat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dgeibi/p2p-chat"
+link=https://github.com/dgeibi/p2p-chat/releases/download/v1.6.0/p2p-chat.1.6.0.AppImage
+size=74 MB
+version=p2p
+-----------------------------------------------------------------
+APP="p2pderivatives"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="p2pderivatives/p2pderivatives-client"
+link=https://github.com/p2pderivatives/p2pderivatives-client/releases/download/v0.3.3/P2PD.client-0.3.2.AppImage
+size=134 MB
+version=P2PD.client
+-----------------------------------------------------------------
+APP="p3x-redis-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrikx3/redis-ui"
+link=https://github.com/patrikx3/redis-ui/releases/download/v2025.4.129/P3X-Redis-UI-2025.4.129.AppImage
+size=114 MB
+version=P3X
+-----------------------------------------------------------------
+APP="packetsender"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dannagle/PacketSender"
+link=https://github.com/dannagle/PacketSender/releases/download/v8.8.9/Packet_Sender-v8.8.9-x86_64.AppImage
+size=28 MB
+version=8.8.9
+-----------------------------------------------------------------
+APP="packsquash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ComunidadAylas/PackSquash"
+link=https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/PackSquash-v0.3.1-x86_64.AppImage
+size=113 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="paclear"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orangekame3/paclear"
+link=https://github.com/orangekame3/paclear/releases/download/v0.0.13/paclear_Linux_x86_64.tar.gz
+size=4 MB
+version=0.0.13
+-----------------------------------------------------------------
+APP="padloc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="padloc/padloc"
+link=https://github.com/padloc/padloc/releases/download/v4.3.0/padloc_4.3.0_linux_electron_x86_64.AppImage
+size=81 MB
+version=4.3.0
+-----------------------------------------------------------------
+APP="painel-web"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="novosga/painel-web"
+link=https://github.com/novosga/panel-app/releases/download/v2.0.1/Painel-Web-2.0.1-x86_64.AppImage
+size=53 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="paket"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="joseluisq/paket"
+link=https://github.com/joseluisq/paket/releases/download/v0.1.6/paket-v0.1.6-x86_64-unknown-linux-gnu.tar.gz
+size=2 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="palemoon"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.palemoon.org"
+link=https://rm-us.palemoon.org/release/palemoon-33.6.1.linux-x86_64-gtk3.tar.xz
+size=109 MB
+version=33.6.1.linux
+-----------------------------------------------------------------
+APP="paletti"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eroica/Paletti"
+link=https://github.com/Eroica/Paletti/releases/download/v2.0/Paletti-v2_0-x86_64-GLib2_64.AppImage
+size=10 MB
+version=2
+-----------------------------------------------------------------
+APP="panini"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lazarus-pkgs/panini"
+link=https://github.com/lazarus-pkgs/panini/releases/download/v0.73.0/panini-0.73.0.AppImage
+size=15 MB
+version=0.73.0
+-----------------------------------------------------------------
+APP="panwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mb21/panwriter"
+link=https://github.com/mb21/panwriter/releases/download/v0.8.9/PanWriter-0.8.9.AppImage
+size=138 MB
+version=0.8.9
+-----------------------------------------------------------------
+APP="paper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="anupam-git/paper"
+link=https://github.com/anupam-git/paper/releases/download/continuous/paper-022d4bb-x86_64.AppImage
+size=15 MB
+version=022d4bb
+-----------------------------------------------------------------
+APP="papercraft"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rodrigorc/papercraft"
+link=https://github.com/rodrigorc/papercraft/releases/download/v2.9/Papercraft-v2.9-x86_64.AppImage
+size=7 MB
+version=2.9
+-----------------------------------------------------------------
+APP="parallelcoin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="parallelcointeam/parallelcoin"
+link=https://github.com/p9c/pod-archive/releases/download/v1.2.0/parallelcoin-qt-x86_64.AppImage
+size=18 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="parchment"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tywil04/parchment"
+link=https://github.com/tywil04/parchment/releases/download/v1.0.0/parchment_1.0.0_amd64.AppImage
+size=68 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="parity-fether"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="paritytech/fether"
+link=https://github.com/openethereum/fether/releases/download/v0.4.3-beta/Parity-Fether-0.4.3.AppImage
+size=124 MB
+version=0.4.3
+-----------------------------------------------------------------
+APP="parsec"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Scille/parsec-cloud"
+link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20180%2Bbb40860_linux_x86_64.unsigned.AppImage
+size=143 MB
+version=3.3.3
+-----------------------------------------------------------------
+APP="parsec-linux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="E5ten/parsec-linux-AppImage"
+link=https://github.com/E5ten/parsec-linux-AppImage/releases/download/146-18/parsec-linux-x86_64.AppImage
+size=2 MB
+version=E5ten
+-----------------------------------------------------------------
+APP="passky"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Rabbit-Company/Passky-Desktop"
+link=https://github.com/Rabbit-Company/Passky-Desktop/releases/download/v8.1.2/Passky-8.1.2.AppImage
+size=100 MB
+version=8.1.2
+-----------------------------------------------------------------
+APP="passphraser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zevlee/passphraser"
+link=https://github.com/zevlee/passphraser/releases/download/v1.0.7/passphraser-1.0.7-x86_64.AppImage
+size=53 MB
+version=1.0.7
+-----------------------------------------------------------------
