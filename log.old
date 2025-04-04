@@ -620,7 +620,7 @@ GITHUB='no'
 SITE="https://apifox.com"
 link=https://cdn.apifox.cn/download/Apifox-linux-latest.zip
 size=181 MB
-version=2.7.2
+version=2.7.3
 -----------------------------------------------------------------
 APP="apk-editor-studio"
 APPIMAGE='yes'
@@ -1954,9 +1954,9 @@ APP="brave-beta"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="brave/brave-browser"
-link=https://github.com/brave/brave-browser/releases/download/v1.78.74/brave-browser-beta-1.78.74-linux-amd64.zip
+link=https://github.com/brave/brave-browser/releases/download/v1.78.75/brave-browser-beta-1.78.75-linux-amd64.zip
 size=391 MB
-version=1.78.74
+version=1.78.75
 -----------------------------------------------------------------
 APP="brave-beta-appimage"
 APPIMAGE='yes'
@@ -2228,7 +2228,7 @@ GITHUB='yes'
 SITE=""
 link=https://raw.githubusercontent.com/ivan-hc/AM/main/appimage-bulder-scripts/x86_64/calibre.sh
 size=232 MB
-version=8.2.0
+version=8.2.1
 -----------------------------------------------------------------
 APP="calm-circles"
 APPIMAGE='yes'
@@ -2908,7 +2908,7 @@ GITHUB='yes'
 SITE="https://code.visualstudio.com"
 link=https://code.visualstudio.com/sha/download?build=stable&os=linux-x64
 size=409 MB
-version=1.98.2
+version=1.99.0
 -----------------------------------------------------------------
 APP="code-notes"
 APPIMAGE='yes'
@@ -3562,9 +3562,9 @@ APP="cudatext"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://cudatext.github.io"
-link=https://sourceforge.net/projects/cudatext/files/release/1.222.5.0/cudatext-linux-qt6-amd64-1.222.5.0.tar.xz/download
-size=24 MB
-version=1.222.5.0
+link=https://sourceforge.net/projects/cudatext/files/release/1.223.0.0/cudatext-linux-qt6-amd64-1.223.0.0.tar.xz/download
+size=23 MB
+version=1.223.0.0
 -----------------------------------------------------------------
 APP="cura"
 APPIMAGE='yes'
@@ -4050,7 +4050,7 @@ APP="digikam"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://files.kde.org/digikam/"
-link=https://files.kde.org/digikam/digiKam-8.7.0-20250403T180102-Qt6-x86-64.appimage
+link=https://files.kde.org/digikam/digiKam-8.7.0-20250404T140051-Qt6-x86-64.appimage
 size=287 MB
 version=8.7.0
 -----------------------------------------------------------------
@@ -4828,7 +4828,7 @@ GITHUB='yes'
 SITE="endless-sky/endless-sky"
 link=https://github.com/endless-sky/endless-sky/releases/download/continuous/Endless_Sky-continuous-x86_64.AppImage
 size=343 MB
-version=2025.04.03
+version=2025.04.04
 -----------------------------------------------------------------
 APP="enoseannotator"
 APPIMAGE='yes'
@@ -5258,9 +5258,9 @@ APP="fastfetch"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="fastfetch-cli/fastfetch"
-link=https://github.com/fastfetch-cli/fastfetch/releases/download/2.40.1/fastfetch-linux-amd64.tar.gz
+link=https://github.com/fastfetch-cli/fastfetch/releases/download/2.40.2/fastfetch-linux-amd64.tar.gz
 size=29 MB
-version=2.40.1
+version=2.40.2
 -----------------------------------------------------------------
 APP="fasttrack"
 APPIMAGE='yes'
@@ -5506,7 +5506,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl4.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=qTFz6xJRxJegzh0ALJDllw&x=1743752073
+link=https://dl1.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=xkBesYcP8R_ct0l9-yKSPQ&x=1743781466
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -5532,7 +5532,7 @@ GITHUB='no'
 SITE="https://firealpaca.com"
 link=https://firealpaca.com/download/linux
 size=135 MB
-version=2.12.0
+version=2.13.13
 -----------------------------------------------------------------
 APP="firedragon"
 APPIMAGE='yes'
@@ -5614,16 +5614,16 @@ APP="firefox-nightly"
 APPIMAGE='no'
 GITHUB='no'
 link=https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=
-size=318 MB
+size=319 MB
 version=139.0a1
 -----------------------------------------------------------------
 APP="firefox-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250403150016-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250404092926-x86_64.AppImage
 size=113 MB
-version=139.0.r20250403150016
+version=139.0.r20250404092926
 -----------------------------------------------------------------
 APP="firetail"
 APPIMAGE='yes'
@@ -6237,9 +6237,9 @@ APP="gams-studio"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="GAMS-dev/studio"
-link=https://github.com/GAMS-dev/studio/releases/download/v1.20.3/GAMS_Studio-1.20.3-x86_64.AppImage
-size=177 MB
-version=1.20.3
+link=https://github.com/GAMS-dev/studio/releases/download/v1.20.4/GAMS_Studio-1.20.4-x86_64.AppImage
+size=163 MB
+version=1.20.4
 -----------------------------------------------------------------
 APP="ganache"
 APPIMAGE='yes'
@@ -6485,9 +6485,9 @@ APP="gickup"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="cooperspencer/gickup"
-link=https://github.com/cooperspencer/gickup/releases/download/v0.10.36/gickup_0.10.36_linux_amd64.tar.gz
-size=17 MB
-version=0.10.36
+link=https://github.com/cooperspencer/gickup/releases/download/v0.10.37/gickup_0.10.37_linux_amd64.tar.gz
+size=20 MB
+version=0.10.37
 -----------------------------------------------------------------
 APP="gifcurry"
 APPIMAGE='yes'
@@ -6829,6 +6829,9 @@ APP="gokey"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="cloudflare/gokey"
+link=https://github.com/cloudflare/gokey/releases/download/v0.1.3/gokey-v0.1.3-linux-amd64
+size=4 MB
+version=0.1.3
 -----------------------------------------------------------------
 APP="goland"
 APPIMAGE='no'
@@ -7906,9 +7909,9 @@ APP="inkscape-next"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
-link=https://gitlab.com/inkscape/inkscape/-/jobs/9621365118/artifacts/download
+link=https://gitlab.com/inkscape/inkscape/-/jobs/9625209965/artifacts/download
 size=177 MB
-version=9621365118
+version=9625209965
 -----------------------------------------------------------------
 APP="innerbreeze"
 APPIMAGE='yes'
@@ -8546,9 +8549,9 @@ APP="kdenlive-daily"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://kdenlive.org"
-link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-9999-linux-gcc-x86_64.AppImage
+link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10012-linux-gcc-x86_64.AppImage
 size=184 MB
-version=9999
+version=10012
 -----------------------------------------------------------------
 APP="kdeutils"
 APPIMAGE='yes'
@@ -8578,9 +8581,6 @@ APP="keepassxc-devel"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://snapshot.keepassxc.org/latest/"
-link=https://snapshot.keepassxc.org/latest/KeePassXC-2.8.0-snapshot-x86_64.AppImage
-size=110 MB
-version=2.8.0
 -----------------------------------------------------------------
 APP="keeweb"
 APPIMAGE='yes'
@@ -10159,9 +10159,9 @@ APP="microsoft-edge-dev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-136.0.3209.2-1-x86_64.AppImage
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-136.0.3227.1-1-x86_64.AppImage
 size=214 MB
-version=136.0.3209.2
+version=136.0.3227.1
 -----------------------------------------------------------------
 APP="midori"
 APPIMAGE='yes'
@@ -10878,7 +10878,7 @@ APP="naev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="naev/naev"
-link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B72.g7fe4bff4c8-linux-x86-64.AppImage
+link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B76.gdba7394671-linux-x86-64.AppImage
 size=486 MB
 version=0.13.0
 -----------------------------------------------------------------
@@ -11550,9 +11550,9 @@ APP="nym-wallet"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="nymtech/nym"
-link=https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.16/nym-wallet_1.2.16_amd64.AppImage
+link=https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.17/nym-wallet_1.2.17_amd64.AppImage
 size=80 MB
-version=1.2.16
+version=1.2.17
 -----------------------------------------------------------------
 APP="nyrna"
 APPIMAGE='no'
@@ -11654,7 +11654,7 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250404%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250404T083417Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=1d02ef699e152b916e6f18408b3d24b08fc234de12a9313d901c2cc8e6ffdc1b
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250404%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250404T163211Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=0a9cb045abcab0a551a59d24a03be6ee7a7a270e253ac650f53c0a592a2b7400
 size=44 MB
 version=0.6.5
 -----------------------------------------------------------------
@@ -12510,9 +12510,9 @@ APP="pcsx2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PCSX2/pcsx2"
-link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.253/pcsx2-v2.3.253-linux-appimage-x64-Qt.AppImage
+link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.254/pcsx2-v2.3.254-linux-appimage-x64-Qt.AppImage
 size=61 MB
-version=2.3.253
+version=2.3.254
 -----------------------------------------------------------------
 APP="pdf-diff"
 APPIMAGE='no'
@@ -14134,9 +14134,9 @@ APP="quarto-cli"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="quarto-dev/quarto-cli"
-link=https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.20/quarto-1.7.20-linux-amd64.tar.gz
+link=https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.21/quarto-1.7.21-linux-amd64.tar.gz
 size=427 MB
-version=1.7.20
+version=1.7.21
 -----------------------------------------------------------------
 APP="quaternion"
 APPIMAGE='yes'
@@ -15358,7 +15358,7 @@ APP="shadps4-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="shadps4-emu/shadPS4"
-link=https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-04-03-1ee2016/shadps4-linux-sdl-2025-04-03-1ee2016.zip
+link=https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-04-04-54b4d7f/shadps4-linux-sdl-2025-04-04-54b4d7f.zip
 size=15 MB
 version=shadps4
 -----------------------------------------------------------------
@@ -15694,9 +15694,9 @@ APP="siyuan"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="siyuan-note/siyuan"
-link=https://github.com/siyuan-note/siyuan/releases/download/v3.1.27-dev2/siyuan-v202504031614-linux.AppImage
+link=https://github.com/siyuan-note/siyuan/releases/download/v3.1.27-dev3/siyuan-v202504042007-linux.AppImage
 size=177 MB
-version=202504031614
+version=202504042007
 -----------------------------------------------------------------
 APP="skyemu"
 APPIMAGE='no'
@@ -16710,9 +16710,9 @@ APP="sunshine"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="LizardByte/Sunshine"
-link=https://github.com/LizardByte/Sunshine/releases/download/v2025.404.3423/sunshine.AppImage
+link=https://github.com/LizardByte/Sunshine/releases/download/v2025.404.171304/sunshine.AppImage
 size=41 MB
-version=2025.404.3423
+version=2025.404.171304
 -----------------------------------------------------------------
 APP="sup"
 APPIMAGE='yes'
@@ -17115,9 +17115,6 @@ APP="tdlib-rs"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="FedericoBruzzone/tdlib-rs"
-link=https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.0.5/tdlib-1.8.29-linux-x86_64.zip
-size=169 MB
-version=1.8.29
 -----------------------------------------------------------------
 APP="teams"
 APPIMAGE='yes'
@@ -17420,7 +17417,7 @@ APPIMAGE='no'
 GITHUB='no'
 link=https://download.mozilla.org/?product=thunderbird-latest&os=linux64&lang=
 size=272 MB
-version=137.0
+version=137.0.1
 -----------------------------------------------------------------
 APP="thunderbird-appimage"
 APPIMAGE='yes'
@@ -18555,9 +18552,9 @@ APP="vivaldi-snapshot"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Vivaldi-appimage"
-link=https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.4.3648.3-1-x86_64.AppImage
+link=https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.4.3653.3-1-x86_64.AppImage
 size=156 MB
-version=7.4.3648.3
+version=7.4.3653.3
 -----------------------------------------------------------------
 APP="vivaldi-stable"
 APPIMAGE='yes'
@@ -18973,7 +18970,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48315090860
+version=48333766768
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19467,9 +19464,9 @@ APP="xgetter"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="xgetter-team/xgetter"
-link=https://github.com/xgetter-team/xgetter/releases/download/1.4.5/x-getter_1.4.5_amd64.AppImage
-size=160 MB
-version=1.4.5
+link=https://github.com/xgetter-team/xgetter/releases/download/1.4.6/x-getter_1.4.6_amd64.AppImage
+size=161 MB
+version=1.4.6
 -----------------------------------------------------------------
 APP="xilinota"
 APPIMAGE='yes'
@@ -19587,9 +19584,6 @@ APP="xtuber"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="chientrm/xtuber"
-link=https://github.com/chientrm/xtuber/releases/download/1.3.4/x-tuber_1.3.4_amd64.AppImage
-size=149 MB
-version=1.3.4
 -----------------------------------------------------------------
 APP="xxh"
 APPIMAGE='yes'
@@ -19875,9 +19869,9 @@ APP="zed"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="zed-industries/zed"
-link=https://github.com/zed-industries/zed/releases/download/v0.181.2-pre/zed-linux-x86_64.tar.gz
-size=250 MB
-version=0.181.2
+link=https://github.com/zed-industries/zed/releases/download/v0.181.3-pre/zed-linux-x86_64.tar.gz
+size=251 MB
+version=0.181.3
 -----------------------------------------------------------------
 APP="zegarek"
 APPIMAGE='yes'
