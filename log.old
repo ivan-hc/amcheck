@@ -586,9 +586,9 @@ APP="anytype"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="anyproto/anytype-ts"
-link=https://github.com/anyproto/anytype-ts/releases/download/v0.45.28-alpha/Anytype-0.45.28-alpha.AppImage
+link=https://github.com/anyproto/anytype-ts/releases/download/v0.45.32-beta/Anytype-0.45.32-beta.AppImage
 size=213 MB
-version=0.45.28
+version=0.45.32
 -----------------------------------------------------------------
 APP="anzeigenchef"
 APPIMAGE='yes'
@@ -850,9 +850,9 @@ APP="archipelago"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ArchipelagoMW/Archipelago"
-link=https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.0/Archipelago_0.6.0_linux-x86_64.AppImage
-size=94 MB
-version=0.6.0
+link=https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.1/Archipelago_0.6.1_linux-x86_64.AppImage
+size=80 MB
+version=0.6.1
 -----------------------------------------------------------------
 APP="archisteamfarm"
 APPIMAGE='no'
@@ -1962,25 +1962,25 @@ APP="brave-beta-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
-link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.78.74-x86_64.AppImage
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.78.75-x86_64.AppImage
 size=155 MB
-version=1.78.74
+version=1.78.75
 -----------------------------------------------------------------
 APP="brave-nightly"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="brave/brave-browser"
-link=https://github.com/brave/brave-browser/releases/download/v1.79.30/brave-browser-nightly-1.79.30-linux-amd64.zip
+link=https://github.com/brave/brave-browser/releases/download/v1.79.33/brave-browser-nightly-1.79.33-linux-amd64.zip
 size=392 MB
-version=1.79.30
+version=1.79.33
 -----------------------------------------------------------------
 APP="brave-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
-link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.29-x86_64.AppImage
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.33-x86_64.AppImage
 size=155 MB
-version=1.79.29
+version=1.79.33
 -----------------------------------------------------------------
 APP="bread"
 APPIMAGE='yes'
@@ -2434,7 +2434,7 @@ APP="celestia"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://celestiaproject.space"
-link=https://download.opensuse.org/repositories/home:/munix9/AppImage/celestia-1.6.4+git11.ca0d641-lp154.27.1.Build27.2.glibc2.29-x86_64.AppImage
+link=https://download.opensuse.org/repositories/home:/munix9/AppImage/celestia-1.6.4+git11.ca0d641-lp154.27.1.Build27.3.glibc2.29-x86_64.AppImage
 size=51 MB
 version=1.6.4+git11.ca0d641
 -----------------------------------------------------------------
@@ -2442,9 +2442,9 @@ APP="celestia-dev"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://celestiaproject.space"
-link=https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250316+d9a82c1-lp154.26.1.Build26.1.glibc2.17-x86_64.AppImage
-size=242 MB
-version=1.7.0~git20250316+d9a82c1
+link=https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250317+ee6c609-lp154.806.1.Build806.1.glibc2.17-x86_64.AppImage
+size=248 MB
+version=1.7.0~git20250317+ee6c609
 -----------------------------------------------------------------
 APP="celestia-enanched"
 APPIMAGE='yes'
@@ -2548,7 +2548,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.03.29
+version=2025.04.04
 -----------------------------------------------------------------
 APP="chatterino2-nightly"
 APPIMAGE='yes'
@@ -2556,7 +2556,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.03.29
+version=2025.04.04
 -----------------------------------------------------------------
 APP="cheat"
 APPIMAGE='no'
@@ -2634,9 +2634,9 @@ APP="chromium"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Chromium-Web-Browser-appimage"
-link=https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-134.0.6998.165-x86_64.AppImage
-size=149 MB
-version=134.0.6998.165
+link=https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-135.0.7049.52-x86_64.AppImage
+size=148 MB
+version=135.0.7049.52
 -----------------------------------------------------------------
 APP="chromium-beta"
 APPIMAGE='yes'
@@ -2730,9 +2730,9 @@ APP="citron"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/Citron-AppImage"
-link=https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-0dac3c1db-anylinux-x86_64_v3.AppImage
-size=117 MB
-version=0dac3c1db
+link=https://github.com/pkgforge-dev/Citron-AppImage/releases/download/v0.6.1/Citron-v0.6.1-anylinux-x86_64_v3.AppImage
+size=125 MB
+version=0.6.1
 -----------------------------------------------------------------
 APP="citron-nightly"
 APPIMAGE='yes'
@@ -3522,9 +3522,9 @@ APP="cryptomator"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="cryptomator/cryptomator"
-link=https://github.com/cryptomator/cryptomator/releases/download/1.16.0-beta1/cryptomator-1.16.0-beta1-x86_64.AppImage
+link=https://github.com/cryptomator/cryptomator/releases/download/1.15.2/cryptomator-1.15.2-x86_64.AppImage
 size=54 MB
-version=1.16.0
+version=1.15.2
 -----------------------------------------------------------------
 APP="cryptr"
 APPIMAGE='yes'
@@ -4050,7 +4050,7 @@ APP="digikam"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://files.kde.org/digikam/"
-link=https://files.kde.org/digikam/digiKam-8.7.0-20250404T140051-Qt6-x86-64.appimage
+link=https://files.kde.org/digikam/digiKam-8.7.0-20250404T180045-Qt6-x86-64.appimage
 size=287 MB
 version=8.7.0
 -----------------------------------------------------------------
@@ -4922,9 +4922,9 @@ APP="es-de"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://es-de.org"
-link=https://gitlab.com/es-de/emulationstation-de/-/package_files/164503028/download
-size=129 MB
-version=3.1.1
+link=https://gitlab.com/es-de/emulationstation-de/-/package_files/184126735/download
+size=131 MB
+version=3.2.0
 -----------------------------------------------------------------
 APP="escrcpy"
 APPIMAGE='yes'
@@ -5506,7 +5506,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl1.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=xkBesYcP8R_ct0l9-yKSPQ&x=1743781466
+link=https://dl1.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=1pqJmPw2_GXdmGoyS6AnOw&x=1743806416
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -6141,8 +6141,8 @@ APP="funkin-legacy"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="NotHyper-474/Funkin-Legacy-Linux"
-link=https://github.com/NotHyper-474/Funkin-Legacy-Linux/releases/download/v0.5.3/funkin-linux-64bit-unofficial.tar.gz
-size=830 MB
+link=https://github.com/NotHyper-474/Funkin-Legacy-Linux/releases/download/v0.6.2/funkin-linux-64bit-unofficial.tar.gz
+size=887 MB
 version=64bit
 -----------------------------------------------------------------
 APP="funkin-psych"
@@ -7909,9 +7909,9 @@ APP="inkscape-next"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
-link=https://gitlab.com/inkscape/inkscape/-/jobs/9625209965/artifacts/download
+link=https://gitlab.com/inkscape/inkscape/-/jobs/9630701992/artifacts/download
 size=177 MB
-version=9625209965
+version=9630701992
 -----------------------------------------------------------------
 APP="innerbreeze"
 APPIMAGE='yes'
@@ -8581,6 +8581,9 @@ APP="keepassxc-devel"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://snapshot.keepassxc.org/latest/"
+link=https://snapshot.keepassxc.org/latest/KeePassXC-2.8.0-snapshot-x86_64.AppImage
+size=110 MB
+version=2.8.0
 -----------------------------------------------------------------
 APP="keeweb"
 APPIMAGE='yes'
@@ -8706,9 +8709,9 @@ APP="kitty"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="kovidgoyal/kitty"
-link=https://github.com/kovidgoyal/kitty/releases/download/v0.41.1/kitten-linux-amd64
+link=https://github.com/kovidgoyal/kitty/releases/download/nightly/kitten-linux-amd64
 size=16 MB
-version=0.41.1
+version=2025.04.04
 -----------------------------------------------------------------
 APP="kitupiikki"
 APPIMAGE='yes'
@@ -11654,7 +11657,7 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250404%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250404T163211Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=0a9cb045abcab0a551a59d24a03be6ee7a7a270e253ac650f53c0a592a2b7400
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250404%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250404T232454Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=76d50e8c552878521f48c92c0a5a92ffcfdb3f524c86c8d33028ea7fcf56c9dc
 size=44 MB
 version=0.6.5
 -----------------------------------------------------------------
@@ -12054,9 +12057,9 @@ APP="opera-beta"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Opera-appimage"
-link=https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-beta-118.0.5461.21-x86_64.AppImage
-size=164 MB
-version=118.0.5461.21
+link=https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-beta-118.0.5461.27-x86_64.AppImage
+size=163 MB
+version=118.0.5461.27
 -----------------------------------------------------------------
 APP="opera-dev"
 APPIMAGE='yes'
@@ -12390,7 +12393,7 @@ APP="parsec"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Scille/parsec-cloud"
-link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20181%2B2a7f8c3_linux_x86_64.unsigned.AppImage
+link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20182%2B87bddff_linux_x86_64.unsigned.AppImage
 size=143 MB
 version=3.3.3
 -----------------------------------------------------------------
@@ -12510,9 +12513,9 @@ APP="pcsx2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PCSX2/pcsx2"
-link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.254/pcsx2-v2.3.254-linux-appimage-x64-Qt.AppImage
+link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.256/pcsx2-v2.3.256-linux-appimage-x64-Qt.AppImage
 size=61 MB
-version=2.3.254
+version=2.3.256
 -----------------------------------------------------------------
 APP="pdf-diff"
 APPIMAGE='no'
@@ -14534,9 +14537,9 @@ APP="remnote"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.remnote.com"
-link=https://download2.remnote.io/remnote-desktop2/RemNote-1.19.8.AppImage
+link=https://download2.remnote.io/remnote-desktop2/RemNote-1.19.10.AppImage
 size=165 MB
-version=1.19.8
+version=1.19.10
 -----------------------------------------------------------------
 APP="rendertune"
 APPIMAGE='yes'
@@ -14782,7 +14785,7 @@ APP="rpcs3"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://rpcs3.net"
-link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2ac2439c3355822bdea37e665998f6f2d8772f4f/rpcs3-v0.0.36-17741-2ac2439c_linux64.AppImage
+link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-613212f9e15f59825f7b81abc33add7624adedd7/rpcs3-v0.0.36-17745-613212f9_linux64.AppImage
 size=107 MB
 version=0.0.36
 -----------------------------------------------------------------
@@ -14846,7 +14849,7 @@ APP="ruffle"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ruffle-rs/ruffle"
-link=https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-04-03/ruffle-nightly-2025_04_03-linux-x86_64.tar.gz
+link=https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-04-05/ruffle-nightly-2025_04_05-linux-x86_64.tar.gz
 size=39 MB
 version=2025
 -----------------------------------------------------------------
@@ -16534,9 +16537,9 @@ APP="streamlink"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="streamlink/streamlink-appimage"
-link=https://github.com/streamlink/streamlink-appimage/releases/download/7.1.3-1/streamlink-7.1.3-1-cp313-cp313-manylinux_2_28_x86_64.AppImage
-size=37 MB
-version=7.1.3
+link=https://github.com/streamlink/streamlink-appimage/releases/download/7.2.0-1/streamlink-7.2.0-1-cp313-cp313-manylinux_2_28_x86_64.AppImage
+size=42 MB
+version=7.2.0
 -----------------------------------------------------------------
 APP="streamlink-twitch-gui"
 APPIMAGE='yes'
@@ -17115,6 +17118,9 @@ APP="tdlib-rs"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="FedericoBruzzone/tdlib-rs"
+link=https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.0.5/tdlib-1.8.29-linux-x86_64.zip
+size=169 MB
+version=1.8.29
 -----------------------------------------------------------------
 APP="teams"
 APPIMAGE='yes'
@@ -17280,9 +17286,9 @@ APP="tgpt"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="aandrew-me/tgpt"
-link=https://github.com/aandrew-me/tgpt/releases/download/v2.9.3/tgpt-linux-amd64
+link=https://github.com/aandrew-me/tgpt/releases/download/v2.9.4/tgpt-linux-amd64
 size=10 MB
-version=2.9.3
+version=2.9.4
 -----------------------------------------------------------------
 APP="the-way"
 APPIMAGE='no'
@@ -18028,7 +18034,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="CESNET/UltraGrid"
 link=https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage
-size=147 MB
+size=148 MB
 version=2025.04.04
 -----------------------------------------------------------------
 APP="ultrascreen"
@@ -18529,8 +18535,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Vita3K/Vita3K"
 link=https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage
-size=16 MB
-version=2025.04.02
+size=21 MB
+version=2025.04.04
 -----------------------------------------------------------------
 APP="vitomu"
 APPIMAGE='yes'
@@ -18680,9 +18686,9 @@ APP="vscodium"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="VSCodium/vscodium"
-link=https://github.com/VSCodium/vscodium/releases/download/1.98.2.25078/VSCodium-1.98.2.25078.glibc2.29-x86_64.AppImage
+link=https://github.com/VSCodium/vscodium/releases/download/1.99.02283/VSCodium-1.99.02283.glibc2.29-x86_64.AppImage
 size=135 MB
-version=1.98.2.25078.glibc2.29
+version=1.99.02283.glibc2.29
 -----------------------------------------------------------------
 APP="vt"
 APPIMAGE='no'
@@ -18970,7 +18976,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48333766768
+version=48349210549
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19584,6 +19590,9 @@ APP="xtuber"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="chientrm/xtuber"
+link=https://github.com/chientrm/xtuber/releases/download/1.3.4/x-tuber_1.3.4_amd64.AppImage
+size=149 MB
+version=1.3.4
 -----------------------------------------------------------------
 APP="xxh"
 APPIMAGE='yes'
@@ -19645,9 +19654,9 @@ APP="yandex-browser-corporate"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Yandex-Browser-appimage"
-link=https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-corporate-25.2.1.917-1-x86_64.AppImage
-size=248 MB
-version=25.2.1.917
+link=https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-corporate-25.2.4.996-1-x86_64.AppImage
+size=250 MB
+version=25.2.4.996
 -----------------------------------------------------------------
 APP="yangdownloader"
 APPIMAGE='yes'
@@ -19679,7 +19688,7 @@ GITHUB='yes'
 SITE="sxyazi/yazi"
 link=https://github.com/sxyazi/yazi/releases/download/nightly/yazi-x86_64-unknown-linux-gnu.zip
 size=19 MB
-version=2025.04.04
+version=2025.04.05
 -----------------------------------------------------------------
 APP="yesplaymusic"
 APPIMAGE='yes'
