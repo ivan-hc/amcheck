@@ -162,9 +162,9 @@ APP="agregore"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AgregoreWeb/agregore-browser"
-link=https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.8.2/agregore-browser-2.8.2-linux-x86_64.AppImage
+link=https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.10.0/agregore-browser-2.10.0-linux-x86_64.AppImage
 size=166 MB
-version=2.8.2
+version=2.10.0
 -----------------------------------------------------------------
 APP="ai-bot-workspace"
 APPIMAGE='yes'
@@ -338,9 +338,9 @@ APP="altus"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="amanharwara/altus"
-link=https://github.com/amanharwara/altus/releases/download/5.6.0/Altus-5.6.0.AppImage
+link=https://github.com/amanharwara/altus/releases/download/5.6.1/Altus-5.6.1.AppImage
 size=104 MB
-version=5.6.0
+version=5.6.1
 -----------------------------------------------------------------
 APP="alvr"
 APPIMAGE='yes'
@@ -426,9 +426,9 @@ APP="android-knot"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ic005k/Knot"
-link=https://github.com/ic005k/Knot/releases/download/1.2.20/Knot-Linux-x86_64.AppImage
+link=https://github.com/ic005k/Knot/releases/download/1.2.24/Knot-Linux-x86_64.AppImage
 size=122 MB
-version=1.2.20
+version=1.2.24
 -----------------------------------------------------------------
 APP="android-messages-desktop"
 APPIMAGE='yes'
@@ -571,7 +571,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Anydesk-appimage"
 link=https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_6.4.2-x86_64.AppImage
-size=15 MB
+size=13 MB
 version=6.4.2
 -----------------------------------------------------------------
 APP="anything-llm"
@@ -1642,8 +1642,8 @@ APP="blender-alpha"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.795e63a4c762-linux.x86_64-release.tar.xz
-size=1110 MB
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.40cbc09d567c-linux.x86_64-release.tar.xz
+size=1112 MB
 version=4.5.0
 -----------------------------------------------------------------
 APP="blender-beta"
@@ -1658,7 +1658,7 @@ APP="blender-rc"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.aa97611d1a75-linux.x86_64-release.tar.xz
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.3ce223f5bb4b-linux.x86_64-release.tar.xz
 size=1111 MB
 version=4.4.1
 -----------------------------------------------------------------
@@ -1970,17 +1970,17 @@ APP="brave-nightly"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="brave/brave-browser"
-link=https://github.com/brave/brave-browser/releases/download/v1.79.33/brave-browser-nightly-1.79.33-linux-amd64.zip
+link=https://github.com/brave/brave-browser/releases/download/v1.79.34/brave-browser-nightly-1.79.34-linux-amd64.zip
 size=392 MB
-version=1.79.33
+version=1.79.34
 -----------------------------------------------------------------
 APP="brave-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
-link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.33-x86_64.AppImage
+link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.34-x86_64.AppImage
 size=155 MB
-version=1.79.33
+version=1.79.34
 -----------------------------------------------------------------
 APP="bread"
 APPIMAGE='yes'
@@ -2548,7 +2548,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.04.04
+version=2025.04.05
 -----------------------------------------------------------------
 APP="chatterino2-nightly"
 APPIMAGE='yes'
@@ -2556,7 +2556,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.04.04
+version=2025.04.05
 -----------------------------------------------------------------
 APP="cheat"
 APPIMAGE='no'
@@ -2738,9 +2738,9 @@ APP="citron-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/Citron-AppImage"
-link=https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-0dac3c1db-anylinux-x86_64_v3.AppImage
+link=https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-19febba86-anylinux-x86_64_v3.AppImage
 size=117 MB
-version=0dac3c1db
+version=19febba86
 -----------------------------------------------------------------
 APP="city-hub"
 APPIMAGE='yes'
@@ -3122,9 +3122,9 @@ APP="coolercontrold"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://gitlab.com/coolercontrol"
-link=https://gitlab.com/coolercontrol/coolercontrol/-/releases/2.0.1/downloads/packages/CoolerControlD-x86_64.AppImage
+link=https://gitlab.com/coolercontrol/coolercontrol/-/releases/2.1.0/downloads/packages/CoolerControlD-x86_64.AppImage
 size=35 MB
-version=2.0.1
+version=2.1.0
 -----------------------------------------------------------------
 APP="copytranslator"
 APPIMAGE='yes'
@@ -3666,9 +3666,9 @@ APP="darktable-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="darktable-org/darktable"
-link=https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.1.0%2B575.g7bbf4340a2-x86_64.AppImage
+link=https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.1.0%2B614.g631b6fda59-x86_64.AppImage
 size=160 MB
-version=5.1.0%2B575.g7bbf4340a2
+version=5.1.0%2B614.g631b6fda59
 -----------------------------------------------------------------
 APP="dashy-app"
 APPIMAGE='yes'
@@ -3714,9 +3714,6 @@ APP="dbeaver-ce"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="valicm/dbeaver-ce-appimage"
-link=https://github.com/valicm/dbeaver-ce-appimage/releases/download/latest/dbeaver-ce-x86_64.AppImage
-size=125 MB
-version=2025.03.24
 -----------------------------------------------------------------
 APP="dbee"
 APPIMAGE='no'
@@ -3914,7 +3911,7 @@ APP="desmume"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/DeSmuME-AppImage"
-link=https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/20250216-141051/desmume-0.9.13-1-anylinux-x86_64.AppImage
+link=https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1/desmume-0.9.13-1-anylinux-x86_64.AppImage
 size=63 MB
 version=0.9.13
 -----------------------------------------------------------------
@@ -4050,7 +4047,7 @@ APP="digikam"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://files.kde.org/digikam/"
-link=https://files.kde.org/digikam/digiKam-8.7.0-20250404T180045-Qt6-x86-64.appimage
+link=https://files.kde.org/digikam/digiKam-8.7.0-20250405T180100-Qt6-x86-64.appimage
 size=287 MB
 version=8.7.0
 -----------------------------------------------------------------
@@ -4130,9 +4127,9 @@ APP="dolphin-emu"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mantralunar/dolphin"
-link=https://github.com/mantralunar/dolphin/releases/download/dolphin-dadbd2f-x86_64/dolphin-x86_64.AppImage
+link=https://github.com/mantralunar/dolphin/releases/download/dolphin-2d1671a-x86_64/dolphin-x86_64.AppImage
 size=66 MB
-version=dadbd2f
+version=2d1671a
 -----------------------------------------------------------------
 APP="domterm"
 APPIMAGE='yes'
@@ -4278,6 +4275,14 @@ link=https://github.com/GameGodS3/DropPoint/releases/download/v1.2.1/DropPoint-1
 size=76 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="drovp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="drovp/drovp"
+link=https://github.com/drovp/drovp/releases/download/0.8.2/Drovp-x64.AppImage
+size=106 MB
+version=0.8.2
+-----------------------------------------------------------------
 APP="dsda-doom"
 APPIMAGE='yes'
 GITHUB='yes'
@@ -4317,14 +4322,6 @@ SITE="l1xnan/duckling"
 link=https://github.com/l1xnan/duckling/releases/download/v0.0.42/Duckling_0.0.42_amd64.AppImage
 size=107 MB
 version=0.0.42
------------------------------------------------------------------
-APP="duckstation"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="stenzek/duckstation"
-link=https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage
-size=64 MB
-version=206009636
 -----------------------------------------------------------------
 APP="duelyst"
 APPIMAGE='no'
@@ -4738,9 +4735,9 @@ APP="emacs-nox-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14255121535/Emacs-master-nox-x86_64.AppImage
-size=177 MB
-version=14255121535
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14287142847/Emacs-mps-native_comp-nox-x86_64.AppImage
+size=180 MB
+version=14287142847
 -----------------------------------------------------------------
 APP="emacs-pgtk"
 APPIMAGE='yes'
@@ -4754,9 +4751,9 @@ APP="emacs-pgtk-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14255121535/Emacs-master-pgtk-x86_64.AppImage
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14287031770/Emacs-master-pgtk-x86_64.AppImage
 size=181 MB
-version=14255121535
+version=14287031770
 -----------------------------------------------------------------
 APP="emacs-x11"
 APPIMAGE='yes'
@@ -4770,8 +4767,8 @@ APP="emacs-x11-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14255121535/Emacs-master-x11-x86_64.AppImage
-size=182 MB
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14287142847/Emacs-mps-native_comp-x11-x86_64.AppImage
+size=185 MB
 version=x11
 -----------------------------------------------------------------
 APP="embedded-ide"
@@ -4828,7 +4825,7 @@ GITHUB='yes'
 SITE="endless-sky/endless-sky"
 link=https://github.com/endless-sky/endless-sky/releases/download/continuous/Endless_Sky-continuous-x86_64.AppImage
 size=343 MB
-version=2025.04.04
+version=2025.04.06
 -----------------------------------------------------------------
 APP="enoseannotator"
 APPIMAGE='yes'
@@ -5258,9 +5255,9 @@ APP="fastfetch"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="fastfetch-cli/fastfetch"
-link=https://github.com/fastfetch-cli/fastfetch/releases/download/2.40.2/fastfetch-linux-amd64.tar.gz
+link=https://github.com/fastfetch-cli/fastfetch/releases/download/2.40.3/fastfetch-linux-amd64.tar.gz
 size=29 MB
-version=2.40.2
+version=2.40.3
 -----------------------------------------------------------------
 APP="fasttrack"
 APPIMAGE='yes'
@@ -5506,7 +5503,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl1.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=1pqJmPw2_GXdmGoyS6AnOw&x=1743806416
+link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=dkmo_0pTV4Vn1Yu3a0okww&x=1743936056
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -5576,9 +5573,9 @@ APP="firefox-beta-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250402091540-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250404092111-x86_64.AppImage
 size=100 MB
-version=138.0.r20250402091540
+version=138.0.r20250404092111
 -----------------------------------------------------------------
 APP="firefox-dev"
 APPIMAGE='no'
@@ -5591,9 +5588,9 @@ APP="firefox-devedition-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250402091540-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250404092111-x86_64.AppImage
 size=100 MB
-version=138.0.r20250402091540
+version=138.0.r20250404092111
 -----------------------------------------------------------------
 APP="firefox-esr"
 APPIMAGE='no'
@@ -5621,9 +5618,9 @@ APP="firefox-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250404092926-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250405211119-x86_64.AppImage
 size=113 MB
-version=139.0.r20250404092926
+version=139.0.r20250405211119
 -----------------------------------------------------------------
 APP="firetail"
 APPIMAGE='yes'
@@ -5789,9 +5786,6 @@ APP="flycast"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="flyinghead/flycast"
-link=https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_64.AppImage
-size=17 MB
-version=2.4
 -----------------------------------------------------------------
 APP="flycast-dojo"
 APPIMAGE='yes'
@@ -5845,9 +5839,6 @@ APP="focalizzare"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="VitoVan/focalizzare"
-link=https://github.com/VitoVan/focalizzare/releases/download/1.1.5/Focalizzare.AppImage
-size=23 MB
-version=1.1.5
 -----------------------------------------------------------------
 APP="focus"
 APPIMAGE='no'
@@ -6181,9 +6172,9 @@ APP="fzf"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="junegunn/fzf"
-link=https://github.com/junegunn/fzf/releases/download/v0.61.0/fzf-0.61.0-linux_amd64.tar.gz
+link=https://github.com/junegunn/fzf/releases/download/v0.61.1/fzf-0.61.1-linux_amd64.tar.gz
 size=4 MB
-version=0.61.0
+version=0.61.1
 -----------------------------------------------------------------
 APP="gaiasky"
 APPIMAGE='yes'
@@ -6237,9 +6228,6 @@ APP="gams-studio"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="GAMS-dev/studio"
-link=https://github.com/GAMS-dev/studio/releases/download/v1.20.4/GAMS_Studio-1.20.4-x86_64.AppImage
-size=163 MB
-version=1.20.4
 -----------------------------------------------------------------
 APP="ganache"
 APPIMAGE='yes'
@@ -6453,7 +6441,7 @@ APP="ghostty-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/ghostty-appimage"
-link=https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B6f1b22a-x86_64.AppImage
+link=https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bc0eaa4b-x86_64.AppImage
 size=67 MB
 version=1.1.4
 -----------------------------------------------------------------
@@ -6485,9 +6473,9 @@ APP="gickup"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="cooperspencer/gickup"
-link=https://github.com/cooperspencer/gickup/releases/download/v0.10.37/gickup_0.10.37_linux_amd64.tar.gz
+link=https://github.com/cooperspencer/gickup/releases/download/v0.10.38/gickup_0.10.38_linux_amd64.tar.gz
 size=20 MB
-version=0.10.37
+version=0.10.38
 -----------------------------------------------------------------
 APP="gifcurry"
 APPIMAGE='yes'
@@ -6517,7 +6505,7 @@ APP="gimp-git"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/GIMP-appimage"
-link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_54439.5201d194faa-1-archimage4.3-x86_64.AppImage
+link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_54444.257ac87e9f0-1-archimage4.3-x86_64.AppImage
 size=197 MB
 version=starting
 -----------------------------------------------------------------
@@ -6877,9 +6865,9 @@ APP="goofcord"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Milkshiift/GoofCord"
-link=https://github.com/Milkshiift/GoofCord/releases/download/v1.8.5/GoofCord-1.8.5-linux-x86_64.AppImage
+link=https://github.com/Milkshiift/GoofCord/releases/download/v1.8.6/GoofCord-1.8.6-linux-x86_64.AppImage
 size=109 MB
-version=1.8.5
+version=1.8.6
 -----------------------------------------------------------------
 APP="google-chrome"
 APPIMAGE='yes'
@@ -6901,9 +6889,9 @@ APP="google-chrome-dev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Chrome-appimage"
-link=https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-unstable-136.0.7091.2-1-x86_64.AppImage
+link=https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-unstable-137.0.7106.2-1-x86_64.AppImage
 size=145 MB
-version=136.0.7091.2
+version=137.0.7106.2
 -----------------------------------------------------------------
 APP="google-docs"
 APPIMAGE='yes'
@@ -7221,9 +7209,9 @@ APP="gvim"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="vim/vim-appimage"
-link=https://github.com/vim/vim-appimage/releases/download/v9.1.1275/GVim-v9.1.1275.glibc2.29-x86_64.AppImage
+link=https://github.com/vim/vim-appimage/releases/download/v9.1.1279/GVim-v9.1.1279.glibc2.29-x86_64.AppImage
 size=45 MB
-version=9.1.1275.glibc2.29
+version=9.1.1279.glibc2.29
 -----------------------------------------------------------------
 APP="gxc-smart-contract-ide"
 APPIMAGE='yes'
@@ -7485,9 +7473,9 @@ APP="hmcl"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="HMCL-dev/HMCL"
-link=https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.sh
+link=https://github.com/HMCL-dev/HMCL/releases/download/v3.6.12.274/HMCL-3.6.12.274.sh
 size=6 MB
-version=3.6.12.sh
+version=3.6.12.274.sh
 -----------------------------------------------------------------
 APP="hoptodesk"
 APPIMAGE='yes'
@@ -7909,9 +7897,6 @@ APP="inkscape-next"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
-link=https://gitlab.com/inkscape/inkscape/-/jobs/9630701992/artifacts/download
-size=177 MB
-version=9630701992
 -----------------------------------------------------------------
 APP="innerbreeze"
 APPIMAGE='yes'
@@ -8173,9 +8158,9 @@ APP="jellyfin"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://jellyfin.org"
-link=https://repo.jellyfin.org/files/server/linux/latest-stable/amd64/jellyfin_10.10.6-amd64.tar.gz
+link=https://repo.jellyfin.org/files/server/linux/latest-stable/amd64/jellyfin_10.10.7-amd64.tar.gz
 size=211 MB
-version=10.10.6
+version=10.10.7
 -----------------------------------------------------------------
 APP="jetbrains-toolbox"
 APPIMAGE='yes'
@@ -8711,7 +8696,7 @@ GITHUB='yes'
 SITE="kovidgoyal/kitty"
 link=https://github.com/kovidgoyal/kitty/releases/download/nightly/kitten-linux-amd64
 size=16 MB
-version=2025.04.04
+version=2025.04.05
 -----------------------------------------------------------------
 APP="kitupiikki"
 APPIMAGE='yes'
@@ -8765,9 +8750,9 @@ APP="koboldcpp"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="LostRuins/koboldcpp"
-link=https://github.com/LostRuins/koboldcpp/releases/download/v1.87.2/koboldcpp-linux-x64-nocuda
+link=https://github.com/LostRuins/koboldcpp/releases/download/v1.87.4/koboldcpp-linux-x64-nocuda
 size=75 MB
-version=1.87.2
+version=1.87.4
 -----------------------------------------------------------------
 APP="koishi-desktop"
 APPIMAGE='yes'
@@ -8789,9 +8774,9 @@ APP="koodo-reader"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="troyeguo/koodo-reader"
-link=https://github.com/koodo-reader/koodo-reader/releases/download/v1.9.0/Koodo-Reader-1.9.0-x86_64.AppImage
-size=124 MB
-version=1.9.0
+link=https://github.com/koodo-reader/koodo-reader/releases/download/v1.9.1/Koodo-Reader-1.9.1-x86_64.AppImage
+size=121 MB
+version=1.9.1
 -----------------------------------------------------------------
 APP="kopia"
 APPIMAGE='yes'
@@ -8809,14 +8794,6 @@ link=https://github.com/koreader/koreader/releases/download/v2024.11/koreader-ap
 size=44 MB
 version=2024.11
 -----------------------------------------------------------------
-APP="kristall"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://kristall.random-projects.net"
-link=https://kristall.random-projects.net/download/Kristall-nightly-linux-x86_64.AppImage
-size=41 MB
-version=0.4
------------------------------------------------------------------
 APP="krita"
 APPIMAGE='yes'
 GITHUB='no'
@@ -8829,7 +8806,7 @@ APP="krita-devel"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://cdn.kde.org/ci-builds/graphics/krita"
-link=https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prealpha-7db1c84fab-x86_64.AppImage
+link=https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prealpha-647fcbf1ae-x86_64.AppImage
 size=354 MB
 version=5.3.0
 -----------------------------------------------------------------
@@ -9666,8 +9643,8 @@ APP="mandelbulber2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="buddhi1980/mandelbulber2"
-link=https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-ce71668-x86_64.AppImage
-size=155 MB
+link=https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-a631a7e-x86_64.AppImage
+size=156 MB
 version=2
 -----------------------------------------------------------------
 APP="manga-tui"
@@ -10146,17 +10123,17 @@ APP="microsoft-edge"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-134.0.3124.95-1-x86_64.AppImage
-size=211 MB
-version=134.0.3124.95
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-135.0.3179.54-1-x86_64.AppImage
+size=210 MB
+version=135.0.3179.54
 -----------------------------------------------------------------
 APP="microsoft-edge-beta"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-135.0.3179.41-1-x86_64.AppImage
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-135.0.3179.54-1-x86_64.AppImage
 size=210 MB
-version=135.0.3179.41
+version=135.0.3179.54
 -----------------------------------------------------------------
 APP="microsoft-edge-dev"
 APPIMAGE='yes'
@@ -10881,7 +10858,7 @@ APP="naev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="naev/naev"
-link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B76.gdba7394671-linux-x86-64.AppImage
+link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B80.gdf960c3724-linux-x86-64.AppImage
 size=486 MB
 version=0.13.0
 -----------------------------------------------------------------
@@ -11449,9 +11426,9 @@ APP="nuclear"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="nukeop/nuclear"
-link=https://github.com/nukeop/nuclear/releases/download/v0.6.45/nuclear-v0.6.45-x86_64.AppImage
+link=https://github.com/nukeop/nuclear/releases/download/v0.6.46/nuclear-v0.6.46-x86_64.AppImage
 size=186 MB
-version=0.6.45
+version=0.6.46
 -----------------------------------------------------------------
 APP="nuclia"
 APPIMAGE='yes'
@@ -11499,7 +11476,7 @@ GITHUB='yes'
 SITE="neovim/neovim"
 link=https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
 size=19 MB
-version=2025.04.04
+version=2025.04.06
 -----------------------------------------------------------------
 APP="nvtop"
 APPIMAGE='yes'
@@ -11586,7 +11563,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/OBS-Studio-appimage"
 link=https://github.com/ivan-hc/OBS-Studio-appimage/releases/download/continuous-full/OBS-Studio-FULL_31.0.3-1-archimage4.3-x86_64.AppImage
-size=404 MB
+size=405 MB
 version=31.0.3
 -----------------------------------------------------------------
 APP="obsidian"
@@ -11657,7 +11634,7 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250404%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250404T232454Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=76d50e8c552878521f48c92c0a5a92ffcfdb3f524c86c8d33028ea7fcf56c9dc
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250406%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250406T112102Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=709f09061c48b3a8e7d785dfef72f59bcdb91e783e88e94d5f708a0db022dcd8
 size=44 MB
 version=0.6.5
 -----------------------------------------------------------------
@@ -11689,9 +11666,9 @@ APP="ollama"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ollama/ollama"
-link=https://github.com/ollama/ollama/releases/download/v0.6.4/ollama-linux-amd64.tgz
+link=https://github.com/ollama/ollama/releases/download/v0.6.5-rc1/ollama-linux-amd64.tgz
 size=1640 MB
-version=0.6.4
+version=0.6.5
 -----------------------------------------------------------------
 APP="omekasy"
 APPIMAGE='no'
@@ -11985,9 +11962,9 @@ APP="openrct2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="OpenRCT2/OpenRCT2"
-link=https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.20/OpenRCT2-v0.4.20-linux-x86_64.AppImage
+link=https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.21/OpenRCT2-v0.4.21-linux-x86_64.AppImage
 size=95 MB
-version=0.4.20
+version=0.4.21
 -----------------------------------------------------------------
 APP="openrgb"
 APPIMAGE='yes'
@@ -12097,9 +12074,6 @@ APP="orcaslicer-any"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="SoftFever/OrcaSlicer"
-link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0.AppImage
-size=109 MB
-version=Ubuntu2404
 -----------------------------------------------------------------
 APP="orcaslicer-beta"
 APPIMAGE='yes'
@@ -12131,7 +12105,7 @@ GITHUB='yes'
 SITE="OSSIA/score"
 link=https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage
 size=338 MB
-version=2025.04.03
+version=2025.04.06
 -----------------------------------------------------------------
 APP="ostara"
 APPIMAGE='yes'
@@ -12393,7 +12367,7 @@ APP="parsec"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Scille/parsec-cloud"
-link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20182%2B87bddff_linux_x86_64.unsigned.AppImage
+link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20183%2B87bddff_linux_x86_64.unsigned.AppImage
 size=143 MB
 version=3.3.3
 -----------------------------------------------------------------
@@ -12513,9 +12487,9 @@ APP="pcsx2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PCSX2/pcsx2"
-link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.256/pcsx2-v2.3.256-linux-appimage-x64-Qt.AppImage
+link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.257/pcsx2-v2.3.257-linux-appimage-x64-Qt.AppImage
 size=61 MB
-version=2.3.256
+version=2.3.257
 -----------------------------------------------------------------
 APP="pdf-diff"
 APPIMAGE='no'
@@ -13425,9 +13399,9 @@ APP="ppsspp"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mantralunar/ppsspp"
-link=https://github.com/mantralunar/ppsspp/releases/download/ppsspp-8734df7-x86_64/ppsspp-x86_64.AppImage
+link=https://github.com/mantralunar/ppsspp/releases/download/ppsspp-f573b0c-x86_64/ppsspp-x86_64.AppImage
 size=27 MB
-version=8734df7
+version=f573b0c
 -----------------------------------------------------------------
 APP="pragtical"
 APPIMAGE='yes'
@@ -13465,9 +13439,9 @@ APP="principia"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Bithack/principia"
-link=https://github.com/Bithack/principia/releases/download/2024.07.12/principia_2024.07.12_x86_64.AppImage
+link=https://github.com/Bithack/principia/releases/download/2025.04.05/principia_2025.04.05_x86_64.AppImage
 size=18 MB
-version=2024.07.12
+version=2025.04.05
 -----------------------------------------------------------------
 APP="printerclient"
 APPIMAGE='yes'
@@ -14593,7 +14567,7 @@ APP="retrom"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="JMBeresford/retrom"
-link=https://github.com/JMBeresford/retrom/releases/download/v0.7.17/Retrom_0.7.17_amd64.AppImage
+link=https://github.com/JMBeresford/retrom/releases/download/emulatorjs-beta-0.0.1/Retrom_0.7.17_amd64.AppImage
 size=146 MB
 version=0.7.17
 -----------------------------------------------------------------
@@ -14634,7 +14608,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Rhythmbox-appimage"
 link=https://github.com/ivan-hc/Rhythmbox-appimage/releases/download/continuous/Rhythmbox_3.4.8-2-archimage4.3-x86_64.AppImage
-size=91 MB
+size=93 MB
 version=3.4.8
 -----------------------------------------------------------------
 APP="ricochet"
@@ -14785,7 +14759,7 @@ APP="rpcs3"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://rpcs3.net"
-link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-613212f9e15f59825f7b81abc33add7624adedd7/rpcs3-v0.0.36-17745-613212f9_linux64.AppImage
+link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-04d833d3e67b5a60007eaccf37681a6f9e54b0df/rpcs3-v0.0.36-17748-04d833d3_linux64.AppImage
 size=107 MB
 version=0.0.36
 -----------------------------------------------------------------
@@ -15041,9 +15015,9 @@ APP="sbe"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="kondoumh/sbe"
-link=https://github.com/kondoumh/sbe/releases/download/v3.6.0/sbe-3.6.0.AppImage
-size=104 MB
-version=3.6.0
+link=https://github.com/kondoumh/sbe/releases/download/v3.7.0-rc.1/sbe-3.7.0-rc.1.AppImage
+size=108 MB
+version=3.7.0
 -----------------------------------------------------------------
 APP="sblauncher"
 APPIMAGE='yes'
@@ -15361,7 +15335,7 @@ APP="shadps4-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="shadps4-emu/shadPS4"
-link=https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-04-04-54b4d7f/shadps4-linux-sdl-2025-04-04-54b4d7f.zip
+link=https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-04-05-0c6f2b4/shadps4-linux-sdl-2025-04-05-0c6f2b4.zip
 size=15 MB
 version=shadps4
 -----------------------------------------------------------------
@@ -15513,9 +15487,9 @@ APP="signal"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="karo-solutions/Signal-Desktop-AppImage"
-link=https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.48.0/Signal-v7.48.0-x86_64.AppImage
-size=150 MB
-version=7.48.0
+link=https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.49.0/Signal-v7.49.0-x86_64.AppImage
+size=130 MB
+version=7.49.0
 -----------------------------------------------------------------
 APP="sigrok-cli"
 APPIMAGE='yes'
@@ -16370,7 +16344,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Steam-appimage"
 link=https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.82-1/Steam-1.0.0.82-1-anylinux.dwarfs-x86_64.AppImage
-size=269 MB
+size=266 MB
 version=1.0.0.82
 -----------------------------------------------------------------
 APP="steam-rom-manager"
@@ -16449,9 +16423,9 @@ APP="sticker-convert"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="laggykiller/sticker-convert"
-link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.1/sticker-convert-x86_64.AppImage
+link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.2/sticker-convert-x86_64.AppImage
 size=111 MB
-version=2.12.1
+version=2.12.2
 -----------------------------------------------------------------
 APP="stockstalk"
 APPIMAGE='yes'
@@ -16521,7 +16495,7 @@ APP="streamcapture2"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://gitlab.com/posktomten/streamcapture2"
-link=https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=NrKGhsJFVBz
+link=https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=lShbDPKPsTb
 size=51 MB
 version=2025.04.01
 -----------------------------------------------------------------
@@ -17126,9 +17100,9 @@ APP="teams"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="IsmaelMartinez/teams-for-linux"
-link=https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.0.0/teams-for-linux-2.0.0.AppImage
+link=https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.0.3/teams-for-linux-2.0.3.AppImage
 size=121 MB
-version=2.0.0
+version=2.0.3
 -----------------------------------------------------------------
 APP="teamviewer"
 APPIMAGE='no'
@@ -18345,17 +18319,11 @@ APP="vhc-viewer-wayland"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://vulkan.gpuinfo.org"
-link=https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64_wayland.AppImage
-size=27 MB
-version=4.00
 -----------------------------------------------------------------
 APP="vhc-viewer-x11"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://vulkan.gpuinfo.org"
-link=https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64.AppImage
-size=27 MB
-version=4.00
 -----------------------------------------------------------------
 APP="vhs"
 APPIMAGE='no'
@@ -18686,9 +18654,9 @@ APP="vscodium"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="VSCodium/vscodium"
-link=https://github.com/VSCodium/vscodium/releases/download/1.99.02283/VSCodium-1.99.02283.glibc2.29-x86_64.AppImage
+link=https://github.com/VSCodium/vscodium/releases/download/1.99.02289/VSCodium-1.99.02289.glibc2.29-x86_64.AppImage
 size=135 MB
-version=1.99.02283.glibc2.29
+version=1.99.02289.glibc2.29
 -----------------------------------------------------------------
 APP="vt"
 APPIMAGE='no'
@@ -18776,7 +18744,7 @@ GITHUB='no'
 SITE="https://www.warp.dev"
 link=https://app.warp.dev/download?package=appimage
 size=53 MB
-version=0.2025.04.02.08.11.stable
+version=0.2025.04.02.08.11.stable.03
 -----------------------------------------------------------------
 APP="wasistlos"
 APPIMAGE='yes'
@@ -18976,7 +18944,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48349210549
+version=48370591985
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19214,7 +19182,7 @@ APP="wonderpen"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.tominlab.com"
-link=https://file.tominlab.com/WonderPen/2.6/WonderPen_linux_x86_64_2.6.2(7722).AppImage
+link=https://file.tominlab.com/WonderPen/2.6/WonderPen_linux_x86_64_2.6.3(7726).AppImage
 size=86 MB
 version=2.6
 -----------------------------------------------------------------
@@ -19394,6 +19362,14 @@ link=https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.49.3/x
 size=111 MB
 version=0.49.3
 -----------------------------------------------------------------
+APP="duckstation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stenzek/duckstation"
+link=https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage
+size=64 MB
+version=210552585
+-----------------------------------------------------------------
 APP="x-pixiv"
 APPIMAGE='no'
 GITHUB='yes'
@@ -19550,7 +19526,7 @@ APP="xournal++nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="xournalpp/xournalpp"
-link=https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.6%2Bdev-nightly-20250402-x86_64.AppImage
+link=https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.6%2Bdev-nightly-20250406-x86_64.AppImage
 size=37 MB
 version=1.2.6%2Bdev
 -----------------------------------------------------------------
@@ -19688,7 +19664,7 @@ GITHUB='yes'
 SITE="sxyazi/yazi"
 link=https://github.com/sxyazi/yazi/releases/download/nightly/yazi-x86_64-unknown-linux-gnu.zip
 size=19 MB
-version=2025.04.05
+version=2025.04.06
 -----------------------------------------------------------------
 APP="yesplaymusic"
 APPIMAGE='yes'
@@ -19910,9 +19886,9 @@ APP="zen-browser"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="zen-browser/desktop"
-link=https://github.com/zen-browser/desktop/releases/download/1.11b/zen-x86_64.AppImage
+link=https://github.com/zen-browser/desktop/releases/download/1.11.1b/zen-x86_64.AppImage
 size=100 MB
-version=1.11
+version=1.11.1
 -----------------------------------------------------------------
 APP="zenity"
 APPIMAGE='yes'
