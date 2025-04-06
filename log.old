@@ -571,7 +571,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Anydesk-appimage"
 link=https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_6.4.2-x86_64.AppImage
-size=13 MB
+size=15 MB
 version=6.4.2
 -----------------------------------------------------------------
 APP="anything-llm"
@@ -1123,7 +1123,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Avidemux-unofficial-appimage"
 link=https://github.com/ivan-hc/Avidemux-unofficial-appimage/releases/download/continuous/Avidemux_2.8.1-6-archimage4.3-x86_64.AppImage
-size=81 MB
+size=82 MB
 version=2.8.1
 -----------------------------------------------------------------
 APP="avocado"
@@ -2018,9 +2018,9 @@ APP="brisk"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="AminBhst/brisk"
-link=https://github.com/AminBhst/brisk/releases/download/v2.1.1/Brisk-v2.1.1-linux-x86_64.tar.xz
+link=https://github.com/AminBhst/brisk/releases/download/v2.1.2/Brisk-v2.1.2-linux-x86_64.tar.xz
 size=48 MB
-version=2.1.1
+version=2.1.2
 -----------------------------------------------------------------
 APP="brisqi"
 APPIMAGE='yes'
@@ -2548,7 +2548,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.04.05
+version=2025.04.06
 -----------------------------------------------------------------
 APP="chatterino2-nightly"
 APPIMAGE='yes'
@@ -2556,7 +2556,7 @@ GITHUB='yes'
 SITE="Chatterino/chatterino2"
 link=https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage
 size=36 MB
-version=2025.04.05
+version=2025.04.06
 -----------------------------------------------------------------
 APP="cheat"
 APPIMAGE='no'
@@ -2731,7 +2731,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/Citron-AppImage"
 link=https://github.com/pkgforge-dev/Citron-AppImage/releases/download/v0.6.1/Citron-v0.6.1-anylinux-x86_64_v3.AppImage
-size=125 MB
+size=117 MB
 version=0.6.1
 -----------------------------------------------------------------
 APP="citron-nightly"
@@ -3466,9 +3466,9 @@ APP="cromite"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/Cromite-AppImage"
-link=https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v134.0.6998.108/Cromite-v134.0.6998.108-anylinux-x86_64.AppImage
-size=198 MB
-version=134.0.6998.108
+link=https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v135.0.7049.52/Cromite-v135.0.7049.52-anylinux-x86_64.AppImage
+size=186 MB
+version=135.0.7049.52
 -----------------------------------------------------------------
 APP="crosscode-map-editor"
 APPIMAGE='yes'
@@ -3714,6 +3714,9 @@ APP="dbeaver-ce"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="valicm/dbeaver-ce-appimage"
+link=https://github.com/valicm/dbeaver-ce-appimage/releases/download/latest/dbeaver-ce-x86_64.AppImage
+size=125 MB
+version=2025.03.24
 -----------------------------------------------------------------
 APP="dbee"
 APPIMAGE='no'
@@ -4322,6 +4325,14 @@ SITE="l1xnan/duckling"
 link=https://github.com/l1xnan/duckling/releases/download/v0.0.42/Duckling_0.0.42_amd64.AppImage
 size=107 MB
 version=0.0.42
+-----------------------------------------------------------------
+APP="duckstation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stenzek/duckstation"
+link=https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage
+size=64 MB
+version=210552585
 -----------------------------------------------------------------
 APP="duelyst"
 APPIMAGE='no'
@@ -5503,7 +5514,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=dkmo_0pTV4Vn1Yu3a0okww&x=1743936056
+link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=z7AqZ2-aHXtWvJe4Fv9E3Q&x=1743963599
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -5618,9 +5629,9 @@ APP="firefox-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250405211119-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250406090220-x86_64.AppImage
 size=113 MB
-version=139.0.r20250405211119
+version=139.0.r20250406090220
 -----------------------------------------------------------------
 APP="firetail"
 APPIMAGE='yes'
@@ -5786,6 +5797,9 @@ APP="flycast"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="flyinghead/flycast"
+link=https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_64.AppImage
+size=17 MB
+version=2.4
 -----------------------------------------------------------------
 APP="flycast-dojo"
 APPIMAGE='yes'
@@ -5839,6 +5853,9 @@ APP="focalizzare"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="VitoVan/focalizzare"
+link=https://github.com/VitoVan/focalizzare/releases/download/1.1.5/Focalizzare.AppImage
+size=23 MB
+version=1.1.5
 -----------------------------------------------------------------
 APP="focus"
 APPIMAGE='no'
@@ -6228,6 +6245,9 @@ APP="gams-studio"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="GAMS-dev/studio"
+link=https://github.com/GAMS-dev/studio/releases/download/v1.20.4/GAMS_Studio-1.20.4-x86_64.AppImage
+size=163 MB
+version=1.20.4
 -----------------------------------------------------------------
 APP="ganache"
 APPIMAGE='yes'
@@ -6738,7 +6758,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Boxes-appimage"
 link=https://github.com/ivan-hc/Boxes-appimage/releases/download/continuous/Boxes_48.0-1-archimage4.3-x86_64.AppImage
-size=185 MB
+size=186 MB
 version=48.0
 -----------------------------------------------------------------
 APP="gnome-calculator"
@@ -8511,7 +8531,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/kdeconnect-AppImage"
 link=https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/24.12.3-1/kdeconnect-24.12.3-1-anylinux-x86_64.AppImage
-size=100 MB
+size=101 MB
 version=24.12.3
 -----------------------------------------------------------------
 APP="kdegames"
@@ -9179,9 +9199,9 @@ APP="librewolf"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://librewolf.net"
-link=https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/136.0.4-1/LibreWolf.x86_64.AppImage
-size=107 MB
-version=136.0.4
+link=https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/137.0-3/LibreWolf.x86_64.AppImage
+size=108 MB
+version=137.0
 -----------------------------------------------------------------
 APP="lightning"
 APPIMAGE='yes'
@@ -11242,7 +11262,7 @@ APP="nootka"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://nootka.sourceforge.io"
-link=https://sourceforge.net/projects/nootka/files/Testing/nootka-2.1.7-devel-b5166-Linux-x86_64.AppImage/download
+link=https://sourceforge.net/projects/nootka/files/Testing/nootka-2.1.7-devel-b5168-Linux-x86_64.AppImage/download
 size=67 MB
 version=2.1.7
 -----------------------------------------------------------------
@@ -11634,7 +11654,7 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250406%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250406T112102Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=709f09061c48b3a8e7d785dfef72f59bcdb91e783e88e94d5f708a0db022dcd8
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250406%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250406T191957Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=422dac5fcbc4dd2dec508f57e4bfb775502208153c770c59d9395ad5157aa75a
 size=44 MB
 version=0.6.5
 -----------------------------------------------------------------
@@ -12074,6 +12094,9 @@ APP="orcaslicer-any"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="SoftFever/OrcaSlicer"
+link=https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.0.AppImage
+size=109 MB
+version=Ubuntu2404
 -----------------------------------------------------------------
 APP="orcaslicer-beta"
 APPIMAGE='yes'
@@ -12448,7 +12471,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Samueru-sama/pavucontrol-qt-AppImage"
 link=https://github.com/pkgforge-dev/pavucontrol-qt-AppImage/releases/download/2.1.0-1/pavucontrol-qt-2.1.0-1-anylinux-x86_64.AppImage
-size=36 MB
+size=37 MB
 version=2.1.0
 -----------------------------------------------------------------
 APP="pay-respects"
@@ -12487,9 +12510,9 @@ APP="pcsx2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PCSX2/pcsx2"
-link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.257/pcsx2-v2.3.257-linux-appimage-x64-Qt.AppImage
-size=61 MB
-version=2.3.257
+link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.259/pcsx2-v2.3.259-linux-appimage-x64-Qt.AppImage
+size=62 MB
+version=2.3.259
 -----------------------------------------------------------------
 APP="pdf-diff"
 APPIMAGE='no'
@@ -13143,9 +13166,6 @@ APP="podium"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="beeware/podium"
-link=https://github.com/beeware/podium/releases/download/v0.2/Podium-0.2-x86_64.AppImage
-size=24 MB
-version=0.2
 -----------------------------------------------------------------
 APP="podman"
 APPIMAGE='no'
@@ -14759,8 +14779,8 @@ APP="rpcs3"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://rpcs3.net"
-link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-04d833d3e67b5a60007eaccf37681a6f9e54b0df/rpcs3-v0.0.36-17748-04d833d3_linux64.AppImage
-size=107 MB
+link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b3bbd939e3604eb9a259fc829270c4f0c3856f9d/rpcs3-v0.0.36-17751-b3bbd939_linux64.AppImage
+size=101 MB
 version=0.0.36
 -----------------------------------------------------------------
 APP="rquickshare"
@@ -14823,9 +14843,6 @@ APP="ruffle"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ruffle-rs/ruffle"
-link=https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-04-05/ruffle-nightly-2025_04_05-linux-x86_64.tar.gz
-size=39 MB
-version=2025
 -----------------------------------------------------------------
 APP="runanode"
 APPIMAGE='yes'
@@ -16423,9 +16440,9 @@ APP="sticker-convert"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="laggykiller/sticker-convert"
-link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.2/sticker-convert-x86_64.AppImage
+link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.3/sticker-convert-x86_64.AppImage
 size=111 MB
-version=2.12.2
+version=2.12.3
 -----------------------------------------------------------------
 APP="stockstalk"
 APPIMAGE='yes'
@@ -16487,9 +16504,9 @@ APP="strawberry"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Samueru-sama/strawberry-AppImage"
-link=https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.7-2/strawberry-1.2.7-2-anylinux-x86_64.AppImage
-size=84 MB
-version=1.2.7
+link=https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.8-1/strawberry-1.2.8-1-anylinux-x86_64.AppImage
+size=86 MB
+version=1.2.8
 -----------------------------------------------------------------
 APP="streamcapture2"
 APPIMAGE='yes'
@@ -17204,9 +17221,6 @@ APP="tesseract"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AlexanderP/tesseract-appimage"
-link=https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.0/tesseract-5.5.0-x86_64.AppImage
-size=57 MB
-version=5.5.0
 -----------------------------------------------------------------
 APP="testdisk"
 APPIMAGE='no'
@@ -18944,7 +18958,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48370591985
+version=48376047641
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19361,14 +19375,6 @@ SITE="Voxelum/x-minecraft-launcher"
 link=https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.49.3/xmcl-0.49.3-x86_64.AppImage
 size=111 MB
 version=0.49.3
------------------------------------------------------------------
-APP="duckstation"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="stenzek/duckstation"
-link=https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage
-size=64 MB
-version=210552585
 -----------------------------------------------------------------
 APP="x-pixiv"
 APPIMAGE='no'
