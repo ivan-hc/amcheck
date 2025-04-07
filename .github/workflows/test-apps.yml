@@ -272,7 +272,7 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl torsocks zsync ripgrep
+          packages: wget curl zsync ripgrep
           version: 1.0
 
       - name: "Install AM 🎁"
@@ -574,13 +574,13 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl torsocks zsync ripgrep
+          packages: wget curl zsync ripgrep
           version: 1.0
 
       - name: "Install AM 🎁"
         run: |
-          sudo systemctl enable tor.service || systemctl enable tor.service
-          sudo systemctl start tor.service || systemctl start tor.service
+          #sudo systemctl enable tor.service || systemctl enable tor.service
+          #sudo systemctl start tor.service || systemctl start tor.service
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
 
@@ -618,11 +618,11 @@ jobs:
             if grep -q "^version=" "$fail" 2>/dev/null; then
               link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
               if [ -z "$link" ]; then
-                sed -i 's/curl -Ls/torsocks curl -Ls/g' "$fail"
+                #sed -i 's/curl -Ls/torsocks curl -Ls/g' "$fail"
                 link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
                 if [ -z "$version" ]; then
-                  sudo systemctl restart tor.service || systemctl restart tor.service
-                  wait
+                  #sudo systemctl restart tor.service || systemctl restart tor.service
+                  #wait
                   link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
                 fi
               fi
