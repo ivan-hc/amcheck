@@ -947,7 +947,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="artisan-roaster-scope/artisan"
 link=https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.1.1.AppImage
-size=315 MB
+size=301 MB
 version=3.1.1
 -----------------------------------------------------------------
 APP="artix"
@@ -2978,9 +2978,9 @@ APP="comic-book-reader"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="binarynonsense/comic-book-reader"
-link=https://github.com/binarynonsense/comic-book-reader/releases/download/v3.10.1/ACBR_Linux_AppImage.zip
+link=https://github.com/binarynonsense/comic-book-reader/releases/download/v3.10.2/ACBR_Linux_AppImage.zip
 size=180 MB
-version=3.10.1
+version=3.10.2
 -----------------------------------------------------------------
 APP="comic-reader"
 APPIMAGE='yes'
@@ -5514,7 +5514,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=z7AqZ2-aHXtWvJe4Fv9E3Q&x=1743963599
+link=https://dl4.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=zIIIf5xFU2hRgh_nYha50Q&x=1743994852
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -6335,7 +6335,7 @@ GITHUB='yes'
 SITE="BestImageViewer/geeqie"
 link=https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage
 size=152 MB
-version=2025.04.03
+version=2025.04.06
 -----------------------------------------------------------------
 APP="geforcenow-electron"
 APPIMAGE='yes'
@@ -7229,9 +7229,9 @@ APP="gvim"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="vim/vim-appimage"
-link=https://github.com/vim/vim-appimage/releases/download/v9.1.1279/GVim-v9.1.1279.glibc2.29-x86_64.AppImage
+link=https://github.com/vim/vim-appimage/releases/download/v9.1.1283/GVim-v9.1.1283.glibc2.29-x86_64.AppImage
 size=45 MB
-version=9.1.1279.glibc2.29
+version=9.1.1283.glibc2.29
 -----------------------------------------------------------------
 APP="gxc-smart-contract-ide"
 APPIMAGE='yes'
@@ -7605,9 +7605,9 @@ APP="hydra"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="hydralauncher/hydra"
-link=https://github.com/hydralauncher/hydra/releases/download/v3.3.1/hydralauncher-3.3.1.AppImage
-size=194 MB
-version=3.3.1
+link=https://github.com/hydralauncher/hydra/releases/download/v3.4.0/hydralauncher-3.4.0.AppImage
+size=195 MB
+version=3.4.0
 -----------------------------------------------------------------
 APP="hydrogen-music"
 APPIMAGE='yes'
@@ -7917,6 +7917,9 @@ APP="inkscape-next"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
+link=https://gitlab.com/inkscape/inkscape/-/jobs/9637530577/artifacts/download
+size=177 MB
+version=9637530577
 -----------------------------------------------------------------
 APP="innerbreeze"
 APPIMAGE='yes'
@@ -8539,7 +8542,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/KDE-games-suite-appimage"
 link=https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_24.12-2-archimage4.3-x86_64.AppImage
-size=369 MB
+size=368 MB
 version=24.12
 -----------------------------------------------------------------
 APP="kdenlive"
@@ -8716,7 +8719,7 @@ GITHUB='yes'
 SITE="kovidgoyal/kitty"
 link=https://github.com/kovidgoyal/kitty/releases/download/nightly/kitten-linux-amd64
 size=16 MB
-version=2025.04.05
+version=2025.04.06
 -----------------------------------------------------------------
 APP="kitupiikki"
 APPIMAGE='yes'
@@ -8826,7 +8829,7 @@ APP="krita-devel"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://cdn.kde.org/ci-builds/graphics/krita"
-link=https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prealpha-647fcbf1ae-x86_64.AppImage
+link=https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prealpha-954866a266-x86_64.AppImage
 size=354 MB
 version=5.3.0
 -----------------------------------------------------------------
@@ -10878,9 +10881,9 @@ APP="naev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="naev/naev"
-link=https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.2%2B80.gdf960c3724-linux-x86-64.AppImage
-size=486 MB
-version=0.13.0
+link=https://github.com/naev/naev/releases/download/v0.12.4/naev-0.12.4-linux-x86-64.AppImage
+size=482 MB
+version=0.12.4
 -----------------------------------------------------------------
 APP="nami"
 APPIMAGE='no'
@@ -11078,9 +11081,6 @@ APP="newton-adventure"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://play.devnewton.fr"
-link=https://codeberg.org/api/packages/devnewton/generic/newton_adventure/1.18/Newton_Adventure-x86_64.AppImage
-size=110 MB
-version=1.18
 -----------------------------------------------------------------
 APP="nextcloud"
 APPIMAGE='yes'
@@ -11654,7 +11654,7 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250406%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250406T191957Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=422dac5fcbc4dd2dec508f57e4bfb775502208153c770c59d9395ad5157aa75a
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250407%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250407T044206Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=5931bb98b78d9667c2f61f1a7825b8c4a186127de155d311d8f98970c4649ae7
 size=44 MB
 version=0.6.5
 -----------------------------------------------------------------
@@ -12390,7 +12390,7 @@ APP="parsec"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Scille/parsec-cloud"
-link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20183%2B87bddff_linux_x86_64.unsigned.AppImage
+link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20184%2B87bddff_linux_x86_64.unsigned.AppImage
 size=143 MB
 version=3.3.3
 -----------------------------------------------------------------
@@ -12510,9 +12510,9 @@ APP="pcsx2"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PCSX2/pcsx2"
-link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.259/pcsx2-v2.3.259-linux-appimage-x64-Qt.AppImage
+link=https://github.com/PCSX2/pcsx2/releases/download/v2.3.260/pcsx2-v2.3.260-linux-appimage-x64-Qt.AppImage
 size=62 MB
-version=2.3.259
+version=2.3.260
 -----------------------------------------------------------------
 APP="pdf-diff"
 APPIMAGE='no'
@@ -13166,6 +13166,9 @@ APP="podium"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="beeware/podium"
+link=https://github.com/beeware/podium/releases/download/v0.2/Podium-0.2-x86_64.AppImage
+size=24 MB
+version=0.2
 -----------------------------------------------------------------
 APP="podman"
 APPIMAGE='no'
@@ -13419,9 +13422,9 @@ APP="ppsspp"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mantralunar/ppsspp"
-link=https://github.com/mantralunar/ppsspp/releases/download/ppsspp-f573b0c-x86_64/ppsspp-x86_64.AppImage
+link=https://github.com/mantralunar/ppsspp/releases/download/ppsspp-031421b-x86_64/ppsspp-x86_64.AppImage
 size=27 MB
-version=f573b0c
+version=031421b
 -----------------------------------------------------------------
 APP="pragtical"
 APPIMAGE='yes'
@@ -13483,17 +13486,17 @@ APP="prismlauncher"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="PrismLauncher/PrismLauncher"
-link=https://github.com/PrismLauncher/PrismLauncher/releases/download/9.2/PrismLauncher-Linux-x86_64.AppImage
+link=https://github.com/PrismLauncher/PrismLauncher/releases/download/9.3/PrismLauncher-Linux-x86_64.AppImage
 size=88 MB
-version=9.2
+version=9.3
 -----------------------------------------------------------------
 APP="prismlauncher-qt5"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="PrismLauncher/PrismLauncher"
-link=https://github.com/PrismLauncher/PrismLauncher/releases/download/9.2/PrismLauncher-Linux-Qt5-Portable-9.2.tar.gz
-size=84 MB
-version=9.2
+link=https://github.com/PrismLauncher/PrismLauncher/releases/download/9.3/PrismLauncher-Linux-Qt5-Portable-9.3.tar.gz
+size=83 MB
+version=9.3
 -----------------------------------------------------------------
 APP="privacy.sexy"
 APPIMAGE='yes'
@@ -13861,7 +13864,7 @@ GITHUB='yes'
 SITE="lucasmz1/Qemu_Appimage"
 link=https://github.com/lucasmz1/Qemu-AppImage/releases/download/continuous-stable-jammy/QEMU-git-x86_64.AppImage
 size=203 MB
-version=2025.04.01
+version=2025.04.07
 -----------------------------------------------------------------
 APP="qemu-ppc"
 APPIMAGE='yes'
@@ -13971,9 +13974,9 @@ APP="qpdf"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="qpdf/qpdf"
-link=https://github.com/qpdf/qpdf/releases/download/v12.0.0/qpdf-12.0.0-x86_64.AppImage
+link=https://github.com/qpdf/qpdf/releases/download/v12.1.0/qpdf-12.1.0-x86_64.AppImage
 size=9 MB
-version=12.0.0
+version=12.1.0
 -----------------------------------------------------------------
 APP="qppcad"
 APPIMAGE='yes'
@@ -14779,7 +14782,7 @@ APP="rpcs3"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://rpcs3.net"
-link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b3bbd939e3604eb9a259fc829270c4f0c3856f9d/rpcs3-v0.0.36-17751-b3bbd939_linux64.AppImage
+link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-f38a61bdb3557b1c728a4cd8ae015686886e2494/rpcs3-v0.0.36-17757-f38a61bd_linux64.AppImage
 size=101 MB
 version=0.0.36
 -----------------------------------------------------------------
@@ -14843,6 +14846,9 @@ APP="ruffle"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ruffle-rs/ruffle"
+link=https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-04-07/ruffle-nightly-2025_04_07-linux-x86_64.tar.gz
+size=39 MB
+version=2025
 -----------------------------------------------------------------
 APP="runanode"
 APPIMAGE='yes'
@@ -16512,7 +16518,7 @@ APP="streamcapture2"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://gitlab.com/posktomten/streamcapture2"
-link=https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=lShbDPKPsTb
+link=https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=DBttrTks
 size=51 MB
 version=2025.04.01
 -----------------------------------------------------------------
@@ -17221,6 +17227,9 @@ APP="tesseract"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AlexanderP/tesseract-appimage"
+link=https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.0/tesseract-5.5.0-x86_64.AppImage
+size=57 MB
+version=5.5.0
 -----------------------------------------------------------------
 APP="testdisk"
 APPIMAGE='no'
@@ -18958,7 +18967,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48376047641
+version=48381117169
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19532,7 +19541,7 @@ APP="xournal++nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="xournalpp/xournalpp"
-link=https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.6%2Bdev-nightly-20250406-x86_64.AppImage
+link=https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.6%2Bdev-nightly-20250407-x86_64.AppImage
 size=37 MB
 version=1.2.6%2Bdev
 -----------------------------------------------------------------
