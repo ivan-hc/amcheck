@@ -277,8 +277,8 @@ jobs:
 
       - name: "Install AM 🎁"
         run: |
-          sudo systemctl enable tor.service || systemctl enable tor.service
-          sudo systemctl start tor.service || systemctl start tor.service
+          #sudo systemctl enable tor.service || systemctl enable tor.service
+          #sudo systemctl start tor.service || systemctl start tor.service
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
 
@@ -356,7 +356,7 @@ jobs:
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
           else
           
-            if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
+            if [[ "$pure_arg" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
 
               echo 1 | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"
 
@@ -435,7 +435,7 @@ jobs:
                 #version=$(echo "$Preversion" | awk '{print $3}')
                 #echo "version is $version"
 
-              if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
+              if [[ "$pure_arg" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
          
                 size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
                 Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
@@ -629,7 +629,7 @@ jobs:
               [ -n "$link" ] && echo "link=\"$link\"" | tee -a results/out-"$fail"
             fi
             echo '-----------------------------------------------------------------' | tee -a results/out-"$fail"
-            if [[ "$fail" =~ (gimp|libreoffice|mpv|wine) ]]; then
+            if [[ "$fail" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
               if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
                 size=$(cat "results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
                 Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
