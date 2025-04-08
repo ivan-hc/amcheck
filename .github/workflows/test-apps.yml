@@ -37,6 +37,14 @@ on:
         required: true
         default: false
         type: boolean
+      branch:
+        description: "Choose AM branch to runs on"
+        required: true
+        default: main
+        type: choice
+        options:
+        - main
+        - dev
 
   schedule:
     # - cron: '*/30 6-8 * * *'
@@ -52,7 +60,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
+  BRANCH: ${{ github.event.inputs.branch }}
   TOTEST: 222
 
 jobs:
@@ -86,6 +94,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
+          ref: ${{ env.BRANCH }}
 
       - name: "Count programs 📊"
         if: github.event.inputs.reset_stats != 'true'
@@ -276,6 +285,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
+          ref: ${{ env.BRANCH }}
 
         # Added ripgrep for bat
       - name: "Cache dependencies"
@@ -572,6 +582,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
+          ref: ${{ env.BRANCH }}
 
       - name: "Download failing"
         uses: actions/download-artifact@v4
