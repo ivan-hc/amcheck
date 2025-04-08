@@ -31,3 +31,5 @@ koboldcpp
 mark-mind
 mmseqs2-search
 plexamp
+vhc-viewer-wayland
+vhc-viewer-x11
