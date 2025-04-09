@@ -621,6 +621,11 @@ jobs:
           #sudo systemctl start tor.service || systemctl start tor.service
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
+          if [ ${{ env.BRANCH }} == main ]; then
+            echo "Running on main branch"
+          elif [ ${{ env.BRANCH }} == dev ]; then
+            am --devmode-enable
+          fi
 
       - name: "Retest"
         id: retest
