@@ -37,7 +37,7 @@ on:
         required: true
         default: false
         type: boolean
-      branch:
+      am_branch:
         description: "Choose AM branch to runs on"
         required: true
         default: dev
@@ -60,7 +60,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: ${{ github.event.inputs.branch }}
+  BRANCH: ${{ github.event.inputs.am_branch }}
   TOTEST: 222
 
 jobs:
