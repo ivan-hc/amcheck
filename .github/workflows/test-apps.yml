@@ -886,15 +886,17 @@ jobs:
           fi
           rm -f appslist
           rm -f results/appslist
+          rm -f results/failing
           rm -f results/ok-*
+          rm -f results/ko-*
           rm -rf results/results
           echo '-----------------------------------------------------------------'
           echo "Missed results:"
           echo '-----------------------------------------------------------------'
           ls -R results/
           for rest in results/*; do
-            echo "suspended for now"
-            #cat "$rest"
+            #echo "suspended for now"
+            cat "$rest"
           done
           echo '-----------------------------------------------------------------'
 
