@@ -625,7 +625,7 @@ jobs:
           ls -R
           echo "-----------------------"
           for fail in $(cat results/failing); do
-            echo "fail: $fail"
+            echo "Trying again: $fail" >> $GITHUB_STEP_SUMMARY
             #cd programs/x86_64
             mkdir -p results
             echo "APP=\"$fail\"" | tee -a "results/out-$fail"
