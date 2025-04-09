@@ -492,10 +492,18 @@ jobs:
               am -R "$LASTDIR"
               echo "${{ matrix.file }}" >> results/tested
 
+            # Timeout
+            elif [[ $? -eq 124 ]]; then
+               echo "### 💥 ${{ matrix.file }} timeout!" >> $GITHUB_STEP_SUMMARY
+               #echo "Installation timeout in $TIMEOUT minutes" >> results/log-"${{ matrix.file }}"
+               echo "${{ matrix.file }}" >> results/ko-${{ matrix.file }}
+               echo "::error title=⛔ Timeout $TIMEOUT minutes reached ERROR 124:: I will try again"
+               exit 0 # Don't fail now, we will try again
+
             # Any other result is a failure
             else
               echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
-              echo "::error title=⛔ error 9:: I will try again"
+              echo "::error title=⛔ ERROR 9:: I will try again"
               #echo "${{ matrix.file }} failed" >> $GITHUB_STEP_SUMMARY
               exit 0 # Don't fail now, we will try again
             fi
