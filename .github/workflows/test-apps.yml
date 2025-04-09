@@ -66,6 +66,7 @@ env:
 jobs:
   show-inputs:
     name: "inputs 📃"
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: m-s-abeer/update-gha-summary-with-workflow-inputs@v1
