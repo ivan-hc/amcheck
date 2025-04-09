@@ -65,11 +65,13 @@ env:
 
 jobs:
   show-inputs:
+    name: "inputs 📃"
     runs-on: ubuntu-latest
     steps:
       - uses: m-s-abeer/update-gha-summary-with-workflow-inputs@v1
 
   remotely-triggered:
+    name: "triggered 📡"
     if: github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
     steps:
@@ -537,7 +539,7 @@ jobs:
           retention-days: 1
 
   check-failed:
-    name: "trigger retest if needed"
+    name: "retest ❓"
     needs: run-actions
     runs-on: ubuntu-22.04
     if: (always() && github.event.inputs.reset_stats != 'true' && needs.generate-matrix.outputs.skip != 'true')
@@ -583,7 +585,7 @@ jobs:
           retention-days: 1
 
   test-failed:
-    name: "test failed"
+    name: "retest 🔭"
     needs: check-failed
     runs-on: ubuntu-22.04
     if: needs.check-failed.outputs.failed == 'true'
