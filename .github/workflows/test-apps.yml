@@ -84,7 +84,7 @@ jobs:
         run: echo ${{ github.event.client_payload.sha }} >> $GITHUB_STEP_SUMMARY
 
   show-stats:
-    name: "stats 📝"
+    name: "stats 📊"
     runs-on: ubuntu-22.04
     outputs:
       all: ${{ steps.count.outputs.all }}
@@ -642,7 +642,7 @@ jobs:
           ls results/ -R
           echo "-----------------------"
           for fail in $(cat results/failing); do
-            echo "Trying again: $fail" >> $GITHUB_STEP_SUMMARY
+            echo "👻 Trying again: $fail" >> $GITHUB_STEP_SUMMARY
             mkdir -p results
             cd programs/x86_64
             echo "APP=\"$fail\"" | tee -a "../../results/out-$fail"
@@ -766,7 +766,7 @@ jobs:
           git push || echo "Not pushed"
 
   update-results:
-    name: "results 📰"
+    name: "results 🎓"
     needs: test-failed
     runs-on: ubuntu-22.04
     if: (always() && github.event.inputs.reset_stats != 'true' && needs.generate-matrix.outputs.skip != 'true')
