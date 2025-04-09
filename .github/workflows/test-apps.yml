@@ -635,7 +635,9 @@ jobs:
           echo "-----------------------"
           find -name 'failing'
           echo "-----------------------"
-          ls -R
+          ls
+          echo "-----------------------"
+          ls results/ -R
           echo "-----------------------"
           for fail in $(cat results/failing); do
             echo "Trying again: $fail" >> $GITHUB_STEP_SUMMARY
