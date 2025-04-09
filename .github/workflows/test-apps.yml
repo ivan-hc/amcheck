@@ -712,7 +712,7 @@ jobs:
           rm -f results/failing
 
       - name: "Upload KO Results ☝️"
-        if: failure()
+        #if: failure()
         uses: actions/upload-artifact@v4
         with:
           path: results/ko-*
@@ -721,7 +721,7 @@ jobs:
           compression-level: 0
 
       - name: "Upload failed"
-        if: failure()
+        #if: failure()
         uses: actions/upload-artifact@v4
         with:
           path: results/failed
@@ -734,7 +734,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: results/ok-*
-          if-no-files-found: ignore
+          if-no-files-found: warn
           retention-days: 1
           compression-level: 0
 
