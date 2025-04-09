@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [[ -f results/tested ]]; then
+if [ -f results/tested ]; then
   echo "tested exist"
   if diff -q appslist results/tested; then
     echo "Everything checked"
@@ -14,7 +14,7 @@ else
   echo "First run!"
   cp appslist totest_tmp.list
 fi
-if [[ -f results/excluded ]]; then
+if [ -f results/excluded ]; then
   echo "Excluded exists"
   comm -23 totest_tmp.list results/excluded > totest.list
   if [ ! -s totest.list ]; then
