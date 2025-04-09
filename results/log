@@ -8870,3 +8870,1775 @@ link=https://github.com/GGP1/kure/releases/download/v1.2.1/kure_v1.2.1_linux_amd
 size=13 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="kuro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="davidsmorais/kuro"
+link=https://github.com/davidsmorais/kuro/releases/download/v9.0.0/Kuro-9.0.0.AppImage
+size=93 MB
+version=9.0.0
+-----------------------------------------------------------------
+APP="kvrt"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.kaspersky.com"
+-----------------------------------------------------------------
+APP="kwave"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/kwave/Kwave_24.12.3-1-archimage4.3-x86_64.AppImage
+size=165 MB
+version=24.12.3
+-----------------------------------------------------------------
+APP="labplot"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://labplot.kde.org"
+link=https://download.kde.org/stable/labplot/labplot-2.11.1-x86_64.AppImage
+size=398 MB
+version=2.11.1
+-----------------------------------------------------------------
+APP="lagrange"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="skyjake/lagrange"
+link=https://github.com/skyjake/lagrange/releases/download/v1.18.5/clagrange-1.18.5-x86_64.AppImage
+size=7 MB
+version=1.18.5
+-----------------------------------------------------------------
+APP="laidout"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Laidout/laidout"
+link=https://github.com/Laidout/laidout/releases/download/continuous/Laidout-ae6b35e-x86_64.AppImage
+size=40 MB
+version=ae6b35e
+-----------------------------------------------------------------
+APP="laigter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="azagaya/laigter"
+link=https://github.com/azagaya/laigter/releases/download/1.12.1/Laigter-x86_64.AppImage
+size=35 MB
+version=1.12.1
+-----------------------------------------------------------------
+APP="lambda-lantern"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/lambda-lantern"
+link=https://github.com/lettier/lambda-lantern/releases/download/0.0.0.0/lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage
+size=59 MB
+version=0.0.0.0
+-----------------------------------------------------------------
+APP="lan-mouse"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="feschber/lan-mouse"
+link=https://github.com/feschber/lan-mouse/releases/download/v0.10.0/lan-mouse
+size=10 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="landrop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://landrop.app"
+link=https://releases.landrop.app/landrop-v2-electron/LANDrop-2.7.2-linux-x86_64.AppImage
+size=113 MB
+version=2.7.2
+-----------------------------------------------------------------
+APP="langly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="christofferok/langly"
+link=https://github.com/christofferok/langly/releases/download/v0.3.2/langly-0.3.2-x86_64.AppImage
+size=52 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="lanshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="abdularis/LAN-Share"
+link=https://github.com/abdularis/LAN-Share/releases/download/continuous/LANShare-3ccbe2c-x86_64.AppImage
+size=21 MB
+version=3ccbe2c
+-----------------------------------------------------------------
+APP="lapce"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lapce/lapce"
+link=https://github.com/lapce/lapce/releases/download/v0.4.2/lapce-linux-amd64.tar.gz
+size=56 MB
+version=0.4.2
+-----------------------------------------------------------------
+APP="laravel-kit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tarequemdhanif/laravel-kit"
+link=https://github.com/tmdh/laravel-kit/releases/download/v2.0.9/Laravel-Kit-2.0.9.AppImage
+size=105 MB
+version=2.0.9
+-----------------------------------------------------------------
+APP="launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinribelotta/launcher"
+link=https://github.com/martinribelotta/launcher/releases/download/continuous/Application_Launcher-166f94e-x86_64.AppImage
+size=22 MB
+version=166f94e
+-----------------------------------------------------------------
+APP="lbry-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lbryio/lbry-desktop"
+link=https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.AppImage
+size=325 MB
+version=0.53.9
+-----------------------------------------------------------------
+APP="lcedit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fulgen301/LCEdit"
+link=https://github.com/Fulgen301/LCEdit/releases/download/continuous/LCEdit-7213bef-x86_64.AppImage
+size=25 MB
+version=7213bef
+-----------------------------------------------------------------
+APP="ldtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deepnight/ldtk"
+link=https://github.com/deepnight/ldtk/releases/download/v1.5.3/ubuntu-distribution.zip
+size=109 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="ldview"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/pbartfai"
+link=https://download.opensuse.org/repositories/home:/pbartfai/AppImage.15.4/ldview-0-Build1103.9.glibc2.29-x86_64.AppImage
+size=27 MB
+version=0
+-----------------------------------------------------------------
+APP="leaflet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PotatoProject/Leaflet"
+link=https://github.com/PotatoProject/Leaflet/releases/download/2.0.0%2B20/Leaflet-2.0.0-x86_64.AppImage
+size=53 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="leapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://asset.noovolari.com"
+link=https://asset.noovolari.com/latest/Leapp-0.26.1.AppImage
+size=141 MB
+version=0.26.1
+-----------------------------------------------------------------
+APP="led.custom.palette"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jukben/keyboardio-led-custom-palette"
+link=https://github.com/jukben/keyboardio-led-custom-palette/releases/download/1.1.0/keyboardio-led-custom-palette-1.1.0-x86_64.AppImage
+size=57 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="ledger-live-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LedgerHQ/ledger-live-desktop"
+link=https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v2.42.0/ledger-live-desktop-2.42.0-linux-x86_64.AppImage
+size=103 MB
+version=2.42.0
+-----------------------------------------------------------------
+APP="left"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aquaspy/Left"
+link=https://github.com/aquaspy/Left/releases/download/131/Left-131-x64.AppImage
+size=68 MB
+version=131
+-----------------------------------------------------------------
+APP="legcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Legcord/Legcord"
+link=https://github.com/Legcord/Legcord/releases/download/v1.1.1/Legcord-1.1.1-linux-x86_64.AppImage
+size=118 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="legendary-kingdoms"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="daelsepara/legendary-kingdoms"
+link=https://github.com/daelsepara/legendary-kingdoms/releases/download/v1.0.8/legendary-kingdoms.amd64.AppImage
+size=54 MB
+version=1.0.8
+-----------------------------------------------------------------
+APP="lemon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iotang/Project_LemonLime"
+link=https://github.com/Project-LemonLime/Project_LemonLime/releases/download/0.2.8/Lemon.0.2.8.linux-x64.AppImage
+size=29 MB
+version=0.2.8
+-----------------------------------------------------------------
+APP="lens"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://k8slens.dev"
+link=https://api.k8slens.dev/binaries/Lens-2024.11.261604-latest.x86_64.AppImage
+size=328 MB
+version=2024.11.261604
+-----------------------------------------------------------------
+APP="leocad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leozide/leocad"
+link=https://github.com/leozide/leocad/releases/download/continuous/LeoCAD-Linux-75e6537a-x86_64.AppImage
+size=142 MB
+version=75e6537a
+-----------------------------------------------------------------
+APP="leonflix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://leonflix.net"
+link=https://leonflix.net/downloads/Leonflix.AppImage
+size=76 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="lepton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hackjutsu/Lepton"
+link=https://github.com/hackjutsu/Lepton/releases/download/v1.10.0/Lepton-1.10.0.AppImage
+size=94 MB
+version=1.10.0
+-----------------------------------------------------------------
+APP="lescovex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lescovex/LSCX"
+link=https://github.com/Lescovex/LSCX/releases/download/v1.0.15/lescovex-1.0.15-x86_64.AppImage
+size=112 MB
+version=1.0.15
+-----------------------------------------------------------------
+APP="levior"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/api/v4/projects/37138263"
+link=https://gitlab.com/cipres/levior/-/releases/continuous-master/downloads/levior-latest-x86_64.AppImage
+size=41 MB
+version=2024.07.25
+-----------------------------------------------------------------
+APP="lexido"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="micr0-dev/lexido"
+link=https://github.com/micr0-dev/lexido/releases/download/v1.4.3/v1.4.3-lexido-linux-amd64
+size=16 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="lf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="gokcehan/lf"
+link=https://github.com/gokcehan/lf/releases/download/r34/lf-linux-amd64.tar.gz
+size=6 MB
+version=r34
+-----------------------------------------------------------------
+APP="libassist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Supermegadex/libassist-client"
+link=https://github.com/danielnoon/libassist-client/releases/download/v1.0.0/libassist-1.0.0-x86_64.AppImage
+size=77 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="libertem"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LiberTEM/LiberTEM"
+link=https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-e271a59-x86_64.AppImage
+size=428 MB
+version=e271a59
+-----------------------------------------------------------------
+APP="librecad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LibreCAD/LibreCAD"
+link=https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1.1_rc-latest/LibreCAD-v2.2.1.1-10-gd57b53e75-x86_64.AppImage
+size=37 MB
+version=2.2.1.1
+-----------------------------------------------------------------
+APP="libreoffice"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.libreoffice.org"
+link=https://appimages.libreitalia.org/LibreOffice-24.8.6.2.basic-x86_64.AppImage
+size=274 MB
+version=starting
+-----------------------------------------------------------------
+APP="librepcb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://librepcb.org"
+link=https://download.librepcb.org/releases/1.3.0/librepcb-1.3.0-linux-x86_64.AppImage
+size=71 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="libresprite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LibreSprite/LibreSprite"
+link=https://github.com/LibreSprite/LibreSprite/releases/download/v1.1/libresprite-development-linux-x86_64.zip
+size=45 MB
+version=1.1
+-----------------------------------------------------------------
+APP="librewolf"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://librewolf.net"
+link=https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/137.0-3/LibreWolf.x86_64.AppImage
+size=108 MB
+version=137.0
+-----------------------------------------------------------------
+APP="lightning"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lightninglabs/lightning-app"
+link=https://github.com/lightninglabs/lightning-app/releases/download/v0.5.9-alpha/Lightning-linux-x86_64v0.5.9-alpha.AppImage
+size=118 MB
+version=0.5.9
+-----------------------------------------------------------------
+APP="lightning-peach-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LightningPeach/lightning-peach-wallet"
+link=https://github.com/LightningPeach/peach-wallet-desktop/releases/download/v0.5.0-mainnet-beta/peach-wallet-desktop-0.5.0-mainnet-beta-x86_64.AppImage
+size=316 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="liground"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ml-research/liground"
+link=https://github.com/ml-research/liground/releases/download/0.4.0/liground-0.4.0-linux.AppImage
+size=99 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="liketaskmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rejuce/LikeTaskManager"
+link=https://github.com/rejuce/LikeTaskManager/releases/download/v2.4/LikeTaskManager-x86_64.AppImage
+size=43 MB
+version=2.4
+-----------------------------------------------------------------
+APP="lime3ds"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lime3DS/lime3ds-archive"
+link=https://github.com/Lime3DS/lime3ds-archive/releases/download/2119.1/lime3ds-2119.1-linux-appimage.tar.gz
+size=96 MB
+version=2119.1
+-----------------------------------------------------------------
+APP="linedancer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="karjonas/Linedancer"
+link=https://github.com/karjonas/Linedancer/releases/download/v02/Linedancer-e0b8395-x86_64.AppImage
+size=2 MB
+version=e0b8395
+-----------------------------------------------------------------
+APP="linked"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lostdesign/linked"
+link=https://github.com/lostdesign/linked/releases/download/v1.5.2/linked-1.5.2.AppImage
+size=103 MB
+version=1.5.2
+-----------------------------------------------------------------
+APP="linphone"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.linphone.org"
+link=https://download.linphone.org/releases/linux/app/Linphone-5.2.6.AppImage
+size=105 MB
+version=5.2.6
+-----------------------------------------------------------------
+APP="linux-intel-undervolt-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lukechadwick/linux-intel-undervolt-gui"
+link=https://github.com/sp-hy/linux-intel-undervolt-gui/releases/download/1.0.1/linux-intel-undervolt-gui-1.0.1-x86_64.AppImage
+size=64 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="linuxdeployqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/linuxdeployqt"
+link=https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage
+size=16 MB
+version=2024.12.10
+-----------------------------------------------------------------
+APP="linuxqq"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://im.qq.com/linuxqq"
+link=https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.16_250401_x86_64_01.AppImage
+size=211 MB
+version=3.2.16
+-----------------------------------------------------------------
+APP="linwood-butterfly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LinwoodDev/Butterfly"
+link=https://github.com/LinwoodDev/Butterfly/releases/download/v2.3.0-beta.4/linwood-butterfly-linux-x86_64.AppImage
+size=79 MB
+version=2.3.0
+-----------------------------------------------------------------
+APP="lisk-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LiskHQ/lisk-desktop"
+link=https://github.com/LiskHQ/lisk-desktop/releases/download/v4.0.0/lisk-linux-x86_64-4.0.0.AppImage
+size=121 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="listen.moe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LISTEN-moe/desktop-app"
+link=https://github.com/LISTEN-moe/desktop-app/releases/download/0.3.0/LISTEN.moe-0.3.0.AppImage
+size=72 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="listen1-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="listen1/listen1_desktop"
+link=https://github.com/listen1/listen1_desktop/releases/download/v2.32.0/listen1_2.32.0_linux_x86_64.AppImage
+size=77 MB
+version=listen1
+-----------------------------------------------------------------
+APP="lite-xl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lite-xl/lite-xl"
+link=https://github.com/lite-xl/lite-xl/releases/download/v2.1.7/LiteXL-v2.1.7-addons-x86_64.AppImage
+size=3 MB
+version=2.1.7
+-----------------------------------------------------------------
+APP="liteide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="visualfc/liteide"
+link=https://github.com/visualfc/liteide/releases/download/x38.3/liteidex38.3.linux64-qt4.8.7.AppImage
+size=31 MB
+version=38.3
+-----------------------------------------------------------------
+APP="litime"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ikornaselur/litime"
+link=https://github.com/ikornaselur/litime/releases/download/v3.3.0/litime-x86_64-unknown-linux-gnu
+size=3 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="liveme-pro-tools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thecoder75/liveme-pro-tools"
+link=https://github.com/thecoder75/liveme-pro-tools/releases/download/v1.508.20211220/LiveMe_Pro_Tools-1.508.20211220-linux-x86_64.AppImage
+size=54 MB
+version=1.508.20211220
+-----------------------------------------------------------------
+APP="lmms"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LMMS/lmms"
+link=https://github.com/LMMS/lmms/releases/download/v1.3.0-alpha.1/lmms-1.3.0-alpha.1.102%2Bg89fc6c9-linux-x86_64.AppImage
+size=110 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="lmstudio"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://lmstudio.ai"
+link=https://installers.lmstudio.ai/linux/x64/0.3.14-5/LM-Studio-0.3.14-5-x64.AppImage
+size=1006 MB
+version=0.3.14
+-----------------------------------------------------------------
+APP="local-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chhekur/local-browser"
+link=https://github.com/Chhekur/local-browser/releases/download/v1.0.1/local-browser-1.0.1-x86_64.AppImage
+size=78 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="localsend"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="localsend/localsend"
+link=https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage
+size=48 MB
+version=1.17.0
+-----------------------------------------------------------------
+APP="lockbook-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lockbook/lockbook"
+link=https://github.com/lockbook/lockbook/releases/download/0.9.21/lockbook-cli-linux
+size=25 MB
+version=0.9.21
+-----------------------------------------------------------------
+APP="lockbook-desktop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lockbook/lockbook"
+link=https://github.com/lockbook/lockbook/releases/download/0.9.21/lockbook-linux
+size=67 MB
+version=0.9.21
+-----------------------------------------------------------------
+APP="lofi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dvx/lofi"
+link=https://github.com/dvx/lofi/releases/download/v2.0.2/lofi.AppImage
+size=107 MB
+version=2.0.2
+-----------------------------------------------------------------
+APP="loginized"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="juhaku/loginized"
+link=https://github.com/juhaku/loginized/releases/download/1.4.0/Loginized-1.4.0.AppImage
+size=59 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="logseq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="logseq/logseq"
+link=https://github.com/logseq/logseq/releases/download/nightly/Logseq-linux-x64-0.10.10-alpha%2Bnightly.20241216.AppImage
+size=178 MB
+version=0.10.10
+-----------------------------------------------------------------
+APP="looofix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DoginUwU/LooofiX"
+link=https://github.com/DoginUwU/LooofiX/releases/download/0.0.1/LooofiX.AppImage
+size=91 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="loopauditioneer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/loopauditioneer"
+link=https://sourceforge.net/projects/loopauditioneer/files/LoopAuditioneer-0.9/LoopAuditioneer-0.9.82-x86_64.AppImage/download
+size=39 MB
+version=0.9
+-----------------------------------------------------------------
+APP="lore-forge"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://loreforge.com"
+link=https://storage.googleapis.com/lore-forge-downloads/Lore-Forge-1.2.0.AppImage
+size=121 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="lorien"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mbrlabs/Lorien"
+link=https://github.com/mbrlabs/Lorien/releases/download/v0.6.0/Lorien_v0.6.0_Linux.tar.xz
+size=66 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="losslesscut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mifi/lossless-cut"
+link=https://github.com/mifi/lossless-cut/releases/download/v3.65.0/LosslessCut-linux-x86_64.AppImage
+size=177 MB
+version=3.65.0
+-----------------------------------------------------------------
+APP="love"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="love2d/love"
+link=https://github.com/love2d/love/releases/download/11.5/love-11.5-x86_64.AppImage
+size=5 MB
+version=11.5
+-----------------------------------------------------------------
+APP="lovelive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LoveLiveMusicPlayer/LoveLiveMusicPlayer"
+link=https://github.com/LoveLiveMusicPlayer/LoveLiveMusicPlayer/releases/download/1.5.0/LLMP-1.5.0-x64-linux.AppImage
+size=116 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="lovesay"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dotzenith/lovesay.rs"
+link=https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.2/lovesay-x86_64-unknown-linux-gnu.tar.xz
+size=2 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="lovr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bjornbytes/lovr"
+link=https://github.com/bjornbytes/lovr/releases/download/v0.18.0/lovr-v0.18.0-x86_64.AppImage
+size=4 MB
+version=0.18.0
+-----------------------------------------------------------------
+APP="lowfi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="talwat/lowfi"
+link=https://github.com/talwat/lowfi/releases/download/1.6.4-dev/lowfi-linux-x86_64
+size=8 MB
+version=1.6.4
+-----------------------------------------------------------------
+APP="lpub3d"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trevorsandy/lpub3d"
+link=https://github.com/trevorsandy/lpub3d/releases/download/continuous/LPub3D-2.4.9.86.4133_20250319-x86_64.AppImage
+size=297 MB
+version=2.4.9.86.4133
+-----------------------------------------------------------------
+APP="lsd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lsd-rs/lsd"
+link=https://github.com/lsd-rs/lsd/releases/download/v1.1.5/lsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz
+size=4 MB
+version=1.1.5
+-----------------------------------------------------------------
+APP="lumi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lumieducation/lumi"
+link=https://github.com/Lumieducation/Lumi/releases/download/v1.0.0-beta.24/Lumi-1.0.0-beta.24.AppImage
+size=144 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="luna"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rvpanoz/luna"
+link=https://github.com/rvpanoz/luna/releases/download/v.3.4.6/luna-3.4.6.AppImage
+size=110 MB
+version=3.4.6
+-----------------------------------------------------------------
+APP="lunar-client"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://lunarclient.com"
+link=https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.3.6-ow.AppImage
+size=122 MB
+version=3.3.6
+-----------------------------------------------------------------
+APP="lunatask"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lunatask/lunatask"
+link=https://github.com/lunatask/lunatask/releases/download/v2.0.20/Lunatask-2.0.20.AppImage
+size=111 MB
+version=2.0.20
+-----------------------------------------------------------------
+APP="lutris"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Lutris-AppImage"
+link=https://github.com/pkgforge-dev/Lutris-AppImage/releases/download/0.5.19-2/Lutris%2Bwine-0.5.19-2-anylinux-x86_64.AppImage
+size=524 MB
+version=0.5.19
+-----------------------------------------------------------------
+APP="lux"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://bitbucket.org"
+link=https://bitbucket.org/kfj/pv/downloads/lux-1.2.2-x86_64.AppImage
+size=85 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="lx-music-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lyswhut/lx-music-desktop"
+link=https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop_2.10.0_x64.AppImage
+size=116 MB
+version=2.10.0
+-----------------------------------------------------------------
+APP="lxtask"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/lxtask/Task_Manager-0.1.10-1-x86_64.AppImage
+size=4 MB
+version=0.1.10
+-----------------------------------------------------------------
+APP="lyricistant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wardellbagby/lyricistant"
+link=https://github.com/wardellbagby/lyricistant/releases/download/v3.4.7/lyricistant-linux_x86_64.AppImage
+size=105 MB
+version=3.4.7
+-----------------------------------------------------------------
+APP="m"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martin-azpillaga/M"
+link=https://github.com/martin-azpillaga/M/releases/download/v0.3.1/m.AppImage
+size=138 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="macchina"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Macchina-CLI/macchina"
+link=https://github.com/Macchina-CLI/macchina/releases/download/v6.1.8/macchina-linux-x86_64
+size=4 MB
+version=6.1.8
+-----------------------------------------------------------------
+APP="magento2-upgrade-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elgentos/magento2-upgrade-gui"
+link=https://github.com/elgentos/magento2-upgrade-gui/releases/download/v1.3.5/magento2-upgrade-gui-1.3.5.AppImage
+size=90 MB
+version=magento2
+-----------------------------------------------------------------
+APP="magicfountain"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Aztorius/magicfountain"
+link=https://github.com/Aztorius/magicfountain/releases/download/1.0.0/MagicFountain-1.0.0.AppImage
+size=77 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="makagiga"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://makagiga.sourceforge.io"
+link=https://sourceforge.net/projects/makagiga/files/Makagiga%206.x/6.30/Makagiga.AppImage/download
+size=54 MB
+version=6.30
+-----------------------------------------------------------------
+APP="makoureactor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="myst6re/makoureactor"
+link=https://github.com/myst6re/makoureactor/releases/download/continuous/makoureactor-continuous-gui-linux64.AppImage
+size=37 MB
+version=2025.03.01
+-----------------------------------------------------------------
+APP="malice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Cloud-V/Malice"
+link=https://github.com/AUCOHL/Malice/releases/download/continuous/Malice_x86_64.AppImage
+size=1 MB
+version=2021.12.08
+-----------------------------------------------------------------
+APP="manager-io"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Manager-io/Manager"
+link=https://github.com/Manager-io/Manager/releases/download/25.4.3.2227/Manager-linux-x64.AppImage
+size=65 MB
+version=25.4.3.2227
+-----------------------------------------------------------------
+APP="mandelbulber2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="buddhi1980/mandelbulber2"
+link=https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-a631a7e-x86_64.AppImage
+size=156 MB
+version=2
+-----------------------------------------------------------------
+APP="manga-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="josueBarretogit/manga-tui"
+link=https://github.com/josueBarretogit/manga-tui/releases/download/v0.7.0/manga-tui-0.7.0-x86_64-unknown-linux-gnu.tar.gz
+size=15 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="mangadesk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="darylhjd/mangadesk"
+link=https://github.com/darylhjd/mangadesk/releases/download/v0.7.8/mangadesk_v0-7-8_x64
+size=9 MB
+version=0
+-----------------------------------------------------------------
+APP="mangal"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="metafates/mangal"
+link=https://github.com/metafates/mangal/releases/download/v4.0.6/mangal_4.0.6_Linux_x86_64.tar.gz
+size=26 MB
+version=4.0.6
+-----------------------------------------------------------------
+APP="mangbandclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mangband/mangband"
+link=https://github.com/mangband/mangband/releases/download/v1.5.3/MAngbandClient-1.5.3-x86_64.AppImage
+size=4 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="manta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hql287/Manta"
+link=https://github.com/hql287/Manta/releases/download/v1.1.4/Manta-1.1.4-x86_64.AppImage
+size=91 MB
+version=1.1.4
+-----------------------------------------------------------------
+APP="mapeo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="digidem/mapeo-desktop"
+link=https://github.com/digidem/mapeo-desktop/releases/download/v5.6.4/Install_Mapeo_v5.6.4_linux.AppImage
+size=115 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="mapollage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/mapollage"
+link=https://github.com/trixon/mapollage/releases/download/v24.10.06/Mapollage-24.10.06-x86_64.AppImage
+size=54 MB
+version=24.10.06
+-----------------------------------------------------------------
+APP="mapton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/mapton"
+link=https://github.com/trixon/mapton/releases/download/v3.1.0/Mapton-3.1.0-x86_64.AppImage
+size=236 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="mark-mind"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MarkMindLtd/Mark-Mind"
+link=https://github.com/MarkMindCkm/Mark-Mind/releases/download/v1.3.1/Mark.Mind-1.3.1.AppImage
+size=118 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="markflowy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="drl990114/MarkFlowy"
+link=https://github.com/drl990114/MarkFlowy/releases/download/v0.6.2/mark-flowy_0.6.2_amd64.AppImage
+size=122 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="markman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xemxx/markman-client"
+link=https://github.com/xemxx/markman/releases/download/v0.3.1/markman-0.3.1.AppImage
+size=126 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="marktext"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="marktext/marktext"
+link=https://github.com/marktext/marktext/releases/download/v0.17.1/marktext-x86_64.AppImage
+size=109 MB
+version=0.17.1
+-----------------------------------------------------------------
+APP="marlin-conf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="akaJes/marlin-config"
+link=https://github.com/akaJes/marlin-config/releases/download/v2.10.7/marlin-conf-2.10.7-x86_64.AppImage
+size=69 MB
+version=2.10.7
+-----------------------------------------------------------------
+APP="martian"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="drex44/martian"
+link=https://github.com/drex44/martian/releases/download/v0.5.2/Martian-alpha.0.5.2.AppImage
+size=54 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="marvin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rolandbernard/marvin"
+link=https://github.com/rolandbernard/marvin/releases/download/v0.4.9/Marvin-0.4.9.AppImage
+size=99 MB
+version=0.4.9
+-----------------------------------------------------------------
+APP="mastervyrn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LightouchDev/MasterVyrn"
+link=https://github.com/LightouchDev/MasterVyrn/releases/download/v0.4.6/MasterVyrn-0.4.6-linux-x86_64.AppImage
+size=50 MB
+version=0.4.6
+-----------------------------------------------------------------
+APP="mate-system-monitor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/mate-system-monitor/MATE_System_Monitor-171-x86_64.AppImage
+size=30 MB
+version=171
+-----------------------------------------------------------------
+APP="materialious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Materialious/Materialious"
+link=https://github.com/Materialious/Materialious/releases/download/1.7.20/Materialious-1.7.20-linux-x86_64.AppImage
+size=113 MB
+version=1.7.20
+-----------------------------------------------------------------
+APP="mathcha-notebook"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mathcha.io/notebook/"
+link=https://notebook-downloads.mathcha.io/public/math-notebook-latest.AppImage
+size=117 MB
+version=1.0.440
+-----------------------------------------------------------------
+APP="matm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="crolbar/matm"
+link=https://github.com/crolbar/matm/releases/download/v2.3.1/matm_x86_64-unknown-linux-gnu.tar.gz
+size=13 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="mattermost-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mattermost/desktop"
+link=https://github.com/mattermost/desktop/releases/download/v5.11.2/mattermost-desktop-5.11.2-linux-x86_64.AppImage
+size=108 MB
+version=5.11.2
+-----------------------------------------------------------------
+APP="mayo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fougue/mayo"
+link=https://github.com/fougue/mayo/releases/download/v0.9.0/Mayo-0.9.0-x86_64.AppImage
+size=58 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="mazesolver"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Arquanite/MazeSolver"
+link=https://github.com/Arquanite/MazeSolver/releases/download/continuous/MazeSolver-2a1032a-x86_64.AppImage
+size=20 MB
+version=2a1032a
+-----------------------------------------------------------------
+APP="mbcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SandwichFox/MBCord"
+link=https://github.com/SandwichFox/MBCord/releases/download/3.0.7/mbcord-3.0.7.AppImage
+size=98 MB
+version=3.0.7
+-----------------------------------------------------------------
+APP="mcfly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cantino/mcfly"
+link=https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-x86_64-unknown-linux-musl.tar.gz
+size=6 MB
+version=0.9.3
+-----------------------------------------------------------------
+APP="mcpelauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="minecraft-linux/appimage-builder"
+link=https://github.com/minecraft-linux/appimage-builder/releases/download/v1.1.1-802/Minecraft_Bedrock_Launcher-x86_64-v1.1.1.802.AppImage
+size=113 MB
+version=1.1.1.802
+-----------------------------------------------------------------
+APP="mcpodcast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="McInkay/McPodcast"
+link=https://github.com/AlMcKinlay/McPodcast/releases/download/v0.7.0/McPodcast-0.7.0.AppImage
+size=140 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="mdcat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="swsnr/mdcat"
+link=https://github.com/swsnr/mdcat/releases/download/mdcat-2.5.0/mdcat-2.5.0-x86_64-unknown-linux-musl.tar.gz
+size=15 MB
+version=2.5.0
+-----------------------------------------------------------------
+APP="mdl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MDLlife/MDL"
+link=https://github.com/MDLlife/MDL/releases/download/v0.27.1/MDL-0.27.1-linux.AppImage
+size=92 MB
+version=0.27.1
+-----------------------------------------------------------------
+APP="mdsilo-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mdSilo/mdSilo-app"
+link=https://github.com/mdSilo/mdSilo-app/releases/download/app-v0.5.9/mdsilo_0.5.9_amd64.AppImage
+size=88 MB
+version=0.5.9
+-----------------------------------------------------------------
+APP="mdview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="c3er/mdview"
+link=https://github.com/c3er/mdview/releases/download/v3.2.0/mdview-3.2.0-x86_64.AppImage
+size=110 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="measur"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ORNL-AMO/AMO-Tools-Desktop"
+link=https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.5.10/MEASUR-1.5.10.AppImage
+size=203 MB
+version=1.5.10
+-----------------------------------------------------------------
+APP="mechtype"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SurajRaika/MechType"
+link=https://github.com/SurajRaika/MechType/releases/download/app-v0.0.1/mech-type_0.0.1_amd64.AppImage
+size=72 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="mechvibes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hainguyents13/mechvibes"
+link=https://github.com/hainguyents13/mechvibes/releases/download/v2.3.6/Mechvibes-2.3.6-hotfix.AppImage
+size=100 MB
+version=2.3.6
+-----------------------------------------------------------------
+APP="media-downloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gaeljacquin/media-downloader"
+link=https://github.com/gaeljacquin/media-downloader/releases/download/v0.8.1/media-downloader_0.8.1_amd64.AppImage
+size=120 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="media-dupes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yafp/media-dupes"
+link=https://github.com/yafp/media-dupes/releases/download/0.10.3/media-dupes-0.10.3-linux-x86_64.AppImage
+size=116 MB
+version=0.10.3
+-----------------------------------------------------------------
+APP="mediachips"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fupdec/mediaChips"
+link=https://github.com/fupdec/mediaChips/releases/download/v0.11.3-beta/MediaChips.v0.11.3.Linux.AppImage
+size=157 MB
+version=0.11.3
+-----------------------------------------------------------------
+APP="mediaelch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Komet/MediaElch"
+link=https://github.com/Komet/MediaElch/releases/download/v2.12.0/MediaElch_linux_2.12.0_2024-10-13_git-8032465.AppImage
+size=68 MB
+version=2.12.0
+-----------------------------------------------------------------
+APP="median-xl"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.median-xl.com"
+link=https://get.median-xl.com/launcher/linux/medianxl-x86_64.AppImage
+size=67 MB
+version=2019.04.23
+-----------------------------------------------------------------
+APP="mediathekview"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mediathekview.de"
+link=https://download.mediathekview.de/stabil/MediathekView-14.2.0-linux-x86_64.AppImage
+size=125 MB
+version=14.2.0
+-----------------------------------------------------------------
+APP="megaglest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MegaGlest/megaglest-source"
+link=https://github.com/MegaGlest/megaglest-source/releases/download/snapshot/MegaGlest-snapshot-x86_64.AppImage
+size=305 MB
+version=2025.03.30
+-----------------------------------------------------------------
+APP="mellowplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ColinDuquesnoy/MellowPlayer"
+link=https://github.com/ColinDuquesnoy/MellowPlayer/releases/download/3.4.0/MellowPlayer-x86_64.AppImage
+size=87 MB
+version=3.4.0
+-----------------------------------------------------------------
+APP="melodie"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="feugy/melodie"
+link=https://github.com/feugy/melodie/releases/download/v2.0.0/melodie-2.0.0-x86_64.AppImage
+size=97 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="melonds"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="melonDS-emu/melonDS"
+link=https://github.com/melonDS-emu/melonDS/releases/download/0.9.5/melonDS_0.9.5_linux_x64.zip
+size=4 MB
+version=0.9.5
+-----------------------------------------------------------------
+APP="memento"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ripose-jp/Memento"
+link=https://github.com/ripose-jp/Memento/releases/download/v0.5.6-beta/Memento_Linux_x86_64.AppImage
+size=66 MB
+version=0.5.6
+-----------------------------------------------------------------
+APP="memocast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TankNee/Memocast"
+link=https://github.com/TankNee/Memocast/releases/download/v2.2.3/Memocast-2.2.3-x86_64-linux.AppImage
+size=124 MB
+version=2.2.3
+-----------------------------------------------------------------
+APP="memospot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="memospot/memospot"
+link=https://github.com/memospot/memospot/releases/download/v1.0.0/Memospot_1.0.0_amd64.AppImage
+size=106 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mendeley"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mendeley.com"
+link=https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.132.1-x86_64.AppImage
+size=227 MB
+version=2.132.1
+-----------------------------------------------------------------
+APP="menyoki"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orhun/menyoki"
+link=https://github.com/orhun/menyoki/releases/download/v1.7.0/menyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz
+size=6 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="meow-sql"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ragnar-lodbrok/meow-sql"
+link=https://github.com/ragnar-lodbrok/meow-sql/releases/download/v0.4.18-alpha/Linux_MeowSQL_0.4.18-x86_64.AppImage
+size=33 MB
+version=0.4.18
+-----------------------------------------------------------------
+APP="mercury"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+link=https://github.com/Alex313031/Mercury/releases/download/v.129.0.2/mercury_129.0.2_linux_AVX.zip
+size=247 MB
+version=129.0.2
+-----------------------------------------------------------------
+APP="mercury-avx2"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+link=https://github.com/Alex313031/Mercury/releases/download/v.129.0.2/mercury_129.0.2_linux_AVX2.zip
+size=259 MB
+version=129.0.2
+-----------------------------------------------------------------
+APP="mercury-sse3"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+link=https://github.com/Alex313031/Mercury/releases/download/v.129.0.2/mercury_129.0.2_linux_SSE3.zip
+size=247 MB
+version=129.0.2
+-----------------------------------------------------------------
+APP="mercury-sse4"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+link=https://github.com/Alex313031/Mercury/releases/download/v.129.0.2/mercury_129.0.2_linux_SSE3.zip
+size=247 MB
+version=129.0.2
+-----------------------------------------------------------------
+APP="meshlab"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cnr-isti-vclab/meshlab"
+link=https://github.com/cnr-isti-vclab/meshlab/releases/download/MeshLab-2023.12/MeshLab2023.12-linux.AppImage
+size=79 MB
+version=2023.12
+-----------------------------------------------------------------
+APP="meshmill"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jes/meshmill"
+link=https://github.com/jes/meshmill/releases/download/v0.1.3/meshmill-0.1.3.AppImage
+size=93 MB
+version=0.1.3
+-----------------------------------------------------------------
+APP="meta-grabber"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="andreaswilli/meta-grabber"
+link=https://github.com/andreaswilli/meta-grabber/releases/download/v1.1.0/Meta-Grabber-1.1.0-linux.AppImage
+size=106 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="mgba"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgba-emu/mgba"
+link=https://github.com/mgba-emu/mgba/releases/download/0.10.5/mGBA-0.10.5-appimage-x64.appimage
+size=25 MB
+version=0.10.5
+-----------------------------------------------------------------
+APP="micropad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MicroPad/Electron"
+link=https://github.com/MicroPad/MicroPad-Electron/releases/download/v4.5.2/micropad-4.5.2-x86_64.AppImage
+size=116 MB
+version=4.5.2
+-----------------------------------------------------------------
+APP="microsoft-edge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-135.0.3179.54-1-x86_64.AppImage
+size=210 MB
+version=135.0.3179.54
+-----------------------------------------------------------------
+APP="microsoft-edge-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-135.0.3179.54-1-x86_64.AppImage
+size=210 MB
+version=135.0.3179.54
+-----------------------------------------------------------------
+APP="microsoft-edge-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-136.0.3227.1-1-x86_64.AppImage
+size=214 MB
+version=136.0.3227.1
+-----------------------------------------------------------------
+APP="midori"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="goastian/midori-desktop"
+link=https://github.com/goastian/midori-desktop/releases/download/v11.5/Midori-11.5.AppImage
+size=118 MB
+version=11.5
+-----------------------------------------------------------------
+APP="miesimulatorgui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VirtualPhotonics/MieSimulatorGUI"
+link=https://github.com/VirtualPhotonics/MieSimulatorGUI/releases/download/continuous/MieSimulatorGUI-359f6d9-x86_64.AppImage
+size=22 MB
+version=359f6d9
+-----------------------------------------------------------------
+APP="mightymike"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/MightyMike"
+link=https://github.com/jorio/MightyMike/releases/download/v3.0.2/MightyMike-3.0.2-linux-x86_64.AppImage
+size=11 MB
+version=3.0.2
+-----------------------------------------------------------------
+APP="migu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NoCrypt/migu"
+link=https://github.com/NoCrypt/migu/releases/download/v5.6.4/linux-migu-5.6.4.AppImage
+size=96 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="milkytracker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="milkytracker/MilkyTracker"
+link=https://github.com/milkytracker/MilkyTracker/releases/download/v1.05.01/Milkytracker-x86_64.AppImage
+size=5 MB
+version=1.05.01
+-----------------------------------------------------------------
+APP="mindmapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mindmapp/mindmapp"
+link=https://github.com/cedoor/mindmapp/releases/download/v0.7.16/Mindmapp-0.7.16.AppImage
+size=51 MB
+version=0.7.16
+-----------------------------------------------------------------
+APP="mine-craft.io"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mine-craft.io"
+link=https://mine-craft.io/games/litecraft.io/apps/mine-craft.io-linux.AppImage
+size=96 MB
+version=2022.01.07
+-----------------------------------------------------------------
+APP="minecraft-launcher"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.minecraft.net"
+link=https://launcher.mojang.com/download/Minecraft.tar.gz
+size=3 MB
+version=2.1.3
+-----------------------------------------------------------------
+APP="minetest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="An0n3m0us/Minetest-AppImages"
+link=https://github.com/An0n3m0us/Minetest-AppImages/releases/download/5.8.0/Minetest-5.8.0-x86_64.AppImage
+size=20 MB
+version=5.8.0
+-----------------------------------------------------------------
+APP="minetime"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="marcoancona/MineTime"
+link=https://github.com/marcoancona/MineTime/releases/download/v1.9.0/MineTime-1.9.0.AppImage
+size=182 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="mini-diary"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="samuelmeuli/mini-diary"
+link=https://github.com/samuelmeuli/mini-diary/releases/download/v3.3.0/Mini-Diary-3.3.0.AppImage
+size=71 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="mini-qml"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrickelectric/mini-qml"
+link=https://github.com/patrickelectric/mini-qml/releases/download/continuous/mini-qml.AppImage
+size=30 MB
+version=2021.12.06
+-----------------------------------------------------------------
+APP="minififa"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="theoden8/mini-fifa"
+link=https://github.com/theoden8/mini-fifa/releases/download/0.0.1/MiniFifa-Client-0.0.1-x84_64-preview.AppImage
+size=12 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="minimal-podcasts-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="son-link/minimal-podcasts-player"
+link=https://github.com/son-link/minimal-podcasts-player/releases/download/continuous/Minimal_Podcasts_Player-continuous-x86_64.AppImage
+size=87 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="minions"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/Minions"
+link=https://github.com/blahgeek/Minions/releases/download/v0.5.3/Minions-0.5.3-d2ec2b.glibc2.18-x86_64.AppImage
+size=36 MB
+version=0.5.3
+-----------------------------------------------------------------
+APP="minizinc-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MiniZinc/MiniZincIDE"
+link=https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build1704325677-x86_64.AppImage
+size=75 MB
+version=build1704325677
+-----------------------------------------------------------------
+APP="mira-backup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="myazarc/mira-backup"
+link=https://github.com/myazarc/mira-backup/releases/download/v1.0.0-beta.1/mira-backup-1.0.0-x86_64.AppImage
+size=54 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mirage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mirukana/mirage"
+link=https://github.com/mirukana/mirage/releases/download/v0.7.2/Mirage-v0.7.2-x86_64.AppImage
+size=90 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="miru"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ThaUnknown/miru"
+link=https://github.com/ThaUnknown/miru/releases/download/v5.5.10/linux-Miru-5.5.10.AppImage
+size=100 MB
+version=5.5.10
+-----------------------------------------------------------------
+APP="mission-center"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://missioncenter.io"
+link=https://gitlab.com/mission-center-devs/mission-center/-/jobs/8198461967/artifacts/raw/MissionCenter-x86_64.AppImage
+size=43 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="miteiru"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hockyy/miteiru"
+link=https://github.com/hockyy/miteiru/releases/download/v2.2.0/miteiru-2.2.0-linux-22.04-x86_64.AppImage
+size=320 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="mjml-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mjmlio/mjml-app"
+link=https://github.com/mjmlio/mjml-app/releases/download/v3.1.0-beta/mjml-app-3.1.0-beta-linux-x86_64.AppImage
+size=87 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="mk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orangekame3/mk"
+link=https://github.com/orangekame3/mk/releases/download/v0.0.16/mk_0.0.16_linux_amd64.tar.gz
+size=8 MB
+version=0.0.16
+-----------------------------------------------------------------
+APP="mki3dgame"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mki1967/mki3dgame"
+link=https://github.com/mki1967/mki3dgame/releases/download/v3.05/mki3dgame-x86_64.AppImage
+size=4 MB
+version=3.05
+-----------------------------------------------------------------
+APP="mkvtoolnix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mkvtoolnix.download"
+link=https://mkvtoolnix.download/appimage/MKVToolNix_GUI-91.0-x86_64.AppImage
+size=61 MB
+version=91.0
+-----------------------------------------------------------------
+APP="mlv-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ilia3101/MLV-App"
+link=https://github.com/ilia3101/MLV-App/releases/download/QTv1.15/MLV.App.v1.15.Linux.x86_64.AppImage
+size=58 MB
+version=1.15
+-----------------------------------------------------------------
+APP="mmapper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MUME/MMapper"
+link=https://github.com/MUME/MMapper/releases/download/v24.03.1/MMapper-24.03.1-x86_64.AppImage
+size=34 MB
+version=24.03.1
+-----------------------------------------------------------------
+APP="mmseqs2-search"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="soedinglab/MMseqs2-App"
+link=https://github.com/soedinglab/MMseqs2-App/releases/download/v7-8e1704f/MMseqs2-Search-1.7.0.AppImage
+size=126 MB
+version=MMseqs2
+-----------------------------------------------------------------
+APP="moarperf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timo/moarperf"
+link=https://github.com/timo/moarperf/releases/download/untagged-0e520c445f30a5ea4aae/MoarPerf-0.1.1.glibc2.15-x86_64.AppImage
+size=38 MB
+version=0.1.1.glibc2.15
+-----------------------------------------------------------------
+APP="mob"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zenghongtu/Mob"
+link=https://github.com/zenghongtu/Mob/releases/download/v0.2.2/Mob-0.2.2-linux-x86_64.AppImage
+size=70 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="mochi"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mochi.cards"
+link=https://mochi.cards/releases/Mochi-1.18.10.AppImage
+size=95 MB
+version=1.18.10
+-----------------------------------------------------------------
+APP="mockman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LanceGin/Mockman"
+link=https://github.com/LanceGin/Mockman/releases/download/1.0.5/Mockman-1.0.5-x86_64.AppImage
+size=60 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="mockoon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mockoon/mockoon"
+link=https://github.com/mockoon/mockoon/releases/download/v9.2.0/mockoon-9.2.0.x86_64.AppImage
+size=115 MB
+version=9.2.0
+-----------------------------------------------------------------
+APP="moderndeck"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dangeredwolf/ModernDeck"
+link=https://github.com/dangeredwolf/ModernDeck/releases/download/v10.0.0/ModernDeck-x86_64.AppImage
+size=120 MB
+version=10.0.0
+-----------------------------------------------------------------
+APP="modrinth"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://modrinth.com/app"
+link=https://launcher-files.modrinth.com/versions/0.9.3/linux/Modrinth%20App_0.9.3_amd64.AppImage
+size=88 MB
+version=0.9.3
+-----------------------------------------------------------------
+APP="modv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vcync/modV"
+link=https://github.com/vcync/modV/releases/download/3.30.0/modV-3.30.0.AppImage
+size=126 MB
+version=3.30.0
+-----------------------------------------------------------------
+APP="monit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fzf404/Monit"
+link=https://github.com/fzf404/Monit/releases/download/v0.8.1/Monit-0.8.1-linux-x86_64.AppImage
+size=89 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="moniteur-admin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aueb-cslabs/moniteur-admin"
+link=https://github.com/aueb-cslabs/moniteur-admin/releases/download/v0.3.8/moniteur-admin-v0.3.8.AppImage
+size=116 MB
+version=0.3.8
+-----------------------------------------------------------------
+APP="monokle"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kubeshop/monokle"
+link=https://github.com/kubeshop/monokle/releases/download/v2.4.8/Monokle-linux-2.4.8-x86_64.AppImage
+size=187 MB
+version=2.4.8
+-----------------------------------------------------------------
+APP="monoline"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://monoline.io/"
+link=https://download.monoline.io/desktop-apps/Monoline-1.2.4.AppImage
+size=265 MB
+version=1.2.4
+-----------------------------------------------------------------
+APP="mood-fi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KaykyDeSouzaDias/Mood-Fi"
+link=https://github.com/KaykyDeSouzaDias/Mood-Fi/releases/download/v2.0.1/mood-fi_2.0.1_amd64.AppImage
+size=78 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="moolticute"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mooltipass/moolticute"
+link=https://github.com/mooltipass/moolticute/releases/download/v1.04.0/Moolticute-v1.04.0-x86_64.AppImage
+size=31 MB
+version=1.04.0
+-----------------------------------------------------------------
+APP="moonfm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://moon.fm"
+link=https://moon.fm/download/linux/MoonFM.AppImage
+size=125 MB
+version=5.0.3
+-----------------------------------------------------------------
+APP="moonlight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="moonlight-stream/moonlight-qt"
+link=https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.1.0/Moonlight-6.1.0-x86_64.AppImage
+size=53 MB
+version=6.1.0
+-----------------------------------------------------------------
+APP="moonplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="coslyk/moonplayer"
+link=https://github.com/coslyk/moonplayer/releases/download/v4.3/MoonPlayer--x86_64.AppImage
+size=112 MB
+version=4.3
+-----------------------------------------------------------------
+APP="moose"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ritz078/moose"
+link=https://github.com/ritz078/moose/releases/download/v0.6.2/moose-0.6.2.AppImage
+size=77 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="moosync"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Moosync/Moosync"
+link=https://github.com/Moosync/Moosync/releases/download/Moosync-v11.0.2/Moosync_11.0.2_amd64.AppImage
+size=185 MB
+version=11.0.2
+-----------------------------------------------------------------
+APP="motrix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="agalwood/Motrix"
+link=https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19.AppImage
+size=97 MB
+version=1.8.19
+-----------------------------------------------------------------
+APP="movie-monad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/movie-monad"
+link=https://github.com/lettier/movie-monad/releases/download/0.0.7.0/movie-monad-0.0.7.0-x86_64.AppImage
+size=35 MB
+version=0.0.7.0
+-----------------------------------------------------------------
+APP="moyu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trueleaf/moyu"
+link=https://github.com/trueleaf/moyu/releases/download/0.8.0-beta/moyu-0.8.0.AppImage
+size=86 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="mozaic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZeusWPI/MOZAIC"
+link=https://github.com/ZeusWPI/MOZAIC/releases/download/0.4.0/bottlebats-0.4.0-x86_64.AppImage
+size=57 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="mp3-tagger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mohammadreza99A/mp3-tagger"
+link=https://github.com/Mohammadreza99A/mp3-tagger/releases/download/v0.1.4/Mp3Tagger-0.1.4.AppImage
+size=76 MB
+version=Mp3Tagger
+-----------------------------------------------------------------
+APP="mp4grep"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="o-oconnell/mp4grep"
+link=https://github.com/o-oconnell/mp4grep/releases/download/0.1.5-linux-x86/binary-mp4grep-0.1.5-linux-x86.zip
+size=27 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="mpv"
+APPIMAGE='yes'
+GITHUB='yes'
+link=https://github.com/pkgforge-dev/mpv-AppImage/releases/download/v0.40.0-50-g6f7e1e435/mpv-v0.40.0-50-g6f7e1e435-anylinux-x86_64.AppImage
+size=37 MB
+version=starting
+-----------------------------------------------------------------
+APP="mqtt-explorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thomasnordquist/MQTT-Explorer"
+link=https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v0.4.0-beta.6/MQTT-Explorer-0.4.0-beta.6.AppImage
+size=110 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="mqttcute"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MayaPosch/MQTTCute"
+link=https://github.com/MayaPosch/MQTTCute/releases/download/continuous/MQTTCute-f060f99-x86_64.AppImage
+size=26 MB
+version=f060f99
+-----------------------------------------------------------------
+APP="mqttx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="emqx/MQTTX"
+link=https://github.com/emqx/MQTTX/releases/download/v1.12.0-beta.2/MQTTX-1.12.0-beta.2.AppImage
+size=119 MB
+version=1.12.0
+-----------------------------------------------------------------
+APP="mr.dclutterer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deep5050/Mr.Dclutterer"
+link=https://github.com/deep5050/Mr.Dclutterer/releases/download/v1.0.0/Mr.Dclutterer-1.0.0.AppImage
+size=78 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mrcode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zokugun/MrCode"
+link=https://github.com/zokugun/MrCode/releases/download/1.98.2.25077/MrCode-1.98.2.25077.glibc2.29-x86_64.AppImage
+size=134 MB
+version=1.98.2.25077.glibc2.29
+-----------------------------------------------------------------
+APP="mrwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="unruhschuh/MrWriter"
+link=https://github.com/unruhschuh/MrWriter/releases/download/v0.0.7/MrWriter-0.0.7-x86_64.AppImage
+size=30 MB
+version=0.0.7
+-----------------------------------------------------------------
