@@ -103,7 +103,11 @@ jobs:
       - name: "Count programs 📊"
         if: github.event.inputs.reset_stats != 'true'
         id: count
-        run: sh ${{ env.SCRIPT_DIR }}/count.sh
+        run: |
+          echo "Excluding: kdegames kdeutils node platform-tools ffwa-" >> $GITHUB_STEP_SUMMARY
+          sort programs/x86_64-apps | grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-" | awk '{print $2}' > appslist
+          x64Count=$(wc -l < appslist)
+          echo "all=$x64Count" >> $GITHUB_OUTPUT
 
 
       - name: "Upload appslist"
