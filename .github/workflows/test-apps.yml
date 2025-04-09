@@ -641,24 +641,24 @@ jobs:
           echo "-----------------------"
           for fail in $(cat results/failing); do
             echo "Trying again: $fail" >> $GITHUB_STEP_SUMMARY
-            #cd programs/x86_64
             mkdir -p results
-            echo "APP=\"$fail\"" | tee -a "results/out-$fail"
-            if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" ./"$fail" 1>/dev/null; then
-              echo "APPIMAGE='yes'" | tee -a results/out-"$fail"
+            cd programs/x86_64
+            echo "APP=\"$fail\"" | tee -a "../../results/out-$fail"
+            if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$fail" 1>/dev/null; then
+              echo "APPIMAGE='yes'" | tee -a ../../results/out-"$fail"
             else
               #echo "EXIT_CODE=99" >> $GITHUB_ENV
-              echo "APPIMAGE='no'" >> "results/out-$fail"
+              echo "APPIMAGE='no'" >> "../../results/out-$fail"
             fi
             if grep -q "api.github.com" "$fail" 2>/dev/null; then
-              echo "GITHUB='yes'" | tee -a "results/out-$fail"
+              echo "GITHUB='yes'" | tee -a "../../results/out-$fail"
             else
               #echo "EXIT_CODE=9" >> $GITHUB_ENV
-              echo "GITHUB='no'" >> "results/out-$fail"
+              echo "GITHUB='no'" >> "../../results/out-$fail"
             fi
             if grep -q "^SITE=" "$fail" 2>/dev/null; then
               SITE=$(eval echo "$(grep -i '^SITE=' "$fail" | head -1 | sed 's/SITE=//g')")
-              echo "SITE=\"$SITE\"" | tee -a results/out-"$fail"
+              echo "SITE=\"$SITE\"" | tee -a ../../results/out-"$fail"
             fi
             if grep -q "^version=" "$fail" 2>/dev/null; then
               link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
@@ -671,44 +671,45 @@ jobs:
                   link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
                 fi
               fi
-              [ -n "$link" ] && echo "link=\"$link\"" | tee -a results/out-"$fail"
+              [ -n "$link" ] && echo "link=\"$link\"" | tee -a ../../results/out-"$fail"
             fi
-            echo '-----------------------------------------------------------------' | tee -a results/out-"$fail"
+            echo '-----------------------------------------------------------------' | tee -a ../../results/out-"$fail"
             if [[ "$fail" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
-              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
-                size=$(cat "results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-                Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
+              if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee -a "../../results/log-$fail"; then
+                size=$(cat "../../results/out-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                Preversion=$(cat "../../results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
                 echo "pre version is $Preversion"
                 version=$(echo "$Preversion" | awk '{print $3}')
-                echo "version=$version" | tee -a "results/out-$fail"
+                echo "version=$version" | tee -a "../../results/out-$fail"
               else
-                echo "$fail" | tee -a results/excluded failed
+                echo "$fail" | tee -a ../../results/excluded failed
               fi
             elif [[ "$fail" =~ (bat-extras) ]]; then
-              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
-                size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
-                Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -2 | head -1)
+              if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee -a "../../results/log-$fail"; then
+                size=$(cat "../../results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
+                Preversion=$(cat "../../results/log-$fail" | tee /dev/null | grep '◆' | tail -2 | head -1)
                 echo "pre version is $Preversion"
                 version=$(echo "$Preversion" | awk '{print $3}' | cut -d'.' -f1-3)
-                echo "version=$version" | tee -a "results/out-$fail"
+                echo "version=$version" | tee -a "../../results/out-$fail"
               else
-                echo "$fail" | tee -a results/excluded failed
+                echo "$fail" | tee -a ../../results/excluded failed
               fi
             else
-              if command -v echo y | am -i "$fail" --debug 2>&1 | tee -a "results/log-$fail"; then
-                size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-                Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1)
+              if command -v echo y | am -i "$fail" --debug 2>&1 | tee -a "../../results/log-$fail"; then
+                size=$(cat "../../results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                Preversion=$(cat "../../results/log-$fail" | tee /dev/null | grep '◆' | tail -1)
                 echo "pre version is $Preversion"
-                version=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
-                echo "version=$version" | tee -a "results/out-$fail"
-                rawlink=$(grep -E 'https?://' < "results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
-                echo "link=${rawlink}" | tee -a "results/out-${{ matrix.file }}"
+                version=$(cat "../../results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
+                echo "version=$version" | tee -a "../../results/out-$fail"
+                rawlink=$(grep -E 'https?://' < "../../results/log-${{ matrix.file }}" | head -1 | cut -d' ' -f4)
+                echo "link=${rawlink}" | tee -a "../../results/out-${{ matrix.file }}"
               else
-                echo "$fail" | tee -a results/excluded failed
+                echo "$fail" | tee -a ../../results/excluded failed
               fi
             fi
-            rm -f "$KoFile"
+            rm -f "../../results/$KoFile"
           done
+          cd ../../
           rm -f results/failing
 
       - name: "Upload KO Results ☝️"
