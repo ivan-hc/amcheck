@@ -565,6 +565,7 @@ jobs:
         id: proces
         run: |
           find -name 'ko-*'
+          find -name 'failing'
           for KoFile in results/ko-*; do
             [ -f "$KoFile" ] || continue
             appname=$(basename "$KoFile" | cut -d'-' -f2-)
@@ -573,7 +574,7 @@ jobs:
               rm -f "$KoFile"
             fi
           done
-          if [ -f failing ]; then
+          if [ -f results/failing ]; then
             echo "failed=true" >> $GITHUB_OUTPUT
           fi
 
