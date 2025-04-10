@@ -399,7 +399,15 @@ jobs:
 
             else
 
-              echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"
+              if echo y | timeout "$TIMEOUT"m am -i "${{ matrix.file }}" --debug 2>&1 | tee -a "results/log-${{ matrix.file }}"; then
+                echo "Good to go"
+              elif [[ $? -eq 124 ]]; then
+                echo "### 💥 ${{ matrix.file }} timeout!" >> $GITHUB_STEP_SUMMARY
+                #echo "Installation timeout in $TIMEOUT minutes" >> results/log-"${{ matrix.file }}"
+                echo "${{ matrix.file }}" >> results/ko-${{ matrix.file }}
+                echo "::error title=⛔ Timeout $TIMEOUT minutes reached ERROR 124:: I will try again"
+                exit 0 # Don't fail now, we will try again
+              fi
 
             fi
 
