@@ -378,9 +378,6 @@ APP="ambermoon.net"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="Pyrdacor/Ambermoon.net"
-link=https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.10.6/Ambermoon.net-Linux.tar.gz
-size=112 MB
-version=1.10.6
 -----------------------------------------------------------------
 APP="amdgpu_top"
 APPIMAGE='yes'
@@ -967,9 +964,6 @@ APP="asgardex"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="asgardex/asgardex-desktop"
-link=https://github.com/asgardex/asgardex-desktop/releases/download/v1.30.3/ASGARDEX-1.30.3-linux.AppImage
-size=351 MB
-version=1.30.3
 -----------------------------------------------------------------
 APP="astroffers"
 APPIMAGE='yes'
@@ -983,9 +977,6 @@ APP="astrofox"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="https://astrofox.io"
-link=https://files.astrofox.io/download/Astrofox-1.4.0.AppImage
-size=124 MB
-version=1.4.0
 -----------------------------------------------------------------
 APP="astroshutter"
 APPIMAGE='yes'
@@ -1391,9 +1382,6 @@ APP="bettersis"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mario33881/betterSIS"
-link=https://github.com/mario33881/betterSIS/releases/download/1.2.1/BetterSIS-1.2.1-x86_64.AppImage
-size=51 MB
-version=1.2.1
 -----------------------------------------------------------------
 APP="beurerscalemanager"
 APPIMAGE='yes'
@@ -1655,7 +1643,7 @@ APP="blender-rc"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.71e9e32e5f81-linux.x86_64-release.tar.xz
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.8c8390e95d44-linux.x86_64-release.tar.xz
 size=1111 MB
 version=4.4.1
 -----------------------------------------------------------------
@@ -1967,9 +1955,9 @@ APP="brave-nightly"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="brave/brave-browser"
-link=https://github.com/brave/brave-browser/releases/download/v1.79.53/brave-browser-nightly-1.79.53-linux-amd64.zip
+link=https://github.com/brave/brave-browser/releases/download/v1.79.55/brave-browser-nightly-1.79.55-linux-amd64.zip
 size=393 MB
-version=1.79.53
+version=1.79.55
 -----------------------------------------------------------------
 APP="brave-nightly-appimage"
 APPIMAGE='yes'
@@ -2439,8 +2427,8 @@ APP="celestia-dev"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://celestiaproject.space"
-link=https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250409+d910286-lp154.807.1.Build807.1.glibc2.17-x86_64.AppImage
-size=248 MB
+link=https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250409+d910286-lp154.808.1.Build808.1.glibc2.17-x86_64.AppImage
+size=381 MB
 version=1.7.0~git20250409+d910286
 -----------------------------------------------------------------
 APP="celestia-enanched"
@@ -3912,7 +3900,7 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/DeSmuME-AppImage"
 link=https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1/desmume-0.9.13-1-anylinux-x86_64.AppImage
-size=63 MB
+size=60 MB
 version=0.9.13
 -----------------------------------------------------------------
 APP="destiny"
@@ -3959,7 +3947,7 @@ APP="devpod"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="loft-sh/devpod"
-link=https://github.com/loft-sh/devpod/releases/download/v0.7.0-alpha.31/DevPod_linux_amd64.AppImage
+link=https://github.com/loft-sh/devpod/releases/download/v0.7.0-alpha.32/DevPod_linux_amd64.AppImage
 size=125 MB
 version=0.7.0
 -----------------------------------------------------------------
@@ -4047,7 +4035,7 @@ APP="digikam"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://files.kde.org/digikam/"
-link=https://files.kde.org/digikam/digiKam-8.7.0-20250410T180049-Qt6-x86-64.appimage
+link=https://files.kde.org/digikam/digiKam-8.7.0-20250411T140044-Qt6-x86-64.appimage
 size=287 MB
 version=8.7.0
 -----------------------------------------------------------------
@@ -5519,7 +5507,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl4.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=Y61Fb5qvWGiYS7RdtwMDcQ&x=1744363989
+link=https://dl3.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=a-vWyi6PBBPYoDMN-XcZBA&x=1744392717
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -5634,9 +5622,9 @@ APP="firefox-nightly-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250410163733-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250411092938-x86_64.AppImage
 size=113 MB
-version=139.0.r20250410163733
+version=139.0.r20250411092938
 -----------------------------------------------------------------
 APP="firetail"
 APPIMAGE='yes'
@@ -6618,9 +6606,9 @@ APP="gitleaks"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="gitleaks/gitleaks"
-link=https://github.com/gitleaks/gitleaks/releases/download/v8.24.2/gitleaks_8.24.2_linux_x64.tar.gz
-size=15 MB
-version=8.24.2
+link=https://github.com/gitleaks/gitleaks/releases/download/v8.24.3/gitleaks_8.24.3_linux_x64.tar.gz
+size=16 MB
+version=8.24.3
 -----------------------------------------------------------------
 APP="gitlight"
 APPIMAGE='yes'
@@ -8559,9 +8547,9 @@ APP="kdenlive-daily"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://kdenlive.org"
-link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10058-linux-gcc-x86_64.AppImage
+link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10067-linux-gcc-x86_64.AppImage
 size=184 MB
-version=10058
+version=10067
 -----------------------------------------------------------------
 APP="kdeutils"
 APPIMAGE='yes'
@@ -11656,9 +11644,6 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
-link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250411%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250411T102829Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=c3673cd7e51afae6927d7733319e813ce3793beacb514f7952b605a0193f1139
-size=44 MB
-version=0.6.5
 -----------------------------------------------------------------
 APP="oh-mymd"
 APPIMAGE='yes'
@@ -12392,9 +12377,9 @@ APP="parsec"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Scille/parsec-cloud"
-link=https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.4.0-a.7.dev.20188%2Be7a2614_linux_x86_64.unsigned.AppImage
-size=143 MB
-version=3.4.0
+link=https://github.com/Scille/parsec-cloud/releases/download/v3.3.3-rc.0/Parsec_3.3.3-rc.0_linux_x86_64.unsigned.AppImage
+size=137 MB
+version=3.3.3
 -----------------------------------------------------------------
 APP="parsec-linux"
 APPIMAGE='yes'
@@ -14040,7 +14025,7 @@ APP="qt-dab"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="JvanKatwijk/qt-dab"
-link=https://github.com/JvanKatwijk/qt-dab/releases/download/Qt-6.9.2/qt5-db-loader-x86_64.AppImage
+link=https://github.com/JvanKatwijk/qt-dab/releases/download/6.9.2-new/qt5-db-loader-x86_64.AppImage
 size=31 MB
 version=qt5
 -----------------------------------------------------------------
@@ -14160,7 +14145,7 @@ APP="qucs-s"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ra3xdh/qucs_s"
-link=https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.1.99-5f29645-linux-x86_64.AppImage
+link=https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.1.99-079c67c-linux-x86_64.AppImage
 size=39 MB
 version=25.1.99
 -----------------------------------------------------------------
@@ -14169,8 +14154,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="d1vanov/quentier"
 link=https://github.com/d1vanov/quentier/releases/download/continuous-development/Quentier-development-x86_64.AppImage
-size=207 MB
-version=2025.01.31
+size=172 MB
+version=2025.04.11
 -----------------------------------------------------------------
 APP="quick-clone"
 APPIMAGE='yes'
@@ -14712,9 +14697,6 @@ APP="rmg"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Rosalie241/RMG"
-link=https://github.com/Rosalie241/RMG/releases/download/v0.7.8/RMG-Portable-Linux64-v0.7.8.AppImage
-size=160 MB
-version=0.7.8
 -----------------------------------------------------------------
 APP="rmw"
 APPIMAGE='yes'
@@ -14784,7 +14766,7 @@ APP="rpcs3"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://rpcs3.net"
-link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-9b7d5cd1a9e56fe7ea9b89be887f4967465ff356/rpcs3-v0.0.36-17776-9b7d5cd1_linux64.AppImage
+link=https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2d7ffaf07f45397216e89769415d05e51fb1f86c/rpcs3-v0.0.36-17777-2d7ffaf0_linux64.AppImage
 size=84 MB
 version=0.0.36
 -----------------------------------------------------------------
@@ -16448,9 +16430,9 @@ APP="sticker-convert"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="laggykiller/sticker-convert"
-link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.3/sticker-convert-x86_64.AppImage
+link=https://github.com/laggykiller/sticker-convert/releases/download/v2.12.4/sticker-convert-x86_64.AppImage
 size=111 MB
-version=2.12.3
+version=2.12.4
 -----------------------------------------------------------------
 APP="stockstalk"
 APPIMAGE='yes'
@@ -17451,7 +17433,7 @@ APP="thunderbird-nightly"
 APPIMAGE='no'
 GITHUB='no'
 link=https://download.mozilla.org/?product=thunderbird-nightly-latest&os=linux64&lang=
-size=334 MB
+size=335 MB
 version=139.0a1
 -----------------------------------------------------------------
 APP="thunderbird-nightly-appimage"
@@ -17588,7 +17570,7 @@ GITHUB='no'
 SITE="https://www.todesktop.com"
 link=https://builder.todesktop.com/
 size=118 MB
-version=0.26.0
+version=0.27.0
 -----------------------------------------------------------------
 APP="todo-bash"
 APPIMAGE='yes'
@@ -18034,7 +18016,7 @@ GITHUB='yes'
 SITE="CESNET/UltraGrid"
 link=https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage
 size=148 MB
-version=2025.04.10
+version=2025.04.11
 -----------------------------------------------------------------
 APP="ultrascreen"
 APPIMAGE='yes'
@@ -18621,9 +18603,9 @@ APP="vlc-git"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/VLC-appimage"
-link=https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r33548.g73e98da-1-archimage3.5-x86_64.AppImage
-size=224 MB
-version=4.0.0.r33548.g73e98da
+link=https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-16-archimage4.3-x86_64.AppImage
+size=140 MB
+version=3.0.21
 -----------------------------------------------------------------
 APP="vnote"
 APPIMAGE='yes'
@@ -18975,7 +18957,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48570755172
+version=48577269263
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19877,9 +19859,9 @@ APP="zed"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="zed-industries/zed"
-link=https://github.com/zed-industries/zed/releases/download/v0.182.3-pre/zed-linux-x86_64.tar.gz
+link=https://github.com/zed-industries/zed/releases/download/v0.182.4-pre/zed-linux-x86_64.tar.gz
 size=256 MB
-version=0.182.3
+version=0.182.4
 -----------------------------------------------------------------
 APP="zegarek"
 APPIMAGE='yes'
@@ -19909,9 +19891,9 @@ APP="zen-browser"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="zen-browser/desktop"
-link=https://github.com/zen-browser/desktop/releases/download/1.11.1b/zen-x86_64.AppImage
+link=https://github.com/zen-browser/desktop/releases/download/1.11.2b/zen-x86_64.AppImage
 size=100 MB
-version=1.11.1
+version=1.11.2
 -----------------------------------------------------------------
 APP="zenity"
 APPIMAGE='yes'
@@ -19989,9 +19971,9 @@ APP="znote"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="alagrede/znote-app"
-link=https://github.com/alagrede/znote-app/releases/download/v3.1.2/znote-3.1.2.AppImage
+link=https://github.com/alagrede/znote-app/releases/download/v3.1.3/znote-3.1.3.AppImage
 size=131 MB
-version=3.1.2
+version=3.1.3
 -----------------------------------------------------------------
 APP="zograscope"
 APPIMAGE='yes'
