@@ -808,31 +808,33 @@ jobs:
         run: |
           mkdir -p results
           ls -R
-          for LogFile in results/out-*; do
+          if [ -f results/out-* ]; then
+            for LogFile in results/out-*; do
 
-            appname=$(basename "$LogFile" | cut -d'-' -f2-)
-            echo '_________________________________________________________________'
-            echo "$appname"
-            echo '-----------------------------------------------------------------'
-            cat "$LogFile"
-            echo '-----------------------------------------------------------------'
+              appname=$(basename "$LogFile" | cut -d'-' -f2-)
+              echo '_________________________________________________________________'
+              echo "$appname"
+              echo '-----------------------------------------------------------------'
+              cat "$LogFile"
+              echo '-----------------------------------------------------------------'
 
-            if [ -z "$size" ]; then
-              size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
-              echo "size is $size"
-            fi
+              if [ -z "$size" ]; then
+                size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
+                echo "size is $size"
+              fi
 
-            if [ -z "$version" ]; then
-              version=$(cat "$LogFile" | grep 'version' | cut -d'=' -f2)
-              echo "version is $version"
-            fi
+              if [ -z "$version" ]; then
+                version=$(cat "$LogFile" | grep 'version' | cut -d'=' -f2)
+                echo "version is $version"
+              fi
 
-            cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-            echo "$appname" >> results/tested
-            echo '-----------------------------------------------------------------' >> results/log
-            rm -f "$LogFile"
+              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+              echo "$appname" >> results/tested
+              echo '-----------------------------------------------------------------' >> results/log
+              rm -f "$LogFile"
 
-          done
+            done
+          fi
 
           if [ -f failed ]; then
             for fail in failed; do
