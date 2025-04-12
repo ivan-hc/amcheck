@@ -426,9 +426,9 @@ APP="android-knot"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ic005k/Knot"
-link=https://github.com/ic005k/Knot/releases/download/1.2.27/Knot-Linux-x86_64.AppImage
+link=https://github.com/ic005k/Knot/releases/download/1.2.28/Knot-Linux-x86_64.AppImage
 size=123 MB
-version=1.2.27
+version=1.2.28
 -----------------------------------------------------------------
 APP="android-messages-desktop"
 APPIMAGE='yes'
@@ -1639,7 +1639,7 @@ APP="blender-alpha"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.4bd7706099ec-linux.x86_64-release.tar.xz
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.b4d09517c1e5-linux.x86_64-release.tar.xz
 size=1112 MB
 version=4.5.0
 -----------------------------------------------------------------
@@ -1655,7 +1655,7 @@ APP="blender-rc"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.8c8390e95d44-linux.x86_64-release.tar.xz
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.1-candidate+v44.684417e748ba-linux.x86_64-release.tar.xz
 size=1111 MB
 version=4.4.1
 -----------------------------------------------------------------
@@ -1959,9 +1959,6 @@ APP="brave-beta-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
-link=https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.78.80-x86_64.AppImage
-size=155 MB
-version=1.78.80
 -----------------------------------------------------------------
 APP="brave-nightly"
 APPIMAGE='no'
@@ -3663,9 +3660,9 @@ APP="darktable-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="darktable-org/darktable"
-link=https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.1.0%2B641.ge556c2ed1b-x86_64.AppImage
+link=https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.1.0%2B645.g6cefa8f5e3-x86_64.AppImage
 size=160 MB
-version=5.1.0%2B641.ge556c2ed1b
+version=5.1.0%2B645.g6cefa8f5e3
 -----------------------------------------------------------------
 APP="dashy-app"
 APPIMAGE='yes'
@@ -4127,9 +4124,9 @@ APP="dolphin-emu"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mantralunar/dolphin"
-link=https://github.com/mantralunar/dolphin/releases/download/dolphin-fc0179c-x86_64/dolphin-x86_64.AppImage
+link=https://github.com/mantralunar/dolphin/releases/download/dolphin-5285b11-x86_64/dolphin-x86_64.AppImage
 size=66 MB
-version=fc0179c
+version=5285b11
 -----------------------------------------------------------------
 APP="domterm"
 APPIMAGE='yes'
@@ -4319,9 +4316,9 @@ APP="duckling"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="l1xnan/duckling"
-link=https://github.com/l1xnan/duckling/releases/download/v0.0.42/Duckling_0.0.42_amd64.AppImage
+link=https://github.com/l1xnan/duckling/releases/download/v0.0.43/Duckling_0.0.43_amd64.AppImage
 size=107 MB
-version=0.0.42
+version=0.0.43
 -----------------------------------------------------------------
 APP="duckstation"
 APPIMAGE='yes'
@@ -4751,9 +4748,9 @@ APP="emacs-nox-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14392643698/Emacs-master-nox-x86_64.AppImage
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14414044276/Emacs-master-nox-x86_64.AppImage
 size=177 MB
-version=14392643698
+version=14414044276
 -----------------------------------------------------------------
 APP="emacs-pgtk"
 APPIMAGE='yes'
@@ -4767,9 +4764,9 @@ APP="emacs-pgtk-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14392643698/Emacs-master-pgtk-x86_64.AppImage
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14414044276/Emacs-master-pgtk-x86_64.AppImage
 size=181 MB
-version=14392643698
+version=14414044276
 -----------------------------------------------------------------
 APP="emacs-x11"
 APPIMAGE='yes'
@@ -4783,7 +4780,7 @@ APP="emacs-x11-daily"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="blahgeek/emacs-appimage"
-link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14392643698/Emacs-master-x11-x86_64.AppImage
+link=https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14414044276/Emacs-master-x11-x86_64.AppImage
 size=182 MB
 version=x11
 -----------------------------------------------------------------
@@ -5519,7 +5516,7 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl4.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=QuPkNomtSScppHmUMBkNwA&x=1744418463
+link=https://dl1.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=YrnW_oM1Yy-kP-XCFSIKGw&x=1744453546
 size=48 MB
 version=3.68.1
 -----------------------------------------------------------------
@@ -5589,9 +5586,9 @@ APP="firefox-beta-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250409092011-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250411092217-x86_64.AppImage
 size=100 MB
-version=138.0.r20250409092011
+version=138.0.r20250411092217
 -----------------------------------------------------------------
 APP="firefox-dev"
 APPIMAGE='no'
@@ -5604,9 +5601,9 @@ APP="firefox-devedition-appimage"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250409092011-x86_64.AppImage
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250411092217-x86_64.AppImage
 size=100 MB
-version=138.0.r20250409092011
+version=138.0.r20250411092217
 -----------------------------------------------------------------
 APP="firefox-esr"
 APPIMAGE='no'
@@ -6466,7 +6463,7 @@ APP="ghostty-nightly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/ghostty-appimage"
-link=https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bb16324e-x86_64.AppImage
+link=https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B6663619-x86_64.AppImage
 size=66 MB
 version=1.1.4
 -----------------------------------------------------------------
@@ -6474,9 +6471,6 @@ APP="ghrel"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="jreisinger/ghrel"
-link=https://github.com/jreisinger/ghrel/releases/download/v0.10.5/ghrel_0.10.5_linux_amd64.tar.gz
-size=5 MB
-version=0.10.5
 -----------------------------------------------------------------
 APP="giada"
 APPIMAGE='yes'
@@ -6530,7 +6524,7 @@ APP="gimp-git"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/GIMP-appimage"
-link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_54471.e67a99b275c-1-archimage4.3-x86_64.AppImage
+link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_54475.44e36555364-1-archimage4.3-x86_64.AppImage
 size=197 MB
 version=starting
 -----------------------------------------------------------------
@@ -7914,9 +7908,6 @@ APP="inkscape"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
-link=https://inkscape.org/gallery/item/55852/Inkscape-93de688-x86_64.AppImage
-size=124 MB
-version=1.4.1
 -----------------------------------------------------------------
 APP="inkscape-next"
 APPIMAGE='yes'
@@ -8562,9 +8553,9 @@ APP="kdenlive-daily"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://kdenlive.org"
-link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10069-linux-gcc-x86_64.AppImage
+link=https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10072-linux-gcc-x86_64.AppImage
 size=184 MB
-version=10069
+version=10072
 -----------------------------------------------------------------
 APP="kdeutils"
 APPIMAGE='yes'
@@ -10151,25 +10142,14 @@ APP="microsoft-edge"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-135.0.3179.54-1-x86_64.AppImage
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-135.0.3179.73-1-x86_64.AppImage
 size=210 MB
-version=135.0.3179.54
------------------------------------------------------------------
-APP="microsoft-edge-beta"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-135.0.3179.54-1-x86_64.AppImage
-size=210 MB
-version=135.0.3179.54
+version=135.0.3179.73
 -----------------------------------------------------------------
 APP="microsoft-edge-dev"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/MS-Edge-appimage"
-link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-136.0.3240.4-1-x86_64.AppImage
-size=215 MB
-version=136.0.3240.4
 -----------------------------------------------------------------
 APP="midori"
 APPIMAGE='yes'
@@ -10183,9 +10163,6 @@ APP="miesimulatorgui"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="VirtualPhotonics/MieSimulatorGUI"
-link=https://github.com/VirtualPhotonics/MieSimulatorGUI/releases/download/continuous/MieSimulatorGUI-359f6d9-x86_64.AppImage
-size=22 MB
-version=359f6d9
 -----------------------------------------------------------------
 APP="mightymike"
 APPIMAGE='yes'
@@ -11030,9 +11007,6 @@ APP="nerdfetch"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ThatOneCalculator/NerdFetch"
-link=https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
-size=1 MB
-version=8.3.1
 -----------------------------------------------------------------
 APP="nerimity-desktop"
 APPIMAGE='yes'
@@ -11504,7 +11478,7 @@ GITHUB='yes'
 SITE="neovim/neovim"
 link=https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
 size=19 MB
-version=2025.04.11
+version=2025.04.12
 -----------------------------------------------------------------
 APP="nvtop"
 APPIMAGE='yes'
@@ -11662,6 +11636,9 @@ APP="oh-my-git"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://ohmygit.org"
+link=https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/597795/2298857-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250412%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250412T104350Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=9cf3549bee2f92a966c8344c68757c229b16a8683800821130001c3bb36c25d4
+size=44 MB
+version=0.6.5
 -----------------------------------------------------------------
 APP="oh-mymd"
 APPIMAGE='yes'
@@ -14163,7 +14140,7 @@ APP="qucs-s"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ra3xdh/qucs_s"
-link=https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.1.99-079c67c-linux-x86_64.AppImage
+link=https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.1.99-3622046-linux-x86_64.AppImage
 size=39 MB
 version=25.1.99
 -----------------------------------------------------------------
@@ -14235,6 +14212,9 @@ APP="quokkagit"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ballessay/quokkagit"
+link=https://github.com/ballessay/turtlegit/releases/download/v0.2.0/turtlegit-x86_64.AppImage
+size=38 MB
+version=0.2.0
 -----------------------------------------------------------------
 APP="quran-companion"
 APPIMAGE='yes'
@@ -15496,9 +15476,6 @@ APP="sigma-file-manager"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="aleksey-hoffman/sigma-file-manager"
-link=https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/v2.0.0-alpha.1/Sigma.File.Manager.v2_2.0.0-alpha.1_amd64.AppImage
-size=83 MB
-version=Sigma.File.Manager.v2
 -----------------------------------------------------------------
 APP="sigmaspectra"
 APPIMAGE='yes'
@@ -15520,9 +15497,6 @@ APP="sigrok-cli"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://sigrok.org"
-link=https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-0.7.2-x86_64.AppImage
-size=48 MB
-version=0.7.2
 -----------------------------------------------------------------
 APP="silex-desktop"
 APPIMAGE='yes'
@@ -17594,9 +17568,6 @@ APP="todo-bash"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Lateralus138/todo-bash"
-link=https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage
-size=1 MB
-version=2021.12.07
 -----------------------------------------------------------------
 APP="todoist"
 APPIMAGE='yes'
@@ -18975,7 +18946,7 @@ GITHUB='yes'
 SITE="wez/wezterm"
 link=https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage
 size=46 MB
-version=48599053236
+version=48609439599
 -----------------------------------------------------------------
 APP="whalebird"
 APPIMAGE='yes'
@@ -19525,9 +19496,6 @@ APP="xnviewmp"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.xnview.com"
-link=https://www.xnview.com/download.php?file=XnView_MP.glibc2.17-x86_64.AppImage
-size=107 MB
-version=MP.glibc2.17
 -----------------------------------------------------------------
 APP="xonsh"
 APPIMAGE='yes'
@@ -19687,7 +19655,7 @@ GITHUB='yes'
 SITE="sxyazi/yazi"
 link=https://github.com/sxyazi/yazi/releases/download/nightly/yazi-x86_64-unknown-linux-gnu.zip
 size=19 MB
-version=2025.04.11
+version=2025.04.12
 -----------------------------------------------------------------
 APP="yesplaymusic"
 APPIMAGE='yes'
@@ -20072,4 +20040,12 @@ SITE="Hunlongyu/ZY-Player"
 link=https://github.com/Hunlongyu/ZY-Player/releases/download/v2.8.8/ZY-Player-2.8.8.AppImage
 size=80 MB
 version=2.8.8
+-----------------------------------------------------------------
+APP="microsoft-edge-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-136.0.3240.8-1-x86_64.AppImage
+size=214 MB
+version=136.0.3240.8
 -----------------------------------------------------------------
