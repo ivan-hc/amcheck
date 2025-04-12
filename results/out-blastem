@@ -1,0 +1,7 @@
+APP="blastem"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/blastem"
+link=https://github.com/mantralunar/blastem/releases/download/blastem64-0.6.3-pre-0e3118325c1c/BlastEm-x86_64.AppImage
+size=6 MB
+version=0.6.3

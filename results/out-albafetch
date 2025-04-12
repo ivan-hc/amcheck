@@ -1,0 +1,7 @@
+APP="albafetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="alba4k/albafetch"
+link=https://github.com/alba4k/albafetch/releases/download/v4.2.1/albafetch-linux-x64-static.zip
+size=1 MB
+version=4.2.1

@@ -1,0 +1,7 @@
+APP="apla"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AplaProject/apla-front"
+link=https://github.com/AplaProject/apla-front/releases/download/v2.2.1/apla-front-2.2.1-x86_64.AppImage
+size=84 MB
+version=2.2.1

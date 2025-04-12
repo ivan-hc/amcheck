@@ -1,0 +1,4 @@
+APP="0ad-latest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="0ad-matters/0ad-appimage"

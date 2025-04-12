@@ -1,0 +1,7 @@
+APP="apx-gcs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="uavos/apx-gcs"
+link=https://github.com/uavos/apx-gcs/releases/download/release-11.2.6/APX_Ground_Control-11.2.6-linux-x86_64.AppImage
+size=69 MB
+version=11.2.6

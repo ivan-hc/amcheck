@@ -1,0 +1,4 @@
+APP="affine-canary"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="toeverything/AFFiNE"

@@ -1,0 +1,7 @@
+APP="beeper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.beeper.com"
+link=https://beeper-desktop.download.beeper.com/builds/Beeper-4.0.604.AppImage
+size=180 MB
+version=4.0.604

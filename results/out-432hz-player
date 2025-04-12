@@ -1,0 +1,4 @@
+APP="432hz-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mysteryx93/NaturalGroundingPlayer"

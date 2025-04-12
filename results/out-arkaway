@@ -1,0 +1,7 @@
+APP="arkaway"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="son-link/arkaway"
+link=https://github.com/son-link/arkaway/releases/download/20230301/Arkaway-20230301-x86_64.AppImage
+size=18 MB
+version=20230301

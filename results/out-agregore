@@ -1,0 +1,4 @@
+APP="agregore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AgregoreWeb/agregore-browser"

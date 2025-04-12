@@ -1,0 +1,7 @@
+APP="bauh"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vinifmor/bauh"
+link=https://github.com/vinifmor/bauh/releases/download/0.10.7/bauh-0.10.7-x86_64.AppImage
+size=80 MB
+version=0.10.7

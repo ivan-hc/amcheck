@@ -1,0 +1,4 @@
+APP="aichat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sigoden/aichat"

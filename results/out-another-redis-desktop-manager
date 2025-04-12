@@ -1,0 +1,7 @@
+APP="another-redis-desktop-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qishibo/AnotherRedisDesktopManager"
+link=https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-linux-1.7.1-x86_64.AppImage
+size=81 MB
+version=1.7.1

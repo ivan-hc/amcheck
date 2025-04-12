@@ -1,0 +1,4 @@
+APP="accessimap-lecteur-der"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="makinacorpus/accessimap-lecteur-der"

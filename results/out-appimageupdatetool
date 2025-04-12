@@ -1,0 +1,7 @@
+APP="appimageupdatetool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImage/AppImageUpdate"
+link=https://github.com/AppImageCommunity/AppImageUpdate/releases/download/continuous/appimageupdatetool-x86_64.AppImage
+size=35 MB
+version=starting

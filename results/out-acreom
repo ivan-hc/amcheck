@@ -1,0 +1,4 @@
+APP="acreom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Acreom/releases"

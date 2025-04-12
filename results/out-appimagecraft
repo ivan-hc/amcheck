@@ -1,0 +1,7 @@
+APP="appimagecraft"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheAssassin/appimagecraft"
+link=https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage
+size=102 MB
+version=2025.03.25

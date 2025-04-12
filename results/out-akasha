@@ -1,0 +1,7 @@
+APP="akasha"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AkashaProject/Community"
+link=https://github.com/AKASHAorg/Community/releases/download/0.7.2/AKASHA-0.7.2-x86_64.AppImage
+size=71 MB
+version=0.7.2

@@ -1,0 +1,7 @@
+APP="audiorelay"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://audiorelay.net"
+link=https://dl.audiorelay.net/setups/linux/audiorelay-0.27.5.tar.gz
+size=97 MB
+version=0.27.5

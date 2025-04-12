@@ -1,0 +1,7 @@
+APP="bitshares"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bitshares/bitshares-ui"
+link=https://github.com/bitshares/bitshares-ui/releases/download/5.0.210216/BitShares.5.0.210216.AppImage
+size=60 MB
+version=5.0.210216

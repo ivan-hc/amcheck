@@ -1,0 +1,7 @@
+APP="archisteamfarm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="JustArchiNET/ArchiSteamFarm"
+link=https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.4.3/ASF-linux-x64.zip
+size=53 MB
+version=6.1.4.3

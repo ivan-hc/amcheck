@@ -1,0 +1,4 @@
+APP="archipel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arso-project/archipel"

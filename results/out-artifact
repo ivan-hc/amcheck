@@ -1,0 +1,4 @@
+APP="artifact"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.bitbreeds.com"

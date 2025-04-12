@@ -1,0 +1,4 @@
+APP="around"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://around.co"

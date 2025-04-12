@@ -1,0 +1,7 @@
+APP="astrofox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://astrofox.io"
+link=https://files.astrofox.io/download/Astrofox-1.4.0.AppImage
+size=124 MB
+version=1.4.0

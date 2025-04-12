@@ -1,0 +1,7 @@
+APP="bin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="marcosnils/bin"
+link=https://github.com/marcosnils/bin/releases/download/v0.20.0/bin_0.20.0_linux_amd64
+size=15 MB
+version=0.20.0

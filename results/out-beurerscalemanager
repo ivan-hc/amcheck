@@ -1,0 +1,7 @@
+APP="beurerscalemanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="daald/beurerscalemanager-appimage"
+link=https://github.com/daald/beurerscalemanager-appimage/releases/download/v0.1-g6da5b6e-pf5d43a8/BeurerScaleManager-x86_64.AppImage
+size=8 MB
+version=0.1

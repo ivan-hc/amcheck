@@ -1,0 +1,7 @@
+APP="aphototoollibre"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aphototool/A-Photo-Tool-Libre"
+link=https://github.com/aphototool/A-Photo-Tool-Libre/releases/download/v1.0.7-1/aphototoollibre_1.0.7-1_x86_64.AppImage
+size=45 MB
+version=1.0.7

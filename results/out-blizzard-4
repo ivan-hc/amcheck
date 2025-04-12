@@ -1,0 +1,7 @@
+APP="blizzard-4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="danielfspencer/blizzard-4"
+link=https://github.com/danielfspencer/blizzard-4/releases/download/v1.4.0/blizzard-4-v1.4.0-linux.AppImage
+size=75 MB
+version=4

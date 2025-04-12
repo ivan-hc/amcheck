@@ -1,0 +1,4 @@
+APP="afetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Asthowen/AFetch"

@@ -1,0 +1,7 @@
+APP="ankama-launcher"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ankama.com"
+link=https://launcher.cdn.ankama.com/installers/production/Ankama%20Launcher-Setup-x86_64.AppImage
+size=166 MB
+version=3.12.39

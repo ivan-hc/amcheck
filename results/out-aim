@@ -1,0 +1,7 @@
+APP="aim"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mihaigalos/aim"
+link=https://github.com/mihaigalos/aim/releases/download/1.8.6/aim-1.8.6-x86_64-unknown-linux-gnu.tar.gz
+size=20 MB
+version=1.8.6

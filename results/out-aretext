@@ -1,0 +1,4 @@
+APP="aretext"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aretext/aretext"

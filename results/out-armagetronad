@@ -1,0 +1,7 @@
+APP="armagetronad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArmagetronAd/armagetronad"
+link=https://github.com/ArmagetronAd/armagetronad/releases/download/v0.2.9.2.3/ArmagetronAdvanced.AppImage
+size=4 MB
+version=0.2.9.2.3

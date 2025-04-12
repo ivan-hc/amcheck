@@ -1,0 +1,7 @@
+APP="aranym"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aranym/aranym"
+link=https://github.com/aranym/aranym/releases/download/ARANYM_1_1_0/ARAnyM-1.1.0-x86_64.AppImage
+size=4 MB
+version=1.1.0
