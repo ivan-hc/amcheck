@@ -20041,3 +20041,11 @@ link=https://github.com/Hunlongyu/ZY-Player/releases/download/v2.8.8/ZY-Player-2
 size=80 MB
 version=2.8.8
 -----------------------------------------------------------------
+APP="microsoft-edge-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link=https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-136.0.3240.8-1-x86_64.AppImage
+size=214 MB
+version=136.0.3240.8
+-----------------------------------------------------------------
