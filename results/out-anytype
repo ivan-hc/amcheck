@@ -2,6 +2,3 @@ APP="anytype"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="anyproto/anytype-ts"
-link=https://github.com/anyproto/anytype-ts/releases/download/v0.45.47-beta/Anytype-0.45.47-beta.AppImage
-size=215 MB
-version=0.45.47

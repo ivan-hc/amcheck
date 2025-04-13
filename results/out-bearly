@@ -2,3 +2,6 @@ APP="bearly"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="bearlyai/releases"
+link=https://github.com/bearlyai/releases/releases/download/v3.0.0/Bearly-3.0.0.AppImage
+size=97 MB
+version=3.0.0

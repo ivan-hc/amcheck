@@ -2,6 +2,3 @@ APP="badlion"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://client.badlion.net"
-link=https://client-updates-cdn77.badlion.net/BadlionClient
-size=199 MB
-version=4.5.4

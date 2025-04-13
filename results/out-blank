@@ -2,3 +2,6 @@ APP="blank"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="FPurchess/blank"
+link=https://github.com/FPurchess/blank/releases/download/v1.2.0/blank_1.2.0_amd64.AppImage
+size=85 MB
+version=1.2.0

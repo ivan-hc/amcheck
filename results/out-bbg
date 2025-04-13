@@ -2,3 +2,6 @@ APP="bbg"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="bbg-contributors/bbg"
+link=https://github.com/bbg-contributors/bbg/releases/download/20250311/bbg-20250311-x86_64.AppImage
+size=110 MB
+version=20250311

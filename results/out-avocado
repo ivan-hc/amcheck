@@ -2,6 +2,3 @@ APP="avocado"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://avocado-builds.czekanski.info"
-link=https://bitfighter.org/files/bitfighter-022-Build0.glibc2.14-x86_64.AppImage
-size=12 MB
-version=022

@@ -2,6 +2,3 @@ APP="app-outlet"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AppOutlet/AppOutlet"
-link=https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/App.Outlet-2.1.0.AppImage
-size=112 MB
-version=2.1.0
