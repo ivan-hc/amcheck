@@ -2,3 +2,6 @@ APP="auryo"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Superjo149/auryo"
+link=https://github.com/sneljo1/auryo/releases/download/v2.5.4/Auryo-2.5.4.AppImage
+size=90 MB
+version=2.5.4

@@ -2,6 +2,3 @@ APP="ant-downloader"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="anatasluo/ant"
-link=https://github.com/anatasluo/ant/releases/download/1.3.6/ant-downloader-1.3.6-Linux-64.AppImage
-size=85 MB
-version=1.3.6
