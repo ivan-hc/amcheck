@@ -2,3 +2,6 @@ APP="bastyon"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="pocketnetteam/pocketnet.gui"
+link=https://github.com/pocketnetteam/pocketnet.gui/releases/download/v0.9.116/Bastyon.AppImage
+size=151 MB
+version=0.9.116

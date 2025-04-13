@@ -2,6 +2,3 @@ APP="aisleriot"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Aisleriot-appimage"
-link=https://github.com/ivan-hc/Aisleriot-appimage/releases/download/continuous/AisleRiot-Solitaire_3.22.35-1-archimage4.3-x86_64.AppImage
-size=66 MB
-version=3.22.35
