@@ -2,3 +2,6 @@ APP="atuin"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="atuinsh/atuin"
+link=https://github.com/atuinsh/atuin/releases/download/v18.5.0/atuin-x86_64-unknown-linux-musl.tar.gz
+size=36 MB
+version=18.5.0

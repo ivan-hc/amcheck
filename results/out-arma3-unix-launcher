@@ -2,3 +2,6 @@ APP="arma3-unix-launcher"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="muttleyxd/arma3-unix-launcher"
+link=https://github.com/muttleyxd/arma3-unix-launcher/releases/download/commit-420/Arma_3_Unix_Launcher-x86_64.AppImage
+size=34 MB
+version=3

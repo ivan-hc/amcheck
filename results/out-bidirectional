@@ -2,6 +2,3 @@ APP="bidirectional"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="samirdjelal/bidirectional"
-link=https://github.com/samirdjelal/bidirectional/releases/download/app-v0.3.0/bidirectional_0.3.0_amd64.AppImage
-size=71 MB
-version=0.3.0

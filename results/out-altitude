@@ -2,3 +2,6 @@ APP="altitude"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="TheLindaProjectInc/Altitude"
+link=https://github.com/TheLindaProjectInc/Altitude/releases/download/3.4.2/Altitude-Metrix-Wallet-linux-x64.AppImage
+size=340 MB
+version=3.4.2
