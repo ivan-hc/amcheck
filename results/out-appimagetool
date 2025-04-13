@@ -2,6 +2,3 @@ APP="appimagetool"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AppImage/appimagetool"
-link=https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
-size=15 MB
-version=2025.03.10

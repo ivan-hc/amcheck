@@ -2,3 +2,6 @@ APP="avidemux"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="mean00/avidemux2"
+link=https://github.com/mean00/avidemux2/releases/download/2.8.1/avidemux_2.8.1.appImage
+size=43 MB
+version=2.8.1
