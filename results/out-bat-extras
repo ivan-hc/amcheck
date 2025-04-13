@@ -2,3 +2,6 @@ APP="bat-extras"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="eth-p/bat-extras"
+link=https://github.com/eth-p/bat-extras/releases/download/v2024.08.24/bat-extras-2024.08.24.zip
+size=1 MB
+version=2024.08.24.zip

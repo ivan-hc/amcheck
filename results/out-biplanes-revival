@@ -2,6 +2,3 @@ APP="biplanes-revival"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="regular-dev/biplanes-revival"
-link=https://github.com/regular-dev/biplanes-revival/releases/download/v1.2.1/BiplanesRevival-v1.2.1-x86_64.AppImage
-size=7 MB
-version=1.2.1
