@@ -2,3 +2,6 @@ APP="archimede"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="gennaro-tedesco/archimede"
+link=https://github.com/gennaro-tedesco/archimede/releases/download/v0.0.2/linux-amd64
+size=4 MB
+version=0.0.2

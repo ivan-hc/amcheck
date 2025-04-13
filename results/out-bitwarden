@@ -2,6 +2,3 @@ APP="bitwarden"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="bitwarden/clients"
-link=https://github.com/bitwarden/clients/releases/download/desktop-v2025.3.1/Bitwarden-2025.3.1-x86_64.AppImage
-size=118 MB
-version=2025.3.1

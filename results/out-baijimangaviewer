@@ -2,6 +2,3 @@ APP="baijimangaviewer"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="shizkun/manga-viewer"
-link=https://github.com/jmarioste/manga-viewer/releases/download/v1.2.3/baiji-manga-viewer-1.2.3-x86_64.AppImage
-size=69 MB
-version=1.2.3

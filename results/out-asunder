@@ -2,6 +2,3 @@ APP="asunder"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Database-of-pkg2appimaged-packages"
-link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/asunder/Asunder-CD-Ripper_3.0.1-2-archimage4.3-x86_64.AppImage
-size=59 MB
-version=3.0.1

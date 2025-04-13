@@ -2,3 +2,6 @@ APP="advanced-rest-client"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="advanced-rest-client/arc-electron"
+link=https://github.com/advanced-rest-client/arc-electron/releases/download/v17.0.9/arc-linux-17.0.9-x86_64.AppImage
+size=121 MB
+version=17.0.9

@@ -2,6 +2,3 @@ APP="block-dx"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="BlocknetDX/blockdx-ui"
-link=https://github.com/blocknetdx/block-dx/releases/download/v1.9.5/BLOCK-DX-1.9.5-linux-x86_64.AppImage
-size=127 MB
-version=1.9.5

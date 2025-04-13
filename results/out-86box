@@ -2,3 +2,6 @@ APP="86box"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="86Box/86Box"
+link=https://github.com/86Box/86Box/releases/download/v4.2.1/86Box-Linux-x86_64-b6130.AppImage
+size=54 MB
+version=4.2.1
