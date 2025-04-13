@@ -2,3 +2,6 @@ APP="afetch"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="Asthowen/AFetch"
+link=https://github.com/Asthowen/AFetch/releases/download/0.0.7/afetch-0.0.7-x86_64-unknown-linux-gnu
+size=3 MB
+version=0.0.7

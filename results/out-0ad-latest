@@ -2,3 +2,6 @@ APP="0ad-latest"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="0ad-matters/0ad-appimage"
+link=https://github.com/0ad-matters/0ad-appimage/releases/download/v0.27.0/0ad-0.27.0-x86_64.AppImage
+size=1674 MB
+version=0ad

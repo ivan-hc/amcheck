@@ -2,3 +2,6 @@ APP="agregore"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="AgregoreWeb/agregore-browser"
+link=https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.10.0/agregore-browser-2.10.0-linux-x86_64.AppImage
+size=166 MB
+version=2.10.0
