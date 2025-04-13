@@ -2,6 +2,3 @@ APP="android-knot"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ic005k/Knot"
-link=https://github.com/ic005k/Knot/releases/download/1.2.31/Knot-Linux-x86_64.AppImage
-size=123 MB
-version=1.2.31

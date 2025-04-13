@@ -2,6 +2,3 @@ APP="beatconnect-client"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="yadPe/beatconnect_client"
-link=https://github.com/yadPe/beatconnect_client/releases/download/v0.3.9/Beatconnect-Client-0.3.9.AppImage
-size=78 MB
-version=0.3.9

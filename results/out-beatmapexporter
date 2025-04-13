@@ -2,3 +2,6 @@ APP="beatmapexporter"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="kabiiQ/BeatmapExporter"
+link=https://github.com/kabiiQ/BeatmapExporter/releases/download/v2.5.0/linux-BeatmapExporterCLI
+size=39 MB
+version=2.5.0
