@@ -2,3 +2,6 @@ APP="actual"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="actualbudget/releases"
+link=https://github.com/actualbudget/releases/releases/download/0.0.148/Actual-0.0.148-x86_64.AppImage
+size=93 MB
+version=0.0.148

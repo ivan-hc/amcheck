@@ -2,3 +2,6 @@ APP="animashooter-junior"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="http://www.animashooter.com"
+link=https://www.animatech.ru/download/AnimaShooter_Junior_3.9.9.3-x86_64.AppImage
+size=51 MB
+version=3.9.9.3

@@ -2,3 +2,6 @@ APP="bloomrpc"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="uw-labs/bloomrpc"
+link=https://github.com/bloomrpc/bloomrpc/releases/download/1.5.3/BloomRPC-1.5.3.AppImage
+size=103 MB
+version=1.5.3

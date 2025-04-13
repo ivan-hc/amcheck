@@ -2,3 +2,6 @@ APP="blender-alpha"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://www.blender.org"
+link=https://cdn.builder.blender.org/download/daily/archive/blender-4.5.0-alpha+main.3b2c0b6cd58e-linux.x86_64-release.tar.xz
+size=1112 MB
+version=4.5.0
