@@ -2,6 +2,3 @@ APP="authy"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ryuuzaki42/Authy_AppImage"
-link=https://github.com/ryuuzaki42/Authy_AppImage/releases/download/2.5.0/Authy_Desktop-2.5.0.glibc2.17-x86_64-1_JB.AppImage
-size=83 MB
-version=2.5.0.glibc2.17

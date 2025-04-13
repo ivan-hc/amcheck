@@ -2,3 +2,6 @@ APP="avantgarde"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="kuiperzone/AvantGarde"
+link=https://github.com/kuiperzone/AvantGarde/releases/download/v1.5.1/AvantGarde.x86_64.AppImage
+size=48 MB
+version=1.5.1
