@@ -2,3 +2,6 @@ APP="anavis"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="learningmedia/anavis"
+link=https://github.com/learningmedia/anavis/releases/download/v2.0.0-beta.20/anavis-2.0.0-beta.20-linux-x86_64.AppImage
+size=85 MB
+version=2.0.0

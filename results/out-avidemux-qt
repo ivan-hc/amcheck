@@ -2,6 +2,3 @@ APP="avidemux-qt"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Avidemux-unofficial-appimage"
-link=https://github.com/ivan-hc/Avidemux-unofficial-appimage/releases/download/continuous/Avidemux_2.8.1-6-archimage4.3-x86_64.AppImage
-size=82 MB
-version=2.8.1
