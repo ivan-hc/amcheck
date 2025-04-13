@@ -2,6 +2,3 @@ APP="blensor"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.blensor.org"
-link=https://www.blensor.org/dload/Blensor-x64.AppImage
-size=159 MB
-version=1.0.18

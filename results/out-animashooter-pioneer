@@ -2,6 +2,3 @@ APP="animashooter-pioneer"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="http://www.animashooter.com"
-link=https://www.animatech.ru/download/AnimaShooter_Pioneer_3.9.9.3-x86_64.AppImage
-size=53 MB
-version=3.9.9.3

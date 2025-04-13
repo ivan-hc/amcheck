@@ -2,3 +2,6 @@ APP="bingada"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="jfuica/bingada"
+link=https://github.com/jfuica/bingada/releases/download/v1.0.0/BingAda-1.0.0-x86_64.AppImage
+size=17 MB
+version=1.0.0

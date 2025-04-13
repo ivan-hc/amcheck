@@ -2,6 +2,3 @@ APP="altus"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="amanharwara/altus"
-link=https://github.com/amanharwara/altus/releases/download/5.7.0/Altus-5.7.0.AppImage
-size=112 MB
-version=5.7.0

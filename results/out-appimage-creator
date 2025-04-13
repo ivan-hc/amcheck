@@ -2,3 +2,6 @@ APP="appimage-creator"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiko-Seijuro-23/AppImage-creator"
+link=https://github.com/Hiko-Seijuro-23/AppImage-creator/releases/download/AppImage/AppImage-creator-0.0.1.AppImage
+size=24 MB
+version=0.0.1
