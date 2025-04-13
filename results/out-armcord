@@ -2,3 +2,6 @@ APP="armcord"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ArmCord/ArmCord"
+link=https://github.com/Legcord/Legcord/releases/download/v1.1.1/Legcord-1.1.1-linux-x86_64.AppImage
+size=118 MB
+version=1.1.1

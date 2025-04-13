@@ -2,6 +2,3 @@ APP="biliup-app"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ForgQi/biliup-app"
-link=https://github.com/biliup/biliup-app/releases/download/app-v0.5.3/biliup-app_0.5.3_amd64.AppImage
-size=124 MB
-version=0.5.3

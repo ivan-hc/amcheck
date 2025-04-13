@@ -2,3 +2,6 @@ APP="aiming-pro"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://aiming.pro"
+link=https://aiming.pro//desktop-app/Aiming-Pro-1.0.4.AppImage
+size=94 MB
+version=1.0.4

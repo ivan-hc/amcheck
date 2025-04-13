@@ -2,6 +2,3 @@ APP="anzeigenchef"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://anzeigenchef.roundcube.de"
-link=https://anzeigenchef.roundcubes.de/downloads/linux/AnzeigenChef-x86_64.AppImage
-size=109 MB
-version=2023.09.05
