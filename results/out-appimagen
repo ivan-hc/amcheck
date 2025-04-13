@@ -2,6 +2,3 @@ APP="appimagen"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ivan-hc/AppImaGen"
-link=https://api.github.com/repos/ivan-hc/AppImaGen/zipball/2.1
-size=1 MB
-version=2.1

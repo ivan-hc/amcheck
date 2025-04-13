@@ -2,3 +2,6 @@ APP="beyond-all-reason"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="beyond-all-reason/BYAR-Chobby"
+link=https://github.com/beyond-all-reason/BYAR-Chobby/releases/download/v1.2988.0/Beyond-All-Reason-1.2988.0.AppImage
+size=118 MB
+version=1.2988.0

@@ -2,6 +2,3 @@ APP="beaver-notes"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Beaver-Notes/Beaver-Notes"
-link=https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes-3.9.0.AppImage
-size=115 MB
-version=3.9.0

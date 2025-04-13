@@ -2,6 +2,3 @@ APP="billard-gl"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Database-of-pkg2appimaged-packages"
-link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/billard-gl/Billard-GL-1.75-17-x86_64.AppImage
-size=2 MB
-version=1.75

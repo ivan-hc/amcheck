@@ -2,3 +2,6 @@ APP="banban"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="HubertK05/banban"
+link=https://github.com/HubertK05/banban/releases/download/v0.2.0/banban_0.2.0_amd64.AppImage
+size=94 MB
+version=0.2.0

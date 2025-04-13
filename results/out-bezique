@@ -2,3 +2,6 @@ APP="bezique"
 APPIMAGE='yes'
 GITHUB='yes'
 SITE="Sriep/Bezique"
+link=https://github.com/Sriep/Bezique/releases/download/1.0.1/Bezique-x86_64.AppImage
+size=30 MB
+version=1.0.1

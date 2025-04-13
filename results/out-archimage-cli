@@ -2,6 +2,3 @@ APP="archimage-cli"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="ivan-hc/ArchImage"
-link=https://api.github.com/repos/ivan-hc/ArchImage/zipball/4.3
-size=1 MB
-version=4.3

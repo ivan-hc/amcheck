@@ -2,3 +2,6 @@ APP="blimp"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="merlinfuchs/blimp"
+link=https://github.com/merlinfuchs/blimp/releases/download/v0.4.0/blimp_0.4.0_linux_amd64.tar.gz
+size=9 MB
+version=0.4.0

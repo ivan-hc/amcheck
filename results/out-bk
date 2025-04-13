@@ -2,6 +2,3 @@ APP="bk"
 APPIMAGE='no'
 GITHUB='yes'
 SITE="aeosynth/bk"
-link=https://github.com/aeosynth/bk/releases/download/v0.6.0/bk-linux
-size=1 MB
-version=0.6.0
