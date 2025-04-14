@@ -2,6 +2,3 @@ APP="appimagehelper"
 APPIMAGE='yes'
 GITHUB='no'
 SITE="https://gitlab.com/posktomten/appimagehelper"
-link=https://bin.ceicer.com/appimagehelper/bin/appimagehelper-x86_64.AppImage
-size=31 MB
-version=2022
