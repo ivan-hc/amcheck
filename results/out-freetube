@@ -1,0 +1,7 @@
+APP="freetube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeTubeApp/FreeTube"
+link=https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.3-beta/freetube-0.23.3-amd64.AppImage
+size=96 MB
+version=0.23.3

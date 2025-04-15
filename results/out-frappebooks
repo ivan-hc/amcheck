@@ -1,0 +1,7 @@
+APP="frappebooks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="frappe/books"
+link=https://github.com/frappe/books/releases/download/v0.28.0/Frappe-Books-0.28.0.AppImage
+size=100 MB
+version=0.28.0

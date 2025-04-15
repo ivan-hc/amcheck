@@ -1,0 +1,7 @@
+APP="github-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shiftkey/desktop"
+link=https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-x86_64-3.4.9-linux1.AppImage
+size=170 MB
+version=3.4.9

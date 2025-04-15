@@ -1,0 +1,7 @@
+APP="firefox-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-139.0.r20250414211452-x86_64.AppImage
+size=113 MB
+version=139.0.r20250414211452

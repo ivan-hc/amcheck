@@ -1,0 +1,7 @@
+APP="gopeed"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GopeedLab/gopeed"
+link=https://github.com/GopeedLab/gopeed/releases/download/v1.6.10/Gopeed-v1.6.10-linux-x86_64.AppImage
+size=23 MB
+version=1.6.10

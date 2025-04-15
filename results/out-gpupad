@@ -1,0 +1,7 @@
+APP="gpupad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="houmain/gpupad"
+link=https://github.com/houmain/gpupad/releases/download/1.35.1/GPUpad-1.35.1-x86_64.AppImage
+size=39 MB
+version=1.35.1

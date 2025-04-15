@@ -1,0 +1,7 @@
+APP="ghdl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="beetcb/ghdl"
+link=https://github.com/beetcb/ghdl/releases/download/v0.1.1/ghdl_0.1.1_Linux_x86_64.tar.gz
+size=7 MB
+version=0.1.1

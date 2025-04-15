@@ -1,0 +1,7 @@
+APP="gaphor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gaphor/gaphor"
+link=https://github.com/gaphor/gaphor/releases/download/2.18.1/Gaphor-2.18.1-x86_64.AppImage
+size=74 MB
+version=2.18.1

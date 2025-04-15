@@ -1,0 +1,7 @@
+APP="gitkraken"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/gitkraken_AppImage"
+link=https://github.com/mmtrt/gitkraken_AppImage/releases/download/continuous/GitKraken-10.6.2.glibc2.25-x86_64.AppImage
+size=197 MB
+version=10.6.2.glibc2.25

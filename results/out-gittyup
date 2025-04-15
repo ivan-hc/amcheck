@@ -1,0 +1,7 @@
+APP="gittyup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Murmele/Gittyup"
+link=https://github.com/Murmele/Gittyup/releases/download/development/Gittyup-1.4.0-x86_64.AppImage
+size=44 MB
+version=1.4.0

@@ -1,0 +1,7 @@
+APP="gospel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ksharindam/gospel-pdf-viewer"
+link=https://github.com/ksharindam/gospel-pdf-viewer/releases/download/v3.2.0/Gospel_PDF-x86_64.AppImage
+size=35 MB
+version=3.2.0

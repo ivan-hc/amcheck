@@ -1,0 +1,7 @@
+APP="gdm-settings"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gdm-settings/gdm-settings"
+link=https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage
+size=66 MB
+version=5.0

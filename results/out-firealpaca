@@ -1,0 +1,7 @@
+APP="firealpaca"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://firealpaca.com"
+link=https://firealpaca.com/download/linux
+size=135 MB
+version=2.13.14

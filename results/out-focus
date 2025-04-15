@@ -1,0 +1,7 @@
+APP="focus"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ayoisaiah/focus"
+link=https://github.com/ayoisaiah/focus/releases/download/nightly/focus_master_linux_amd64.tar.gz
+size=24 MB
+version=2024.08.22

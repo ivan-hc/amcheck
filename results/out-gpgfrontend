@@ -1,0 +1,7 @@
+APP="gpgfrontend"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="saturneric/GpgFrontend"
+link=https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-1009c98-x86_64.AppImage
+size=55 MB
+version=1009c98

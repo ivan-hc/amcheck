@@ -1,0 +1,7 @@
+APP="gallery-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mikf/gallery-dl"
+link=https://github.com/mikf/gallery-dl/releases/download/v1.29.4/gallery-dl.bin
+size=25 MB
+version=1.29.4

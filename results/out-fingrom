@@ -1,0 +1,7 @@
+APP="fingrom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lyskouski/app-finance"
+link=https://github.com/lyskouski/app-finance/releases/download/v6.3.0/fingrom_Linux.AppImage
+size=48 MB
+version=6.3.0

@@ -1,0 +1,7 @@
+APP="fzf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="junegunn/fzf"
+link=https://github.com/junegunn/fzf/releases/download/v0.61.1/fzf-0.61.1-linux_amd64.tar.gz
+size=4 MB
+version=0.61.1

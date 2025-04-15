@@ -1,0 +1,7 @@
+APP="focusatwill"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://focusatwill.com"
+link=https://faw-desktop.s3.amazonaws.com/focusatwill-3.4.0.AppImage
+size=80 MB
+version=3.4.0

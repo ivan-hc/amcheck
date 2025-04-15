@@ -1,0 +1,7 @@
+APP="funterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zhangfuwen/FunTerm"
+link=https://github.com/zhangfuwen/FunTerm/releases/download/v0.1/FunTerm-a764287-x86_64.AppImage
+size=27 MB
+version=a764287

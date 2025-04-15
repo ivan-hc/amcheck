@@ -1,0 +1,7 @@
+APP="fixit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eugene-babichenko/fixit"
+link=https://github.com/eugene-babichenko/fixit/releases/download/v0.9.0/fixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz
+size=3 MB
+version=0.9.0

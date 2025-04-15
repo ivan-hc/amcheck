@@ -1,0 +1,7 @@
+APP="fspy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stuffmatic/fSpy"
+link=https://github.com/stuffmatic/fSpy/releases/download/1.1.0-beta.3/fSpy-1.1.0-beta.3.AppImage
+size=78 MB
+version=1.1.0

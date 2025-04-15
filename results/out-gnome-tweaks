@@ -1,0 +1,7 @@
+APP="gnome-tweaks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Gnome-tweaks-appimage"
+link=https://github.com/ivan-hc/Gnome-tweaks-appimage/releases/download/continuous/Tweaks_46.1-1-archimage3.4.2-x86_64.AppImage
+size=192 MB
+version=46.1

@@ -1,0 +1,7 @@
+APP="ffsend"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="timvisee/ffsend"
+link=https://github.com/timvisee/ffsend/releases/download/v0.2.77/ffsend-v0.2.77-linux-x64
+size=12 MB
+version=0.2.77

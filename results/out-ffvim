@@ -1,0 +1,7 @@
+APP="ffvim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fivim/fivim"
+link=https://github.com/enassi/enassi/releases/download/v2.1.1/enassi_2.1.1_amd64.AppImage
+size=125 MB
+version=2.1.1

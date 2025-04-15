@@ -1,0 +1,7 @@
+APP="fynodoro"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tomsquest/fynodoro"
+link=https://github.com/tomsquest/fynodoro/releases/download/v1.16.0/fynodoro_1.16.0_linux_amd64
+size=9 MB
+version=1.16.0

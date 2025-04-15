@@ -1,0 +1,7 @@
+APP="ganache"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trufflesuite/ganache-ui"
+link=https://github.com/trufflesuite/ganache-ui/releases/download/v2.7.1/ganache-2.7.1-linux-x86_64.AppImage
+size=348 MB
+version=2.7.1

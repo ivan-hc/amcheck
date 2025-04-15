@@ -1,0 +1,7 @@
+APP="file-to-c"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Wallby/file-to-c"
+link=https://github.com/Wallby/file-to-c/releases/download/1.0.0/file-to-c-x86_64.AppImage
+size=1 MB
+version=1.0.0

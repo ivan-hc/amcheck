@@ -1,0 +1,7 @@
+APP="gdlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gorilla-devs/GDLauncher"
+link=https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-linux-setup.AppImage
+size=98 MB
+version=1.1.30

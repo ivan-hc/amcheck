@@ -1,0 +1,7 @@
+APP="gojq"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="itchyny/gojq"
+link=https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_linux_amd64.tar.gz
+size=5 MB
+version=0.12.17

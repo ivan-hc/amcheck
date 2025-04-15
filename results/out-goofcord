@@ -1,0 +1,7 @@
+APP="goofcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Milkshiift/GoofCord"
+link=https://github.com/Milkshiift/GoofCord/releases/download/v1.8.6/GoofCord-1.8.6-linux-x86_64.AppImage
+size=109 MB
+version=1.8.6

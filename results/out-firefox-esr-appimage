@@ -1,0 +1,7 @@
+APP="firefox-esr-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-esr/firefox-esr-128.9.r20250327044906-x86_64.AppImage
+size=94 MB
+version=128.9.r20250327044906

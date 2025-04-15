@@ -1,0 +1,7 @@
+APP="gping"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orf/gping"
+link=https://github.com/orf/gping/releases/download/gping-v1.18.0/gping-x86_64-unknown-linux-musl.tar.gz
+size=4 MB
+version=1.18.0

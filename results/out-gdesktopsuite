@@ -1,0 +1,7 @@
+APP="gdesktopsuite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alexkim205/G-Desktop-Suite"
+link=https://github.com/alexkim205/G-Desktop-Suite/releases/download/v0.3.1/G-Desktop-Suite-0.3.1.AppImage
+size=70 MB
+version=0.3.1

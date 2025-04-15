@@ -1,0 +1,7 @@
+APP="githoard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jojobyte/githoard"
+link=https://github.com/beepboopbangbang/githoard/releases/download/v0.4.0/githoard-0.4.0-x86_64.AppImage
+size=90 MB
+version=0.4.0

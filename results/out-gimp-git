@@ -1,0 +1,7 @@
+APP="gimp-git"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/GIMP-appimage"
+link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_54486.c4309ee0ce8-1-archimage4.3-x86_64.AppImage
+size=197 MB
+version=starting

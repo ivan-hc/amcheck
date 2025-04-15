@@ -1,0 +1,7 @@
+APP="gitjournal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GitJournal/GitJournal"
+link=https://github.com/GitJournal/GitJournal/releases/download/v1.80.0/GitJournal-linux-x86_64.AppImage
+size=13 MB
+version=1.80.0

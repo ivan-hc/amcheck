@@ -1,0 +1,7 @@
+APP="gextractwinicons"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muflone/gextractwinicons"
+link=https://github.com/muflone/gextractwinicons/releases/download/0.5.2/gextractwinicons-0.5.2-x86_64.AppImage
+size=67 MB
+version=0.5.2

@@ -1,0 +1,7 @@
+APP="git-good"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="weedz/git-good"
+link=https://github.com/weedz/git-good/releases/download/v0.1.1/git-good-0.1.1.AppImage
+size=87 MB
+version=0.1.1

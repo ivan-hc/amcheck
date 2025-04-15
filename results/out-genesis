@@ -1,0 +1,7 @@
+APP="genesis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GenesisKernel/genesis-front"
+link=https://github.com/GenesisKernel/genesis-front/releases/download/v0.11.1/genesis-front-0.11.1-x86_64.AppImage
+size=78 MB
+version=0.11.1

@@ -1,0 +1,7 @@
+APP="flippy-qualitative-testbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flippy-fyp/flippy-qualitative-testbench"
+link=https://github.com/flippy-fyp/flippy-qualitative-testbench/releases/download/v0.1.2/Flippy-Qualitative-Testbench-0.1.2.AppImage
+size=178 MB
+version=0.1.2

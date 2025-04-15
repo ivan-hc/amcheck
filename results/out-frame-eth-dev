@@ -1,0 +1,7 @@
+APP="frame-eth-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="floating/frame"
+link=https://github.com/floating/frame/releases/download/v0.6.11/Frame-0.6.11.AppImage
+size=170 MB
+version=0.6.11

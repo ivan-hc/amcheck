@@ -1,0 +1,7 @@
+APP="go-pd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ManuelReschke/go-pd"
+link=https://github.com/ManuelReschke/go-pd/releases/download/v1.5.0/go-pd_1.5.0_linux_amd64.tar.gz
+size=12 MB
+version=1.5.0

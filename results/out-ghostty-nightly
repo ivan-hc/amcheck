@@ -1,0 +1,7 @@
+APP="ghostty-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/ghostty-appimage"
+link=https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B4aa875b-x86_64.AppImage
+size=66 MB
+version=1.1.4

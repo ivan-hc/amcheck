@@ -1,0 +1,7 @@
+APP="glyphr-studio-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="glyphr-studio/Glyphr-Studio-Desktop"
+link=https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.6.0/Glyphr.Studio-0.6.0.AppImage
+size=147 MB
+version=0.6.0

@@ -1,0 +1,7 @@
+APP="funkin-legacy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="NotHyper-474/Funkin-Legacy-Linux"
+link=https://github.com/NotHyper-474/Funkin-Legacy-Linux/releases/download/v0.6.2/funkin-linux-64bit-unofficial.tar.gz
+size=887 MB
+version=64bit

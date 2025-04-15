@@ -1,0 +1,7 @@
+APP="floorp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Floorp-Projects/Floorp"
+link=https://github.com/Floorp-Projects/Floorp/releases/download/v11.25.0/floorp-11.25.0.linux-x86_64.tar.bz2
+size=292 MB
+version=11.25.0.linux

@@ -1,0 +1,7 @@
+APP="friture"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tlecomte/friture"
+link=https://github.com/tlecomte/friture/releases/download/v0.51/friture-0.51-20240722.AppImage
+size=100 MB
+version=0.51

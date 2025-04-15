@@ -1,0 +1,7 @@
+APP="gpredict"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="csete/gpredict"
+link=https://github.com/csete/gpredict/releases/download/v2.2.1/Gpredict-2.2.1.glibc2.14-x86_64.AppImage
+size=9 MB
+version=2.2.1.glibc2.14

@@ -1,0 +1,7 @@
+APP="gaiasky"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://zah.uni-heidelberg.de"
+link=https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.7.5160f2cfe_x86_64.appimage
+size=89 MB
+version=3.6.7.5160f2cfe

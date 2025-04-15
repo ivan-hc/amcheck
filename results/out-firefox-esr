@@ -1,0 +1,6 @@
+APP="firefox-esr"
+APPIMAGE='no'
+GITHUB='no'
+link=https://download.mozilla.org/?product=firefox-esr-latest&os=linux64&lang=
+size=244 MB
+version=128.9.0

@@ -1,0 +1,7 @@
+APP="file-commander"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VioletGiraffe/file-commander"
+link=https://github.com/VioletGiraffe/file-commander/releases/download/0.9.9.3/FileCommander.AppImage
+size=39 MB
+version=0.9.9.3

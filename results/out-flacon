@@ -1,0 +1,7 @@
+APP="flacon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flacon/flacon"
+link=https://github.com/flacon/flacon/releases/download/v12.0.0/flacon-12.0.0-x86_64.AppImage
+size=34 MB
+version=12.0.0

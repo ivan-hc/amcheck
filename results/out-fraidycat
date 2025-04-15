@@ -1,0 +1,7 @@
+APP="fraidycat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kickscondor/fraidycat"
+link=https://github.com/kickscondor/fraidycat/releases/download/v1.1.7/Fraidycat-1.1.7.AppImage
+size=115 MB
+version=1.1.7

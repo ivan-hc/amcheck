@@ -1,0 +1,7 @@
+APP="gncdu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bastengao/gncdu"
+link=https://github.com/bastengao/gncdu/releases/download/v0.7.0/gncdu-linux-amd64
+size=5 MB
+version=0.7.0

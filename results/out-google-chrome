@@ -1,0 +1,7 @@
+APP="google-chrome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chrome-appimage"
+link=https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-135.0.7049.84-1-x86_64.AppImage
+size=144 MB
+version=135.0.7049.84

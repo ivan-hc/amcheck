@@ -1,0 +1,7 @@
+APP="go-pd-gui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ManuelReschke/go-pd-gui"
+link=https://github.com/ManuelReschke/go-pd-gui/raw/main/fyne-cross/bin/linux-amd64/go-pd-gui
+size=29 MB
+version=1.2.0

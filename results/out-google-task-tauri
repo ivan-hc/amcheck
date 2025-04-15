@@ -1,0 +1,7 @@
+APP="google-task-tauri"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="codad5/google-task-tauri"
+link=https://github.com/codad5/google-task-desktop/releases/download/v0.0.9/google-task_0.0.9_amd64.AppImage
+size=82 MB
+version=0.0.9

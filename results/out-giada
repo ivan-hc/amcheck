@@ -1,0 +1,7 @@
+APP="giada"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="monocasual/giada"
+link=https://github.com/monocasual/giada/releases/download/1.1.0/Giada-1.1.0-x86_64.AppImage
+size=20 MB
+version=1.1.0

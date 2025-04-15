@@ -1,0 +1,7 @@
+APP="geofs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jminding/GeoFS-Desktop"
+link=https://github.com/Jminding/GeoFS-Desktop/releases/download/v1.6/GeoFS.AppImage
+size=164 MB
+version=1.6

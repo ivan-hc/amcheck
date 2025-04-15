@@ -1,0 +1,7 @@
+APP="google-docs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Comp-Labs/Google-Docs"
+link=https://github.com/Comp-Labs/Google-Docs/releases/download/v2022.12.1/Google-Docs-linux-x86_64-2022.12.1.AppImage
+size=88 MB
+version=2022.12.1

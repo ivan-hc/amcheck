@@ -1,0 +1,7 @@
+APP="freezer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eNV25/freezer-releases"
+link=https://github.com/eNV25/freezer-releases/releases/download/pc1.1.24/Freezer-1.1.24.AppImage
+size=84 MB
+version=1.1.24

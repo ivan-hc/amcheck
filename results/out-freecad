@@ -1,0 +1,7 @@
+APP="freecad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeCAD/FreeCAD-Bundle"
+link=https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/devel-qt5/FreeCAD_devel-qt5-40655-conda-Linux-x86_64-py311.AppImage
+size=650 MB
+version=qt5

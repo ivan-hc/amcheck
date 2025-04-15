@@ -1,0 +1,7 @@
+APP="gotimer"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nwillc/gotimer"
+link=https://github.com/nwillc/gotimer/releases/download/v1.2.3/gotimer_linux_amd64.zip
+size=6 MB
+version=1.2.3

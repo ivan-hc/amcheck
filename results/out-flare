@@ -1,0 +1,7 @@
+APP="flare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flareteam/flare-game"
+link=https://github.com/flareteam/flare-game/releases/download/v1.14/flare-linux64-v1.14.AppImage
+size=128 MB
+version=1.14

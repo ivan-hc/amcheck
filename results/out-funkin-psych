@@ -1,0 +1,7 @@
+APP="funkin-psych"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Munoida/FNF-PsychEngine-Linux-Releases"
+link=https://github.com/Munoida/FNF-PsychEngine-Linux-Releases/releases/download/0.7.3/PsyEngLinx073.zip
+size=230 MB
+version=PsyEngLinx073.zip

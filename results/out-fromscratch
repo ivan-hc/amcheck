@@ -1,0 +1,7 @@
+APP="fromscratch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kilian/fromscratch"
+link=https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch.1.4.3.AppImage
+size=74 MB
+version=1.4.3

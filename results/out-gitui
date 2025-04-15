@@ -1,0 +1,7 @@
+APP="gitui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="extrawurst/gitui"
+link=https://github.com/gitui-org/gitui/releases/download/v0.27.0/gitui-linux-x86_64.tar.gz
+size=13 MB
+version=0.27.0

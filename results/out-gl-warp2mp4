@@ -1,0 +1,7 @@
+APP="gl-warp2mp4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/GL_warp2mp4"
+link=https://github.com/hn-88/GL_warp2mp4/releases/download/v1.10/GL_warp2mp41.10-x86_64.AppImage
+size=48 MB
+version=warp2mp41.10

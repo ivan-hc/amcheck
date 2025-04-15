@@ -1,0 +1,7 @@
+APP="fflogs-uploader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RPGLogs/Uploaders-fflogs"
+link=https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v8.16.31/fflogs-v8.16.31.AppImage
+size=108 MB
+version=8.16.31

@@ -1,0 +1,7 @@
+APP="goto"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="grafviktor/goto"
+link=https://github.com/grafviktor/goto/releases/download/v1.3.0/goto-v1.3.0.zip
+size=19 MB
+version=1.3.0.zip

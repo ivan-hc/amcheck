@@ -1,0 +1,7 @@
+APP="forkgram"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="forkgram/tdesktop"
+link=https://github.com/forkgram/tdesktop/releases/download/v5.13.1/Telegram.tar.xz
+size=58 MB
+version=5.13.1

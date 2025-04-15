@@ -1,0 +1,7 @@
+APP="funkin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FunkinCrew/Funkin"
+link=https://github.com/FunkinCrew/Funkin/releases/download/v0.5.3/funkin-linux-64bit.zip
+size=829 MB
+version=64bit.zip

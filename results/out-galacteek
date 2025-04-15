@@ -1,0 +1,7 @@
+APP="galacteek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eversum/galacteek"
+link=https://github.com/PancakesArchitect/galacteek/releases/download/v0.5.0/Galacteek-0.5.0-x86_64.AppImage
+size=237 MB
+version=0.5.0

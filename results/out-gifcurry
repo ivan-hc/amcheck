@@ -1,0 +1,7 @@
+APP="gifcurry"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/gifcurry"
+link=https://github.com/lettier/gifcurry/releases/download/6.0.1.0/gifcurry-6.0.1.0-x86_64.AppImage
+size=41 MB
+version=6.0.1.0

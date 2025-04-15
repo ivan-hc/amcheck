@@ -1,0 +1,7 @@
+APP="flb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FLB-Music/FLB-Music-Player"
+link=https://github.com/FLB-Music/FLB-Music-Player/releases/download/v1.2.1/FLB-Music-1.2.1.AppImage
+size=78 MB
+version=1.2.1

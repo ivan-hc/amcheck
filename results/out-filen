@@ -1,0 +1,7 @@
+APP="filen"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://filen.io"
+link=https://cdn.filen.io/desktop/release/filen_x86_64.AppImage
+size=119 MB
+version=3.0.47

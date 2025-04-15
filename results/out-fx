@@ -1,0 +1,7 @@
+APP="fx"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="antonmedv/fx"
+link=https://github.com/antonmedv/fx/releases/download/35.0.0/fx_linux_amd64
+size=16 MB
+version=35.0.0

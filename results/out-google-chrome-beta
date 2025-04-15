@@ -1,0 +1,7 @@
+APP="google-chrome-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chrome-appimage"
+link=https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-136.0.7103.25-1-x86_64.AppImage
+size=147 MB
+version=136.0.7103.25

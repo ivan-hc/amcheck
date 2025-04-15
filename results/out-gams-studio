@@ -1,0 +1,7 @@
+APP="gams-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GAMS-dev/studio"
+link=https://github.com/GAMS-dev/studio/releases/download/v1.20.4/GAMS_Studio-1.20.4-x86_64.AppImage
+size=163 MB
+version=1.20.4

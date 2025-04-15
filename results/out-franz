@@ -1,0 +1,7 @@
+APP="franz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="meetfranz/franz"
+link=https://github.com/meetfranz/franz/releases/download/v5.11.0/Franz-5.11.0.AppImage
+size=95 MB
+version=5.11.0

@@ -1,0 +1,7 @@
+APP="freshfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="K4rakara/freshfetch"
+link=https://github.com/K4rakara/freshfetch/releases/download/v0.2.0/freshfetch.tar.gz
+size=11 MB
+version=0.2.0

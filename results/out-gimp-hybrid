@@ -1,0 +1,7 @@
+APP="gimp-hybrid"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/GIMP-appimage"
+link=https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-hybrid/GNU-Image-Manipulation-Program_2.10.38-4-Hybrid-with-python2-from-Debian-Buster-archimage3.4.1-1-x86_64.AppImage
+size=230 MB
+version=starting

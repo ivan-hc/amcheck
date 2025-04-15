@@ -1,0 +1,7 @@
+APP="feedseries"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="matthieuy/feedseries"
+link=https://github.com/matthieuy/feedseries/releases/download/v1.3.3/FeedSeries-1.3.3.AppImage
+size=74 MB
+version=1.3.3

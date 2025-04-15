@@ -1,0 +1,7 @@
+APP="gameimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruanformigoni/gameimage"
+link=https://github.com/ruanformigoni/gameimage/releases/download/v1.6.1/gameimage.flatimage
+size=99 MB
+version=1.6.1
