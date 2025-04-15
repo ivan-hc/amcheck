@@ -794,7 +794,8 @@ jobs:
       - name: "Download results ⬇️"
         uses: actions/download-artifact@v4
         with:
-          path: results
+          name: results
+          #path: results
           merge-multiple: true
 
       - name: "Download appslist"
