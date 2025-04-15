@@ -5316,3 +5316,11 @@ link=https://github.com/finos/FDC3-Sail/releases/download/v22.12.6-1030/FDC3-Sai
 size=106 MB
 version=FDC3
 -----------------------------------------------------------------
+APP="fdm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE=""
+link=https://raw.githubusercontent.com/ivan-hc/AM/main/appimage-bulder-scripts/x86_64/fdm.sh
+size=56 MB
+version=6.26.1
+-----------------------------------------------------------------
