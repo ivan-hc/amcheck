@@ -2,6 +2,6 @@ APP="filezilla"
 APPIMAGE='no'
 GITHUB='no'
 SITE="https://filezilla-project.org"
-link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.69.0_x86_64-linux-gnu.tar.xz?h=qgxpTfGAROwiY5j97-Zqag&x=1744734442
+link=https://dl2.cdn.filezilla-project.org/client/FileZilla_3.69.0_x86_64-linux-gnu.tar.xz?h=iKWCG7tDLROxRC9fHHqujw&x=1744735482
 size=48 MB
 version=3.69.0
