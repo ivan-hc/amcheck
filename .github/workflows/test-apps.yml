@@ -794,8 +794,8 @@ jobs:
       - name: "Download results ⬇️"
         uses: actions/download-artifact@v4
         with:
-          name: results
-          #path: results
+          #name: results
+          path: results
           merge-multiple: true
 
       - name: "Download appslist"
@@ -809,6 +809,7 @@ jobs:
         run: |
           mkdir -p results
           ls -R
+          mv -f results/results ./
           if [ -f results/out-* ]; then
             for LogFile in results/out-*; do
 
