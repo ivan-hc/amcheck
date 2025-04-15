@@ -1,7 +1,0 @@
-APP="akuse"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="akuse-app/akuse"
-link=https://github.com/akuse-app/akuse/releases/download/1.10.1/linux-akuse-1.10.1.AppImage
-size=104 MB
-version=1.10.1

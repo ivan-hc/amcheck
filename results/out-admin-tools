@@ -1,7 +1,0 @@
-APP="admin-tools"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage"
-link=https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage
-size=84 MB
-version=2025.01.02

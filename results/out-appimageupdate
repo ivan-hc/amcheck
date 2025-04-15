@@ -1,7 +1,0 @@
-APP="appimageupdate"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AppImage/AppImageUpdate"
-link=https://github.com/AppImageCommunity/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage
-size=47 MB
-version=2025.02.15

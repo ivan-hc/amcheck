@@ -1,7 +1,0 @@
-APP="blender"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.0-stable+v44.05377985c527-linux.x86_64-release.tar.xz
-size=1120 MB
-version=4.4.0

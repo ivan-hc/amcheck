@@ -1,7 +1,0 @@
-APP="bdash"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="bdash-app/bdash"
-link=https://github.com/bdash-app/bdash/releases/download/v1.17.1/Bdash-1.17.1.AppImage
-size=93 MB
-version=1.17.1

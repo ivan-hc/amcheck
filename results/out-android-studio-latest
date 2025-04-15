@@ -1,7 +1,0 @@
-APP="android-studio-latest"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="zyrouge/android-studio-appimages"
-link=https://github.com/zyrouge/android-studio-appimages/releases/download/v2024.3.2.9/android-studio-beta-2024.3.2.9-x86_64.AppImage
-size=1228 MB
-version=2024.3.2.9

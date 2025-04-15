@@ -1,7 +1,0 @@
-APP="beam-wallet"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="BeamMW/beam-ui"
-link=https://github.com/BeamMW/beam-ui/releases/download/beam-7.5.13840.5763/Linux-Beam-Wallet-7.5.13840.5763.zip
-size=168 MB
-version=7.5.13840.5763.zip

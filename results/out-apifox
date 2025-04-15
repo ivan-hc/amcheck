@@ -1,7 +1,0 @@
-APP="apifox"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://apifox.com"
-link=https://cdn.apifox.cn/download/Apifox-linux-latest.zip
-size=181 MB
-version=2.7.6

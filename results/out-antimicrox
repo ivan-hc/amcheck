@@ -1,7 +1,0 @@
-APP="antimicrox"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AntiMicroX/antimicrox"
-link=https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage
-size=48 MB
-version=3.5.1

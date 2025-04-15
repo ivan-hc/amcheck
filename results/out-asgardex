@@ -1,7 +1,0 @@
-APP="asgardex"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="asgardex/asgardex-desktop"
-link=https://github.com/asgardex/asgardex-desktop/releases/download/v1.30.3/ASGARDEX-1.30.3-linux.AppImage
-size=351 MB
-version=1.30.3

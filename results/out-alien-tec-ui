@@ -1,7 +1,0 @@
-APP="alien-tec-ui"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://sourceforge.net/projects/alien-tec-ui/"
-link=https://sourceforge.net/projects/alien-tec-ui/files/Alien-Tec-UI-Linux-x86_64.AppImage/download
-size=93 MB
-version=2021.12.12

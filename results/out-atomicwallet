@@ -1,7 +1,0 @@
-APP="atomicwallet"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://get.atomicwallet.io/download"
-link=https://get.atomicwallet.io/download/atomicwallet-2.76.4.AppImage
-size=99 MB
-version=atomicwallet-2.76.4.AppImage

@@ -1,7 +1,0 @@
-APP="awakened-poe-trade"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="SnosMe/awakened-poe-trade"
-link=https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.25.104/Awakened-PoE-Trade-3.25.104.AppImage
-size=111 MB
-version=3.25.104

@@ -1,7 +1,0 @@
-APP="amazingmarvin"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://amazingmarvin.com"
-link=http://amazingmarvin.s3-website-us-east-1.amazonaws.com/Marvin-x86_64.AppImage
-size=117 MB
-version=1.66.2

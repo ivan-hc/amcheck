@@ -1,7 +1,0 @@
-APP="better-osu-skills"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="straightcurve/better-osuskills"
-link=https://github.com/straightcurve/better-osuskills/releases/download/v1.0.6/better-osu-skills-1.0.6.AppImage
-size=149 MB
-version=1.0.6

@@ -1,7 +1,0 @@
-APP="archipel"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="arso-project/archipel"
-link=https://github.com/arso-project/archipel/releases/download/v0.1.0/archipel-0.1.0.AppImage
-size=93 MB
-version=0.1.0

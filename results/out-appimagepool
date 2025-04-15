@@ -1,7 +1,0 @@
-APP="appimagepool"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="prateekmedia/appimagepool"
-link=https://github.com/prateekmedia/appimagepool/releases/download/5.1.0/appimagepool-5.1.0-x86_64.AppImage
-size=11 MB
-version=5.1.0

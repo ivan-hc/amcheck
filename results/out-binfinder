@@ -1,7 +1,0 @@
-APP="binfinder"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="aquasecurity/binfinder"
-link=https://github.com/aquasecurity/binfinder/releases/download/v0.2.0/binfinder_0.2.0_Linux_amd64.tar.gz
-size=6 MB
-version=0.2.0

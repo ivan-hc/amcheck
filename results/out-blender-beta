@@ -1,7 +1,0 @@
-APP="blender-beta"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://www.blender.org"
-link=https://cdn.builder.blender.org/download/daily/archive/blender-4.4.0-beta+v44.1ba20699e933-linux.x86_64-release.tar.xz
-size=1119 MB
-version=4.4.0

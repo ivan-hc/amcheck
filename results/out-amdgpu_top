@@ -1,7 +1,0 @@
-APP="amdgpu_top"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Umio-Yasuno/amdgpu_top"
-link=https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.10.3/amdgpu_top-aarch64.AppImage
-size=9 MB
-version=0.10.3

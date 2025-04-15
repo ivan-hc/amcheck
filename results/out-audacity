@@ -1,7 +1,0 @@
-APP="audacity"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="audacity/audacity"
-link=https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/audacity-linux-3.7.3-x64-20.04.AppImage
-size=115 MB
-version=3.7.3

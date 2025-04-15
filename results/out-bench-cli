@@ -1,7 +1,0 @@
-APP="bench-cli"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Lateralus138/bench-cli"
-link=https://github.com/Lateralus138/bench-cli/releases/download/Continuous/bench-x86_64.AppImage
-size=3 MB
-version=2021.12.07

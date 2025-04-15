@@ -1,7 +1,0 @@
-APP="augur"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AugurProject/augur-app"
-link=https://github.com/AugurProject/augur-app/releases/download/v1.16.11/linux-Augur-1.16.11.AppImage
-size=159 MB
-version=1.16.11

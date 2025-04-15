@@ -1,7 +1,0 @@
-APP="arena-tracker"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="supertriodo/Arena-Tracker"
-link=https://github.com/supertriodo/Arena-Tracker/releases/download/v25.01/ArenaTracker.Linux.AppImage
-size=22 MB
-version=25.01

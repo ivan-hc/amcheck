@@ -1,7 +1,0 @@
-APP="anklang"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="tim-janik/anklang"
-link=https://github.com/tim-janik/anklang/releases/download/v0.3.0/anklang-0.3.0-x64.AppImage
-size=105 MB
-version=0.3.0

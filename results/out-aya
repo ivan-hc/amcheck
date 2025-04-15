@@ -1,7 +1,0 @@
-APP="aya"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="liriliri/aya"
-link=https://github.com/liriliri/aya/releases/download/v1.6.0/AYA-1.6.0-linux-x86_64.AppImage
-size=112 MB
-version=1.6.0

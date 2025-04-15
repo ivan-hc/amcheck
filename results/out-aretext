@@ -1,7 +1,0 @@
-APP="aretext"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="aretext/aretext"
-link=https://github.com/aretext/aretext/releases/download/v1.4.0/aretext_1.4.0_linux_amd64.tar.gz
-size=10 MB
-version=1.4.0

@@ -1,7 +1,0 @@
-APP="antares"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="antares-sql/antares"
-link=https://github.com/antares-sql/antares/releases/download/v0.7.35-beta.0/Antares-0.7.35-beta.0-linux_x86_64.AppImage
-size=155 MB
-version=0.7.35

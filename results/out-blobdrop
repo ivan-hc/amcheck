@@ -1,7 +1,0 @@
-APP="blobdrop"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="vimpostor/blobdrop"
-link=https://github.com/vimpostor/blobdrop/releases/download/v2.1/blobdrop-x86_64.AppImage
-size=36 MB
-version=2.1

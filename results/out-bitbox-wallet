@@ -1,7 +1,0 @@
-APP="bitbox-wallet"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="digitalbitbox/bitbox-wallet-app"
-link=https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.47.2/BitBox-4.47.2-x86_64.AppImage
-size=159 MB
-version=4.47.2

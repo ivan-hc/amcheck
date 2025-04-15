@@ -1,7 +1,0 @@
-APP="appimagelauncher"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="TheAssassin/AppImageLauncher"
-link=https://github.com/TheAssassin/AppImageLauncher/releases/download/v3.0.0-alpha-4/appimagelauncher-lite-3.0.0-alpha-4-gha253-x86_64.AppImage
-size=37 MB
-version=3.0.0

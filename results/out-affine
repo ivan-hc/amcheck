@@ -1,7 +1,0 @@
-APP="affine"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="toeverything/AFFiNE"
-link=https://github.com/toeverything/AFFiNE/releases/download/v0.21.2/affine-0.21.2-stable-linux-x64.appimage
-size=184 MB
-version=0.21.2

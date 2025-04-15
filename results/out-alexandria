@@ -1,7 +1,0 @@
-APP="alexandria"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="btpf/Alexandria"
-link=https://github.com/btpf/Alexandria/releases/download/v0.13.1/alexandria_0.13.1_amd64.AppImage
-size=78 MB
-version=0.13.1

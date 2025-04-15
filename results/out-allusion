@@ -1,7 +1,0 @@
-APP="allusion"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="allusion-app/Allusion"
-link=https://github.com/allusion-app/Allusion/releases/download/v1.0.0-rc.10/Allusion-1.0.0-rc.10.AppImage
-size=93 MB
-version=1.0.0

@@ -1,7 +1,0 @@
-APP="appium-inspector"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="appium/appium-inspector"
-link=https://github.com/appium/appium-inspector/releases/download/v2025.3.1/Appium-Inspector-2025.3.1-linux-x86_64.AppImage
-size=153 MB
-version=2025.3.1

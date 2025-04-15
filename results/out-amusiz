@@ -1,7 +1,0 @@
-APP="amusiz"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="mirkobrombin/Amusiz"
-link=https://github.com/mirkobrombin/Amusiz/releases/download/1.3.4/Amusiz-1.3.3-x86_64.AppImage
-size=199 MB
-version=1.3.3

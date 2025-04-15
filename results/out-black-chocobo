@@ -1,7 +1,0 @@
-APP="black-chocobo"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="sithlord48/blackchocobo"
-link=https://github.com/sithlord48/blackchocobo/releases/download/continuous/Black_Chocobo-continuous-x86_64.AppImage
-size=36 MB
-version=2025.03.16

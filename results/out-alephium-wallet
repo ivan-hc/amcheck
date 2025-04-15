@@ -1,7 +1,0 @@
-APP="alephium-wallet"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="alephium/desktop-wallet"
-link=https://github.com/alephium/desktop-wallet/releases/download/v2.2.0/Alephium-2.2.0.AppImage
-size=95 MB
-version=2.2.0
