@@ -422,7 +422,7 @@ jobs:
 
               if [ "$TEST" == 0 ]; then
 
-                echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+                #echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
                 echo "${{ matrix.file }}" >> results/ko-${{ matrix.file }}
                 exit 0
 
