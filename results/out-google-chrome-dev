@@ -1,7 +1,0 @@
-APP="google-chrome-dev"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/Chrome-appimage"
-link=https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-unstable-137.0.7117.2-1-x86_64.AppImage
-size=147 MB
-version=137.0.7117.2

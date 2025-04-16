@@ -1,7 +1,0 @@
-APP="geeqie"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="BestImageViewer/geeqie"
-link=https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage
-size=152 MB
-version=2025.04.15

@@ -1,7 +1,0 @@
-APP="firework"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://firework.cloud"
-link=https://cdn-firework.com/fw/download/packages/Firework-linux-x64.zip
-size=339 MB
-version=4.39

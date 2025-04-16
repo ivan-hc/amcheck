@@ -1,7 +1,0 @@
-APP="geany"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ecmu/geany.AppImage"
-link=https://github.com/ecmu/geany.AppImage/releases/download/2.0.0/Geany-2.0.0-x86_64.AppImage
-size=40 MB
-version=2.0.0

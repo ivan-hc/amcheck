@@ -1,7 +1,0 @@
-APP="glab"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://gitlab.com/gitlab-org/cli"
-link=https://gitlab.com/gitlab-org/cli/-/releases/v1.55.0/downloads/glab_1.55.0_linux_386.tar.gz
-size=26 MB
-version=1.55.0

@@ -1,7 +1,0 @@
-APP="gemget"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="makew0rld/gemget"
-link=https://github.com/makew0rld/gemget/releases/download/v1.9.0/gemget_1.9.0_linux_64-bit
-size=5 MB
-version=1.9.0

@@ -1,7 +1,0 @@
-APP="foxfolio"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="foxfolio/foxfolio-desktop"
-link=https://github.com/foxfolio/foxfolio-desktop/releases/download/v0.0.10/foxfolio-0.0.10-x86_64.AppImage
-size=51 MB
-version=0.0.10

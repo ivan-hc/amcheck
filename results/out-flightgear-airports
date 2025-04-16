@@ -1,7 +1,0 @@
-APP="flightgear-airports"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Portree-Kid/flightgear-airports"
-link=https://github.com/Portree-Kid/flightgear-airports/releases/download/v0.0.34/flightgear-airports-0.0.34.AppImage
-size=100 MB
-version=0.0.34

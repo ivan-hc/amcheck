@@ -1,7 +1,0 @@
-APP="gameconqueror"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="lucasmz1/Game_Conqueror_AppImage"
-link=https://github.com/lucasmz1/Game_Conqueror_AppImage/releases/download/0.17_2/Game_Conqueror2.AppImage
-size=32 MB
-version=0.17

@@ -1,7 +1,0 @@
-APP="gmail-desktop"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="timche/gmail-desktop"
-link=https://github.com/zoidsh/meru/releases/download/v2.25.3/gmail-desktop-2.25.3-linux.AppImage
-size=78 MB
-version=2.25.3

@@ -1,7 +1,0 @@
-APP="flightgear"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://www.flightgear.org"
-link=https://gitlab.com/flightgear/fgmeta/-/jobs/9261456028/artifacts/raw/FlightGear-2024.1.1-x86_64.AppImage
-size=541 MB
-version=2024.1.1

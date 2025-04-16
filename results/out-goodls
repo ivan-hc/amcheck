@@ -1,7 +1,0 @@
-APP="goodls"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="tanaikech/goodls"
-link=https://github.com/tanaikech/goodls/releases/download/v2.0.5/goodls_linux_amd64
-size=13 MB
-version=2.0.5

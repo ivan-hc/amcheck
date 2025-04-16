@@ -1,7 +1,0 @@
-APP="fractale"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="PJK136/Fractale"
-link=https://github.com/PJK136/Fractale/releases/download/continuous/Fractale-cadfc6e-x86_64.AppImage
-size=22 MB
-version=cadfc6e

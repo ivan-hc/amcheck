@@ -1,7 +1,0 @@
-APP="gitbutler"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://gitbutler.com"
-link=https://app.gitbutler.com/downloads/release/linux/x86_64/gz
-size=213 MB
-version=0.14.18

@@ -1,7 +1,0 @@
-APP="geforcenow-electron"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="hmlendea/gfn-electron"
-link=https://github.com/hmlendea/gfn-electron/releases/download/v2.2.0/geforcenow-electron_2.2.0_linux.AppImage
-size=111 MB
-version=2.2.0

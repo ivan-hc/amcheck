@@ -1,7 +1,0 @@
-APP="ffdec-nightly"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="jindrapetrik/jpexs-decompiler"
-link=https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.2/ffdec_22.0.2.zip
-size=20 MB
-version=22.0.2.zip

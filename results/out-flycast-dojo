@@ -1,7 +1,0 @@
-APP="flycast-dojo"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="blueminder/flycast-dojo"
-link=https://github.com/blueminder/flycast-dojo/releases/download/dojo-6.53/linux-flycast-dojo-6.53.zip
-size=15 MB
-version=6.53.zip

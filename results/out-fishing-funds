@@ -1,7 +1,0 @@
-APP="fishing-funds"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="1zilc/fishing-funds"
-link=https://github.com/1zilc/fishing-funds/releases/download/v8.4.2/Fishing-Funds-8.4.2.AppImage
-size=109 MB
-version=8.4.2

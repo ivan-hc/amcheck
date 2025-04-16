@@ -1,7 +1,0 @@
-APP="fontlet"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="fontlet/fontlet-explorer"
-link=https://github.com/akuru-io/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage
-size=57 MB
-version=0.0.29

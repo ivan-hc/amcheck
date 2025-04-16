@@ -1,7 +1,0 @@
-APP="gnumeric"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/Gnumeric-appimage"
-link=https://github.com/ivan-hc/Gnumeric-appimage/releases/download/continuous/Gnumeric_1.12.59-1-archimage4.3-x86_64.AppImage
-size=110 MB
-version=1.12.59

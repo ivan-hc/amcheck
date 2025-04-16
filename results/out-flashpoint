@@ -1,7 +1,0 @@
-APP="flashpoint"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://flashpointarchive.org"
-link=https://download.unstable.life/upload/fp14.0.1_lin_main_20250222.7z
-size=2370 MB
-version=fp14.0.1

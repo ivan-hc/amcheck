@@ -1,7 +1,0 @@
-APP="freeshow"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ChurchApps/FreeShow"
-link=https://github.com/ChurchApps/FreeShow/releases/download/v1.4.0/FreeShow-1.4.0-x86_64.AppImage
-size=146 MB
-version=1.4.0

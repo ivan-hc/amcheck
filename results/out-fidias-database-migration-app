@@ -1,7 +1,0 @@
-APP="fidias-database-migration-app"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="open-fidias/db-migration-app"
-link=https://github.com/open-fidias/db-migration-app/releases/download/v0.1.4/db-migration-app-0.1.4-x86_64.AppImage
-size=58 MB
-version=0.1.4

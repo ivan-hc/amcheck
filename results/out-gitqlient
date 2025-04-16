@@ -1,7 +1,0 @@
-APP="gitqlient"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="francescmm/GitQlient"
-link=https://github.com/francescmm/GitQlient/releases/download/dev-latest/GitQlient-bd4f38c4-x86_64.AppImage
-size=31 MB
-version=bd4f38c4

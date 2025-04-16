@@ -1,7 +1,0 @@
-APP="ghrel"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="jreisinger/ghrel"
-link=https://github.com/jreisinger/ghrel/releases/download/v0.10.5/ghrel_0.10.5_linux_amd64.tar.gz
-size=5 MB
-version=0.10.5

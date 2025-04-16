@@ -1,7 +1,0 @@
-APP="greenlight"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="unknownskl/greenlight"
-link=https://github.com/unknownskl/greenlight/releases/download/v2.3.2/Greenlight-2.3.2.AppImage
-size=112 MB
-version=2.3.2

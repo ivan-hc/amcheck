@@ -1,7 +1,0 @@
-APP="gooseberry"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="out-of-cheese-error/gooseberry"
-link=https://github.com/out-of-cheese-error/gooseberry/releases/download/0.10.1/gooseberry-linux.tar.gz
-size=15 MB
-version=0.10.1

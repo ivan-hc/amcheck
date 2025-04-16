@@ -1,7 +1,0 @@
-APP="getthermal"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="groupgets/GetThermal"
-link=https://github.com/groupgets/GetThermal/releases/download/v0.1.4/GetThermal-v0.1.4-x86_64-Linux.AppImage
-size=39 MB
-version=0.1.4

@@ -1,7 +1,0 @@
-APP="fontbase"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://fontba.se"
-link=https://releases.fontba.se/linux/FontBase-2.21.0.AppImage
-size=106 MB
-version=2.21.0

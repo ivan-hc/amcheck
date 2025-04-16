@@ -1,7 +1,0 @@
-APP="gamehub"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="tkashkin/GameHub"
-link=https://github.com/tkashkin/GameHub/releases/download/0.16.3-6-dev/GameHub-jammy-0.16.3-6-dev-0e3146a-x86_64.AppImage
-size=50 MB
-version=0.16.3

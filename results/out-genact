@@ -1,7 +1,0 @@
-APP="genact"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="svenstaro/genact"
-link=https://github.com/svenstaro/genact/releases/download/v1.4.2/genact-1.4.2-x86_64-unknown-linux-musl
-size=2 MB
-version=1.4.2

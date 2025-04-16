@@ -1,7 +1,0 @@
-APP="gdevelop"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="4ian/GDevelop"
-link=https://github.com/4ian/GDevelop/releases/download/v5.5.228/GDevelop-5-5.5.228.AppImage
-size=158 MB
-version=5

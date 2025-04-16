@@ -1,7 +1,0 @@
-APP="fmradio"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="dmooney65/fmradio"
-link=https://github.com/dmooney65/fmradio/releases/download/untagged-d88616653b8f7b6d1402/fmradio-0.9.4-x86_64.AppImage
-size=50 MB
-version=0.9.4

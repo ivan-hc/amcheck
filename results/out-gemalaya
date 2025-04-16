@@ -1,7 +1,0 @@
-APP="gemalaya"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://gemalaya.gitlab.io/"
-link=https://gitlab.com/cipres/gemgemgem/-/releases/continuous-master/downloads/Gemalaya-latest-x86_64.AppImage
-size=136 MB
-version=2024.11.07

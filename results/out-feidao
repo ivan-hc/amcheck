@@ -1,7 +1,0 @@
-APP="feidao"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://oss.fei-dao.com"
-link=https://oss.fei-dao.com/resources/application/linux/feidao_latest.AppImage
-size=92 MB
-version=1.0.0

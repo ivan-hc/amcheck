@@ -1,7 +1,0 @@
-APP="fluffychat"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="krille-chan/fluffychat"
-link=https://github.com/krille-chan/fluffychat/releases/download/v1.25.0/fluffychat-linux-x64.tar.gz
-size=89 MB
-version=1.25.0

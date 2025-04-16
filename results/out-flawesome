@@ -1,7 +1,0 @@
-APP="flawesome"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ashishBharadwaj/flawesome"
-link=https://github.com/ashishBharadwaj/flawesome/releases/download/v0.2.3/Flawesome-0.2.3.AppImage
-size=98 MB
-version=0.2.3

@@ -1,7 +1,0 @@
-APP="freetexturepacker"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="odrick/free-tex-packer"
-link=https://github.com/odrick/free-tex-packer/releases/download/v0.6.7/FreeTexturePacker-x86_64.AppImage
-size=75 MB
-version=0.6.7

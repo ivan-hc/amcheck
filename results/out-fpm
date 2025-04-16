@@ -1,7 +1,0 @@
-APP="fpm"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="jlambert360/FPM-AppImage"
-link=https://github.com/jlambert360/FPM-AppImage/releases/download/v3.0.5/Faster_Project_Plus-x86-64.AppImage
-size=120 MB
-version=3.0.5

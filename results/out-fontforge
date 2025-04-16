@@ -1,7 +1,0 @@
-APP="fontforge"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="fontforge/fontforge"
-link=https://github.com/fontforge/fontforge/releases/download/20230101/FontForge-2023-01-01-a1dad3e-x86_64.AppImage
-size=41 MB
-version=2023

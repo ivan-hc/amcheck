@@ -1,7 +1,0 @@
-APP="fman"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="nore-dev/fman"
-link=https://github.com/nore-dev/fman/releases/download/v1.20.1/fman_1.20.1_linux_amd64.tar.gz
-size=8 MB
-version=1.20.1

@@ -1,7 +1,0 @@
-APP="gm-companion"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="PhilInTheGaps/GM-Companion"
-link=https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.1/gm-companion_1.2.1_x86_64.AppImage
-size=67 MB
-version=1.2.1

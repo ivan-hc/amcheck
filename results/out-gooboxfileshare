@@ -1,7 +1,0 @@
-APP="gooboxfileshare"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="GooBox/file-share-desktop"
-link=https://github.com/GooBox/file-share-desktop/releases/download/v0.3.4/GooboxFileShare-0.3.4.AppImage
-size=61 MB
-version=0.3.4

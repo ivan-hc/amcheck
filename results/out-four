@@ -1,7 +1,0 @@
-APP="four"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="FYDesktop/FOUR"
-link=https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four-1.0.0-x86_64.AppImage
-size=68 MB
-version=1.0.0

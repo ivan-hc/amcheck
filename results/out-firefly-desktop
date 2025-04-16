@@ -1,7 +1,0 @@
-APP="firefly-desktop"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="iotaledger/firefly"
-link=https://github.com/iotaledger/firefly/releases/download/desktop-shimmer-2.1.16/firefly-shimmer-desktop-2.1.16.AppImage
-size=128 MB
-version=2.1.16

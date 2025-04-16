@@ -1,7 +1,0 @@
-APP="firetv-toolkit"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AnthonyGress/Android-Toolkit"
-link=https://github.com/AnthonyGress/Android-Toolkit/releases/download/v1.5.25/Android-Toolkit-x86_64.AppImage
-size=95 MB
-version=1.5.25

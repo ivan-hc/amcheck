@@ -1,7 +1,0 @@
-APP="fishterm"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="kuronekouwu/FishTerm"
-link=https://github.com/mrwan2546/FishTerm/releases/download/v0.0.1-alpha.1/fishterm-0.0.1-alpha.1.AppImage
-size=105 MB
-version=0.0.1

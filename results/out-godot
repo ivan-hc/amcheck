@@ -1,7 +1,0 @@
-APP="godot"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="godotengine/godot"
-link=https://github.com/godotengine/godot/releases/download/4.4.1-stable/Godot_v4.4.1-stable_linux.x86_64.zip
-size=123 MB
-version=4.4.1

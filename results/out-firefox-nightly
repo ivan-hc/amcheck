@@ -1,6 +1,0 @@
-APP="firefox-nightly"
-APPIMAGE='no'
-GITHUB='no'
-link=https://download.mozilla.org/?product=firefox-nightly-latest&os=linux64&lang=
-size=319 MB
-version=139.0a1

@@ -1,7 +1,0 @@
-APP="gost-shred"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="pedroalbanese/gost-shred"
-link=https://github.com/pedroalbanese/gost-shred/releases/download/v1.0.0/gost-shred_linux-x86.zip
-size=2 MB
-version=x86.zip

@@ -1,7 +1,0 @@
-APP="goldencheetah"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="GoldenCheetah/GoldenCheetah"
-link=https://github.com/GoldenCheetah/GoldenCheetah/releases/download/v3.7/GoldenCheetah_v3.7_x64.AppImage
-size=245 MB
-version=3.7

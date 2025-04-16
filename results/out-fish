@@ -1,7 +1,0 @@
-APP="fish"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Maverobot/fish.AppImage"
-link=https://github.com/Maverobot/fish.AppImage/releases/download/v3.7.0/fish-3.7.0-x86_64.AppImage
-size=22 MB
-version=3.7.0

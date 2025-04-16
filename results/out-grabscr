@@ -1,7 +1,0 @@
-APP="grabscr"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="thepeshka/grabscr"
-link=https://github.com/thepeshka/grabscr/releases/download/v0.0.7/GrabSCR-0.0.7-x86_64.AppImage
-size=33 MB
-version=0.0.7

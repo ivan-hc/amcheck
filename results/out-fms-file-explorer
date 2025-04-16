@@ -1,7 +1,0 @@
-APP="fms-file-explorer"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AllenInstitute/aics-fms-file-explorer-app"
-link=https://github.com/AllenInstitute/biofile-finder/releases/download/v8.3.0/BioFile-Finder-8.3.0.AppImage
-size=117 MB
-version=8.3.0

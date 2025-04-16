@@ -1,7 +1,0 @@
-APP="firefox-beta-appimage"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="srevinsaju/Firefox-Appimage"
-link=https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250414092054-x86_64.AppImage
-size=100 MB
-version=138.0.r20250414092054

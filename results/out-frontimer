@@ -1,7 +1,0 @@
-APP="frontimer"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="seita1996/frontimer"
-link=https://github.com/seita1996/frontimer/releases/download/v0.1.17/frontimer-0.1.17.AppImage
-size=186 MB
-version=0.1.17

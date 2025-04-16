@@ -1,7 +1,0 @@
-APP="focuswriter"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="probonopd/focuswriter"
-link=https://github.com/probonopd/focuswriter/releases/download/continuous/FocusWriter-a9815c7-x86_64.AppImage
-size=32 MB
-version=a9815c7

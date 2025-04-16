@@ -1,7 +1,0 @@
-APP="foobar2000"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="mmtrt/foobar2000_AppImage"
-link=https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64-wp/foobar2000-x64_2.24.3_WP-x86_64.AppImage
-size=289 MB
-version=2.24.3

@@ -1,7 +1,0 @@
-APP="freefilesync"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="hkneptune/FreeFileSync"
-link=https://github.com/hkneptune/FreeFileSync/releases/download/v14.3/FreeFileSync_14.3_Linux.tar.gz
-size=33 MB
-version=14.3

@@ -1,7 +1,0 @@
-APP="flycast"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="flyinghead/flycast"
-link=https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_64.AppImage
-size=17 MB
-version=2.4

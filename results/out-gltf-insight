@@ -1,7 +1,0 @@
-APP="gltf-insight"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="lighttransport/gltf-insight"
-link=https://github.com/lighttransport/gltf-insight/releases/download/continuous/gltf-insight-7cf61f1-x86_64.AppImage
-size=2 MB
-version=7cf61f1

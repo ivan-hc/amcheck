@@ -1,7 +1,0 @@
-APP="ferdium"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ferdium/ferdium-app"
-link=https://github.com/ferdium/ferdium-app/releases/download/v7.1.0-nightly.1/Ferdium-linux-Portable-7.1.0-nightly.1-x86_64.AppImage
-size=145 MB
-version=7.1.0

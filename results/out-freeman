@@ -1,7 +1,0 @@
-APP="freeman"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="matthew-matvei/freeman"
-link=https://github.com/matthew-matvei/freeman/releases/download/v0.9.1/freeman-0.9.1-x86_64.AppImage
-size=60 MB
-version=0.9.1

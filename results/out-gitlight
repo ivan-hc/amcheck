@@ -1,7 +1,0 @@
-APP="gitlight"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="colinlienard/gitlight"
-link=https://github.com/colinlienard/gitlight/releases/download/gitlight-v0.17.6/git-light_0.17.6_amd64.AppImage
-size=75 MB
-version=0.17.6

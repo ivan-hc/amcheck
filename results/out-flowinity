@@ -1,7 +1,0 @@
-APP="flowinity"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Flowinity/Desktop"
-link=https://github.com/Flowinity/Desktop/releases/download/1.0.7/flowinity-desktop-1.0.7.AppImage
-size=144 MB
-version=1.0.7

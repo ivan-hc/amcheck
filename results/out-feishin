@@ -1,7 +1,0 @@
-APP="feishin"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="jeffvli/feishin"
-link=https://github.com/jeffvli/feishin/releases/download/v0.12.3/Feishin-0.12.3-linux-x86_64.AppImage
-size=112 MB
-version=0.12.3

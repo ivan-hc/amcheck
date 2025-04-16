@@ -1,7 +1,0 @@
-APP="feebas"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="timzatko/feebas"
-link=https://github.com/timzatko/feebas/releases/download/v0.3.0/feebas-desktop-app-0.3.0.AppImage
-size=90 MB
-version=0.3.0

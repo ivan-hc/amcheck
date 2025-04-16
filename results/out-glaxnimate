@@ -1,7 +1,0 @@
-APP="glaxnimate"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://glaxnimate.mattbas.org"
-link=https://gitlab.com/mattbas/glaxnimate/-/jobs/artifacts/release/raw/build/glaxnimate-x86_64.AppImage?job=linux%3Aappimage
-size=175 MB
-version=0.5.80

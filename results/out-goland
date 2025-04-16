@@ -1,7 +1,0 @@
-APP="goland"
-APPIMAGE='no'
-GITHUB='no'
-SITE="https://www.jetbrains.com"
-link=https://download.jetbrains.com/go/goland-2024.3.5.tar.gz
-size=2857 MB
-version=2024.3.5

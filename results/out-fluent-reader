@@ -1,7 +1,0 @@
-APP="fluent-reader"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="yang991178/fluent-reader"
-link=https://github.com/yang991178/fluent-reader/releases/download/v1.1.4/Fluent.Reader.1.1.4.AppImage
-size=100 MB
-version=1.1.4

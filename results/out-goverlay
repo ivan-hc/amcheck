@@ -1,7 +1,0 @@
-APP="goverlay"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="benjamimgois/goverlay"
-link=https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-d611b6fd3-anylinux-x86_64.AppImage
-size=61 MB
-version=d611b6fd3

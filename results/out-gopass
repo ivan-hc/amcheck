@@ -1,7 +1,0 @@
-APP="gopass"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="gopasspw/gopass"
-link=https://github.com/gopasspw/gopass/releases/download/v1.15.15/gopass-1.15.15-linux-amd64.tar.gz
-size=20 MB
-version=1.15.15

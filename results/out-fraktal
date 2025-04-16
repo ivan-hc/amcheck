@@ -1,7 +1,0 @@
-APP="fraktal"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Fraktal-JS/fraktal"
-link=https://github.com/Fraktal-JS/fraktal/releases/download/v1.1.1/fraktal-1.1.1-x86_64.AppImage
-size=55 MB
-version=1.1.1

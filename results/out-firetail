@@ -1,7 +1,0 @@
-APP="firetail"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="kawuchuu/firetail"
-link=https://github.com/kawuchuu/firetail/releases/download/v0.7.0/Firetail-0.7.0.AppImage
-size=107 MB
-version=0.7.0

@@ -1,6 +1,0 @@
-APP="firefox-dev"
-APPIMAGE='no'
-GITHUB='no'
-link=https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64&lang=
-size=260 MB
-version=138.0

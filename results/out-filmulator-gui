@@ -1,7 +1,0 @@
-APP="filmulator-gui"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="CarVac/filmulator-gui"
-link=https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage
-size=41 MB
-version=0.11.1

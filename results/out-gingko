@@ -1,7 +1,0 @@
-APP="gingko"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="gingko/client"
-link=https://github.com/gingko/client/releases/download/v2.4.15/Gingko-2.4.15.AppImage
-size=111 MB
-version=2.4.15

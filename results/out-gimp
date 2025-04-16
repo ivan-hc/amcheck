@@ -1,7 +1,0 @@
-APP="gimp"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="https://www.gimp.org"
-link=https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.2-x86_64.AppImage
-size=488 MB
-version=starting

@@ -1,7 +1,0 @@
-APP="gaucho"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="angrykoala/gaucho"
-link=https://github.com/angrykoala/gaucho/releases/download/1.1.0/Gaucho_Linux_1.1.0.AppImage
-size=82 MB
-version=1.1.0

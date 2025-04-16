@@ -1,7 +1,0 @@
-APP="gitify"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="gitify-app/gitify"
-link=https://github.com/gitify-app/gitify/releases/download/v6.2.0/Gitify-6.2.0.AppImage
-size=98 MB
-version=6.2.0

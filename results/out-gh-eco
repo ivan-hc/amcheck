@@ -1,7 +1,0 @@
-APP="gh-eco"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="jrnxf/gh-eco"
-link=https://github.com/jrnxf/gh-eco/releases/download/v0.1.5/linux-amd64
-size=19 MB
-version=0.1.5

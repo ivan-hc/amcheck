@@ -1,7 +1,0 @@
-APP="godmode"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="smol-ai/GodMode"
-link=https://github.com/smol-ai/GodMode/releases/download/v1.0.0-beta.10/GodMode-1.0.0-beta.10.AppImage
-size=97 MB
-version=1.0.0

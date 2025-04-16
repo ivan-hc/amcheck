@@ -1,7 +1,0 @@
-APP="goldendict"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Abs62/goldendict"
-link=https://github.com/Abs62/goldendict/releases/download/continuous/GoldenDict-661dd4d-x86_64.AppImage
-size=56 MB
-version=661dd4d

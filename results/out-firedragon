@@ -1,7 +1,0 @@
-APP="firedragon"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://firedragon.garudalinux.org"
-link=https://gitlab.com/api/v4/projects/55893651/packages/generic/firedragon-catppuccin/11.25.0-1/firedragon-catppuccin-v11.25.0-1.appimage-x86_64.AppImage
-size=111 MB
-version=11.25.0

@@ -1,7 +1,0 @@
-APP="google-tasks-desktop"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Pong420/google-tasks-desktop"
-link=https://github.com/Pong420/google-tasks-desktop/releases/download/3.1.3/Google.Tasks-3.1.3.AppImage
-size=84 MB
-version=3.1.3

@@ -1,7 +1,0 @@
-APP="gedit"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/Gedit-appimage"
-link=https://github.com/ivan-hc/Gedit-appimage/releases/download/continuous/gedit_48.1-3-archimage4.3-x86_64.AppImage
-size=52 MB
-version=48.1

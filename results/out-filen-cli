@@ -1,7 +1,0 @@
-APP="filen-cli"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="FilenCloudDienste/filen-cli"
-link=https://github.com/FilenCloudDienste/filen-cli/releases/download/v0.0.32/filen-cli-v0.0.32-linux-x64
-size=127 MB
-version=0.0.32

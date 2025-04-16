@@ -1,6 +1,0 @@
-APP="firefox"
-APPIMAGE='no'
-GITHUB='no'
-link=https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=
-size=259 MB
-version=137.0.2

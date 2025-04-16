@@ -1,7 +1,0 @@
-APP="gert"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="mcdallas/gert"
-link=https://github.com/mcdallas/gert/releases/download/v0.2.6/gert_v0.2.6_x86_64-unknown-linux-musl.tar.gz
-size=13 MB
-version=0.2.6

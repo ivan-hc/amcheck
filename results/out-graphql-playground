@@ -1,7 +1,0 @@
-APP="graphql-playground"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="graphcool/graphql-playground"
-link=https://github.com/graphql/graphql-playground/releases/download/v1.8.10/graphql-playground-electron-1.8.10-x86_64.AppImage
-size=75 MB
-version=1.8.10

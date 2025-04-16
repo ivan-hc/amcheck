@@ -1,7 +1,0 @@
-APP="gargoyle-bin"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="garglk/garglk"
-link=https://github.com/garglk/garglk/releases/download/2023.1/Gargoyle-x86_64.AppImage
-size=52 MB
-version=2023.1

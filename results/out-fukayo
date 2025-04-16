@@ -1,7 +1,0 @@
-APP="fukayo"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="JiPaix/Fukayo"
-link=https://github.com/JiPaix/Fukayo/releases/download/v0.20.7-beta/Fukayo-0.20.7-beta.AppImage
-size=143 MB
-version=0.20.7

@@ -1,7 +1,0 @@
-APP="ficus"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Thysrael/Ficus"
-link=https://github.com/Thysrael/Ficus/releases/download/v0.2.1/ficus-0.2.1.AppImage
-size=119 MB
-version=0.2.1

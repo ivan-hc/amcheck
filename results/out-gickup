@@ -1,7 +1,0 @@
-APP="gickup"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="cooperspencer/gickup"
-link=https://github.com/cooperspencer/gickup/releases/download/v0.10.38/gickup_0.10.38_linux_amd64.tar.gz
-size=20 MB
-version=0.10.38

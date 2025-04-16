@@ -1,7 +1,0 @@
-APP="fladder"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="DonutWare/Fladder"
-link=https://github.com/DonutWare/Fladder/releases/download/v0.6.2/Fladder-Linux-0.6.2.AppImage
-size=23 MB
-version=0.6.2

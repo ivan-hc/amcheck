@@ -1,7 +1,0 @@
-APP="gnome-calculator"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/Gnome-calculator-appimage"
-link=https://github.com/ivan-hc/Gnome-calculator-appimage/releases/download/continuous/Calculator_48.1-1-archimage4.3-x86_64.AppImage
-size=56 MB
-version=48.1
