@@ -2,9 +2,9 @@ name: "test apps"
 
 on:
   push:
-    # branches: main
+    branches: main
     paths:
-      # - 'programs/x86_64/**'
+      - 'programs/x86_64/**'
       - .github/workflows/test-apps.yml
 
   repository_dispatch:
@@ -85,7 +85,7 @@ jobs:
         run: echo ${{ github.event.client_payload.sha }} >> $GITHUB_STEP_SUMMARY
 
   show-stats:
-    name: "stats 📊"
+    name: "stats 📝"
     runs-on: ubuntu-22.04
     outputs:
       all: ${{ steps.count.outputs.all }}
@@ -303,13 +303,13 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl zsync ripgrep
+          packages: wget curl torsocks zsync ripgrep
           version: 1.0
 
       - name: "Install AM 🎁"
         run: |
-          #sudo systemctl enable tor.service || systemctl enable tor.service
-          #sudo systemctl start tor.service || systemctl start tor.service
+          sudo systemctl enable tor.service || systemctl enable tor.service
+          sudo systemctl restart tor.service && wait || systemctl restart tor.service && wait
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
           if [ ${{ env.BRANCH }} == main ]; then
@@ -351,6 +351,7 @@ jobs:
           if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
             echo "GITHUB='yes'" | tee -a "results/out-${{ matrix.file }}"
           else
+            #echo "EXIT_CODE=9" >> $GITHUB_ENV
             echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
           fi
 
@@ -386,10 +387,11 @@ jobs:
 
           # Install the application
 
-          if [[ "$pure_arg" =~ (kvrt|suyu|vikunja) ]]; then
-            echo "This application cannot be installed in github actions" | tee -a "results/log-${{ matrix.file }}"
+          if [[ "$pure_arg" =~ (kvrt|suyu|urbanterror|vikunja) ]]; then
+            echo "This application cannot be installed on github actions" | tee -a "results/log-${{ matrix.file }}"
             echo "This application is excluded. Cannot be installed in github actions" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+
           else
           
             if [[ "$pure_arg" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
@@ -539,7 +541,7 @@ jobs:
         with:
           name: ko-${{ matrix.file }}
           path: programs/x86_64/results/ko-${{ matrix.file }}
-          if-no-files-found: ignore
+          if-no-files-found: warn
           retention-days: 1
 
       - name: "Upload OK Results ⬆️"
@@ -548,7 +550,7 @@ jobs:
         with:
           name: ok-${{ matrix.file }}
           path: programs/x86_64/results/ok-${{ matrix.file }}
-          if-no-files-found: ignore
+          if-no-files-found: warn
           retention-days: 1
 
   check-failed:
@@ -566,12 +568,15 @@ jobs:
 
       - name: "Checkout"
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: "Download ko results"
         uses: actions/download-artifact@v4
         with:
           path: results
           pattern: ko-*
+          merge-multiple: true
 
       - name: "Process failed results"
         id: proces
@@ -798,7 +803,6 @@ jobs:
       - name: "Download results ⬇️"
         uses: actions/download-artifact@v4
         with:
-          #name: results
           path: results
           merge-multiple: true
 
@@ -917,8 +921,8 @@ jobs:
           echo '-----------------------------------------------------------------'
           ls -R results/
           for rest in results/*; do
-            #echo "suspended for now"
-            cat "$rest"
+            #cat "$rest"
+            tree -d
           done
           echo '-----------------------------------------------------------------'
 
