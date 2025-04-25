@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -48,7 +48,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 250
+  TOTEST: 100
 
 jobs:
   triggered:
@@ -103,7 +103,7 @@ jobs:
         run: |
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
           rm -rf results
-          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
           git rm -r results
           git commit -m "reset stats"
@@ -136,7 +136,6 @@ jobs:
             echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
           fi
           if [[ "${{ steps.stats.outputs.excluded }}" != '0' ]]; then
-            echo "no GitHub/AppImage:" >> $GITHUB_STEP_SUMMARY
             echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
           fi
 
@@ -450,7 +449,7 @@ jobs:
 
       - name: "Git Config"
         run: |
-          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
 
       - name: "Process log results"
@@ -494,7 +493,7 @@ jobs:
           git add results
 
       - name: "Show results"
-        if: (always() && needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true')
+        if: ( ${{ needs.generate-matrix.outputs.skip != 'true' }} && ${{ github.event.inputs.reset_stats != 'true' }} )
         run: |
           if [[ -f results/tested ]]; then
             tested=$(wc -l < results/tested 2>/dev/null || echo 0)
@@ -529,14 +528,14 @@ jobs:
           echo '-----------------------------------------------------------------'
           ls -R results/
           for rest in results/*; do
-            cat "$rest"
+            #cat "$rest"
           done
           echo '-----------------------------------------------------------------'
 
       - name: "Push"
         if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
         run: |
-          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
           if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
             echo "This is a Pull Request. Not saving results."
@@ -559,5 +558,22 @@ jobs:
     needs: generate-matrix
     if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
     steps:
-      - name: "Mark as Successful"
-        run: echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Git Config"
+        run: |
+           git config --global user.name web-flow
+           git config --global user.email "noreply@github.com"
+
+      - name: "Reset all tested"
+        run: |
+          echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+          echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
+          #cp results/log log.old 2>/dev/null && git add log.old || echo "Log deleted without backup"
+          #cp results/excluded excluded.old 2>/dev/null && git add excluded.old || echo "Excluded deleted without backup"
+          #rm -rf results
+          git rm -r results
+          git commit -m "reset stats"
+          git push --force
+          git clean -f
