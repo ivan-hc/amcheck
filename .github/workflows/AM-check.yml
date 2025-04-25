@@ -1,4 +1,4 @@
-name: "Apps check from AM itself"
+name: "AM check"
 
 on:
   push:
@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
