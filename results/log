@@ -12496,3 +12496,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="urbanterror"
+APPIMAGE='no'
+GITHUB='no'
+SITE="http://www.urbanterror.info"
+-----------------------------------------------------------------
+APP="vikunja"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vikunja.io"
+-----------------------------------------------------------------
