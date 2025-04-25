@@ -527,9 +527,6 @@ jobs:
           echo "Missed results:"
           echo '-----------------------------------------------------------------'
           ls -R results/
-          for rest in results/*; do
-            #cat "$rest"
-          done
           echo '-----------------------------------------------------------------'
 
       - name: "Push"
