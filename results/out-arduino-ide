@@ -1,7 +1,0 @@
-APP="arduino-ide"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="arduino/arduino-ide"
-link=https://github.com/arduino/arduino-ide/releases/download/2.3.6/arduino-ide_2.3.6_Linux_64bit.AppImage
-size=192 MB
-version=2.3.6

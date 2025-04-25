@@ -1,7 +1,0 @@
-APP="biblemultithelife"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://gitlab.com/hotlittlewhitedog/BibleTheLife"
-link=https://gitlab.com/api/v4/projects/17175284/uploads/caa00a30e4fef52175512637eabf6c76/BibleMultiTheLife-1.27.4-x86_64.AppImage
-size=69 MB
-version=1.27.4

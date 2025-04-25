@@ -1,7 +1,0 @@
-APP="amarok"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ivan-hc/Amarok-appimage"
-link=https://github.com/ivan-hc/Amarok-appimage/releases/download/continuous/Amarok_3.2.2-1.2-archimage4.3-x86_64.AppImage
-size=310 MB
-version=3.2.2

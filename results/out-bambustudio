@@ -1,7 +1,0 @@
-APP="bambustudio"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="bambulab/BambuStudio"
-link=https://github.com/bambulab/BambuStudio/releases/download/V02.00.03.54/Bambu_Studio_linux_fedora-v02.00.03.54.AppImage
-size=123 MB
-version=02.00.03.54

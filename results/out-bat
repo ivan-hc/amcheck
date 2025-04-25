@@ -1,7 +1,0 @@
-APP="bat"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="sharkdp/bat"
-link=https://github.com/sharkdp/bat/releases/download/v0.25.0/bat-v0.25.0-x86_64-unknown-linux-musl.tar.gz
-size=7 MB
-version=0.25.0

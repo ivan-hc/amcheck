@@ -1,7 +1,0 @@
-APP="apk-editor-studio"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="kefir500/apk-editor-studio"
-link=https://github.com/kefir500/apk-editor-studio/releases/download/v1.7.2/apk-editor-studio_linux_1.7.2.AppImage
-size=55 MB
-version=1.7.2

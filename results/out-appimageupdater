@@ -1,7 +1,0 @@
-APP="appimageupdater"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="antony-jr/AppImageUpdater"
-link=https://github.com/antony-jr/AppImageUpdater/releases/download/v2.0.0/AppImageUpdater-v2.0.0-x86_64.AppImage
-size=38 MB
-version=2.0.0

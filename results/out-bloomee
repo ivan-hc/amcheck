@@ -1,7 +1,0 @@
-APP="bloomee"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="HemantKArya/BloomeeTunes"
-link=https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.11.5%2B170/bloomee_tunes_linux_v2.11.5_dev%2B49.zip
-size=58 MB
-version=2.11.5

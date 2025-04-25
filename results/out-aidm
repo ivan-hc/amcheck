@@ -1,7 +1,0 @@
-APP="aidm"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Alexsussa/AIDM"
-link=https://github.com/Alexsussa/AIDM/releases/download/v0.3/AppImage_Desktop_Maker_v0.3_x86_64.AppImage
-size=147 MB
-version=0.3

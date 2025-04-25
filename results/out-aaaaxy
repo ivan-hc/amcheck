@@ -1,7 +1,0 @@
-APP="aaaaxy"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="divVerent/aaaaxy"
-link=https://github.com/divVerent/aaaaxy/releases/download/v1.6.194/AAAAXY-x86_64.AppImage
-size=34 MB
-version=1.6.194

@@ -1,7 +1,0 @@
-APP="authme"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Levminer/authme"
-link=https://github.com/Levminer/authme/releases/download/6.1.0/authme-6.1.0-linux-x64.appimage
-size=136 MB
-version=6.1.0

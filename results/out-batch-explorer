@@ -1,7 +1,0 @@
-APP="batch-explorer"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Azure/BatchExplorer"
-link=https://github.com/Azure/BatchExplorer/releases/download/v2.22.0-stable.1076/BatchExplorer-2.22.0-stable.1076.AppImage
-size=197 MB
-version=2.22.0

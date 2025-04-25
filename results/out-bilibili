@@ -1,7 +1,0 @@
-APP="bilibili"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="msojocs/bilibili-linux"
-link=https://github.com/msojocs/bilibili-linux/releases/download/v1.16.4-1/bilibili-1.16.4-x86_64.AppImage
-size=307 MB
-version=1.16.4

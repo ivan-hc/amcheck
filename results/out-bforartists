@@ -1,7 +1,0 @@
-APP="bforartists"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Bforartists/Bforartists"
-link=https://github.com/Bforartists/Bforartists/releases/download/v4.4.0/Bforartists-4.4.0-x86_64.AppImage
-size=459 MB
-version=4.4.0

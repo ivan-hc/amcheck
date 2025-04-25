@@ -1,7 +1,0 @@
-APP="anything-llm"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="Mintplex-Labs/anything-llm"
-link=https://cdn.anythingllm.com/latest/AnythingLLMDesktop.AppImage
-size=335 MB
-version=1.8.0

@@ -1,7 +1,0 @@
-APP="amfora"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="makew0rld/amfora"
-link=https://github.com/makew0rld/amfora/releases/download/v1.10.0/amfora_1.10.0_linux_64-bit
-size=17 MB
-version=1.10.0

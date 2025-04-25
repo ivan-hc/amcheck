@@ -1,7 +1,0 @@
-APP="appimagelint"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="TheAssassin/appimagelint"
-link=https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage
-size=106 MB
-version=2025.02.14

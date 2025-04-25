@@ -1,7 +1,0 @@
-APP="audiomoth"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="OpenAcousticDevices/AudioMoth-Configuration-App"
-link=https://github.com/OpenAcousticDevices/AudioMoth-Configuration-App/releases/download/1.12.1/AudioMothConfigurationAppSetup1.12.1.AppImage
-size=97 MB
-version=1.12.1

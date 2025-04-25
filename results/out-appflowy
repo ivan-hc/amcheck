@@ -1,7 +1,0 @@
-APP="appflowy"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="AppFlowy-IO/AppFlowy"
-link=https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.8.9/AppFlowy-0.8.9-linux-x86_64.AppImage
-size=74 MB
-version=0.8.9

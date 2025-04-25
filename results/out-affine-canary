@@ -1,7 +1,0 @@
-APP="affine-canary"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="toeverything/AFFiNE"
-link=https://github.com/toeverything/AFFiNE/releases/download/v0.21.2-canary.1/affine-0.21.2-canary.1-canary-linux-x64.appimage
-size=184 MB
-version=0.21.2

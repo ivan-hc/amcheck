@@ -1,7 +1,0 @@
-APP="blacknut"
-APPIMAGE='yes'
-GITHUB='no'
-SITE="https://www.blacknut.com"
-link=https://releases.blacknut.com/player/last/Blacknut.AppImage
-size=97 MB
-version=4.1.0

@@ -1,7 +1,0 @@
-APP="ani-cli"
-APPIMAGE='no'
-GITHUB='yes'
-SITE="pystardust/ani-cli"
-link=https://github.com/pystardust/ani-cli/releases/download/v4.10/ani-cli
-size=1 MB
-version=4.10

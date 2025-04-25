@@ -1,7 +1,0 @@
-APP="blink"
-APPIMAGE='yes'
-GITHUB='yes'
-SITE="ychclone/blink"
-link=https://github.com/ychclone/blink/releases/download/1.7.4/Blink-x86_64.AppImage
-size=40 MB
-version=1.7.4
