@@ -1,0 +1,7 @@
+APP="axe-electrum"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AXErunners/electrum-axe"
+link=https://github.com/AXErunners/electrum-axe/releases/download/3.3.8.9/Axe-Electrum-3.3.8.9-x86_64.AppImage
+size=49 MB
+version=3.3.8.9

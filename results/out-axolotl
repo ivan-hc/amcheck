@@ -1,0 +1,7 @@
+APP="axolotl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nanu-c/axolotl"
+link=https://github.com/axolotl-chat/axolotl/releases/download/v2.0.1/axolotl_2.0.1_amd64.AppImage
+size=96 MB
+version=2.0.1

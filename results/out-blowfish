@@ -1,0 +1,7 @@
+APP="blowfish"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kremalicious/blowfish"
+link=https://github.com/kremalicious/blowfish/releases/download/v1.6.0/Blowfish-1.6.0.AppImage
+size=80 MB
+version=1.6.0

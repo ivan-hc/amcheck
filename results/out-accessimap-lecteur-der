@@ -1,0 +1,7 @@
+APP="accessimap-lecteur-der"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="makinacorpus/accessimap-lecteur-der"
+link=https://github.com/makinacorpus/accessimap-lecteur-der/releases/download/0.0.35/accessimap-lecteur-der-0.0.34-x86_64.AppImage
+size=52 MB
+version=0.0.34

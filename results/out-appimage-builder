@@ -1,0 +1,7 @@
+APP="appimage-builder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImageCrafters/appimage-builder"
+link=https://github.com/AppImageCrafters/appimage-builder/releases/download/Continuous/appimage-builder-1.1.1.dev32%2Bg2709a3b-x86_64.AppImage
+size=54 MB
+version=1.1.1.dev32%2Bg2709a3b

@@ -1,0 +1,7 @@
+APP="audapolis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bugbakery/audapolis"
+link=https://github.com/bugbakery/audapolis/releases/download/v0.3.0/audapolis-linux-x86_64-0.3.0_4.AppImage
+size=282 MB
+version=0.3.0

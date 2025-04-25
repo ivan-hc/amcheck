@@ -1,0 +1,7 @@
+APP="biying"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iovxw/biying"
+link=https://github.com/iovxw/biying/releases/download/v1.1.1/Biying-v1.1.1-x86_64.AppImage
+size=43 MB
+version=1.1.1

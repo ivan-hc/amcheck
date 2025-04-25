@@ -1,0 +1,7 @@
+APP="baobab-gtk3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link=https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/baobab3/Disk_Usage_Analyzer-3.38.0-x86_64.AppImage
+size=4 MB
+version=3.38.0

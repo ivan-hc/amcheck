@@ -1,0 +1,7 @@
+APP="anki"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ankitects/anki"
+link=https://github.com/ankitects/anki/releases/download/25.05b1/anki-25.05-linux-qt6.tar.zst
+size=473 MB
+version=25.05

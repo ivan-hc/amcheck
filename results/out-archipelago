@@ -1,0 +1,7 @@
+APP="archipelago"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArchipelagoMW/Archipelago"
+link=https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.1/Archipelago_0.6.1_linux-x86_64.AppImage
+size=80 MB
+version=0.6.1

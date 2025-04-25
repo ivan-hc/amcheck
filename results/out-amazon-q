@@ -1,0 +1,7 @@
+APP="amazon-q"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://aws.amazon.com"
+link=https://desktop-release.q.us-east-1.amazonaws.com/latest/amazon-q.appimage
+size=266 MB
+version=2025.04.24

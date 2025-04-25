@@ -1,0 +1,7 @@
+APP="abiword"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Abiword-appimage"
+link=https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/AbiWord_3.0.6-2-archimage4.3-x86_64.AppImage
+size=64 MB
+version=3.0.6

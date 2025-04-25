@@ -1,0 +1,7 @@
+APP="android-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zyrouge/android-studio-appimages"
+link=https://github.com/zyrouge/android-studio-appimages/releases/download/v2024.3.1.15/android-studio-2024.3.1.15-x86_64.AppImage
+size=1221 MB
+version=2024.3.1.15

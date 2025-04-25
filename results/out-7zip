@@ -1,0 +1,7 @@
+APP="7zip"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.7-zip.org"
+link=https://www.7-zip.org/a/7z2409-linux-x64.tar.xz
+size=7 MB
+version=7z2409

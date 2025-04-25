@@ -1,0 +1,7 @@
+APP="acreom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Acreom/releases"
+link=https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage
+size=162 MB
+version=1.20.2

@@ -1,0 +1,7 @@
+APP="artix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.artix.com"
+link=https://launch.artix.com/latest/Artix_Games_Launcher-x86_64.AppImage
+size=79 MB
+version=2.1.2

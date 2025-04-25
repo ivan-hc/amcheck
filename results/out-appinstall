@@ -1,0 +1,7 @@
+APP="appinstall"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Drosaca/appImageInstaller"
+link=https://github.com/Drosaca/appImageInstaller/releases/download/v1.0/appinstall
+size=3 MB
+version=1.0

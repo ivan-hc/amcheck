@@ -1,0 +1,7 @@
+APP="blueglow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/blue-glow"
+link=https://github.com/antony-jr/blue-glow/releases/download/development/BlueGlow-ad96b38-x86_64.AppImage
+size=36 MB
+version=ad96b38

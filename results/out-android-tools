@@ -1,0 +1,7 @@
+APP="android-tools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/android-tools-AppImage"
+link=https://github.com/pkgforge-dev/android-tools-AppImage/releases/download/36.0.0/Android-platform-tools-36.0.0-x86_64.AppImage
+size=9 MB
+version=36.0.0

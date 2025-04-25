@@ -1,0 +1,7 @@
+APP="barnacal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mike-engel/Barnacal"
+link=https://github.com/mike-engel/Barnacal/releases/download/v0.9.4/Barnacal-0.9.4.AppImage
+size=56 MB
+version=0.9.4

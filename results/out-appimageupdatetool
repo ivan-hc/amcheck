@@ -1,0 +1,6 @@
+APP="appimageupdatetool"
+APPIMAGE='yes'
+GITHUB='yes'
+link=https://github.com/pkgforge-dev/AppImageUpdate-Enhanced-Edition/releases/download/61145a816/appimageupdatetool%2Bvalidate-x86_64.AppImage
+size=8 MB
+version=starting

@@ -1,0 +1,7 @@
+APP="bilibilivideodownload"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blogwy/BilibiliVideoDownload"
+link=https://github.com/BilibiliVideoDownload/BilibiliVideoDownload/releases/download/v3.3.3/BilibiliVideoDownload-3.3.3.AppImage
+size=114 MB
+version=3.3.3

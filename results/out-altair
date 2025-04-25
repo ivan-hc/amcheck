@@ -1,0 +1,7 @@
+APP="altair"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="altair-graphql/altair"
+link=https://github.com/altair-graphql/altair/releases/download/v8.2.2/altair_8.2.2_x86_64_linux.AppImage
+size=148 MB
+version=8.2.2

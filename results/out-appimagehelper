@@ -1,0 +1,4 @@
+APP="appimagehelper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/posktomten/appimagehelper"

@@ -1,0 +1,7 @@
+APP="blob-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="MicheleCioccarelli/blob-dl"
+link=https://github.com/MicheleCioccarelli/blob-dl/releases/download/v1.0.2/blob-dl-x86_64-unknown-linux-gnu.tar.xz
+size=4 MB
+version=1.0.2

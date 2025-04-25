@@ -1,0 +1,7 @@
+APP="bioanimation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ccnydss/bioanimation"
+link=https://github.com/ccnydss/bioanimation/releases/download/v0.3.0/bioanimation-0.3.0-x86_64.AppImage
+size=77 MB
+version=0.3.0

@@ -1,0 +1,7 @@
+APP="aillio-ts"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="roastworld/roast-time-release"
+link=https://github.com/roastworld/roast-time-release/releases/download/v1.1.2/aillio-ts-1.1.2-x86_64.AppImage
+size=62 MB
+version=1.1.2

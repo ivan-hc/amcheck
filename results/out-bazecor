@@ -1,0 +1,7 @@
+APP="bazecor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dygmalab/Bazecor"
+link=https://github.com/Dygmalab/Bazecor/releases/download/v1.7.0/Bazecor-1.7.0-x64.AppImage
+size=133 MB
+version=1.7.0

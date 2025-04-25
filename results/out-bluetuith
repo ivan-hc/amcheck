@@ -1,0 +1,7 @@
+APP="bluetuith"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="darkhz/bluetuith"
+link=https://github.com/bluetuith-org/bluetuith/releases/download/v0.2.3/bluetuith_0.2.3_Linux_x86_64.tar.gz
+size=9 MB
+version=0.2.3

@@ -1,0 +1,7 @@
+APP="ark.desktop.wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArkEcosystem/desktop-wallet"
+link=https://github.com/ArkEcosystem/desktop-wallet/releases/download/2.9.5/ark-desktop-wallet-linux-x86_64-2.9.5.AppImage
+size=102 MB
+version=2.9.5

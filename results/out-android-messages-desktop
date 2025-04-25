@@ -1,0 +1,7 @@
+APP="android-messages-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chrisknepper/android-messages-desktop"
+link=https://github.com/chrisknepper/android-messages-desktop/releases/download/v3.1.0/Android-Messages-3.1.0.AppImage
+size=72 MB
+version=3.1.0

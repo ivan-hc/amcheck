@@ -1,0 +1,7 @@
+APP="aphelion-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aphtoken/aph-wallet-gui"
+link=https://github.com/aphtoken/aph-wallet-gui/releases/download/4.1.0/Aphelion_Wallet-4.1.0-lin.AppImage
+size=106 MB
+version=4.1.0

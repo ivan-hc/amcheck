@@ -1,0 +1,7 @@
+APP="air-controller-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="air-controller/air-controller-desktop"
+link=https://github.com/air-controller/air-controller-desktop/releases/download/0.4.0/AirController_0.4.0.AppImage
+size=13 MB
+version=0.4.0

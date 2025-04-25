@@ -1,0 +1,7 @@
+APP="animos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keerthivasansa/animos"
+link=https://github.com/keerthivasansa/animos/releases/download/v0.5.8/Animos-0.5.8.AppImage
+size=156 MB
+version=0.5.8

@@ -1,0 +1,7 @@
+APP="alduin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Xstoudi/alduin"
+link=https://github.com/AlduinApp/alduin/releases/download/v3.2.0/alduin_3.2.0_amd64.AppImage
+size=84 MB
+version=3.2.0

@@ -1,0 +1,7 @@
+APP="alpine-flatimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruanformigoni/flatimage"
+link=https://github.com/ruanformigoni/flatimage/releases/download/v1.0.8/alpine.flatimage
+size=48 MB
+version=1.0.8

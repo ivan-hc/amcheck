@@ -1,0 +1,7 @@
+APP="beekeeper-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="beekeeper-studio/beekeeper-studio"
+link=https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.2.0-beta.1/Beekeeper-Studio-5.2.0-beta.1.AppImage
+size=225 MB
+version=5.2.0

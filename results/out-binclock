@@ -1,0 +1,7 @@
+APP="binclock"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="TeddyDD/binclock"
+link=https://github.com/TeddyDD/binclock/releases/download/v6.0.3/binclock-v6.0.3-linux-amd64.tar.gz
+size=3 MB
+version=6.0.3

@@ -1,0 +1,7 @@
+APP="alvr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elpinguinoopensource/alvr-appimage"
+link=https://github.com/elpinguinoopensource/alvr-appimage/releases/download/v18.2.6/ALVR-x86_64.AppImage
+size=17 MB
+version=18.2.6

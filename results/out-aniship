@@ -1,0 +1,7 @@
+APP="aniship"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="progzone122/AniShip"
+link=https://github.com/progzone122/AniShip/releases/download/v0.0.4.2night/setup-0.0.4-2.AppImage
+size=96 MB
+version=0.0.4

@@ -1,0 +1,7 @@
+APP="ambermoon.net"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Pyrdacor/Ambermoon.net"
+link=https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.10.6/Ambermoon.net-Linux.tar.gz
+size=112 MB
+version=1.10.6
