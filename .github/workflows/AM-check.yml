@@ -459,39 +459,37 @@ jobs:
           echo '-----------------------------------------------------------------'
           echo 'No GitHub/AppImage +'
           echo '-----------------------------------------------------------------'
-          if test -f results/out-*; then
-            for LogFile in results/out-*; do
-              echo '-----------------------------------------------------------------'
-              echo "$LogFile out"
-              echo '-----------------------------------------------------------------'
-              cat "$LogFile"
-              echo '-----------------------------------------------------------------'
-              echo '-----------------------------------------------------------------'
-              [ -f "$LogFile" ] || continue
-              appname=$(basename "$LogFile" | cut -d'-' -f2-)
-              echo '-----------------------------------------------------------------'
-              echo "$appname"
-              echo '-----------------------------------------------------------------'
-              if [ -z "$size" ]; then
-                size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
-                echo "size is $size"
-              fi
-              KoFile="results/ko-$appname"
-              if [[ -f "$KoFile" ]]; then
-                echo "$appname" | tee -a failing results/excluded
-                rm -f "$KoFile"
-                cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-                sort -u results/excluded -o results/excluded
-                sort -u failing -o failing
-                git add results/excluded
-              else
-                cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-                echo "$appname" >> results/tested
-              fi
-              echo '-----------------------------------------------------------------' >> results/log
-              rm -f "$LogFile"
-            done
-          fi
+          for LogFile in results/out-*; do
+            echo '-----------------------------------------------------------------'
+            echo "$LogFile out"
+            echo '-----------------------------------------------------------------'
+            cat "$LogFile"
+            echo '-----------------------------------------------------------------'
+            echo '-----------------------------------------------------------------'
+            [ -f "$LogFile" ] || continue
+            appname=$(basename "$LogFile" | cut -d'-' -f2-)
+            echo '-----------------------------------------------------------------'
+            echo "$appname"
+            echo '-----------------------------------------------------------------'
+            if [ -z "$size" ]; then
+              size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
+              echo "size is $size"
+            fi
+            KoFile="results/ko-$appname"
+            if [[ -f "$KoFile" ]]; then
+              echo "$appname" | tee -a failing results/excluded
+              rm -f "$KoFile"
+              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+              sort -u results/excluded -o results/excluded
+              sort -u failing -o failing
+              git add results/excluded
+            else
+              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+              echo "$appname" >> results/tested
+            fi
+            echo '-----------------------------------------------------------------' >> results/log
+            rm -f "$LogFile"
+          done
           sort -u results/tested -o results/tested
           git add results
 
