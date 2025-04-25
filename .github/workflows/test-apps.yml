@@ -390,7 +390,7 @@ jobs:
           if [[ "$pure_arg" =~ (kvrt|suyu|urbanterror|vikunja) ]]; then
             echo "This application cannot be installed on github actions" | tee -a "results/log-${{ matrix.file }}"
             echo "This application is excluded. Cannot be installed in github actions" >> $GITHUB_STEP_SUMMARY
-            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+            echo "${{ matrix.file }}" >> results/out-${{ matrix.file }}
 
           else
           
@@ -548,8 +548,8 @@ jobs:
         # if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: ok-${{ matrix.file }}
-          path: programs/x86_64/results/ok-${{ matrix.file }}
+          name: out-${{ matrix.file }}
+          path: programs/x86_64/results/out-${{ matrix.file }}
           if-no-files-found: warn
           retention-days: 1
 
@@ -755,7 +755,7 @@ jobs:
         # if: success()
         uses: actions/upload-artifact@v4
         with:
-          path: results/ok-*
+          path: results/out-*
           if-no-files-found: warn
           retention-days: 1
           compression-level: 0
@@ -913,7 +913,7 @@ jobs:
           rm -f appslist
           rm -f results/appslist
           rm -f results/failing
-          rm -f results/ok-*
+          rm -f results/out-*
           rm -f results/ko-*
           rm -rf results/results
           echo '-----------------------------------------------------------------'
