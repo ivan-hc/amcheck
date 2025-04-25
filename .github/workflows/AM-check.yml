@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '*/15 * * * *'
+    - cron: '*/10 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -459,37 +459,39 @@ jobs:
           echo '-----------------------------------------------------------------'
           echo 'No GitHub/AppImage +'
           echo '-----------------------------------------------------------------'
-          for LogFile in results/out-*; do
-            echo '-----------------------------------------------------------------'
-            echo "$LogFile out"
-            echo '-----------------------------------------------------------------'
-            cat "$LogFile"
-            echo '-----------------------------------------------------------------'
-            echo '-----------------------------------------------------------------'
-            [ -f "$LogFile" ] || continue
-            appname=$(basename "$LogFile" | cut -d'-' -f2-)
-            echo '-----------------------------------------------------------------'
-            echo "$appname"
-            echo '-----------------------------------------------------------------'
-            if [ -z "$size" ]; then
-              size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
-              echo "size is $size"
-            fi
-            KoFile="results/ko-$appname"
-            if [[ -f "$KoFile" ]]; then
-              echo "$appname" | tee -a failing results/excluded
-              rm -f "$KoFile"
-              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-              sort -u results/excluded -o results/excluded
-              sort -u failing -o failing
-              git add results/excluded
-            else
-              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-              echo "$appname" >> results/tested
-            fi
-            echo '-----------------------------------------------------------------' >> results/log
-            rm -f "$LogFile"
-          done
+          if test -f results/out-*; then
+            for LogFile in results/out-*; do
+              echo '-----------------------------------------------------------------'
+              echo "$LogFile out"
+              echo '-----------------------------------------------------------------'
+              cat "$LogFile"
+              echo '-----------------------------------------------------------------'
+              echo '-----------------------------------------------------------------'
+              [ -f "$LogFile" ] || continue
+              appname=$(basename "$LogFile" | cut -d'-' -f2-)
+              echo '-----------------------------------------------------------------'
+              echo "$appname"
+              echo '-----------------------------------------------------------------'
+              if [ -z "$size" ]; then
+                size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
+                echo "size is $size"
+              fi
+              KoFile="results/ko-$appname"
+              if [[ -f "$KoFile" ]]; then
+                echo "$appname" | tee -a failing results/excluded
+                rm -f "$KoFile"
+                cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+                sort -u results/excluded -o results/excluded
+                sort -u failing -o failing
+                git add results/excluded
+              else
+                cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+                echo "$appname" >> results/tested
+              fi
+              echo '-----------------------------------------------------------------' >> results/log
+              rm -f "$LogFile"
+            done
+          fi
           sort -u results/tested -o results/tested
           git add results
 
@@ -552,44 +554,6 @@ jobs:
             git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
           fi
-
-  # delete-all-artifacts:
-  #   name: "cleanup 🧹"
-  #   runs-on: ubuntu-22.04
-  #   needs: update-results
-  #   if: always()
-  #   steps:
-  #     - name: "Check out repository 🏃"
-  #       uses: actions/checkout@v4
-  #
-  #     - name: "Delete Artifacts 🙈"
-  #       env:
-  #         REPO_NAME: ${{ github.repository }}
-  #         RUN_ID: ${{ github.run_id }}
-  #         TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       run: |
-  #         echo "Fetching and deleting all artifacts for run ID: $RUN_ID"
-  #         PAGE=1
-  #         DELETED=0
-  #         while true; do
-  #           RESPONSE=$(curl -s -H "Authorization: token $TOKEN" \
-  #            "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=1000&page=$PAGE")
-  #           ARTIFACT_IDS=$(echo "$RESPONSE" | jq -r '.artifacts[].id')
-  #           if [[ -z "$ARTIFACT_IDS" ]]; then
-  #             echo "No more artifacts to delete. Total deleted: $DELETED"
-  #             break
-  #           fi
-  #           for ARTIFACT_ID in $ARTIFACT_IDS; do
-  #             echo "Deleting artifact with ID: $ARTIFACT_ID"
-  #             curl -X DELETE -s -H "Authorization: token $TOKEN" \
-  #              "https://api.github.com/repos/$REPO_NAME/actions/artifacts/$ARTIFACT_ID"
-  #             ((DELETED+=1))
-  #           done
-  #           ((PAGE+=1))
-  #         done
-  #         echo "Successfully deleted $DELETED artifacts."
-  #         echo "Git clean"
-  #         git clean -f
 
   already-tested:
     name: "all 🏁"
