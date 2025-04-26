@@ -234,7 +234,7 @@ jobs:
     name: "🔨"
     needs: generate-matrix
     runs-on: ubuntu-22.04
-    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    if: ( needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' )
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
@@ -434,7 +434,7 @@ jobs:
     name: "results 📰"
     needs: run-actions
     runs-on: ubuntu-22.04
-    if: ( ${{ needs.generate-matrix.outputs.skip != 'true' }} && ${{ github.event.inputs.reset_stats != 'true' }} )
+    if: ( needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' )
     steps:
       - name: "Checkout"
         uses: actions/checkout@v4
@@ -494,7 +494,7 @@ jobs:
           git add results
 
       - name: "Show results"
-        if: ( ${{ needs.generate-matrix.outputs.skip != 'true' }} && ${{ github.event.inputs.reset_stats != 'true' }} )
+        if: ( needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' )
         run: |
           if [[ -f results/tested ]]; then
             tested=$(wc -l < results/tested 2>/dev/null || echo 0)
@@ -531,7 +531,7 @@ jobs:
           echo '-----------------------------------------------------------------'
 
       - name: "Push"
-        if: ( ${{ needs.generate-matrix.outputs.skip != 'true' }} && ${{ github.event.inputs.reset_stats != 'true' }} )
+        if: ( needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' )
         run: |
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
@@ -554,7 +554,7 @@ jobs:
     name: "all 🏁"
     runs-on: ubuntu-22.04
     needs: generate-matrix
-    if: ( ${{ needs.generate-matrix.outputs.skip == 'true' }} || ${{ github.event.inputs.reset_stats == 'true' }} )
+    if: ( needs.generate-matrix.outputs.skip == 'true' || github.event.inputs.reset_stats == 'true' )
     steps:
       - name: "Checkout"
         uses: actions/checkout@v4
