@@ -109,11 +109,11 @@ jobs:
         if: github.event.inputs.reset_stats == 'true'
         run: |
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
-          rm -rf results
+          #rm -rf results
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
-          rm -f results/tested
-          rm -f results/log
+          git rm -f results/tested
+          git rm -f results/log
           git commit -m "reset stats"
           git push --force
           git clean -f
@@ -515,7 +515,7 @@ jobs:
             KoFile="results/ko-$appname"
             if [[ -f "$KoFile" ]]; then
               echo "$appname" | tee -a failing results/failed
-              rm -f "$KoFile"
+              git rm -f "$KoFile"
               cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
               sort -u results/failed -o results/failed
               sort -u failing -o failing
@@ -525,7 +525,7 @@ jobs:
               echo "$appname" >> results/tested
             fi
             echo '-----------------------------------------------------------------' >> results/log
-            rm -f "$LogFile"
+            git rm -f "$LogFile"
           done
           sort -u results/tested -o results/tested
           git add results
@@ -564,9 +564,9 @@ jobs:
             echo "😱 $failed failed" >> $GITHUB_STEP_SUMMARY
           fi
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
-          rm -f appslist
-          rm -f results/appslist
-          rm -f results/ok-*
+          git rm -f appslist
+          git rm -f results/appslist
+          git rm -f results/ok-*
           echo '-----------------------------------------------------------------'
           echo "Missed results:"
           echo '-----------------------------------------------------------------'
