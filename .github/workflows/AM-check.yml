@@ -124,7 +124,7 @@ jobs:
           echo "### Last app (DEBUG)" >> $GITHUB_STEP_SUMMARY
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
-          sort programs/x86_64-apps | grep -v "\"gum\"\|\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-" | awk '{print $2}' > results/tested
+          cat appslist > results/tested
           git add results/tested
           git commit -m "DEBUG: test end"
           git push --force
@@ -471,7 +471,7 @@ jobs:
     name: "results 📰"
     needs: run-actions
     runs-on: ubuntu-22.04
-    if: ( needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' )
+    if: always() && needs.generate-matrix.outputs.skip != 'true' || github.event.inputs.reset_stats != 'true'
     steps:
       - name: "Checkout"
         uses: actions/checkout@v4
