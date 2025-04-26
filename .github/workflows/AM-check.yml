@@ -6,57 +6,63 @@ on:
     paths:
       - 'programs/x86_64/**'
       #- .github/workflows/test-apps.yml
-
+  # Trigger workflow from another one or remotely
   repository_dispatch:
     types: [check]
-
+  # Trigger workflow from webUI
   workflow_dispatch:
     inputs:
+      # reset tested apps
       reset_stats:
         description: "RESET stats"
         required: true
         default: false
         type: boolean
+      # test only excluded
       retest_excluded:
         description: "TEST excluded"
         required: true
         default: false
         type: boolean
+      # test only choosen apps
       what_test:
         description: "App names: (space between)"
         required: false
         default: ""
         type: string
+      # test only choosen number of apps
       how_many:
         description: "Number of apps: (max 256)"
         required: false
         default: ''
         type: integer
+      # test reseting with 1 app left
       test_end:
-        description: "DEBUG reset"
+        description: "*** DEBUG reset ***"
         required: true
         default: false
         type: boolean
-
+  # Trigger by schedule
   schedule:
     #- cron: '*/30 6-8 * * *'
     - cron: '*/15 * * * *'
-
+# Stop previous workflow run?
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
-
+# Permissions for action
 permissions:
   actions: write
   contents: write
-
+# Set default values for whole run
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
   TOTEST: 250
-
+# jobs
 jobs:
   triggered:
+    # triggeered remotely
     if: github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
     steps:
@@ -114,6 +120,17 @@ jobs:
           git commit -m "reset stats"
           git push --force
           git clean -f
+
+      - name: "DEBUG: end"
+        if: github.event.inputs.test_end == 'true'
+        run: |
+          echo "### Last app (DEBUG)" >> $GITHUB_STEP_SUMMARY
+          git config --global user.name web-flow
+          git config --global user.email "noreply@github.com"
+          sort programs/x86_64-apps | grep -v "\"gum\"\|\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-" | awk '{print $2}' > results/tested
+          git add results/tested
+          git commit -m "DEBUG: test end"
+          git push --force
 
       - name: "Count stats 📊"
         if: github.event.inputs.reset_stats != 'true'
@@ -197,8 +214,8 @@ jobs:
             FILES="${{ github.event.inputs.what_test }}"
           elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
             echo "Testing excluded"
-            if [ -f result-var/excluded ]; then
-              FILES=$(cat result-var/excluded)
+            if [ -f results/excluded ]; then
+              FILES=$(cat results/excluded)
             else
               echo "Nothing excluded!"
               echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
