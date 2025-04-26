@@ -18,9 +18,9 @@ on:
         required: true
         default: false
         type: boolean
-      # test only excluded
-      retest_excluded:
-        description: "TEST excluded"
+      # test only failed
+      retest_failed:
+        description: "TEST failed"
         required: true
         default: false
         type: boolean
@@ -68,6 +68,7 @@ jobs:
       all: ${{ steps.count.outputs.all }}
       tested: ${{ steps.stats.outputs.tested }}
       excluded: ${{ steps.stats.outputs.excluded }}
+      failed: ${{ steps.stats.outputs.failed }}
     steps:
       - name: "Checkout AM"
         if: github.event.inputs.reset_stats != 'true'
@@ -139,8 +140,14 @@ jobs:
           else
             excluded='0'
           fi
+           if [ -f results/faileded ]; then
+            failed=$(wc -l < results/failed)
+          else
+            failed='0'
+          fi
           echo "tested=$tested" >> $GITHUB_OUTPUT
           echo "excluded=$excluded" >> $GITHUB_OUTPUT
+          echo "failed=$failed" >> $GITHUB_OUTPUT
 
       - name: "Show stats 📊"
         if: github.event.inputs.reset_stats != 'true'
@@ -151,7 +158,11 @@ jobs:
             echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
           fi
           if [[ "${{ steps.stats.outputs.excluded }}" != '0' ]]; then
-            echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
+            echo " ${{ steps.stats.outputs.excluded }} excluded" >> $GITHUB_STEP_SUMMARY
+            cat results/excluded >> $GITHUB_STEP_SUMMARY
+          fi
+          if [[ "${{ steps.stats.outputs.failed }}" != '0' ]]; then
+            echo " ❌ ${{ steps.stats.outputs.failed }} (failed)" >> $GITHUB_STEP_SUMMARY
           fi
 
   generate-matrix:
@@ -173,7 +184,7 @@ jobs:
 
       - name: "Generate Matrix 🏆"
         id: set-matrix
-        if: github.event.inputs.retest_excluded != 'true'
+        if: github.event.inputs.retest_failed != 'true'
         run: |
           if [[ -f results/tested ]]; then
             echo "tested exist"
@@ -189,9 +200,9 @@ jobs:
             echo "First run!"
             cp appslist totest_tmp.list
           fi
-          if [[ -f results/excluded ]]; then
-            echo "Excluded exists"
-            comm -23 totest_tmp.list results/excluded > totest.list
+          if [[ -f results/failed ]]; then
+            echo "failed exists"
+            comm -23 totest_tmp.list results/failed > totest.list
             if [ ! -s totest.list ]; then
               echo "List is empty"
               echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
@@ -205,13 +216,13 @@ jobs:
           if [ ! -z "${{ github.event.inputs.what_test }}" ]; then
             echo "Testing only: ${{ github.event.inputs.what_test }}"
             FILES="${{ github.event.inputs.what_test }}"
-          elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
-            echo "Testing excluded"
-            if [ -f results/excluded ]; then
-              FILES=$(cat results/excluded)
+          elif [ "${{ github.event.inputs.retest_failed }}" == 'true' ]; then
+            echo "Testing failed"
+            if [ -f results/failed ]; then
+              FILES=$(cat results/failed)
             else
-              echo "Nothing excluded!"
-              echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
+              echo "Nothing failed!"
+              echo "Nothing failed!" >> $GITHUB_STEP_SUMMARY
               exit 1
             fi
           else
@@ -232,6 +243,15 @@ jobs:
               fi
             fi
             FILES=$(head -n "$how_many" totest.list || cat totest.list)
+          fi
+          if [[ -f results/excluded ]]; then
+            echo "Excluded applications exist"
+            EXCLUDED=$(cat results/excluded)
+            comm -13 <(echo "$EXCLUDED" | sort) <(sort totest.list) > excluded.list
+            FILES=$(cat excluded.list)
+          else
+            echo "No excluded applications found"
+            FILES=$(cat totest.list)
           fi
           echo '-------------------------------------------------------------'
           echo 'Testing files:'
@@ -492,12 +512,12 @@ jobs:
             fi
             KoFile="results/ko-$appname"
             if [[ -f "$KoFile" ]]; then
-              echo "$appname" | tee -a failing results/excluded
+              echo "$appname" | tee -a failing results/failed
               rm -f "$KoFile"
               cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-              sort -u results/excluded -o results/excluded
+              sort -u results/failed -o results/failed
               sort -u failing -o failing
-              git add results/excluded
+              git add results/failed
             else
               cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
               echo "$appname" >> results/tested
@@ -521,20 +541,25 @@ jobs:
           else
             excluded='0'
           fi
+          if [[ -f results/failed ]]; then
+            failed=$(wc -l < results/failed 2>/dev/null || echo 0)
+          else
+            failed='0'
+          fi
           if [[ -f failing ]]; then
             fail=$(wc -l < failing 2>/dev/null || echo 0)
           else
             fail='0'
           fi
           count=$(wc -l < appslist)
-          remaining=$((count - tested - excluded))
+          remaining=$((count - tested - excluded - failed))
           (( remaining < 0 )) && remaining=0
           echo "🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
           if [[ "$fail" != '0' ]]; then
-            echo ":x: $fail excluded now" >> $GITHUB_STEP_SUMMARY
+            echo ":x: $fail failed now" >> $GITHUB_STEP_SUMMARY
           fi
-          if [[ "$excluded" != '0' ]]; then
-            echo "😱 $excluded excluded" >> $GITHUB_STEP_SUMMARY
+          if [[ "$failed" != '0' ]]; then
+            echo "😱 $failed failed" >> $GITHUB_STEP_SUMMARY
           fi
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
           rm -f appslist
@@ -587,7 +612,9 @@ jobs:
           #cp results/log log.old 2>/dev/null && git add log.old || echo "Log deleted without backup"
           #cp results/excluded excluded.old 2>/dev/null && git add excluded.old || echo "Excluded deleted without backup"
           #rm -rf results
-          git rm -r results
+          git rm -r results/tested
+          git rm -r results/failed
+          git rm -r results/log
           git commit -m "reset stats"
           git push --force
           git clean -f
