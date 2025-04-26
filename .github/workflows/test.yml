@@ -1,0 +1,21 @@
+name: test
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_name:
+        description: 'Name for this run'
+        required: true
+        default: 'Manual run'
+      custom_input:
+        description: 'Custom input value'
+        required: true
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use run name and custom input
+        run: |
+          echo "Run name: ${{ github.event.inputs.run_name }}"
+          echo "Custom input: ${{ github.event.inputs.custom_input }}"
