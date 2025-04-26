@@ -245,16 +245,15 @@ jobs:
                 how_many="$TOTEST"
               fi
             fi
-            FILES=$(head -n "$how_many" totest.list || cat totest.list)
-          fi
-          if [[ -f results/excluded ]]; then
-            echo "Excluded applications exist"
-            EXCLUDED=$(cat results/excluded)
-            comm -13 <(echo "$EXCLUDED" | sort) <(sort totest.list) > excluded.list
-            FILES=$(cat excluded.list)
-          else
-            echo "No excluded applications found"
-            FILES=$(cat totest.list)
+            if [[ -f results/excluded ]]; then
+              echo "Excluded applications exist"
+              EXCLUDED=$(cat results/excluded)
+              comm -13 <(echo "$EXCLUDED" | sort) <(sort totest.list) > excluded.list
+              FILES=$(head -n "$how_many" excluded.list || cat excluded.list)
+            else
+              echo "No excluded applications found"
+              FILES=$(head -n "$how_many" totest.list || cat totest.list)
+            fi
           fi
           echo '-------------------------------------------------------------'
           echo 'Testing files:'
