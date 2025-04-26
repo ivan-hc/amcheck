@@ -4,8 +4,11 @@ on:
   push:
     branches: main
     paths:
-      - 'programs/x86_64/**'
-      #- .github/workflows/test-apps.yml
+      # for use in AM repo
+      #- 'programs/x86_64/**'
+      # To see commit names in runs!
+      # Usefull for developing/debuging actions!
+      - .github/workflows/AM-check.yml
   # Trigger workflow from another one or remotely
   repository_dispatch:
     types: [check]
