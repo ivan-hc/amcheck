@@ -61,19 +61,6 @@ env:
   TOTEST: 250
 # jobs
 jobs:
-  triggered:
-    # triggeered remotely
-    if: github.event_name == 'repository_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Remotely triggered"
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.client_payload.ref }}
-
-      - name: "Show payload"
-        run: echo ${{ github.event.client_payload.sha }} >> $GITHUB_STEP_SUMMARY
-
   show-stats:
     name: "stats 📝"
     runs-on: ubuntu-22.04
@@ -87,6 +74,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
+          ref: ${{ github.event.client_payload.ref }}
+
+      - name: "Show payload"
+        if: github.event_name == 'repository_dispatch'
+        run: echo ${{ github.event.client_payload.sha }} >> $GITHUB_STEP_SUMMARY
 
       - name: "Count programs 📊"
         if: github.event.inputs.reset_stats != 'true'
