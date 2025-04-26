@@ -116,7 +116,8 @@ jobs:
           rm -rf results
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
-          git rm -r results
+          rm -f results/tested
+          rm -f results/log
           git commit -m "reset stats"
           git push --force
           git clean -f
