@@ -32,6 +32,11 @@ on:
         required: false
         default: ''
         type: integer
+      test_end:
+        description: "DEBUG reset"
+        required: true
+        default: false
+        type: boolean
 
   schedule:
     #- cron: '*/30 6-8 * * *'
