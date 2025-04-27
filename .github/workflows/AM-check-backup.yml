@@ -1,4 +1,4 @@
-name: "AM check BACKUP (do not touch this, Zeno)"
+name: "AM check BACKUP"
 
 on:
   push:
@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '*/15 * * * *'
+    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
