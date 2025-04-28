@@ -405,14 +405,14 @@ jobs:
             fi
           fi
 
-      - name: "Upload out ⬆️"
-        uses: actions/upload-artifact@v4
-        with:
-          name: out-${{ matrix.file }}
-          path: programs/x86_64/results/out-${{ matrix.file }}
-          if-no-files-found: error
-          retention-days: 1
-          compression-level: 0
+      #- name: "Upload out ⬆️"
+      #  uses: actions/upload-artifact@v4
+      #  with:
+      #    name: out-${{ matrix.file }}
+      #    path: programs/x86_64/results/out-${{ matrix.file }}
+      #    if-no-files-found: error
+      #    retention-days: 1
+      #    compression-level: 0
 
       - name: "Upload KO Results ☝️"
         if: failure()
