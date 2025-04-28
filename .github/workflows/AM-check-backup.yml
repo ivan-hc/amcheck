@@ -271,9 +271,9 @@ jobs:
           echo "Creating results directory"
           mkdir -p results
 
-      #- name: "APP ${{ matrix.file }} 🚧"
-      #  working-directory: programs/x86_64
-      #  run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
+      - name: "APP ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
 
       #- name: "Is ${{ matrix.file }} AppImage? 🚧"
       #  id: is-appimage
