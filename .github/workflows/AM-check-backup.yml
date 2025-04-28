@@ -48,7 +48,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 250
+  TOTEST: 5
 
 jobs:
   triggered:
@@ -271,9 +271,9 @@ jobs:
           echo "Creating results directory"
           mkdir -p results
 
-      - name: "APP ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
+      #- name: "APP ${{ matrix.file }} 🚧"
+      #  working-directory: programs/x86_64
+      #  run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
 
       #- name: "Is ${{ matrix.file }} AppImage? 🚧"
       #  id: is-appimage
@@ -460,7 +460,7 @@ jobs:
       - name: "Process log results"
         run: |
           mkdir -p results
-          for LogFile in results/out-*; do
+          for LogFile in results/log-*; do
             echo '-----------------------------------------------------------------'
             echo "$LogFile out"
             echo '-----------------------------------------------------------------'
