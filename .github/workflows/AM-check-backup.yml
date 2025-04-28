@@ -271,41 +271,41 @@ jobs:
           echo "Creating results directory"
           mkdir -p results
 
-      - name: "APP ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
+      #- name: "APP ${{ matrix.file }} 🚧"
+      #  working-directory: programs/x86_64
+      #  run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
 
-      - name: "Is ${{ matrix.file }} AppImage? 🚧"
-        id: is-appimage
-        working-directory: programs/x86_64
-        run: |
-          if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
-            echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
-          else
+      #- name: "Is ${{ matrix.file }} AppImage? 🚧"
+      #  id: is-appimage
+      #  working-directory: programs/x86_64
+      #  run: |
+      #    if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
+      #      echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
+      #    else
             #echo "EXIT_CODE=99" >> $GITHUB_ENV
-            echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
-            touch results/out-"${{ matrix.file }}"
-          fi
+      #      echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
+      #      touch results/out-"${{ matrix.file }}"
+      #    fi
 
-      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
-        id: on-github
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
-            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
-          else
+      #- name: "Is ${{ matrix.file }} on GitHub? 🚧"
+      #  id: on-github
+      #  working-directory: programs/x86_64
+      #  run: |
+      #    if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+      #      echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
+      #    else
             #echo "EXIT_CODE=9" >> $GITHUB_ENV
-            echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
-            touch results/out-"${{ matrix.file }}"
-          fi
+      #      echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
+      #      touch results/out-"${{ matrix.file }}"
+      #    fi
 
-      - name: "SITE ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
-            SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
-            echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
+      #- name: "SITE ${{ matrix.file }} 🚧"
+      #  working-directory: programs/x86_64
+      #  run: |
+      #    if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
+      #      SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
+      #      echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
+      #    fi
 
       - name: "test ${{ matrix.file }} 🚧"
         id: test
@@ -441,11 +441,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: "Download results ⬇️"
-        uses: actions/download-artifact@v4
-        with:
-          path: results
-          merge-multiple: true
+      #- name: "Download results ⬇️"
+      #  uses: actions/download-artifact@v4
+      #  with:
+      #    path: results
+      #    merge-multiple: true
 
       - name: "Download appslist"
         uses: actions/download-artifact@v4
