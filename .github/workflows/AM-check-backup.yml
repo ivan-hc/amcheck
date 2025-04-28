@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '0 * * * *'
+    - cron: '*/20 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -48,7 +48,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 5
+  TOTEST: 150
 
 jobs:
   triggered:
@@ -271,41 +271,41 @@ jobs:
           echo "Creating results directory"
           mkdir -p results
 
-      #- name: "APP ${{ matrix.file }} 🚧"
-      #  working-directory: programs/x86_64
-      #  run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
+      - name: "APP ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: echo "APP=\"${{ matrix.file }}\"" | tee -a results/out-"${{ matrix.file }}"
 
-      #- name: "Is ${{ matrix.file }} AppImage? 🚧"
-      #  id: is-appimage
-      #  working-directory: programs/x86_64
-      #  run: |
-      #    if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
-      #      echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
-      #    else
+      - name: "Is ${{ matrix.file }} AppImage? 🚧"
+        id: is-appimage
+        working-directory: programs/x86_64
+        run: |
+          if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
+            echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
+          else
             #echo "EXIT_CODE=99" >> $GITHUB_ENV
-      #      echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
-      #      touch results/out-"${{ matrix.file }}"
-      #    fi
+            echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
+            touch results/out-"${{ matrix.file }}"
+          fi
 
-      #- name: "Is ${{ matrix.file }} on GitHub? 🚧"
-      #  id: on-github
-      #  working-directory: programs/x86_64
-      #  run: |
-      #    if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
-      #      echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
-      #    else
+      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
+        id: on-github
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
+          else
             #echo "EXIT_CODE=9" >> $GITHUB_ENV
-      #      echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
-      #      touch results/out-"${{ matrix.file }}"
-      #    fi
+            echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
+            touch results/out-"${{ matrix.file }}"
+          fi
 
-      #- name: "SITE ${{ matrix.file }} 🚧"
-      #  working-directory: programs/x86_64
-      #  run: |
-      #    if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
-      #      SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
-      #      echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
-      #    fi
+      - name: "SITE ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
+            SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
+            echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
 
       - name: "test ${{ matrix.file }} 🚧"
         id: test
@@ -405,14 +405,14 @@ jobs:
             fi
           fi
 
-      #- name: "Upload out ⬆️"
-      #  uses: actions/upload-artifact@v4
-      #  with:
-      #    name: out-${{ matrix.file }}
-      #    path: programs/x86_64/results/out-${{ matrix.file }}
-      #    if-no-files-found: error
-      #    retention-days: 1
-      #    compression-level: 0
+      - name: "Upload out ⬆️"
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-${{ matrix.file }}
+          path: programs/x86_64/results/out-${{ matrix.file }}
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
 
       - name: "Upload KO Results ☝️"
         if: failure()
@@ -441,11 +441,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      #- name: "Download results ⬇️"
-      #  uses: actions/download-artifact@v4
-      #  with:
-      #    path: results
-      #    merge-multiple: true
+      - name: "Download results ⬇️"
+        uses: actions/download-artifact@v4
+        with:
+          path: results
+          merge-multiple: true
 
       - name: "Download appslist"
         uses: actions/download-artifact@v4
@@ -460,7 +460,7 @@ jobs:
       - name: "Process log results"
         run: |
           mkdir -p results
-          for LogFile in results/log-*; do
+          for LogFile in results/out-*; do
             echo '-----------------------------------------------------------------'
             echo "$LogFile out"
             echo '-----------------------------------------------------------------'
