@@ -35,7 +35,7 @@ on:
 
   schedule:
     #- cron: '*/30 6-8 * * *'
-    - cron: '0/20 * * * *'
+    - cron: '0,20,40 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
