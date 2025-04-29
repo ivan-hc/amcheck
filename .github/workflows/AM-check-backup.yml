@@ -344,15 +344,45 @@ jobs:
           
             if [[ "$pure_arg" =~ (appimageupdatetool|gimp|libreoffice|mpv|wine) ]]; then
 
-              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+              fi
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+              fi
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
 
-              echo y | am -i bat "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo y | am -i bat "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+              echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+              fi
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+              fi
 
             else
 
-              echo y | am -i "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo y | am -i "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo y | am -i "${{ matrix.file }}" --debug 2>&1
+              echo y | am -i "${{ matrix.file }}" --debug 2>&1
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo y | am -i "${{ matrix.file }}" --debug 2>&1
+              fi
+              ARGSNUMB=$(echo "$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 30
+                echo y | am -i "${{ matrix.file }}" --debug 2>&1
+              fi
 
             fi
 
