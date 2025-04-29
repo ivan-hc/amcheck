@@ -11041,3 +11041,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Vivaldi-appimage"
 -----------------------------------------------------------------
+APP="brave"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+-----------------------------------------------------------------
