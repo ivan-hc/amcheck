@@ -11031,3 +11031,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.toughcookies.net"
 -----------------------------------------------------------------
+APP="vivaldi-snapshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+-----------------------------------------------------------------
+APP="vivaldi-stable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+-----------------------------------------------------------------
