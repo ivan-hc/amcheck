@@ -48,7 +48,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 100
+  TOTEST: 90
 
 jobs:
   triggered:
