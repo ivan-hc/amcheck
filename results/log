@@ -6242,3 +6242,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.median-xl.com"
 -----------------------------------------------------------------
+APP="zmk-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zmkfirmware/zmk-studio"
+-----------------------------------------------------------------
