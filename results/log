@@ -11236,3 +11236,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="xaizek/uncov"
 -----------------------------------------------------------------
+APP="mission-center"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://missioncenter.io"
+-----------------------------------------------------------------
