@@ -1,4 +1,4 @@
-name: "AM check BACKUP"
+name: "AMCHECK"
 
 on:
   push:
