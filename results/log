@@ -9961,3 +9961,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="sonusmix/sonusmix"
 -----------------------------------------------------------------
+APP="skype"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Skype-appimage"
+-----------------------------------------------------------------
