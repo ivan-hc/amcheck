@@ -7461,3 +7461,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="OpenRA/OpenRA"
 -----------------------------------------------------------------
+APP="krita-devel"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.kde.org/unstable/krita"
+-----------------------------------------------------------------
