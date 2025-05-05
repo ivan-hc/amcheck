@@ -6207,3 +6207,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="yafp/media-dupes"
 -----------------------------------------------------------------
+APP="inkscape"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://inkscape.org"
+-----------------------------------------------------------------
