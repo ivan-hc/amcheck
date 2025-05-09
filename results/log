@@ -12486,3 +12486,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="thomasheckmann/zxinfo-file-browser"
 -----------------------------------------------------------------
+APP="kunkun"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kunkunsh/kunkun"
+-----------------------------------------------------------------
+APP="zy-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hunlongyu/ZY-Player"
+-----------------------------------------------------------------
