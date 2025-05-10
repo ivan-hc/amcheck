@@ -9991,3 +9991,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="spacebarchat/client"
 -----------------------------------------------------------------
+APP="sunvox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+-----------------------------------------------------------------
