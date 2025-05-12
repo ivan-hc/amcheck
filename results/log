@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
 -----------------------------------------------------------------
+APP="trenchbroom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kduske/TrenchBroom"
+-----------------------------------------------------------------
