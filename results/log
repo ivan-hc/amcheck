@@ -9991,3 +9991,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://spacemesh.io"
 -----------------------------------------------------------------
+APP="urbanterror"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/UrbanTerror-appimage"
+-----------------------------------------------------------------
