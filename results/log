@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="rgriebl/brickstore"
 -----------------------------------------------------------------
+APP="master-pdf-editor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://code-industry.net/masterpdfeditor"
+-----------------------------------------------------------------
