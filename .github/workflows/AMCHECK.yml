@@ -262,15 +262,22 @@ jobs:
         run: |
           #chmod a+x ./INSTALL
           #sudo ./INSTALL 2> /dev/null
-          sudo mkdir -p /opt/am/modules /usr/local/bin && cd /opt/am || exit 1
-          sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER" && sudo chmod a+x ./APP-MANAGER || exit 1
+          #sudo mkdir -p /opt/am/modules /usr/local/bin && cd /opt/am || exit 1
+          sudo mkdir -p /opt/am/modules /usr/local/bin || exit 1
+          sudo cp -r ./APP-MANAGER /opt/am/APP-MANAGER && sudo chmod a+x /opt/am/APP-MANAGER || exit 1
+          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER" && sudo chmod a+x ./APP-MANAGER || exit 1
           sudo ln -fs /opt/am/APP-MANAGER /usr/local/bin/am || exit 1
-          cd ./modules
-          sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/database.am" || exit 1
-          sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/install.am" || exit 1
-          sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/management.am" || exit 1
-          am -l 1>/dev/null
-          wait
+          sudo touch /opt/am/remove || exit 1
+          sudo cp -r modules/*.am /opt/am/modules/
+          #cd ./modules
+          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/database.am" || exit 1
+          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/install.am" || exit 1
+          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/management.am" || exit 1
+          #am -l 1>/dev/null
+          #wait
+          export AMDATADIR="${XDG_DATA_HOME:-$HOME/.local/share}"/AM
+          mkdir -p "$AMDATADIR" || exit 1
+          cp -r ./programs/x86_64-apps "$AMDATADIR"/ || exit 1
           
 
       - name: "Checkout repository"
