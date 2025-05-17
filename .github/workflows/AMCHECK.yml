@@ -250,15 +250,30 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl zsync ripgrep
+          packages: wget curl ripgrep
           version: 1.0
 
-      - name: "Install AM 🎁"
+      - name: "Fix AppArmor"
         run: |
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-          chmod +x ./INSTALL
-          sudo ./INSTALL 2> /dev/null || ./INSTALL
+
+      - name: "Install AM 🎁"
+        run: |
+          chmod a+x ./INSTALL
+          sudo ./INSTALL 2> /dev/null
+          if [ ! -f /opt/am/modules/install.am ]; then
+            [ -f /opt/am/remove ] && sudo /opt/am/remove
+            sudo ./INSTALL 2> /dev/null
+          fi
+          if [ ! -f /opt/am/modules/install.am ]; then
+            [ -f /opt/am/remove ] && sudo /opt/am/remove
+            sudo ./INSTALL 2> /dev/null
+          fi
+          if [ ! -f /opt/am/modules/install.am ]; then
+            [ -f /opt/am/remove ] && sudo /opt/am/remove
+            sudo ./INSTALL 2> /dev/null
+          fi
 
       - name: "Checkout repository"
         uses: actions/checkout@v4
