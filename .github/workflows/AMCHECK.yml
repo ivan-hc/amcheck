@@ -258,26 +258,16 @@ jobs:
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
           sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 
-      - name: "Install AM 🎁"
+      - name: "Install AM manually 🎁"
         run: |
-          #chmod a+x ./INSTALL
-          #sudo ./INSTALL 2> /dev/null
-          #sudo mkdir -p /opt/am/modules /usr/local/bin && cd /opt/am || exit 1
           sudo mkdir -p /opt/am/modules /usr/local/bin || exit 1
           sudo cp -r ./APP-MANAGER /opt/am/APP-MANAGER && sudo chmod a+x /opt/am/APP-MANAGER || exit 1
-          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER" && sudo chmod a+x ./APP-MANAGER || exit 1
           sudo ln -fs /opt/am/APP-MANAGER /usr/local/bin/am || exit 1
           sudo touch /opt/am/remove || exit 1
           sudo cp -r modules/*.am /opt/am/modules/
-          #cd ./modules
-          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/database.am" || exit 1
-          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/install.am" || exit 1
-          #sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/management.am" || exit 1
-          #am -l 1>/dev/null
-          #wait
           export AMDATADIR="${XDG_DATA_HOME:-$HOME/.local/share}"/AM
           mkdir -p "$AMDATADIR" || exit 1
-          cp -r ./programs/x86_64-apps "$AMDATADIR"/ || exit 1
+          cp -r programs/x86_64-apps "$AMDATADIR"/ || exit 1
           
 
       - name: "Checkout repository"
@@ -302,7 +292,6 @@ jobs:
           if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
             echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
           else
-            #echo "EXIT_CODE=99" >> $GITHUB_ENV
             echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
             touch results/out-"${{ matrix.file }}"
           fi
@@ -592,9 +581,6 @@ jobs:
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
             exit 0
           else
-            #git status
-            #git log --oneline -5
-            #git diff
             git add results
             git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
@@ -618,9 +604,6 @@ jobs:
         run: |
           echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
-          #cp results/log log.old 2>/dev/null && git add log.old || echo "Log deleted without backup"
-          #cp results/excluded excluded.old 2>/dev/null && git add excluded.old || echo "Excluded deleted without backup"
-          #rm -rf results
           git rm -r results
           git commit -m "reset stats"
           git push --force
