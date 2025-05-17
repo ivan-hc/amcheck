@@ -260,21 +260,8 @@ jobs:
 
       - name: "Install AM 🎁"
         run: |
-          #sed -i 's/		exit 1/		#exit 1/g' ./INSTALL
           #chmod a+x ./INSTALL
           #sudo ./INSTALL 2> /dev/null
-          #if [ ! -f /opt/am/modules/install.am ]; then
-          #  [ -f /opt/am/remove ] && sudo /opt/am/remove
-          #  sudo ./INSTALL 2> /dev/null
-          #fi
-          #if [ ! -f /opt/am/modules/install.am ]; then
-          #  [ -f /opt/am/remove ] && sudo /opt/am/remove
-          #  sudo ./INSTALL 2> /dev/null
-          #fi
-          #if [ ! -f /opt/am/modules/install.am ]; then
-          #  [ -f /opt/am/remove ] && sudo /opt/am/remove
-          #  sudo ./INSTALL 2> /dev/null
-          #fi
           sudo mkdir -p /opt/am/modules /usr/local/bin && cd /opt/am || exit 1
           sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER" && sudo chmod a+x ./APP-MANAGER || exit 1
           sudo ln -fs /opt/am/APP-MANAGER /usr/local/bin/am || exit 1
@@ -282,6 +269,8 @@ jobs:
           sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/database.am" || exit 1
           sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/install.am" || exit 1
           sudo wget -q "https://raw.githubusercontent.com/ivan-hc/AM/main/modules/management.am" || exit 1
+          am -l 1>/dev/null
+          wait
           
 
       - name: "Checkout repository"
