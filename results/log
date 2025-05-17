@@ -1322,3 +1322,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="tw93/Pake"
 -----------------------------------------------------------------
+APP="coderunner-pake"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+-----------------------------------------------------------------
+APP="poe-pake"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+-----------------------------------------------------------------
