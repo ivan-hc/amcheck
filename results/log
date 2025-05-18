@@ -3732,3 +3732,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="realthunder/FreeCAD"
 -----------------------------------------------------------------
+APP="cheatbreaker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CheatBreakerNet/Launcher"
+-----------------------------------------------------------------
