@@ -4982,3 +4982,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="4gray/iptvnator"
 -----------------------------------------------------------------
+APP="gmail-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timche/gmail-desktop"
+-----------------------------------------------------------------
+APP="inkscape"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://inkscape.org"
+-----------------------------------------------------------------
