@@ -9991,3 +9991,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="richardhbtz/soundcloud-rpc"
 -----------------------------------------------------------------
+APP="cromite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Cromite-AppImage"
+-----------------------------------------------------------------
