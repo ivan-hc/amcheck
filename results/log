@@ -6232,3 +6232,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="fupdec/mediaChips"
 -----------------------------------------------------------------
+APP="linphone"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.linphone.org"
+-----------------------------------------------------------------
