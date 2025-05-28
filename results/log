@@ -2492,3 +2492,19 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="probonopd/dfilemanager"
 -----------------------------------------------------------------
+APP="adb"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://developer.android.com"
+downVer="36.0.0"
+size=19 MB
+version=36.0.0
+-----------------------------------------------------------------
+APP="ark"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/KDE-utils-appimage"
+downVer="https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.04-1-archimage4.3-x86_64.AppImage"
+size=376 MB
+version=25.04
+-----------------------------------------------------------------
