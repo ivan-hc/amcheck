@@ -2533,3 +2533,19 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="horsicq/DIE-engine"
 -----------------------------------------------------------------
+APP="diffuse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="icidasset/diffuse"
+downVer="https://github.com/icidasset/diffuse/releases/download/3.5.0/diffuse_3.5.0_amd64.AppImage"
+size=167 MB
+version=3.5.0
+-----------------------------------------------------------------
+APP="digikam"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://files.kde.org/digikam/"
+downVer="https://files.kde.org/digikam/digiKam-8.7.0-20250528T180119-Qt6-x86-64.appimage"
+size=293 MB
+version=8.7.0
+-----------------------------------------------------------------
