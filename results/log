@@ -3742,3 +3742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="enzo1982/freac"
 -----------------------------------------------------------------
+APP="splayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="imsyy/SPlayer"
+-----------------------------------------------------------------
