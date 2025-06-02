@@ -12512,3 +12512,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="openrgb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openrgb.org"
+-----------------------------------------------------------------
