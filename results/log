@@ -12517,3 +12517,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="rpcs3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RPCS3/rpcs3-binaries-linux"
+-----------------------------------------------------------------
