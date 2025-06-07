@@ -3737,3 +3737,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="frappe/books"
 -----------------------------------------------------------------
+APP="dunst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/dunst-AppImage"
+-----------------------------------------------------------------
