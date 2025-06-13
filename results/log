@@ -4987,3 +4987,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="intiface/intiface-desktop"
 -----------------------------------------------------------------
+APP="inkscape"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://inkscape.org"
+-----------------------------------------------------------------
