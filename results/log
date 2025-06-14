@@ -1242,3 +1242,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="rgriebl/brickstore"
 -----------------------------------------------------------------
+APP="artifact"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.bitbreeds.com"
+-----------------------------------------------------------------
