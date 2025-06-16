@@ -7487,3 +7487,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="OpenRA/OpenRA"
 -----------------------------------------------------------------
+APP="nest-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nest-desktop/nest-desktop-AppImage"
+-----------------------------------------------------------------
