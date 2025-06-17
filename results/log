@@ -12517,3 +12517,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="deskthing"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ItsRiprod/DeskThing"
+-----------------------------------------------------------------
