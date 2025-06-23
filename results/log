@@ -2497,3 +2497,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="fosslife/devtools-x"
 -----------------------------------------------------------------
+APP="ryujinx"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ryujinx.app/"
+-----------------------------------------------------------------
