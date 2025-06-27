@@ -6232,3 +6232,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ORNL-AMO/AMO-Tools-Desktop"
 -----------------------------------------------------------------
+APP="gaiasky"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="gaiasky/gaiasky"
+-----------------------------------------------------------------
