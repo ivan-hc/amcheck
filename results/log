@@ -11227,3 +11227,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="linagora/Twake-Desktop"
 -----------------------------------------------------------------
+APP="trader"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ftp.zap.org.au"
+-----------------------------------------------------------------
