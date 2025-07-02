@@ -4952,3 +4952,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="naoxio/inbreeze"
 -----------------------------------------------------------------
+APP="inkscape"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://inkscape.org"
+-----------------------------------------------------------------
