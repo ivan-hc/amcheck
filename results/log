@@ -4957,3 +4957,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://inkscape.org"
 -----------------------------------------------------------------
+APP="cursor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.cursor.com"
+-----------------------------------------------------------------
