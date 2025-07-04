@@ -11232,3 +11232,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="jonathontoon/tweet-tray"
 -----------------------------------------------------------------
+APP="reaper"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://reaper.fm"
+-----------------------------------------------------------------
