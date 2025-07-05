@@ -3742,3 +3742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="floating/frame"
 -----------------------------------------------------------------
+APP="memoto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RaphaelMartin83/MeMoTo"
+-----------------------------------------------------------------
