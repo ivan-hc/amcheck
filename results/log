@@ -12542,3 +12542,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="mangayomi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kodjodevf/mangayomi"
+-----------------------------------------------------------------
+APP="writemonkey"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://writemonkey.com"
+-----------------------------------------------------------------
