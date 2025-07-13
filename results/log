@@ -8742,3 +8742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="bkueng/qMasterPassword"
 -----------------------------------------------------------------
+APP="wlx-overlay-s"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="galister/wlx-overlay-s"
+-----------------------------------------------------------------
