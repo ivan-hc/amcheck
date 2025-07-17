@@ -6227,3 +6227,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="MDLlife/MDL"
 -----------------------------------------------------------------
+APP="icecat"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.gnu.org/software/gnuzilla"
+-----------------------------------------------------------------
