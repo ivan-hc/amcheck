@@ -12562,3 +12562,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Yandex-Browser-appimage"
 -----------------------------------------------------------------
+APP="cursor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.cursor.com"
+-----------------------------------------------------------------
