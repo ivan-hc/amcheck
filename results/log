@@ -7482,3 +7482,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="open-osrs/launcher"
 -----------------------------------------------------------------
+APP="lovelive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LoveLiveMusicPlayer/LoveLiveMusicPlayer"
+-----------------------------------------------------------------
