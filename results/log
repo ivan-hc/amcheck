@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="tom-james-watson/breaktimer-app"
 -----------------------------------------------------------------
+APP="beatsaber-mod-manager"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="affederaffe/BeatSaberModManager"
+-----------------------------------------------------------------
