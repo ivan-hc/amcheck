@@ -7477,3 +7477,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="OpenMW/openmw"
 -----------------------------------------------------------------
+APP="nerdfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ThatOneCalculator/NerdFetch"
+-----------------------------------------------------------------
