@@ -12577,3 +12577,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="python"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+-----------------------------------------------------------------
