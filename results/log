@@ -1,0 +1,5 @@
+APP="redact"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://redact.dev"
+-----------------------------------------------------------------
