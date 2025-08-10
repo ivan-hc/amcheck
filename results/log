@@ -6427,3 +6427,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.wolai.com"
 -----------------------------------------------------------------
+APP="wiznote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wiz.cn"
+-----------------------------------------------------------------
