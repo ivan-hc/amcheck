@@ -6432,3 +6432,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.wiz.cn"
 -----------------------------------------------------------------
+APP="lens"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://k8slens.dev"
+-----------------------------------------------------------------
