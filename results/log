@@ -1,0 +1,5 @@
+APP="kitty"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="kovidgoyal/kitty"
+-----------------------------------------------------------------
