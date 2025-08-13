@@ -12377,3 +12377,13 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="srevinsaju/zap"
 -----------------------------------------------------------------
+APP="cryptocam-companion"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/cryptocam"
+-----------------------------------------------------------------
+APP="dezor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://dezor.net"
+-----------------------------------------------------------------
