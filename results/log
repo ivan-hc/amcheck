@@ -12532,3 +12532,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="lutris-gamepad-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="andrew-ld/lutris-gamepad-ui"
+-----------------------------------------------------------------
