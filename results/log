@@ -12532,3 +12532,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="zoxide"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ajeetdsouza/zoxide"
+-----------------------------------------------------------------
