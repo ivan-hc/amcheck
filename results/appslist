@@ -317,7 +317,6 @@ chat-gpt
 chatall
 chatbox
 chatgpt-next-web
-chatgpt-pake
 chatpad-ai
 chatterino2
 chatterino2-nightly
@@ -364,7 +363,6 @@ coal-launcher
 code
 code-notes
 code-radio
-coderunner-pake
 coinstac
 colobot
 colon
@@ -631,7 +629,6 @@ everdo
 everinst
 evince
 evoplex
-excalidraw-pake
 excel-parser-processor
 exe
 exeqt
@@ -721,7 +718,6 @@ flb
 flightgear
 flightgear-airports
 flippy-qualitative-testbench
-flomo-pake
 floorp
 flowinity
 fluent-reader
@@ -797,7 +793,6 @@ geforce-infinity
 geforcenow-electron
 gemalaya
 gemget
-gemini-pake
 genact
 genesis
 geofs
@@ -1175,7 +1170,6 @@ lite-xl
 liteide
 litime
 liveme-pro-tools
-lizhi-pake
 lmms
 lmstudio
 local-browser
@@ -1282,7 +1276,6 @@ micropad
 microsoft-edge
 microsoft-edge-beta
 microsoft-edge-dev
-microsoft-loop-pake
 midori
 miesimulatorgui
 mightymike
@@ -1658,7 +1651,6 @@ podium
 podman
 podman-desktop-companion
 poe-ladder
-poe-pake
 poedit
 poi
 pointless
@@ -1704,7 +1696,6 @@ procs
 procspin
 procyon
 programmer-browser
-programmusic-pake
 promethium
 proofkeeper
 prospect-mail
@@ -1787,7 +1778,6 @@ quokkagit
 quran-companion
 qv2ray
 qview
-qwerty-learner-pake
 qxgedit
 r2modman
 r3play
@@ -2250,7 +2240,6 @@ tweaksophia
 tweet-tray
 twetter
 twitch-wrapper
-twitter-pake
 typioca
 tzared
 uad-ng
@@ -2363,7 +2352,6 @@ webdesktop
 webkitty
 webrecorder
 weektodo
-weread-pake
 westeroscraftlauncher
 wethr
 wewechat
@@ -2434,7 +2422,6 @@ xelfviewer
 xemu
 xenia-canary
 xgetter
-xiaohongshu-pake
 xilinota
 xl-converter
 xlights
@@ -2467,10 +2454,8 @@ ym-desktop
 youtube-download
 youtube-downloader
 youtube-music
-youtube-pake
 youtube-tui
 youtubeanddownloader
-youtubemusic-pake
 youtubesearchfilter
 yt-dlandcut
 yt-dlg
@@ -2483,7 +2468,6 @@ ytmdesktop2
 yts-streaming
 yubikey-manager
 yup
-yuque-pake
 yuview
 zap
 zapdesktop
