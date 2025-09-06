@@ -12477,3 +12477,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="thomasheckmann/zxinfo-file-browser"
 -----------------------------------------------------------------
+APP="zy-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hunlongyu/ZY-Player"
+-----------------------------------------------------------------
