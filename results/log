@@ -12487,3 +12487,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="icedrive"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://icedrive.net"
+-----------------------------------------------------------------
