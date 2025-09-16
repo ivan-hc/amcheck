@@ -12507,3 +12507,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="gobuster"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="OJ/gobuster"
+-----------------------------------------------------------------
