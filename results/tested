@@ -2382,6 +2382,7 @@ windows95
 wine
 wine-devel
 wine-stable
+wine-staging
 wine-staging-ge-proton
 wine32-deploy
 winrar
@@ -2404,6 +2405,7 @@ woof-doom
 wootility
 wooting-analog-midi
 wootomation
+wora
 workflowy
 wournal
 wowup
@@ -2414,6 +2416,7 @@ wsocks
 wtfutil
 wthrr
 wxmaxima
+wxmedit
 x-loc
 x-minecraft-launcher
 x-pixiv
@@ -2493,3 +2496,13 @@ zmk-studio
 zmninja
 znax
 znote
+zograscope
+zoom
+zotero
+zoxide
+zramen
+zsync2
+zulip
+zx-poly
+zxinfo-file-browser
+zy-player
