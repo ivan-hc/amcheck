@@ -8742,3 +8742,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://sourceforge.net/projects/qmidinet"
 -----------------------------------------------------------------
+APP="dbgate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dbgate/dbgate"
+-----------------------------------------------------------------
+APP="dbgate-premium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dbgate/dbgate"
+-----------------------------------------------------------------
