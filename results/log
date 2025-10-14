@@ -12557,3 +12557,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="codebook-lsp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="blopker/codebook"
+-----------------------------------------------------------------
