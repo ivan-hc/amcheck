@@ -12557,3 +12557,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="wora"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="playwora/wora"
+-----------------------------------------------------------------
