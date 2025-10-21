@@ -8727,3 +8727,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="AaronErhardt/qfsm"
 -----------------------------------------------------------------
+APP="lmstudio"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://lmstudio.ai"
+-----------------------------------------------------------------
