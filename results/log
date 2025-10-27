@@ -3742,3 +3742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="foxfolio/foxfolio-desktop"
 -----------------------------------------------------------------
+APP="fbreader"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://fbreader.org/"
+-----------------------------------------------------------------
