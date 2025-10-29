@@ -2497,3 +2497,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="HuakunShen/devclean"
 -----------------------------------------------------------------
+APP="git-credential-oauth"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="hickford/git-credential-oauth"
+-----------------------------------------------------------------
+APP="starship"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="starship/starship"
+-----------------------------------------------------------------
