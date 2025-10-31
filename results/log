@@ -8742,3 +8742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="AaronErhardt/qfsm"
 -----------------------------------------------------------------
+APP="pcloud"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.pcloud.com"
+-----------------------------------------------------------------
