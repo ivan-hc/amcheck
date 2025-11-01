@@ -8742,3 +8742,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://flipperzero.one"
 -----------------------------------------------------------------
+APP="ymir"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="StrikerX3/Ymir"
+-----------------------------------------------------------------
+APP="ymir-nightly"
+APPIMAGE='no'
+GITHUB='no'
+SITE="StrikerX3/Ymir"
+-----------------------------------------------------------------
