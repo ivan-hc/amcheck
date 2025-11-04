@@ -8722,3 +8722,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="FRC-Utilities/QDriverStation"
 -----------------------------------------------------------------
+APP="remnote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.remnote.com"
+-----------------------------------------------------------------
