@@ -12627,3 +12627,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="ymir"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="StrikerX3/Ymir"
+-----------------------------------------------------------------
+APP="ymir-nightly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="StrikerX3/Ymir"
+-----------------------------------------------------------------
