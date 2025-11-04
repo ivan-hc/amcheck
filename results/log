@@ -7477,3 +7477,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="kettek/open-markup-editor"
 -----------------------------------------------------------------
+APP="goland"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.jetbrains.com"
+-----------------------------------------------------------------
