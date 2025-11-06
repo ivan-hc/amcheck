@@ -1341,6 +1341,7 @@ movie-monad
 moyu
 mp3-tagger
 mp4grep
+mpc-qt
 mpv
 mqtt-explorer
 mqttcute
@@ -1830,6 +1831,7 @@ redact
 redeclipse
 redis-gui
 redis-viewer
+rehex
 remind-me-again
 remnote
 rendertune
