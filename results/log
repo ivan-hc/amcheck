@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
 -----------------------------------------------------------------
+APP="shadps4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shadps4-emu/shadPS4"
+-----------------------------------------------------------------
