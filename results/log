@@ -4992,3 +4992,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="naoxio/inbreeze"
 -----------------------------------------------------------------
+APP="jdownloader2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Shikakiben/JDownloader2-AppImage"
+-----------------------------------------------------------------
