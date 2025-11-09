@@ -12662,3 +12662,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="shadps4-qtlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shadps4-emu/shadps4-qtlauncher"
+-----------------------------------------------------------------
