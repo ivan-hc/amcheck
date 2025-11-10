@@ -10072,3 +10072,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="manuelernestog/snapclear-app-releases"
 -----------------------------------------------------------------
+APP="espi"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://low-hiss.com"
+-----------------------------------------------------------------
