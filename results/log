@@ -8832,3 +8832,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="bkueng/qMasterPassword"
 -----------------------------------------------------------------
+APP="via-desktop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cebby2420/via-desktop"
+-----------------------------------------------------------------
