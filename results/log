@@ -1377,3 +1377,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Brave-appimage"
 -----------------------------------------------------------------
+APP="bazecor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dygmalab/Bazecor"
+-----------------------------------------------------------------
