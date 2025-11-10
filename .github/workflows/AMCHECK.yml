@@ -2,7 +2,7 @@ name: "AMCHECK"
 
 on:
   push:
-    branches: main
+    branches: dev
     paths:
       - 'programs/x86_64/**'
 
@@ -46,7 +46,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
+  BRANCH: dev
   TOTEST: 250
 
 jobs:
