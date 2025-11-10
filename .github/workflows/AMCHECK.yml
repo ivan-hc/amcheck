@@ -323,6 +323,9 @@ jobs:
           mkdir -p results
           EXIT_CODE=0
 
+          # Enter developer mode
+          am --devmode-enable
+
           # Define the content of the script || Alow testing non existent (for workflow tests)
           script_content=$(cat ${{ matrix.file }}) || echo "Testing non exist file! (for workflow test only)"
           # Define the pure name of the app
