@@ -38,6 +38,7 @@ albafetch
 alduin
 alephium-wallet
 alexandria
+alien-tec-ui
 allusion
 alpine-flatimage
 alr2appimage
@@ -447,6 +448,7 @@ cryptr
 cscrypto
 ctool
 ctop
+cudatext
 cura
 cura-beta
 curlie
@@ -656,6 +658,7 @@ fafarunner
 fairshare
 fakedata
 falkon
+fantascene-dynamic-wallpaper
 fantasia-archive
 farmhand
 fastcompmgr
@@ -1024,7 +1027,14 @@ james
 jan
 janice
 jazz2
+jdappstreamedit
+jddesktopentryedit
+jdminecraftlauncher
+jdmrpackinstaller
+jdnbtexplorer
 jdownloader2
+jdreplace
+jdtextedit
 jellyamp
 jellyfin
 jexiftoolgui
@@ -1035,6 +1045,7 @@ jgrasp
 jimud
 jira-timer
 jitsi-meet
+jklubtv
 jless
 jnv
 joaldesktop
@@ -1088,6 +1099,7 @@ keymanager
 keyrier-json
 keys
 kibi
+kicad
 kiibohd-configurator
 kiku
 kimitzu-client
@@ -1185,6 +1197,7 @@ lofi
 loginized
 logseq
 looofix
+loopauditioneer
 lore-forge
 lorien
 losslesscut
@@ -1211,6 +1224,7 @@ m
 macchina
 magento2-upgrade-gui
 magicfountain
+makagiga
 makoureactor
 malice
 mame
@@ -1420,6 +1434,7 @@ no-fwl
 node
 nodeflow
 nodes
+nootka
 nora
 normcap
 nosqlbooster
@@ -1493,6 +1508,7 @@ open-markup-editor
 open-typer
 open-video-downloader
 openapi-tui
+openarena
 openaudible
 openblok
 openbor
@@ -1579,6 +1595,7 @@ pdf-sync
 pdf2htmlex
 pdf4qt
 pdfcompress
+pdfcrackgui
 pdfquirk
 pdmaner
 peazip
@@ -1711,6 +1728,7 @@ protonmail-desktop
 protonup-qt
 proxyman
 prusa-slicer
+psi+
 pstube
 psydoom
 publii
@@ -1730,6 +1748,7 @@ qaddapp
 qaterialgallery
 qaterialhotreload
 qawl
+qbittorrent
 qbittorrent-enhanced
 qdiskinfo
 qdriverstation
@@ -1742,6 +1761,8 @@ qgroundcontrol
 qikqr
 qmasterpassword
 qmediathekview
+qmidictl
+qmidinet
 qmplay2
 qnapi
 qortal-ui
@@ -1781,6 +1802,7 @@ quokkagit
 quran-companion
 qv2ray
 qview
+qxgedit
 r2modman
 r3play
 rabix-composer
@@ -1898,6 +1920,7 @@ scraper
 scratux
 scrcpy
 screencloud
+scribus
 scrite
 scrum-retroboard
 scytale
@@ -2114,6 +2137,7 @@ svelte-electron
 svgwall
 swaglyrics
 swc-minecraft-launcher
+sweethome3d
 swell
 swiftnessx
 swifty
@@ -2126,6 +2150,7 @@ syncmyl2p
 syncplay
 syncthing-tray
 synthein
+synthv1
 system-monitor-gtk3
 sysz
 szyszka
@@ -2134,6 +2159,7 @@ tabby
 tablo-tools
 tag-editor
 tagspaces
+tagstoo
 tagtime-desktop
 tangent
 taskade
@@ -2234,6 +2260,7 @@ tt
 tts-now
 ttth
 ttyper
+tulip
 tumblr-downloader-gui
 tumblr-scraper
 tunepack
@@ -2438,6 +2465,7 @@ xilinota
 xl-converter
 xlights
 xm8
+xmedcon
 xnconvert
 xnviewmp
 xonsh
