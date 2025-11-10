@@ -108,3 +108,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://sourceforge.net/projects/auber"
 -----------------------------------------------------------------
+APP="xmedcon"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://xmedcon.sourceforge.io"
+-----------------------------------------------------------------
