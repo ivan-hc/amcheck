@@ -2,7 +2,7 @@ name: "AMCHECK"
 
 on:
   push:
-    branches: dev
+    branches: main
     paths:
       - 'programs/x86_64/**'
 
@@ -46,7 +46,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: dev
+  BRANCH: main
   TOTEST: 250
 
 jobs:
@@ -324,7 +324,7 @@ jobs:
           EXIT_CODE=0
 
           # Enter developer mode
-          am --devmode-enable
+          #am --devmode-enable
 
           # Define the content of the script || Alow testing non existent (for workflow tests)
           script_content=$(cat ${{ matrix.file }}) || echo "Testing non exist file! (for workflow test only)"
