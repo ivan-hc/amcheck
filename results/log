@@ -4982,3 +4982,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="WerWolv/ImHex"
 -----------------------------------------------------------------
+APP="exodus"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://exodus.com"
+-----------------------------------------------------------------
