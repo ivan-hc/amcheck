@@ -12617,3 +12617,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="AdelKS/ZeGrapher"
 -----------------------------------------------------------------
+APP="omnipull"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Annor-Gyimah/OmniPull"
+-----------------------------------------------------------------
