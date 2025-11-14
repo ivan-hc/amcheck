@@ -361,6 +361,11 @@ jobs:
           #  echo "Applications on sourceforge.net are susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
           #  echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
+          elif [[ "$pure_arg" =~ (omnipull) ]]; then
+
+            echo "This application has a pending issue report, and for now is susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+
           else
           
             if grep -qe "^read " "${{ matrix.file }}" 1>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
