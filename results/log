@@ -12487,3 +12487,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="sxyazi/yazi"
 -----------------------------------------------------------------
+APP="alt-sendme"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tonyantony300/alt-sendme"
+-----------------------------------------------------------------
