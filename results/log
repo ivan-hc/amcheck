@@ -1242,3 +1242,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="queer/boxxy"
 -----------------------------------------------------------------
+APP="apifox"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://apifox.com"
+-----------------------------------------------------------------
