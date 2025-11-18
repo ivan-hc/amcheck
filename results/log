@@ -11104,3 +11104,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.todesktop.com"
 -----------------------------------------------------------------
+APP="kiwix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://kiwix.org"
+-----------------------------------------------------------------
