@@ -1237,3 +1237,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ReproNim/brainverse"
 -----------------------------------------------------------------
+APP="3d-puzzles"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="volatilflerovium/3D-Puzzles"
+-----------------------------------------------------------------
