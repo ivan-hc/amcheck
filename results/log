@@ -12492,3 +12492,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="iDescriptor/iDescriptor"
 -----------------------------------------------------------------
+APP="filelight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/filelight-AppImage"
+-----------------------------------------------------------------
