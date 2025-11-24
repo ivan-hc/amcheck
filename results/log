@@ -12487,3 +12487,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="MillenniumEarl/YAM"
 -----------------------------------------------------------------
+APP="idescriptor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iDescriptor/iDescriptor"
+-----------------------------------------------------------------
