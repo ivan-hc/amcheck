@@ -3737,3 +3737,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="ayoisaiah/focus"
 -----------------------------------------------------------------
+APP="discord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/discord-appimage"
+-----------------------------------------------------------------
