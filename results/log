@@ -12842,3 +12842,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="openxcom"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openxcom.org"
+-----------------------------------------------------------------
+APP="openxcom-extended"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openxcom.org"
+-----------------------------------------------------------------
