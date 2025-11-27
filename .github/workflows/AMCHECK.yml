@@ -341,7 +341,7 @@ jobs:
 
           # Install the application
 
-          if [[ "$pure_arg" =~ (clipgrab|kvrt|suyu) ]]; then
+          if [[ "$pure_arg" =~ (clipgrab|kvrt|openxcom-extended|openxcom|suyu) ]]; then
 
             echo "This application cannot be installed on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
