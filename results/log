@@ -7492,3 +7492,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="olive-editor/olive"
 -----------------------------------------------------------------
+APP="repetier-host"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.repetier.com"
+-----------------------------------------------------------------
