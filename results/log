@@ -2497,3 +2497,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/DeSmuME-AppImage"
 -----------------------------------------------------------------
+APP="affinity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://github.com/ryzendew/AffinityOnLinux"
+-----------------------------------------------------------------
