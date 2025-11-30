@@ -12887,3 +12887,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="uzdoom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="UZDoom/UZDoom"
+-----------------------------------------------------------------
