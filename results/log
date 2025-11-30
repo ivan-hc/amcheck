@@ -2487,3 +2487,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ziishaned/deployer"
 -----------------------------------------------------------------
+APP="blender-alpha"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Blender-appimage"
+-----------------------------------------------------------------
+APP="fjordlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="unmojang/FjordLauncher"
+-----------------------------------------------------------------
