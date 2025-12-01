@@ -8742,3 +8742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="spluxx/Protoman"
 -----------------------------------------------------------------
+APP="omnipull"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Annor-Gyimah/OmniPull"
+-----------------------------------------------------------------
