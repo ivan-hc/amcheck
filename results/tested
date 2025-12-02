@@ -278,6 +278,7 @@ burning-series
 buttercup
 bypass-cors
 bytespeichertrayicon
+c-evo
 cabal-desktop
 cables-gl
 cacher
@@ -615,6 +616,7 @@ emacs-nox
 embedded-ide
 emoji-keyboard
 emudeck
+emulsion
 en-croissant
 encryptpad
 endless-sky
@@ -721,6 +723,7 @@ firefox-esr
 firefox-esr-appimage
 firefox-nightly
 firefox-nightly-appimage
+fireminipro
 firetail
 firetv-toolkit
 firework
@@ -1162,6 +1165,7 @@ lanshare
 lapce
 laravel-kit
 launcher
+lazpaint
 lazygit
 lbry-desktop
 lcedit
@@ -1268,6 +1272,7 @@ marktext
 marlin-conf
 martian
 marvin
+master-pdf-editor
 mastervyrn
 mate-system-monitor
 materialious
@@ -1585,6 +1590,7 @@ packetsender
 packsquash
 paclear
 padloc
+pageedit
 painel-web
 paket
 palemoon
@@ -1625,6 +1631,7 @@ peazip
 peep
 pelusica
 pencil
+penguins-eggs
 pennywise
 perl-executing-browser
 permastead
@@ -1748,3 +1755,6 @@ programmer-browser
 promethium
 proofkeeper
 prospect-mail
+sigil
+vcard-studio
+visual-lvm
