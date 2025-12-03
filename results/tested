@@ -64,6 +64,7 @@ android-translation-layer
 ani-cli
 animashooter-junior
 animashooter-pioneer
+animecoin
 animos
 aniship
 ankama-launcher
@@ -611,8 +612,10 @@ electronreact
 electronwmd
 electrum
 electrum-ltc
+electrum-neurai
 electrum-ravencoin
 electrumfair
+electrumsvp
 element
 elementary-code
 elements
@@ -1216,6 +1219,7 @@ linux-intel-undervolt-gui
 linuxdeployqt
 linuxqq
 linuxtoys
+linuxwallpaper
 linwood-butterfly
 lisk-desktop
 listen.moe
@@ -1246,3 +1250,4 @@ lowfi
 lpub3d
 lsd
 luanti
+xyce
