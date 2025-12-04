@@ -13082,3 +13082,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="emulsion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yphil-dev/Emulsion"
+-----------------------------------------------------------------
