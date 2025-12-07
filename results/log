@@ -7482,3 +7482,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="NordicSemiconductor/pc-nrfconnect-core"
 -----------------------------------------------------------------
+APP="linuxwallpaper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="backspec3/LinuxBingWallpaper"
+-----------------------------------------------------------------
