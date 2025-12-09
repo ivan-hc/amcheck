@@ -351,7 +351,7 @@ jobs:
             echo "This application is susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
-          elif [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|vikunja) ]]; then
+          elif [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|phototeleport|vikunja) ]]; then
 
             echo "This application takes too long to install on GitHub Actions, the mirror is too weak" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
