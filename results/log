@@ -8737,3 +8737,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="arjunindia/positron"
 -----------------------------------------------------------------
+APP="ntsc-rs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="valadaptive/ntsc-rs"
+-----------------------------------------------------------------
