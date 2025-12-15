@@ -11237,3 +11237,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="mccxiv/tc"
 -----------------------------------------------------------------
+APP="sweethome3d"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://sourceforge.net/p/sweethome3d"
+-----------------------------------------------------------------
