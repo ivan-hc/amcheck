@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Remotely triggered"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.client_payload.ref }}
 
@@ -72,7 +72,7 @@ jobs:
     steps:
       - name: "Checkout AM"
         if: github.event.inputs.reset_stats != 'true'
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ env.REPO }}
 
@@ -95,7 +95,7 @@ jobs:
           compression-level: 0
 
       - name: "Checkout"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: "Reset stats"
         if: github.event.inputs.reset_stats == 'true'
@@ -148,7 +148,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: "Download appslist"
         uses: actions/download-artifact@v4
@@ -241,7 +241,7 @@ jobs:
       TIMEOUT: 23
     steps:
       - name: "Checkout AM"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ env.REPO }}
 
@@ -270,7 +270,7 @@ jobs:
           
 
       - name: "Checkout repository"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: results
 
@@ -493,7 +493,7 @@ jobs:
     if: (always() && github.event.inputs.reset_stats != 'true')
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -610,7 +610,7 @@ jobs:
     if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
     steps:
       - name: "Checkout"
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: "Git Config"
         run: |
