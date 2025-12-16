@@ -8742,3 +8742,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="burtonator/polar-app-public"
 -----------------------------------------------------------------
+APP="vivadesigner"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://viva.systems"
+-----------------------------------------------------------------
