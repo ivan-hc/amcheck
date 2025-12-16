@@ -11242,3 +11242,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="mccxiv/tc"
 -----------------------------------------------------------------
+APP="todesktop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.todesktop.com"
+-----------------------------------------------------------------
+APP="transfernow"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.transfernow.net"
+-----------------------------------------------------------------
