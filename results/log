@@ -13192,3 +13192,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="5ire"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nanbingxyz/5ire"
+-----------------------------------------------------------------
