@@ -13197,3 +13197,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="nanbingxyz/5ire"
 -----------------------------------------------------------------
+APP="protocol_10"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Twig6943/protocol_10"
+-----------------------------------------------------------------
