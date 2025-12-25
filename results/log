@@ -13202,3 +13202,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Twig6943/protocol_10"
 -----------------------------------------------------------------
+APP="graphs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Graphs-AppImage"
+-----------------------------------------------------------------
+APP="viber-enhanced"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Viber-AppImage-Enhanced"
+-----------------------------------------------------------------
