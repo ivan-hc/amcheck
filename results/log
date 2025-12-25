@@ -3762,3 +3762,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="horsicq/XOpcodeCalc"
 -----------------------------------------------------------------
+APP="xpeviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="horsicq/XPEViewer"
+-----------------------------------------------------------------
