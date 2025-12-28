@@ -13242,3 +13242,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="melonmix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vitor251093/KHMelonMix"
+-----------------------------------------------------------------
