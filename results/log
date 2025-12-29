@@ -13247,3 +13247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="tixati"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tixati.com"
+-----------------------------------------------------------------
