@@ -13252,3 +13252,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="kaffeine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/kaffeine-AppImage"
+-----------------------------------------------------------------
+APP="phoenix-x-server"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/phoenix-x-server-AppImage"
+-----------------------------------------------------------------
