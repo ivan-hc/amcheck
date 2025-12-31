@@ -13262,3 +13262,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/phoenix-x-server-AppImage"
 -----------------------------------------------------------------
+APP="linuxwallpaper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="backspec3/LinuxBingWallpaper"
+-----------------------------------------------------------------
