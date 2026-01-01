@@ -11257,3 +11257,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="qarmin/szyszka"
 -----------------------------------------------------------------
+APP="linuxqq"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://im.qq.com/linuxqq"
+-----------------------------------------------------------------
