@@ -341,30 +341,10 @@ jobs:
 
           # Install the application
 
-          if [[ "$pure_arg" =~ (clipgrab|kvrt|openxcom-extended|openxcom|suyu) ]]; then
+          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|artifact|clipgrab|hashsum|kvrt|mudlet|openxcom|openxcom-extended|phototeleport|suyu|vhc-viewer-wayland|vhc-viewer-x11) ]]; then
 
-            echo "This application cannot be installed on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "This application cannot be installed on GitHub Actions (weak mirror, pending bug report or other issues)" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
-
-          elif [[ "$pure_arg" =~ (artifact|hashsum|mudlet|vhc-viewer-wayland|vhc-viewer-x11) ]]; then
-
-            echo "This application is susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
-            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
-
-          elif [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|phototeleport) ]]; then
-
-            echo "This application takes too long to install on GitHub Actions, the mirror is too weak" | tee -a results/log-"${{ matrix.file }}"
-            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
-
-          #elif grep -q 'sourceforge.net' "${{ matrix.file }}" 1>/dev/null; then
-
-          #  echo "Applications on sourceforge.net are susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
-          #  echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
-
-          #elif [[ "$pure_arg" =~ (SAMPLE) ]]; then
-
-          #  echo "This application has a pending issue report, and for now is susceptible to failure on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
-          #  echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           else
           
