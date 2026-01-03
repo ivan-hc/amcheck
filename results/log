@@ -53,3 +53,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://vulkan.gpuinfo.org"
 -----------------------------------------------------------------
+APP="apifox"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://apifox.com"
+-----------------------------------------------------------------
