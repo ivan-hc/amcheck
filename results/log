@@ -23,3 +23,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://gitlab.com/posktomten/hashsum"
 -----------------------------------------------------------------
+APP="kvrt"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.kaspersky.com"
+-----------------------------------------------------------------
