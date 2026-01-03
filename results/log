@@ -1,0 +1,5 @@
+APP="blensor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.blensor.org"
+-----------------------------------------------------------------
