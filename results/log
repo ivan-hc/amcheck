@@ -53,3 +53,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://vulkan.gpuinfo.org"
 -----------------------------------------------------------------
+APP="kvrt"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.kaspersky.com"
+-----------------------------------------------------------------
