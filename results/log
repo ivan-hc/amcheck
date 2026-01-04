@@ -1,0 +1,10 @@
+APP="animashooter-junior"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.animashooter.com"
+-----------------------------------------------------------------
+APP="animashooter-pioneer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.animashooter.com"
+-----------------------------------------------------------------
