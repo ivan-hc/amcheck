@@ -334,10 +334,6 @@ jobs:
           # Allow installing applications even if the command already exists
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
 
-          # Add timeout
-          sudo sed -i 's#^   $SUDOCMD ./"$arg"#^   timeout 5 $SUDOCMD ./"$arg"#g' /opt/am/modules/install.am || exit 1
-          grep timeout /opt/am/modules/install.am
-
           # Special patches
           if [[ "$pure_arg" =~ (node|npm) ]]; then
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
@@ -354,44 +350,44 @@ jobs:
           
             if grep -qe "^read " "${{ matrix.file }}" 1>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
 
-              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+              echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+                echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+                echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               fi
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
 
-              echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
               fi
 
             else
 
-              echo y | am -i "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | am -i "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | am -i "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
               fi
 
             fi
