@@ -335,7 +335,7 @@ jobs:
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
 
           # Add timeout
-          sed -i 's#^   $SUDOCMD ./"$arg"#^   timeout 5 $SUDOCMD ./"$arg"#g' /opt/am/modules/install.am || exit 1
+          sudo sed -i 's#^   $SUDOCMD ./"$arg"#^   timeout 5 $SUDOCMD ./"$arg"#g' /opt/am/modules/install.am || exit 1
           grep timeout /opt/am/modules/install.am
 
           # Special patches
