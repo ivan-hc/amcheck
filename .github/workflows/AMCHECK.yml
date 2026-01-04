@@ -334,6 +334,9 @@ jobs:
           # Allow installing applications even if the command already exists
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
 
+          # Add timeout
+          sed -i 's#^   $SUDOCMD ./"$arg"#^   timeout 5 $SUDOCMD ./"$arg"#g' /opt/am/modules/install.am
+
           # Special patches
           if [[ "$pure_arg" =~ (node|npm) ]]; then
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
