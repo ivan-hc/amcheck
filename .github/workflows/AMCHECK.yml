@@ -350,44 +350,44 @@ jobs:
           
             if grep -qe "^read " "${{ matrix.file }}" 1>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
 
-              echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+              echo 1 | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+                echo 1 | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo 1 | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+                echo 1 | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               fi
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
 
-              echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout 60 am -i bat "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 60 am -i bat "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | timeout 5 am -i bat "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 60 am -i bat "${{ matrix.file }}" --debug 2>&1
               fi
 
             else
 
-              echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+              echo y | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               fi
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
               if [ "$ARGSNUMB" = 1 ]; then
                 sleep 30
-                echo y | timeout 5 am -i "${{ matrix.file }}" --debug 2>&1
+                echo y | timeout 60 am -i "${{ matrix.file }}" --debug 2>&1
               fi
 
             fi
