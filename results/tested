@@ -2508,6 +2508,7 @@ wethr
 wewechat
 wexond
 wezterm
+wezterm-nightly
 whalebird
 whatstron
 whirlpool-gui
@@ -2520,6 +2521,7 @@ win11-clipboard-history
 winboat
 window-pet
 windows2usb
+windows95
 wine
 wine-devel
 wine-stable
@@ -2541,6 +2543,7 @@ wnr
 woke
 wolai
 wonderwall
+woocommerce-pos
 woof-doom
 wootility
 wooting-analog-midi
@@ -2549,6 +2552,7 @@ wora
 workflowy
 wournal
 wowup
+wps-office
 wrapbox
 wsjtz
 wsocks
@@ -2564,11 +2568,13 @@ xchat
 xcloud-desktop
 xde
 xdelta3-cross-gui
+xdg-ninja
 xelfviewer
 xemu
 xenia-canary
 xenia-edge
 xgetter
+xilinota
 xl-converter
 xlights
 xm8
@@ -2600,6 +2606,7 @@ yank-note
 yaya
 yazi
 yesplaymusic
+ym-desktop
 ymir
 ymir-nightly
 youtube-download
@@ -2628,6 +2635,8 @@ zegarek
 zegrapher
 zellij
 zen-app-manager
+zen-browser
+zenity
 zenkit
 zenroomstudio
 zettlr
