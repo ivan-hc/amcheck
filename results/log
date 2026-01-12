@@ -13287,3 +13287,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="wiznote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wiz.cn"
+-----------------------------------------------------------------
