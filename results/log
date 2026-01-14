@@ -1,0 +1,10 @@
+APP="codexmonitor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xlab/CodexMonitor"
+-----------------------------------------------------------------
+APP="printventory"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://printventory.com"
+-----------------------------------------------------------------
