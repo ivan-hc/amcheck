@@ -1247,3 +1247,13 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="PhilipK/BoilR"
 -----------------------------------------------------------------
+APP="crossmacro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alper-han/CrossMacro"
+-----------------------------------------------------------------
+APP="wox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Wox-launcher/Wox"
+-----------------------------------------------------------------
