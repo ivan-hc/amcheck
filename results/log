@@ -13352,3 +13352,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="foot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/foot-AppImage"
+-----------------------------------------------------------------
