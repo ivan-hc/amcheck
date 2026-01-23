@@ -13877,3 +13877,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="apiflow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trueleaf/apiflow"
+-----------------------------------------------------------------
