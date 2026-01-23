@@ -1099,6 +1099,7 @@ imgbrd-grabber
 imgcat
 imhex
 impact
+impactor
 implay
 impposter
 impression
@@ -1185,6 +1186,7 @@ kalba
 kalc
 kalker
 kando
+kanji-dojo
 kanon
 kanri
 karbonized
@@ -1201,6 +1203,7 @@ kdeutils
 kdiskmark
 keepassxc
 keepassxc-devel
+keepkey-desktop
 keeweb
 keibo-moneytracker-x86-64
 kettleclient
@@ -1210,12 +1213,15 @@ keycombiner
 keymanager
 keyrier-json
 keys
+kftray
 kibi
 kicad
 kiibohd-configurator
 kiku
 kimitzu-client
 kinopio
+kiri-moto
+kitsas
 kitty
 kitupiikki
 kiwix
@@ -1257,6 +1263,7 @@ laravel-kit
 launcher
 lazpaint
 lazygit
+lazytyper
 lbry-desktop
 lcedit
 ldtk
@@ -1292,11 +1299,13 @@ linked
 linkora
 linphone
 linux-intel-undervolt-gui
+linuxaircombat
 linuxdeployqt
 linuxqq
 linuxtoys
 linuxwallpaper
 linwood-butterfly
+liquidlauncher
 lisk-desktop
 listen.moe
 listen1-desktop
@@ -1306,6 +1315,7 @@ litime
 liveme-pro-tools
 lmms
 lmstudio
+lobe-chat
 local-browser
 localsend
 lockbook-cli
@@ -1333,6 +1343,7 @@ lunar-client
 lunatask
 lutris
 lutris-gamepad-ui
+lvgl-editor
 lx-music-desktop
 lxtask
 lyricistant
@@ -1456,6 +1467,7 @@ monokle
 monoline
 mood-fi
 moolticute
+moondeck-buddy
 moonfm
 moonlight
 moonplayer
@@ -1474,6 +1486,7 @@ mqttcute
 mqttx
 mr.dclutterer
 mrcode
+mrrss
 mrwriter
 ms-365-electron
 mtcelledit
@@ -1506,6 +1519,7 @@ mytonwallet
 n3h
 naev
 nami
+nanokvm-usb
 nanosaur
 nanosaur2
 nanovault
@@ -1582,7 +1596,9 @@ nu
 nuclear
 nuclia
 nuclino
+nudelta
 numara
+nunchuk
 nvim
 nvim-nightly
 nvtop
@@ -1615,16 +1631,19 @@ ommpfritt
 omnipull
 omnispeak
 one-gpt
+oneanime
 onedrive-gui
 onefetch
 onekey-wallet
 onenote
+oneweb
 onionmediax
 onlyoffice
 onlyrefs
 onnx2bnn
 onnx2daq
 onshape
+onthespot
 onyx
 opal
 open-ai-translator
@@ -1653,6 +1672,7 @@ openscad
 openscreen
 openshot
 openstream-music
+openterface-qt
 opentodolist
 opentrons
 openxcom
@@ -1662,6 +1682,7 @@ opera-beta
 opera-dev
 orange
 oras
+orca-note
 orcaslicer
 orcaslicer-any
 orcaslicer-beta
@@ -1683,6 +1704,7 @@ ovideo
 ow-mod-man
 owallet
 owncloud
+owte
 oxen-gui-wallet
 p2p-chat
 p2pderivatives
@@ -1700,6 +1722,7 @@ pano-scrobbler
 panwriter
 paper
 papercraft
+paperlib
 parallelcoin
 parchment
 parity-fether
@@ -1765,6 +1788,7 @@ picterm
 picturama
 pigs-n-cows
 pika-backup
+pikapika
 pile
 pince
 pingendo
@@ -1810,8 +1834,10 @@ podman
 podman-desktop-companion
 poe-ladder
 poedit
+pog
 poi
 pointless
+pokeclicker
 pokeget-rs
 pokego
 pokete
@@ -1849,6 +1875,7 @@ prismlauncher
 prismlauncher-qt5
 privacy.sexy
 privaxy
+probe-desktop
 procdepmonitor
 procs
 procspin
