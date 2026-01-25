@@ -413,6 +413,12 @@ jobs:
               echo ""
               ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
 
+              # Try to upload the icons
+              if test -f /opt/"$LASTDIR"/icons/*; then
+                mkdir -p results/icons
+                cp -r /opt/"$LASTDIR"/icons/* results/icons/
+              fi
+
               printf "\n-------------------------------------------------------------\n\n"
 
               # Check the command in /usr/local/bin
