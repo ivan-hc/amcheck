@@ -347,7 +347,7 @@ jobs:
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           # Filter programs that have an issue report (comment the line below if the issue has been fixed)
-          elif [[ "$pure_arg" =~ (synfig) ]]; then echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"; echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+          #elif [[ "$pure_arg" =~ (synfig) ]]; then echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"; echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           else
           
