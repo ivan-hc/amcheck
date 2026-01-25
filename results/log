@@ -2507,3 +2507,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/lxtask-appimage"
 -----------------------------------------------------------------
+APP="anydesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Anydesk-appimage"
+-----------------------------------------------------------------
+APP="lxtask"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/lxtask-appimage"
+-----------------------------------------------------------------
