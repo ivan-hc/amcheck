@@ -13882,3 +13882,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Calibre-appimage"
 -----------------------------------------------------------------
+APP="calibre-preview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Calibre-appimage"
+-----------------------------------------------------------------
