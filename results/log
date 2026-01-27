@@ -13877,3 +13877,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="calibre-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Calibre-appimage"
+-----------------------------------------------------------------
