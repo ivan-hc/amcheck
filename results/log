@@ -13897,3 +13897,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="appmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kem-a/AppManager"
+-----------------------------------------------------------------
+APP="proxy-master"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Ma5t3rful/proxy-master"
+-----------------------------------------------------------------
