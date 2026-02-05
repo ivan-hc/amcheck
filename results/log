@@ -14002,3 +14002,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/ghostty-appimage"
 -----------------------------------------------------------------
+APP="ghostship"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Ghostship-AppImage-Enhanced"
+-----------------------------------------------------------------
+APP="spaghettikart"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HarbourMasters/SpaghettiKart"
+-----------------------------------------------------------------
