@@ -13997,3 +13997,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="ghostty-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/ghostty-appimage"
+-----------------------------------------------------------------
