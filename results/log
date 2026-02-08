@@ -14022,3 +14022,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="koreader-nightly"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://koreader.rocks"
+-----------------------------------------------------------------
