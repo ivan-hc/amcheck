@@ -11242,3 +11242,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="spacebarchat/client"
 -----------------------------------------------------------------
+APP="ledger-live-desktop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.ledger.com"
+-----------------------------------------------------------------
