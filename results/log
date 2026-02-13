@@ -11242,3 +11242,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="spacebarchat/client"
 -----------------------------------------------------------------
+APP="starship-port"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HarbourMasters/Starship"
+-----------------------------------------------------------------
