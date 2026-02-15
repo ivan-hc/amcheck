@@ -6242,3 +6242,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://sourceforge.net/p/kicad-appimage"
 -----------------------------------------------------------------
+APP="gemrb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/p/gemrb"
+-----------------------------------------------------------------
