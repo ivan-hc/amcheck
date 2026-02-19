@@ -32,7 +32,7 @@ on:
         default: ''
         type: integer
 
-  schedule:
+  #schedule:
     #- cron: '0 0-12 * * 1'
     #- cron: '0 * * * *'
 
