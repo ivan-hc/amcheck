@@ -1247,3 +1247,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ivan-hc/Blender-appimage"
 -----------------------------------------------------------------
+APP="0ad"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://play0ad.com"
+-----------------------------------------------------------------
+APP="0ad-prerelease"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://play0ad.com"
+-----------------------------------------------------------------
