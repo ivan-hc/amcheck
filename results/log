@@ -11202,3 +11202,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="skylersaleh/SkyEmu"
 -----------------------------------------------------------------
+APP="tixati"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tixati.com"
+-----------------------------------------------------------------
