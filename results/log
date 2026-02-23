@@ -9992,3 +9992,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="PTDreamer/qSdrSwr"
 -----------------------------------------------------------------
+APP="git-side"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Solexma/git-side"
+-----------------------------------------------------------------
+APP="tabularis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="debba/tabularis"
+-----------------------------------------------------------------
