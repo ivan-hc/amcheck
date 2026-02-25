@@ -14322,3 +14322,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="yamata-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Gr3gorywolf/Yamata-launcher"
+-----------------------------------------------------------------
