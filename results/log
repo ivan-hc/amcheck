@@ -14312,3 +14312,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="speed-dreams"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.speed-dreams.net"
+-----------------------------------------------------------------
