@@ -14317,3 +14317,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.speed-dreams.net"
 -----------------------------------------------------------------
+APP="dolphin-emu-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Dolphin-emu-AppImage"
+-----------------------------------------------------------------
