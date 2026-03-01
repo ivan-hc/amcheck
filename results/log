@@ -12469,3 +12469,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="bjorn/tiled"
 -----------------------------------------------------------------
+APP="cake-wallet"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cake-tech/cake_wallet"
+-----------------------------------------------------------------
