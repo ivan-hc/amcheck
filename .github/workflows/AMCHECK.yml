@@ -32,9 +32,8 @@ on:
         default: ''
         type: integer
 
-  #schedule:
-    #- cron: '0 0-12 * * 1'
-    #- cron: '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -459,12 +458,12 @@ jobs:
           retention-days: 1
           compression-level: 0
 
-      - name: "Upload icons ⬆️"
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.file }}
-          path: programs/x86_64/results/icons/${{ matrix.file }}
-          retention-days: 1
+      #- name: "Upload icons ⬆️"
+      #  uses: actions/upload-artifact@v4
+      #  with:
+      #    name: ${{ matrix.file }}
+      #    path: programs/x86_64/results/icons/${{ matrix.file }}
+      #    retention-days: 1
 
       - name: "Upload KO Results ☝️"
         if: failure()
