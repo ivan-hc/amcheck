@@ -14512,3 +14512,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="linuxtoys"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="psygreg/linuxtoys"
+-----------------------------------------------------------------
