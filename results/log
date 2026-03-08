@@ -14572,3 +14572,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="banjo-recompiled"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Banjo-Recompiled-AppImage"
+-----------------------------------------------------------------
+APP="itgmania"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/ITGmania-AppImage"
+-----------------------------------------------------------------
