@@ -14737,3 +14737,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="ironwail"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="andrei-drexler/ironwail"
+-----------------------------------------------------------------
