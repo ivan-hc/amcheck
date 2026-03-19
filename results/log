@@ -12492,3 +12492,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.tangentnotes.com"
 -----------------------------------------------------------------
+APP="moon-lander"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="andy5995/moon-lander-appimage"
+-----------------------------------------------------------------
+APP="omniroute"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="diegosouzapw/OmniRoute"
+-----------------------------------------------------------------
