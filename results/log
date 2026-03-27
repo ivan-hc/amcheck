@@ -7467,3 +7467,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="MediaHarbor/mediaharbor"
 -----------------------------------------------------------------
+APP="briar"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://briarproject.org"
+-----------------------------------------------------------------
