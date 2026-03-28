@@ -12487,3 +12487,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="RobertKrajewski/Sync-my-L2P"
 -----------------------------------------------------------------
+APP="libreoffice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SITEREF"
+-----------------------------------------------------------------
