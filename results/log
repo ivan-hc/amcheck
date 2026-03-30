@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="sithlord48/blackchocobo"
 -----------------------------------------------------------------
+APP="firefox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
