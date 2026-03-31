@@ -1247,3 +1247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="sithlord48/blackchocobo"
 -----------------------------------------------------------------
+APP="7zip"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="https://www.7-zip.org"
+-----------------------------------------------------------------
