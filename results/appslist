@@ -2299,7 +2299,8 @@ session-desktop
 setcolors
 sevicebus-browser
 sf-tube
-sfbrename
+sfbrename-cli
+sfbrename-gtk
 sfp
 sfrt-attendance
 shadow-tech
