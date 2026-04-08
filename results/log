@@ -15035,3 +15035,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hunlongyu/ZY-Player"
 -----------------------------------------------------------------
+APP="rgitui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="noahbclarkson/rgitui"
+-----------------------------------------------------------------
+APP="zyfun"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hiram-Wong/ZyPlayer"
+-----------------------------------------------------------------
