@@ -2428,7 +2428,9 @@ spm
 spmp
 spotifetch
 spotify
+spotify-candidate
 spotify-dl
+spotify-edge
 spotify-player
 spotify-qt
 spotify-tui
