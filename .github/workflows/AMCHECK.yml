@@ -248,7 +248,7 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl ripgrep
+          packages: wget curl ripgrep desktop-file-utils
           version: 1.0
 
       - name: "Fix AppArmor"
