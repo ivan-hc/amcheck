@@ -32,8 +32,8 @@ on:
         default: ''
         type: integer
 
-  schedule:
-    - cron: '0 * * * *'
+  #schedule:
+  #  - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
