@@ -6247,3 +6247,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="jitsi/jitsi-meet-electron"
 -----------------------------------------------------------------
+APP="fdm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.freedownloadmanager.org"
+-----------------------------------------------------------------
