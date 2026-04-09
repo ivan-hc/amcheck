@@ -15050,3 +15050,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="busybox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/busybox-appimage"
+-----------------------------------------------------------------
