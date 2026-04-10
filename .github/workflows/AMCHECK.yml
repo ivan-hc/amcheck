@@ -32,8 +32,8 @@ on:
         default: ''
         type: integer
 
-  #schedule:
-  #  - cron: '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -248,7 +248,7 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl ripgrep
+          packages: wget curl ripgrep desktop-file-utils
           version: 1.0
 
       - name: "Fix AppArmor"
