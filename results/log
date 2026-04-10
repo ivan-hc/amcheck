@@ -7507,3 +7507,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="felixrieseberg/windows95"
 -----------------------------------------------------------------
+APP="tixati"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tixati.com"
+-----------------------------------------------------------------
