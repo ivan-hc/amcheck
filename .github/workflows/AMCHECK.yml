@@ -340,7 +340,7 @@ jobs:
 
           # Install the application
 
-          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|artifact|eudic|kvrt|mudlet|openxcom|openxcom-extended|tulip|vhc-viewer-wayland|vhc-viewer-x11|wiznote) ]]; then
+          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11|wiznote) ]]; then
 
             echo "This application cannot be installed on GitHub Actions (weak mirror or other issues)" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
