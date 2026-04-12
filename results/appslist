@@ -1072,6 +1072,7 @@ gpupad
 gqrx
 grabscr
 gradia
+gram-enhanced
 graphest
 graphql-playground
 graphs
@@ -2029,6 +2030,7 @@ printerclient
 printventory
 prisma-studio
 prismlauncher
+prismlauncher-enhanced
 prismlauncher-qt5
 privacy.sexy
 privaxy
@@ -2110,6 +2112,7 @@ qtjsondiff
 qtox
 qtrfpowermeter
 quamodbusclient
+quantumlauncher-enhanced
 quark
 quark-player
 quarto-cli
@@ -2184,6 +2187,9 @@ reqable
 requestly
 responsively
 retroarch
+retroarch-nightly
+retroarch-qt
+retroarch-qt-nightly
 retrom
 retroshare
 revealgo
