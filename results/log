@@ -15075,3 +15075,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="ryujinx"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ryujinx.app"
+-----------------------------------------------------------------
+APP="ryujinx-canary"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ryujinx.app"
+-----------------------------------------------------------------
