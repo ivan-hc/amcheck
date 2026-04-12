@@ -2512,3 +2512,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://retroarch.com"
 -----------------------------------------------------------------
+APP="corefm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+-----------------------------------------------------------------
