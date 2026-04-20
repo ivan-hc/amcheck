@@ -7487,3 +7487,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="mattermost/desktop"
 -----------------------------------------------------------------
+APP="hexinator"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://hexinator.com"
+-----------------------------------------------------------------
