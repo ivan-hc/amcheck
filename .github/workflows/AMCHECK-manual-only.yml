@@ -1,6 +1,14 @@
 name: "AMCHECK (manual only, need to disable the main one)"
 
 on:
+  push:
+    branches: main
+    paths:
+      - 'programs/x86_64/**'
+
+  repository_dispatch:
+    types: [check]
+
   workflow_dispatch:
     inputs:
       reset_stats:
@@ -23,9 +31,6 @@ on:
         required: false
         default: ''
         type: integer
-
-  schedule:
-    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
