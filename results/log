@@ -1,0 +1,10 @@
+APP="eden"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://git.eden-emu.dev"
+-----------------------------------------------------------------
+APP="eden-nightly"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://git.eden-emu.dev"
+-----------------------------------------------------------------
