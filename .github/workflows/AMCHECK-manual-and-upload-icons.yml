@@ -1,4 +1,4 @@
-name: "AMCHECK (upload icons)"
+name: "AMCHECK (manual + upload icons)"
 
 on:
   push:
