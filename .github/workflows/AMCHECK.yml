@@ -349,7 +349,7 @@ jobs:
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           # Blacklist apps that cannot be installed in Github Actions
-          elif [[ "$pure_arg" =~ (eden|eden-nightly|mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11) ]]; then
+          elif [[ "$pure_arg" =~ (mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11) ]]; then
 
             echo "This application cannot be installed on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
