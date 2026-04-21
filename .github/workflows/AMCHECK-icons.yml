@@ -245,7 +245,7 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: wget curl ripgrep
+          packages: wget curl ripgrep desktop-file-utils
           version: 1.0
 
       - name: "Fix AppArmor"
@@ -337,113 +337,102 @@ jobs:
 
           # Install the application
 
-          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|apifox|artifact|eudic|kvrt|mudlet|openxcom|openxcom-extended|tulip|vhc-viewer-wayland|vhc-viewer-x11|wiznote) ]]; then
+          if grep -qe "^read " "${{ matrix.file }}" 1>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
 
-            echo "This application cannot be installed on GitHub Actions (weak mirror or other issues)" | tee -a results/log-"${{ matrix.file }}"
-            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+            echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
+              echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
+            fi
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
+              echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
+            fi
 
-          # Filter programs that have an issue report (comment the line below if the issue has been fixed)
-          elif [[ "$pure_arg" =~ (fluxer) ]]; then echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"; echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+          elif [[ "$pure_arg" =~ (bat-extras) ]]; then
+
+            echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
+              echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
+            fi
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
+              echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
+            fi
 
           else
-          
-            if grep -qe "^read " "${{ matrix.file }}" 1>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
 
-              echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              fi
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo 1 | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              fi
-
-            elif [[ "$pure_arg" =~ (bat-extras) ]]; then
-
-              echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
-              fi
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo y | timeout 1800 am -i bat "${{ matrix.file }}" --debug 2>&1
-              fi
-
-            else
-
+            echo y | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
               echo y | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo y | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              fi
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 30
-                echo y | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
-              fi
-
+            fi
+            ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+            if [ "$ARGSNUMB" = 1 ]; then
+              sleep 30
+              echo y | timeout 1800 am -i "${{ matrix.file }}" --debug 2>&1
             fi
 
-            LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+          fi
 
-            # If an application is blacklisted, ignore it
-            if [ "$LASTDIR" = am ]; then
-              echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
-              echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
-              exit 1
+          LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
 
-            # If the last modified directory contains a file named "remove", check the installed files
-            elif test -f /opt/"$LASTDIR"/remove; then
+          # If an application is blacklisted, ignore it
+          if [ "$LASTDIR" = am ]; then
+            echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+            echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+            exit 1
 
-              printf "\n-------------------------------------------------------------\n\n"
+          # If the last modified directory contains a file named "remove", check the installed files
+          elif test -f /opt/"$LASTDIR"/remove; then
 
-              # Check structure of directories in /opt
-              echo " Structure of the directory in /opt"
-              echo ""
-              ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
+            printf "\n-------------------------------------------------------------\n\n"
 
-              # Try to upload the icons (you need to uncomment the "Upload icons" workflow to have them, see below)
-              if test -f /opt/"$LASTDIR"/icons/*; then
-                mkdir -p results/icons
-                cp -r /opt/"$LASTDIR"/icons/* results/icons/
-              fi
+            # Check structure of directories in /opt
+            echo " Structure of the directory in /opt"
+            echo ""
+            ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
 
-              printf "\n-------------------------------------------------------------\n\n"
+            # Try to upload the icons (you need to uncomment the "Upload icons" workflow to have them, see below)
+            if test -f /opt/"$LASTDIR"/icons/*; then
+              mkdir -p results/icons
+              cp -r /opt/"$LASTDIR"/icons/* results/icons/
+            fi
 
-              # Check the command in /usr/local/bin
-              echo " Command in \$PATH"
-              echo ""
-              command -v "$pure_arg" | tee -a results/log-"${{ matrix.file }}" || command -v "$LASTDIR" | tee -a results/log-"${{ matrix.file }}" || ls /usr/local/bin | tee -a results/log-"${{ matrix.file }}"
+            printf "\n-------------------------------------------------------------\n\n"
 
-              printf "\n-------------------------------------------------------------\n\n"
+            # Check the command in /usr/local/bin
+            echo " Command in \$PATH"
+            echo ""
+            command -v "$pure_arg" | tee -a results/log-"${{ matrix.file }}" || command -v "$LASTDIR" | tee -a results/log-"${{ matrix.file }}" || ls /usr/local/bin | tee -a results/log-"${{ matrix.file }}"
 
-              # Check launchers in /usr/local/share/applications
-              echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
-              echo ""
-              if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
-              elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
-              else
-                 echo "No .desktop file available" | tee -a results/log-"${{ matrix.file }}"
-              fi
+            printf "\n-------------------------------------------------------------\n\n"
 
-              printf "\n-------------------------------------------------------------\n\n"
-
-              # Remove the application
-              am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
-
-            # Any other result is a failure
+            # Check launchers in /usr/local/share/applications
+            echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
+            echo ""
+            if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
+               ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+            elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
+               ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
             else
-              exit 1
+               echo "No .desktop file available" | tee -a results/log-"${{ matrix.file }}"
             fi
+
+            printf "\n-------------------------------------------------------------\n\n"
+
+            # Remove the application
+            am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+
+          # Any other result is a failure
+          else
+            exit 1
           fi
 
       - name: "Upload out ⬆️"
