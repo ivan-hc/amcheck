@@ -338,15 +338,27 @@ jobs:
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
           fi
 
-          # Install the application
+          #########################
+          # INSTALL THE APPLICATION
+          #########################
 
-          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|eden|eden-nightly|mudlet|openxcom|openxcom-extended|ryujinx|ryujinx-canary|vhc-viewer-wayland|vhc-viewer-x11|wiznote) ]]; then
+          # Blacklist apps with slow download in Github Actions
+          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer) ]]; then
 
-            echo "This application cannot be installed on GitHub Actions (weak mirror or other issues)" | tee -a results/log-"${{ matrix.file }}"
+            echo "This application cannot be installed on GitHub Actions due to slow download URL or a too weak domain" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
-          # Filter programs that have an issue report (comment the line below if the issue has been fixed)
-          elif [[ "$pure_arg" =~ (fluxer) ]]; then echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"; echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+          # Blacklist apps that cannot be installed in Github Actions
+          elif [[ "$pure_arg" =~ (eden|eden-nightly|mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11|wiznote) ]]; then
+
+            echo "This application cannot be installed on GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
+
+          # Blacklist apps with an issue report opened
+          elif [[ "$pure_arg" =~ (NONE) ]]; then
+
+            echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"
+            echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           else
           
