@@ -2497,3 +2497,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="cpeditor/cpeditor"
 -----------------------------------------------------------------
+APP="ollama"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ollama/ollama"
+-----------------------------------------------------------------
