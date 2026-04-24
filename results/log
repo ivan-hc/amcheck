@@ -2502,3 +2502,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ollama/ollama"
 -----------------------------------------------------------------
+APP="anydesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Anydesk-appimage"
+-----------------------------------------------------------------
