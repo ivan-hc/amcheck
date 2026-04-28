@@ -9987,3 +9987,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="darteil/POELadder"
 -----------------------------------------------------------------
+APP="paper-design"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://paper.design"
+-----------------------------------------------------------------
