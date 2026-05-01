@@ -7432,3 +7432,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="drl990114/MarkFlowy"
 -----------------------------------------------------------------
+APP="celestia"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://celestiaproject.space"
+-----------------------------------------------------------------
+APP="celestia-dev"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://celestiaproject.space"
+-----------------------------------------------------------------
