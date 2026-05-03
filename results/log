@@ -7487,3 +7487,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://www.mathcha.io/notebook/"
 -----------------------------------------------------------------
+APP="digikam"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://files.kde.org/digikam/"
+-----------------------------------------------------------------
