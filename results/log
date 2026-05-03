@@ -7492,3 +7492,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://files.kde.org/digikam/"
 -----------------------------------------------------------------
+APP="digikam"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://files.kde.org/digikam/"
+-----------------------------------------------------------------
+APP="digikam-dev"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://files.kde.org/digikam/"
+-----------------------------------------------------------------
