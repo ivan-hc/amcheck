@@ -638,6 +638,7 @@ dopamine-preview
 dorion
 dosbox-x
 dosemu
+dotline
 dotto
 doublecmd-gtk
 doublecmd-qt
@@ -713,7 +714,6 @@ electron-xiami
 electronreact
 electronwmd
 electrum
-electrum-ltc
 electrum-neurai
 electrum-ravencoin
 electrumfair
@@ -906,6 +906,7 @@ frappebooks
 freac
 freecad
 freecad-assembly3
+freecad-weekly
 freefilesync
 freeman
 freeshow
