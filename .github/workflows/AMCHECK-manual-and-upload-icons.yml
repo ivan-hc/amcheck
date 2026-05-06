@@ -76,7 +76,7 @@ jobs:
         if: github.event.inputs.reset_stats != 'true'
         id: count
         run: |
-          sort programs/x86_64-apps | grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-" | awk '{print $2}' > appslist
+          sort programs/x86_64-apps | grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-\|am-utils" | awk '{print $2}' > appslist
           x64Count=$(wc -l < appslist)
           echo "all=$x64Count" >> $GITHUB_OUTPUT
 
