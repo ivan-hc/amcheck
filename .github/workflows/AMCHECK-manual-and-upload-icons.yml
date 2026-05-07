@@ -42,7 +42,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
+  BRANCH: dev
   TOTEST: 250
 
 jobs:
