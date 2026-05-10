@@ -12532,3 +12532,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="stoplightio/desktop"
 -----------------------------------------------------------------
+APP="ghidra"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="NationalSecurityAgency/ghidra"
+-----------------------------------------------------------------
