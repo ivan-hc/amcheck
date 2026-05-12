@@ -15175,3 +15175,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="dhammapada"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="miroku-devel/dhammapada"
+-----------------------------------------------------------------
