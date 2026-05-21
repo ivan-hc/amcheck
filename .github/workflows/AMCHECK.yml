@@ -557,7 +557,7 @@ jobs:
           git add results
 
       - name: "Show results"
-        if: ( ${{ needs.generate-matrix.outputs.skip != 'true' }} && ${{ github.event.inputs.reset_stats != 'true' }} )
+        if: ${{ needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' }}
         run: |
           if [[ -f results/tested ]]; then
             tested=$(wc -l < results/tested 2>/dev/null || echo 0)
