@@ -232,7 +232,7 @@ jobs:
     name: "🔨"
     needs: generate-matrix
     runs-on: ubuntu-latest
-    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' && needs.generate-matrix.outputs.matrix != '' }}
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
