@@ -15190,3 +15190,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="ytsage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oop7/YTSage"
+-----------------------------------------------------------------
