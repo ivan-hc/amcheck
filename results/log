@@ -15215,3 +15215,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="kitshn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aimok04/kitshn"
+-----------------------------------------------------------------
