@@ -13830,3 +13830,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ccoors/Valeronoi"
 -----------------------------------------------------------------
+APP="conty"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Kron4ek/Conty"
+-----------------------------------------------------------------
