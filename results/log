@@ -11237,3 +11237,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="phiresky/ripgrep-all"
 -----------------------------------------------------------------
+APP="linuxqq"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://im.qq.com/linuxqq"
+-----------------------------------------------------------------
