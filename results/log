@@ -8752,3 +8752,8 @@ APPIMAGE='no'
 GITHUB='no'
 SITE="https://developer.android.com"
 -----------------------------------------------------------------
+APP="nosqlbooster"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.nosqlbooster.com"
+-----------------------------------------------------------------
