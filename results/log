@@ -8742,3 +8742,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="bornova/numara-calculator"
 -----------------------------------------------------------------
+APP="node"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://nodejs.org"
+-----------------------------------------------------------------
+APP="platform-tools"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://developer.android.com"
+-----------------------------------------------------------------
