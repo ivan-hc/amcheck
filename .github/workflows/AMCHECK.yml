@@ -355,7 +355,7 @@ jobs:
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
 
           # Blacklist apps with an issue report opened
-          elif [[ "$pure_arg" =~ (NONE) ]]; then
+          elif [[ "$pure_arg" =~ (kiwix) ]]; then
 
             echo "This application has a pending issue report" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
