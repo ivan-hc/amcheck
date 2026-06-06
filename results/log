@@ -3747,3 +3747,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="REPLACETHIS"
 -----------------------------------------------------------------
+APP="dinox"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://dinox.im"
+-----------------------------------------------------------------
