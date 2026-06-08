@@ -9982,3 +9982,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/Play-AppImage-Enhanced"
 -----------------------------------------------------------------
+APP="midori"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="goastian/midori-desktop"
+-----------------------------------------------------------------
