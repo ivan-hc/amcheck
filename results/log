@@ -15250,3 +15250,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="itch.io"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://itch.io/app"
+-----------------------------------------------------------------
