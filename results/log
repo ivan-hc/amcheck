@@ -4982,3 +4982,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="jreisinger/ghrel"
 -----------------------------------------------------------------
+APP="darktable-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="darktable-org/darktable"
+-----------------------------------------------------------------
