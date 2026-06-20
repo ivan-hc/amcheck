@@ -14970,3 +14970,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="qier222/YesPlayMusic"
 -----------------------------------------------------------------
+APP="speed-dreams"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.speed-dreams.net"
+-----------------------------------------------------------------
