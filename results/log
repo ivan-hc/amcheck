@@ -15280,3 +15280,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="vita3k"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vita3k.org"
+-----------------------------------------------------------------
