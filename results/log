@@ -11247,3 +11247,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="devanlooches/rocketfetch"
 -----------------------------------------------------------------
+APP="diffre"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="printfapp/diffre"
+-----------------------------------------------------------------
