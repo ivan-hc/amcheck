@@ -15240,3 +15240,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="vicinae"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vicinaehq/vicinae"
+-----------------------------------------------------------------
