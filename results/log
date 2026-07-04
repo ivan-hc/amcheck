@@ -3747,3 +3747,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="envkey/envkey-ui"
 -----------------------------------------------------------------
+APP="asunder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/asunder-appimage"
+-----------------------------------------------------------------
