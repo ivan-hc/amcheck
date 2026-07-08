@@ -443,9 +443,9 @@ jobs:
               echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
               echo ""
               if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+                 ls /usr/local/share/applications | sort | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
               elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+                 ls /usr/local/share/applications | sort | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
               else
                  echo "No .desktop file available" | tee -a results/log-"${{ matrix.file }}"
               fi
