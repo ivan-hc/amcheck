@@ -2617,3 +2617,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="KurozeroPB/CustomRPC"
 -----------------------------------------------------------------
+APP="opencode-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="anomalyco/opencode"
+-----------------------------------------------------------------
