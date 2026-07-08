@@ -2632,3 +2632,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="anomalyco/opencode"
 -----------------------------------------------------------------
+APP="opencode-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="anomalyco/opencode"
+-----------------------------------------------------------------
