@@ -248,7 +248,7 @@ jobs:
       - name: "Cache dependencies"
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: curl libnotify-bin ripgrep wget
+          packages: 7zip curl libnotify-bin ripgrep wget
           version: 1.0
 
       - name: "Fix AppArmor"
