@@ -1242,3 +1242,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="jorio/BillyFrontier"
 -----------------------------------------------------------------
+APP="7zip"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="https://www.7-zip.org"
+-----------------------------------------------------------------
