@@ -14985,3 +14985,8 @@ APPIMAGE='no'
 GITHUB='yes'
 SITE="xiaoxigua-1/XPixiv"
 -----------------------------------------------------------------
+APP="linuxqq"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://im.qq.com/linuxqq"
+-----------------------------------------------------------------
