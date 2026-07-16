@@ -8747,3 +8747,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="lencx/nofwl"
 -----------------------------------------------------------------
+APP="linuxqq"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://im.qq.com/linuxqq"
+-----------------------------------------------------------------
