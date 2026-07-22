@@ -15630,3 +15630,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="youplaytx"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="ProfP303/youplaytx"
+-----------------------------------------------------------------
