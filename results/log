@@ -15660,3 +15660,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="vocalinux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jatinkrmalik/vocalinux"
+-----------------------------------------------------------------
