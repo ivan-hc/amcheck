@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <circle
+     style="opacity:1;fill:#1b8eff;fill-opacity:1;stroke-width:24.6857;paint-order:markers fill stroke"
+     id="path343"
+     cx="128"
+     cy="128"
+     r="128" />
+  <path
+     d="M 79.603879,128 60.245431,108.64155 40.886983,128 60.245431,147.35845 Z M 195.75457,108.64155 176.39612,128 195.75457,147.35845 215.11301,128 Z"
+     id="path4"
+     style="opacity:0.5;fill:#ffffff;fill-opacity:1;stroke-width:9.67922" />
+  <path
+     d="M 183.26837,86.47613 128,31.207761 h -9.67922 V 104.67307 L 73.893138,60.245434 60.245433,73.893139 114.3523,128 60.245433,182.10686 73.893138,195.75457 118.32078,151.32693 v 73.46532 H 128 L 183.26837,169.52387 141.6477,128 Z m -45.58915,-18.196941 18.19695,18.196941 -18.19695,18.19694 z m 18.19695,101.244681 -18.19695,18.19694 v -36.39388 z"
+     id="path4-3"
+     style="opacity:0.95;fill:#ffffff;fill-opacity:1;stroke-width:9.67922" />
+</svg>
