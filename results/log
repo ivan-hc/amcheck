@@ -10072,3 +10072,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="pkgforge-dev/phoenix-x-server-AppImage"
 -----------------------------------------------------------------
+APP="omegat"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://sourceforge.net/p/OmegaT"
+-----------------------------------------------------------------
