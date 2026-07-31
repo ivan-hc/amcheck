@@ -1,0 +1,45 @@
+APP="firefox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
+APP="firefox-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
+APP="firefox-devedition"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
+APP="firefox-esr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
+APP="firefox-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.firefox.com SITE2=ivan-hc/Firefox-appimage"
+-----------------------------------------------------------------
+APP="thunderbird"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.thunderbird.net SITE2=ivan-hc/Thunderbird-appimage"
+-----------------------------------------------------------------
+APP="thunderbird-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.thunderbird.net SITE2=ivan-hc/Thunderbird-appimage"
+-----------------------------------------------------------------
+APP="thunderbird-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.thunderbird.net SITE2=ivan-hc/Thunderbird-appimage"
+-----------------------------------------------------------------
+APP="zotero"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.zotero.org"
+-----------------------------------------------------------------
