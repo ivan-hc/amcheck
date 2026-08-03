@@ -15735,3 +15735,8 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="https://veracrypt.io"
 -----------------------------------------------------------------
+APP="amber"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="baptisterajaut/amber"
+-----------------------------------------------------------------
