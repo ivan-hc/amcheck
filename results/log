@@ -16095,3 +16095,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="zorite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="packetThrower/zorite"
+-----------------------------------------------------------------
