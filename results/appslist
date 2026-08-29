@@ -487,6 +487,7 @@ colorpicker
 colorstatic-bash
 comic-book-reader
 comic-reader
+comic-strip-browser
 comics-downloader
 comictagger
 commander-genius
@@ -2858,6 +2859,7 @@ tor-browser-alpha
 torcs
 torrents_digger
 torrenttools
+torrserver
 toru
 torzu
 touchhle
