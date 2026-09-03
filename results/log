@@ -16290,3 +16290,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="playtorrio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ayman708-UX/PlayTorrioV3"
+-----------------------------------------------------------------
