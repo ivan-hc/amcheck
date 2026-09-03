@@ -2117,6 +2117,7 @@ pinta-dev
 pinta-gtk3
 pipes-rs
 pixeldrain-cli
+pixelflasher
 pixelhopper
 pixelorama
 pixelpulse2
@@ -3083,6 +3084,7 @@ wine-devel
 wine-stable
 wine-staging
 wine-staging-ge-proton
+wine32-cli
 wine32-deploy
 winrar
 wipeout-rewrite

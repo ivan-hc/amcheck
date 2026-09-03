@@ -2117,6 +2117,7 @@ pinta-dev
 pinta-gtk3
 pipes-rs
 pixeldrain-cli
+pixelflasher
 pixelhopper
 pixelorama
 pixelpulse2
@@ -3083,6 +3084,7 @@ wine-devel
 wine-stable
 wine-staging
 wine-staging-ge-proton
+wine32-cli
 wine32-deploy
 winrar
 wipeout-rewrite
@@ -3237,3 +3239,21 @@ zfind
 zfxtop
 zk
 zmk-studio
+zmninja
+znax
+znote
+zod-engine
+zograscope
+zoo-design-studio
+zoom
+zorite
+zotero
+zoxide
+zramen
+zsnes
+zsync2
+zulip
+zx-poly
+zxinfo-file-browser
+zy-player
+zyfun
