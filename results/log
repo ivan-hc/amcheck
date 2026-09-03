@@ -16295,3 +16295,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="ayman708-UX/PlayTorrioV3"
 -----------------------------------------------------------------
+APP="radmin-vpn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="baptisterajaut/radmin-vpn-linux"
+-----------------------------------------------------------------
