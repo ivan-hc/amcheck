@@ -162,6 +162,7 @@ artisan
 artix
 arx-libertatis
 asarui
+asbru-cm
 ascendara
 asgardex
 aspect
@@ -1463,6 +1464,7 @@ komi-store
 kondo
 koodo-reader
 kopia
+kopuz
 koreader
 koreader-nightly
 kotatogram
@@ -1686,6 +1688,7 @@ meru
 mesa
 meshlab
 meshmill
+meshtastic-android
 meta-grabber
 metaclean
 mgba
@@ -1772,6 +1775,7 @@ mudita-center
 mudlet
 muffon
 mullvad-browser
+multica
 multimc
 munt
 muon-pdf
@@ -2031,6 +2035,7 @@ opera-dev
 optiimage
 orange
 oras
+orca
 orca-note
 orcaslicer
 orcaslicer-devel
@@ -2130,6 +2135,7 @@ pencil
 penguins-eggs
 pennywise
 penpot
+pensela
 perfect-dark
 performous
 perl-executing-browser
@@ -2355,6 +2361,7 @@ qterminal
 qtjsondiff
 qtox
 qtrfpowermeter
+qtscrcpy
 quamodbusclient
 quantumlauncher-enhanced
 quark
@@ -2542,6 +2549,7 @@ scrcpy
 scrcpygui
 screenarc
 screencloud
+screentranslator
 scribus
 scrite
 scrum-retroboard
@@ -2827,6 +2835,7 @@ symphytum
 syncmyl2p
 syncplay
 syncthing
+syncthing-gtk
 syncthingctl
 syncthingtray
 synfig
@@ -2845,6 +2854,7 @@ tablo-tools
 tabularis
 tachoparser
 tag-editor
+tageditor
 tagger
 tagspaces
 tagtime-desktop
@@ -2918,6 +2928,7 @@ tilde-podcast
 tiled
 tilinggenerator
 timenaut
+timg
 tipitaka-pali-reader
 tixati
 tkmm
@@ -3040,6 +3051,7 @@ vcmi
 vechain
 vector
 vegeta
+vengi
 ventoy
 veracrypt
 veritypdf
@@ -3178,6 +3190,7 @@ wine-staging
 wine-staging-ge-proton
 wine32-cli
 wine32-deploy
+winpodx
 winrar
 wipeout-rewrite
 wire
@@ -3330,6 +3343,7 @@ zenity
 zenkit
 zennotes
 zenroomstudio
+zeroclaw
 zettlr
 zfind
 zfxtop
