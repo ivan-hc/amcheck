@@ -1435,6 +1435,7 @@ kettleclient
 kevedit
 keyboardclient
 keycombiner
+keyguard
 keymanager
 keypunch
 keyrier-json
@@ -1693,7 +1694,7 @@ meru
 mesa
 meshlab
 meshmill
-meshtastic-android
+meshtastic
 meta-grabber
 metaclean
 mgba
@@ -1948,6 +1949,7 @@ oleafly
 olive
 olive-legacy
 ollama
+omacal
 omegat
 omekasy
 omikuji
@@ -3231,7 +3233,6 @@ wora
 workflowy
 workrave
 world-monitor
-worldmonitor
 wournal
 wowup
 wox
