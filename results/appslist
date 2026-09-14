@@ -1585,7 +1585,6 @@ loopauditioneer
 lore-forge
 lorien
 lossless-cut
-losslesscut
 love
 lovelive
 lovesay
@@ -1983,6 +1982,7 @@ open-webui
 openapi-tui
 openarena
 openaudible
+openbitfun
 openblok
 openboardview
 openboxgl
