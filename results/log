@@ -16935,3 +16935,13 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="librelane"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="librelane/librelane"
+-----------------------------------------------------------------
+APP="magic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RTimothyEdwards/magic"
+-----------------------------------------------------------------
