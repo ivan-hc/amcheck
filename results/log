@@ -16950,3 +16950,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="am-gui-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Shikakiben/AM-GUI"
+-----------------------------------------------------------------
