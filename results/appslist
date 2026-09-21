@@ -142,6 +142,7 @@ arcade-manager
 arcdlp
 arch-deployer
 arch-flatimage
+archductor
 archimage-cli
 archimede
 archipel
@@ -283,6 +284,7 @@ binfinder
 bingada
 binglite
 bioanimation
+bionic
 biplanes-revival
 birdfont
 birds-kitchen
@@ -414,6 +416,7 @@ cbird
 cc-switch
 cccp
 cdogs-sdl
+celemod
 celeste64
 celestia
 celestia-dev
@@ -1200,6 +1203,7 @@ gridix
 gridplayer
 gridsync
 grinplusplus
+grip
 grist-desktop
 gron
 gron.awk
@@ -1230,6 +1234,7 @@ hascard
 hashsum
 hastyheroes
 hatari
+haven
 haveno-reto
 hctl
 hdict
@@ -1814,6 +1819,7 @@ mystiq
 mytonwallet
 n3h
 naev
+nak
 nami
 nanokvm-usb
 nanosaur
@@ -2586,6 +2592,7 @@ sengi
 senpa-io-client
 sentinel
 ser-player
+serein
 serial-studio
 serialplot
 serioussamtfe
@@ -2797,6 +2804,7 @@ structure
 studymd
 stunt-car-remake
 subillmanager
+substitcher
 substrate-ide
 subsurface
 subtitld
@@ -3333,6 +3341,7 @@ youtube-music
 youtube-tui
 youtubeanddownloader
 youtubesearchfilter
+youwee
 yt-dlandcut
 yt-dlg
 yt-dlp
