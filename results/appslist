@@ -28,6 +28,7 @@ advanced-passgen
 advanced-rest-client
 aegisub
 aerofoil
+aeroftp
 afetch
 affine
 affine-beta
@@ -3317,6 +3318,7 @@ yaf
 yaka
 yakit
 yakit-legacy
+yakuda-connect
 yam
 yamagi-quake-ii
 yamata-launcher
