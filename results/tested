@@ -486,6 +486,7 @@ cleepdesktop
 clementine
 clementineremote
 cli-chess
+cliamp
 clifm
 cliniface
 clipgrab
@@ -2009,6 +2010,7 @@ openboardview
 openboxgl
 opencadstudio
 openclaw
+openclaw-ai
 opencloud
 opencode
 opencode-cli
@@ -2847,6 +2849,7 @@ supertux
 supertuxkart
 supertuxkart-dev
 surf
+surge
 surrealist
 suwayomi
 svelte-electron
