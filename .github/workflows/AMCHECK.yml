@@ -343,7 +343,7 @@ jobs:
           #########################
 
           # Blacklist apps with slow download in Github Actions
-          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer) ]]; then
+          if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|ryujinx|ryujinx-canary) ]]; then
 
             echo "This application cannot be installed on GitHub Actions due to slow download URL or a too weak domain" | tee -a results/log-"${{ matrix.file }}"
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
