@@ -17097,3 +17097,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="Hiram-Wong/ZyPlayer"
 -----------------------------------------------------------------
+APP="vtm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="directvt/vtm"
+-----------------------------------------------------------------
