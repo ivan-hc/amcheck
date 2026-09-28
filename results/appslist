@@ -2030,6 +2030,8 @@ opencode
 opencode-cli
 opencode-desktop
 opencode-enhanced
+opencoduo-client
+opencoduo-server
 opencomic
 opendeck
 opengoal
@@ -2204,6 +2206,7 @@ photoflare
 photoflow
 photogimp
 photon
+photon-studio
 photoname
 photopealoader
 photoqt
