@@ -2589,8 +2589,7 @@ opencode
 opencode-cli
 opencode-desktop
 opencode-enhanced
-opencoduo-client
-opencoduo-server
+opencoduo
 opencomic
 opendataeditor
 opendeck
@@ -4082,6 +4081,7 @@ wallettech
 warlock3
 warp
 warp-terminal
+warpinator
 warteschlangensimulator
 wasistlos
 watched
@@ -4197,6 +4197,7 @@ wsp
 wsrx
 wtfutil
 wthrr
+wudict
 wxmaxima
 wxmedit
 wyrmhole
@@ -4253,6 +4254,7 @@ xpipe
 xpipe-ptb
 xplist
 xplorer
+xreader
 xsnow
 xstl
 xstreamingdesktop
