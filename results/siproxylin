@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Background with rounded corners -->
+  <rect width="256" height="256" fill="#3C4F5E" rx="42"/>
+
+  <!-- Bottle tilted slightly (drunk style) - scaled up to use more space -->
+  <g transform="rotate(-8 128 128)">
+
+    <!-- Bottle cap (red, slightly wobbly) -->
+    <path d="M 112 25 L 109 25 Q 108 26, 108 28 L 108 38 Q 108 40, 110 40 L 146 40 Q 148 40, 148 38 L 148 28 Q 148 26, 147 25 L 144 25 Z"
+          fill="#C0392B" stroke="#922B21" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Cap ridges (hand-drawn) -->
+    <line x1="115" y1="29" x2="115" y2="37" stroke="#8B1A1A" stroke-width="1.5" opacity="0.6"/>
+    <line x1="128" y1="29" x2="128" y2="37" stroke="#8B1A1A" stroke-width="1.5" opacity="0.6"/>
+    <line x1="141" y1="29" x2="141" y2="37" stroke="#8B1A1A" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Bottle neck (narrow, wobbly lines) -->
+    <path d="M 116 40 Q 115.5 41, 115 43 L 112 72 Q 111.5 74, 112 75 L 113 84 Q 113 86, 115 86 L 141 86 Q 143 86, 143 84 L 144 75 Q 144.5 74, 144 72 L 141 43 Q 140.5 41, 140 40 Z"
+          fill="#FAFAFA" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Neck highlight -->
+    <ellipse cx="123" cy="60" rx="5" ry="14" fill="#FFFFFF" opacity="0.4"/>
+
+    <!-- Bottle shoulder (transition to wider body) -->
+    <path d="M 115 86 Q 114 87, 113 89 L 109 98 Q 108 100, 109 102 L 100 107 Q 98 108, 98 110 L 158 110 Q 158 108, 156 107 L 147 102 Q 148 100, 147 98 L 143 89 Q 142 87, 141 86 Z"
+          fill="#FAFAFA" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Main bottle body (WIDER and TALLER) -->
+    <path d="M 98 110 Q 96 111, 96 113 L 93 222 Q 93 226, 95 228 L 97 232 Q 98 233, 100 233 L 156 233 Q 158 233, 159 232 L 161 228 Q 163 226, 163 222 L 160 113 Q 160 111, 158 110 Z"
+          fill="#FAFAFA" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Vodka liquid inside -->
+    <path d="M 101 118 L 99 225 Q 99 228, 101 230 L 155 230 Q 157 228, 157 225 L 155 118 Z"
+          fill="#E8F4F8" opacity="0.3"/>
+
+    <!-- Label (golden/yellow, STAYS WITHIN bottle body width) -->
+    <path d="M 103 155 Q 102.5 156, 103 157 L 104 195 Q 104.5 197, 106 197 L 150 197 Q 152 196.5, 152 195 L 153 157 Q 153 156, 152.5 155 Z"
+          fill="#F4D03F" stroke="#D4941C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Label decorative border (dashed, rough) -->
+    <rect x="108" y="161" width="40" height="30" rx="2"
+          fill="none" stroke="#D4941C" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.5"/>
+
+    <!-- XEP text (hand-drawn style, bold, fits within label) -->
+    <text x="128" y="181"
+          font-family="'Comic Sans MS', 'Brush Script MT', cursive, sans-serif"
+          font-size="24"
+          font-weight="bold"
+          fill="#2C3E50"
+          text-anchor="middle"
+          letter-spacing="0"
+          transform="rotate(-2 128 181)">XEP</text>
+
+    <!-- Small text under XEP -->
+    <text x="128" y="189"
+          font-family="'Comic Sans MS', cursive, sans-serif"
+          font-size="7"
+          fill="#2C3E50"
+          text-anchor="middle"
+          opacity="0.6">PROTOCOL</text>
+
+    <!-- Bubbles in vodka (floating up, drunk bubbles) -->
+    <circle cx="110" cy="125" r="3" fill="#FFFFFF" opacity="0.6"/>
+    <circle cx="145" cy="140" r="2.5" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="115" cy="165" r="3.5" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="140" cy="175" r="2.8" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="108" cy="200" r="3.2" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="148" cy="210" r="2.5" fill="#FFFFFF" opacity="0.6"/>
+    <circle cx="120" cy="215" r="2.2" fill="#FFFFFF" opacity="0.4"/>
+
+    <!-- Shine/reflection on glass -->
+    <ellipse cx="106" cy="170" rx="4" ry="32" fill="#FFFFFF" opacity="0.35"/>
+    <ellipse cx="105" cy="205" rx="3.5" ry="18" fill="#FFFFFF" opacity="0.4"/>
+
+    <!-- Hand-drawn imperfections/scratches -->
+    <path d="M 152 145 Q 152.5 147, 152 149" fill="none" stroke="#2C3E50" stroke-width="0.8" opacity="0.2"/>
+    <path d="M 102 160 Q 101.5 162, 102 164" fill="none" stroke="#2C3E50" stroke-width="0.8" opacity="0.2"/>
+
+  </g>
+
+  <!-- Small "drunk" detail - droplet at bottom -->
+  <ellipse cx="145" cy="238" rx="10" ry="3.5" fill="#E8F4F8" opacity="0.4"/>
+  <circle cx="151" cy="236" r="2.5" fill="#E8F4F8" opacity="0.5"/>
+
+</svg>
