@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Logo A: the prompt that tells you its status. Dark tile, cream
+       round-capped chevron, amber state dot top-right - same geometry as
+       the generated raster assets (assets/icon/hicolor). -->
+  <rect x="3.5" y="3.5" width="57" height="57" rx="14.5" fill="#22252c" stroke="#3a3f49" stroke-width="1.4"/>
+  <path d="M20.8 22.2 L32.6 32.05 L20.8 41.9" fill="none" stroke="#ece9e2" stroke-width="7.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="44" cy="22.7" r="5.9" fill="#e8b34b"/>
+</svg>
