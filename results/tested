@@ -1457,6 +1457,7 @@ dlsite-manager
 dn-notebook
 dnd-client
 dns-changer
+dns-hop
 dns-orchestrator
 dnzhrecomp
 doc77
@@ -3205,6 +3206,7 @@ lukan
 lumen
 lumi
 lumi-ai
+lumichats-offline-llm
 lumina
 luminous
 lumisync
@@ -3999,6 +4001,7 @@ open-proxy
 open-quest-hub
 open-revelare
 open-sstv
+open-switch
 open-thymos
 open-typer
 open-video-downloader
@@ -5085,6 +5088,7 @@ samira
 sample-client-for-amazon-bedrock
 samplesolution
 samrewritten
+sanchoexo
 sandcastle
 sane-break
 sanicball
