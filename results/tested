@@ -112,6 +112,7 @@ ai-dock
 ai-gate
 ai-image-studio
 ai-manager
+ai-researcher-roadmap
 ai-security-scanner
 ai-session-viewer
 ai-sign-in-gateway
@@ -122,6 +123,7 @@ aic-audio-intelligence-companion
 aichat
 aicoder
 aidm
+aigcforge
 aiguard
 aikami
 aikeyvault
@@ -157,6 +159,7 @@ alice
 alien-rpg
 alien-tec-ui
 alienresurrection-recompilation
+allapideck
 allusion
 alma
 aloud
@@ -177,6 +180,7 @@ am-gui-beta
 amarok
 amazingmarvin
 amber
+amberize
 ambermoon.net
 amdgpu_top
 amethyst
@@ -475,6 +479,7 @@ bandwhich
 bango
 banjo-recompiled
 banjorecomp
+banked-reset-safety-net
 banquier
 baobab
 bar-none-ultrawide-fixer
@@ -1006,6 +1011,7 @@ cncra2yr
 cnkibug
 coach
 coal-launcher
+cockpit-tools
 code
 code-contex
 code-editor
@@ -1019,6 +1025,7 @@ codedeck
 codeinoven
 codepointer
 codesaber
+codeswim
 codetta
 codex-account-switch
 codex-app-linux
@@ -1066,6 +1073,7 @@ commander-wars
 commdesk
 commit-cat
 commonwealth-ga-launcher
+compa
 companion-emergence
 compare-all
 compass
@@ -1073,6 +1081,7 @@ complianceguard
 composa
 composer-bridge
 compresso
+concat
 concordium-desktop-wallet
 conduction
 conduit-desktop
@@ -1138,6 +1147,7 @@ cortask
 cortex
 corv-gcs
 corvusgcs
+cosint
 cosmic-comics
 cosmog
 cosmonium
@@ -1148,6 +1158,7 @@ cove-nexus
 cove-universal-converter
 coven-cave
 cowitness
+cowork-z
 cozydrive
 cpeditor
 cpod
@@ -1159,6 +1170,7 @@ crab-code-ide
 crabdrop
 crabfetch
 crabport
+crabshell
 craftos-pc
 crankshaft
 crawl-ncurses
@@ -1192,6 +1204,7 @@ crossonic
 crossover
 crossplatformdownloadmanager
 crow-translate
+crush-forensics
 cry
 cryplicity
 crypter
@@ -1474,6 +1487,7 @@ draw.io
 drawish
 drawpile
 drawy
+draytek-vpn
 dream
 dream-voicetraining
 dream-work-theme
@@ -1697,6 +1711,7 @@ eve-intel-checker
 eve-settings-manager
 eve-wrench-app
 evebuddy
+eveconsole
 evelens
 everdo
 everinst
@@ -1710,8 +1725,10 @@ excalideck
 excel-parser-processor
 exe
 exeqt
+exfat-ripper
 exhale
 exifcleaner
+exilecompass
 exilence-ce
 exiletunes
 eximchain-wallet
@@ -1730,6 +1747,7 @@ extrema
 extremetuxracer
 exult
 eyedropper
+eyes-on-claude-code
 eyestalker
 ez-tree
 eza
@@ -1874,6 +1892,7 @@ flawesome
 flaxeoui
 flb
 flclash
+fleet
 flightcore
 flightgear
 flightgear-airports
@@ -1938,6 +1957,7 @@ folderskin
 folio
 folo
 fonos
+font-moeum
 fontbase
 fontforge
 fontlet
@@ -1946,6 +1966,7 @@ foobar2000
 foobillardpp
 foot
 fooyin
+forcaslicer
 forestfire-simulator
 forge
 forgepilot
@@ -1979,6 +2000,7 @@ freecad
 freecad-assembly3
 freecad-weekly
 freecoredata
+freecrawl-seo-tool
 freedv-gui
 freefilesync
 freegosy
@@ -2000,6 +2022,7 @@ fresh
 freshfetch
 fretboard
 fretboard-lab-official
+fretwire
 friction
 friendlyterminal
 frieren-desktop
@@ -2018,6 +2041,7 @@ funsync-player
 fuoevolve
 furnace
 fused-render
+fw-fanctrl-gui
 fwaun-tools
 fx
 fxsound-for-linux
@@ -2128,6 +2152,7 @@ gimp
 gimp-git
 gimp-hybrid
 gingko
+git-account-manager
 git-ai-studio
 git-cliff
 git-credential-oauth
@@ -2353,6 +2378,7 @@ headroom
 headroom-desktop
 headsetcontrol
 headwater
+health-reminder
 hearthlight
 heat1d
 heaviside
@@ -2363,6 +2389,7 @@ heinplay
 helicon
 helio
 helion
+helios
 helioslauncher
 heliox-os
 helium
@@ -2371,6 +2398,7 @@ helix
 helixnotes
 hellocontest
 helm
+henkan
 henson
 hephaestus
 hermes
@@ -2393,6 +2421,7 @@ hexwalk
 hey-mail-client
 heynote
 hhd-ui
+hibiki
 hiddensteps
 hiddify-next
 hide.me
@@ -2443,6 +2472,7 @@ hugor
 humanlog
 hummingbird
 hunter
+hush
 hushmic
 husi
 husk
@@ -2701,6 +2731,7 @@ karyon
 kate
 kattam
 katvan
+kaya
 kboard
 kcc
 kcode
@@ -2756,6 +2787,7 @@ kick-the-fly
 kickerino
 kid3
 kiibohd-configurator
+kika
 kiku
 kimaitray
 kimi-code-rs
@@ -2783,6 +2815,7 @@ kiwix
 kiwix-js-pwa
 kiya-agent
 kiyeovo
+kiyoshi
 kizuna-voice-studio
 kkedit-qt
 kkeditqt
@@ -2792,6 +2825,7 @@ kleiner-brauhelfer-2
 klip
 kliveide
 klogg
+klustreye
 klyppd
 km-recplayer
 kmon
@@ -3034,6 +3068,7 @@ llama-recipe-manager
 llama-server-manager
 llauncher
 llm-advisor
+llm-model-manager
 lm-clipper
 lm-studio-bench
 lmms
@@ -3198,6 +3233,7 @@ marea
 marina
 mariokart64recomp
 mark-mind
+mark-shot
 marka
 markdown-editor
 markflowy
@@ -3214,6 +3250,7 @@ markview
 marky
 marlin-conf
 mars-editor-app
+marstip
 martian
 marvin
 mast
@@ -3223,6 +3260,7 @@ mastervyrn
 mate-system-monitor
 material-viewer
 materialious
+materialxplayground
 mathcha-notebook
 matjari
 matm
@@ -3331,6 +3369,7 @@ metaclean
 metacubexd
 metagrid
 metamask
+metrik
 metroidprimehuntersrecomp
 meuxe
 mewtion
@@ -3359,6 +3398,7 @@ migurdex
 milkdown-editor
 milkytracker
 mimi
+mimic-flow
 mindflock
 mindgraph-notes
 mindmapp
@@ -3646,6 +3686,7 @@ nextcowork
 nextplayer
 nextshell
 nexube
+nexus
 nexus-account-manager
 nexus-explorer
 nexus-mods
@@ -3660,6 +3701,7 @@ nheko
 niffler
 nightpdf
 nightwave-plaza-electron
+nihonmaster
 nimbo
 nimbus-weather
 nine
@@ -3872,6 +3914,7 @@ open-ai-translator
 open-android-dex
 open-audio-analyzer
 open-calc-studio
+open-cowork
 open-dronelog
 open-generative-ai
 open-geotechniek-studio
@@ -3912,6 +3955,7 @@ openclaw-launcher
 opencloud
 opencode
 opencode-cli
+opencode-config-tool
 opencode-desktop
 opencode-enhanced
 opencode2api-enhance
@@ -4044,6 +4088,7 @@ oscleash
 osecbox
 osrs-tools
 ossia-score
+ossue
 ostara
 osu
 osu-mania-replay-renderer
@@ -4075,7 +4120,9 @@ owte
 oxen-gui-wallet
 oxide-dock
 oxideterm
+oxidom
 oxish-session
+p-ai
 p2p-chat
 p2pderivatives
 p3x-redis-ui
@@ -4296,6 +4343,7 @@ pinta
 pinta-dev
 pinta-gtk3
 pioneer
+piora
 piozalauncher
 pipeasio
 pipes-rs
@@ -4328,6 +4376,7 @@ plano
 platform
 platform-tools
 platinum-md
+platypusgit
 play
 play-2048
 play-enhanced
@@ -4385,6 +4434,7 @@ pokerpulsepro-tauri
 pokete
 polar
 polaris
+polire
 polkakey
 pollymc-continued
 poltertype
@@ -4459,6 +4509,7 @@ prism-desktop
 prisma
 prisma-desk
 prisma-studio
+prismgb-app
 prismlauncher
 prismlauncher-enhanced
 prismlauncher-qt5
@@ -4720,6 +4771,7 @@ reaper
 rebaslight
 rebos
 recall
+recast
 recipe-scribe
 reckless-drivin-sdl
 reco
@@ -4767,6 +4819,7 @@ repetier-host
 repomon
 report-assistant
 reqable
+reright
 reshadelinux
 reshadowtower
 resonitemodupdater
@@ -4921,9 +4974,11 @@ saccade
 sacdextractgui
 safe-multisig
 safelight
+sageport
 sail
 sailor
 sajilo
+sales-claw-ts
 sameboy
 sameko-dev-cpp
 samira
@@ -5068,6 +5123,7 @@ sharik
 sharkfin
 sharp-tune
 sheepshaver
+sheetopia
 sheikah
 shell
 shellcanvas
@@ -5134,6 +5190,7 @@ simplex-solver
 simplexity-ai-app
 simpmusic
 simtoolkitpro
+simtradedesk
 simulator-desktop
 simutrans
 sinclair
@@ -5203,6 +5260,7 @@ smplayer
 smuview
 smz3randomizer
 snake-js
+snakie
 snap-note
 snap-prompt
 snap-tray
@@ -5240,6 +5298,7 @@ solenoid
 sollin-music-desktop
 solomd
 sonami
+sonara
 songrec
 sonic-3-air
 sonic-mania-decompilation
@@ -5323,6 +5382,7 @@ sqlkit
 sqrc
 sqt
 squad
+squadcenter
 squirrel-disk
 srb2
 srb2k
@@ -5376,6 +5436,7 @@ stellarc
 stellaris-galaxy-forge
 stellarium
 stellarmaps
+stem
 stemwerk-reaper
 stew
 sticker-convert
@@ -5409,6 +5470,7 @@ streamlink-twitch-gui
 streamon
 stremio-enhanced
 stretchly
+strideterm
 strikehub
 strongbox
 structure
@@ -5587,6 +5649,7 @@ telescope
 tenacity
 tenchu-sa-recomp
 tennoscope
+tentacles
 tepub-editor
 ter-music
 terabox
@@ -5672,6 +5735,7 @@ tiddlui
 tiddlydesktop
 tidybit
 tiespace
+tiger
 tigertag-studio-manager
 tikkocampus
 tildaz
@@ -5716,6 +5780,7 @@ token-monitor
 token-station
 tokenclock
 tokenicode
+tokenova
 tokenpass-desktop
 tokenpulse
 tokodon
@@ -5947,6 +6012,7 @@ ved
 vegeta
 vegha
 vegord
+velashell
 vellum
 vellumstyle
 velo
@@ -6068,6 +6134,7 @@ vocript
 vodka
 voice-chat-minecraft-pc-vcmc
 voice-prompt
+voice-transcriber
 voicekey
 voicestudio
 voicetransleter-v2
@@ -6167,6 +6234,7 @@ wechatclaudecode
 weektodo
 weflow
 wekan
+weline
 wello-code
 weport
 weread-desktop
@@ -6183,6 +6251,7 @@ wfinfo-linux
 wfweb
 whalebird
 whatly
+whatrust
 whatsapp-lite
 whatsapp-tauri
 whatsdesk
@@ -6254,6 +6323,7 @@ wlib
 wljs-notebook
 wlx-overlay-s
 wnr
+woeusb-ng
 woke
 wolai
 wonderlab
@@ -6370,6 +6440,7 @@ xstl
 xstreamingdesktop
 xtomarkdown
 xtool
+xtralab
 xtuber
 xuan
 xxh
