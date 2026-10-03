@@ -300,6 +300,7 @@ appimageupdatetool
 appimg
 appinstall
 appium-inspector
+apple-health-pro
 apple-pickup-watcher
 applyer
 appmanager
@@ -565,6 +566,7 @@ betterx
 betteryandexmusic
 beurerscalemanager
 bevy-explorer
+bewareofdog
 beyond-all-reason
 bezique
 bforartists
@@ -964,6 +966,7 @@ claudecodex
 claudelens
 claudget
 claudinal
+claudometer
 claw-switch
 clawcontrol
 clawcontroller
@@ -984,6 +987,7 @@ clementine
 clementineremote
 cli-chess
 cli-ck
+cli-jaw
 cli-launcher
 cliamp
 clickhouseformatexplorer
@@ -1318,6 +1322,7 @@ dbet-wallet
 dbflux
 dbgate
 dbgate-premium
+dbi-backend
 dbin
 dbptk-desktop
 dbv-md-reader
@@ -2237,6 +2242,7 @@ glorious-ctl
 glossreader
 glotshot
 glow
+glowsnap
 gltf-insight
 glulxe
 glyph
@@ -2515,6 +2521,7 @@ husk
 huwinterpreter
 hw-probe
 hxlinux
+hycreator
 hydra
 hydrogen-music
 hyper
@@ -2555,6 +2562,7 @@ iiviewer
 ileapp
 illusion-agent
 iloader
+ima2-gen
 image-toolkit
 imagemagick-clang
 imagemagick-gcc
@@ -2626,6 +2634,7 @@ ioquake3
 iota1k
 ipfs-desktop
 ipodrocks-js
+iptables-manager
 iptracker
 iptv
 iptvchecker
@@ -2754,6 +2763,7 @@ kalium
 kalker
 kallamo
 kanban
+kanbots
 kando
 kanivet
 kanji-dojo
@@ -2830,6 +2840,7 @@ kika
 kiku
 kimaitray
 kimi-code-rs
+kimi-work-linux
 kimitzu-client
 kimix
 kindling-cli
@@ -3137,6 +3148,7 @@ localsend
 localstack-explorer
 localwallet
 localyapper
+lociant
 lockbook-cli
 lockbook-desktop
 lockbox-local
@@ -3180,6 +3192,7 @@ lrp-mnm
 lsd
 lspanel
 lstack
+ltools
 ltx-desktop
 luanti
 lucerne
@@ -3500,6 +3513,7 @@ mldonkey-next
 mlv-app
 mmapper
 mmseqs2-search
+mmvj
 mnemosyne-neural-os
 mo-gallery-web
 moa-goods-maker
@@ -3912,6 +3926,7 @@ oldamber
 oldchat-kivotos-next
 olduvai
 oleafly
+olenro
 olive
 olive-legacy
 ollama
@@ -4009,6 +4024,7 @@ openclaw
 openclaw-ai
 openclaw-connector
 openclaw-launcher
+openclippy
 opencloud
 opencode
 opencode-cli
@@ -4018,6 +4034,7 @@ opencode-enhanced
 opencode-github-copilot-switcher
 opencode2api-enhance
 opencodemonitor
+opencodex
 opencoduo
 opencomic
 openconstructionerp
@@ -5482,6 +5499,7 @@ ssh-at
 ssh-mitm
 sshclient
 sshpilot
+sslax-nms
 ssplot
 sstvae
 st
@@ -5576,6 +5594,7 @@ sub8
 subillmanager
 submarine
 subminer
+subscription-tracker
 subsink
 substitcher
 substrate-ide
