@@ -33517,3 +33517,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="liliu-z/stashbase"
 -----------------------------------------------------------------
+APP="inknote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="likehao19/inknote"
+-----------------------------------------------------------------
