@@ -12,7 +12,6 @@
 3nity-media
 432hz-player
 4kwall
-5ch-browser-template
 5ire
 6502-emulator
 7zip
@@ -1693,6 +1692,7 @@ emacs
 emacs-nox
 emailops
 embedded-ide
+ember
 ember-p2p
 emdash
 emerald
