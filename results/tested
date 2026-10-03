@@ -950,6 +950,7 @@ claude-dev-suite
 claude-dock
 claude-history
 claude-journal
+claude-mcp-server
 claude-multi
 claude-powerterminal
 claude-steer
@@ -1014,6 +1015,7 @@ clownmaped
 clownmdemu
 clownmdemu-enhanced
 clypra
+cmdex
 cmtraceopen
 cmux
 cncjs
@@ -1245,6 +1247,7 @@ curlie
 curlit
 curseforge
 cursor
+cursor-claw
 cursor-cli
 cursor-token-manager
 cursorcine
@@ -1304,6 +1307,7 @@ db-tool
 db-toolkit
 dbd-map-overlay
 dbdelve
+dbdump
 dbeaver-ce
 dbee
 dbelte
@@ -1535,6 +1539,7 @@ dsh-evoresearch
 dsh-portable
 dsh-studio
 dsh-ui
+dshare-hid
 dstask
 dstx
 dtmate
@@ -1576,6 +1581,7 @@ easy-candle
 easy-debugger
 easy-ops
 easy-scsmodmanager
+easyaiconfig
 easycodex
 easycommandrunner
 easyextractunitypackage
@@ -1820,6 +1826,7 @@ feedflow
 feedforge
 feedseries
 feishin
+feishu-cursor-bridge
 ferdium
 ferrisscope
 ferrix
@@ -1904,6 +1911,7 @@ flameget
 flameshot
 flare
 flash-transfer
+flashback-raw-editor
 flashgbx
 flashpoint
 flashrom
@@ -3090,6 +3098,7 @@ live-video-magnification
 liveagent
 liveclaw
 liveme-pro-tools
+lk-harness
 llama-recipe-manager
 llama-server-manager
 llauncher
@@ -4744,6 +4753,7 @@ quickshell
 quicktwitch
 quickviewer
 quiet
+quilldb
 quillmesh
 quincy
 quobi-dictation
@@ -5306,6 +5316,7 @@ slogidex
 slojka
 slopera
 smallbasic
+smaragd
 smart-connect
 smartcut
 smartservogui
