@@ -33522,3 +33522,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="likehao19/inknote"
 -----------------------------------------------------------------
+APP="spacesuit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lightmode-laboratories/spacesuit"
+-----------------------------------------------------------------
