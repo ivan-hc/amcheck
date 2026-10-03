@@ -33622,3 +33622,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="leeberlin/subscription-tracker"
 -----------------------------------------------------------------
+APP="out-loud"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="light-cloud-com/out-loud"
+-----------------------------------------------------------------
