@@ -33647,3 +33647,8 @@ APPIMAGE='yes'
 GITHUB='yes'
 SITE="jiangnanquan/sanchoexo"
 -----------------------------------------------------------------
+APP="zalo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VN-Linux-Family/zalo-for-linux"
+-----------------------------------------------------------------
