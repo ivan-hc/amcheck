@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="48" fill="#12081f"/>
+  <path d="M128 28L214 64V120C214 172 178 218 128 232C78 218 42 172 42 120V64L128 28Z" fill="#7c3aed"/>
+  <path d="M82 122L113 153L178 88" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="202" text-anchor="middle" font-size="28" font-family="Arial" fill="#f5f3ff">KGL</text>
+</svg>
