@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="StudioCast Installer">
+  <rect width="256" height="256" rx="44" fill="#f6f8fa"/>
+  <rect x="26" y="38" width="204" height="144" rx="18" fill="#ffffff" stroke="#1f6feb" stroke-width="10"/>
+  <path d="M70 88h70a32 32 0 0 1 0 64H70z" fill="#0b6ba8"/>
+  <circle cx="140" cy="120" r="18" fill="#ffffff"/>
+  <path d="M170 98l38-22v88l-38-22z" fill="#24a148"/>
+  <path d="M88 208h80" stroke="#57606a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M128 172v36" stroke="#57606a" stroke-width="14" stroke-linecap="round"/>
+</svg>
