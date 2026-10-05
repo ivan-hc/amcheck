@@ -73,6 +73,7 @@ affine-canary
 affinity
 afsplug
 agaric
+ageha-editor
 agency
 agency-agents-app
 agent-arcade
@@ -149,6 +150,7 @@ aicodeswitch
 aideagent
 aiden-agent
 aidm
+aigc
 aigcforge
 aiguard
 aikami
@@ -464,6 +466,7 @@ augur
 augustus
 augustus-enhanced
 aura
+aura-player
 auralis
 auris
 aurora
@@ -485,6 +488,7 @@ autoptz
 autoremesher
 autoshorts
 autosk
+autoslides-extractor
 autosubsync
 autotiler
 autotitrator-free
@@ -815,6 +819,7 @@ bytepad
 bytespeichertrayicon
 bytetable
 c-evo
+c-ssh
 c64kernalgenesis
 cabal-desktop
 cables-gl
@@ -923,6 +928,7 @@ ccsm
 ccswitch-ubuntu20
 cctvdl
 cctvvideodownloader
+cdj3k-emu
 cdogs-sdl
 celemod
 celeste64
@@ -1028,6 +1034,7 @@ clarity
 clash-nyanpasu
 clash-verge
 clasp
+classic-addon-manager
 classicimageviewer
 classicube
 classin
@@ -1084,6 +1091,7 @@ clearcote-profile-manager
 cleepdesktop
 clementine
 clementineremote
+clew
 cli-chess
 cli-ck
 cli-jaw
@@ -1149,6 +1157,7 @@ codedeck
 codeeraser
 codehub
 codeinoven
+codelegate
 codemux
 codepet
 codepilot
@@ -1196,6 +1205,7 @@ colorgenerator
 colormc
 colorpicker
 colorstatic-bash
+coloryourmodel
 comail
 comate
 combatlog
@@ -1303,6 +1313,7 @@ cosmonium
 cotect
 cotoami-remake
 couchcode
+coucou
 cove-nexus
 cove-universal-converter
 coven-cave
@@ -1420,6 +1431,7 @@ daisypatcher
 dala
 dana
 danmu-desktop
+dardcor-code
 darkplaces
 darktable
 darktable-nightly
@@ -1482,6 +1494,7 @@ deckwerk
 decodium-4-0-core-shannon
 dedop-studio
 deemix-remastered
+deepdesign-studio
 deepl-linux-electron
 deeplens
 deeplx
@@ -1555,6 +1568,7 @@ dfir-companion
 dg-lab-client
 dhammapada
 dhewm3
+di-111-synth
 dianzi-junshi
 dibby-wemo-manager
 dicomautomaton
@@ -1598,6 +1612,7 @@ dji-mic-control
 djmanager
 dkr-r
 dl-desktop
+dleapp
 dlman
 dlsite-manager
 dn-notebook
@@ -1699,6 +1714,7 @@ dsh-desktop-for-linux
 dsh-desktop-pet
 dsh-dock
 dsh-evoresearch
+dsh-piggy
 dsh-portable
 dsh-studio
 dsh-ui
@@ -1755,6 +1771,7 @@ easyextractunitypackage
 easymint
 easypaper
 easyqueue
+easyread
 easyshell
 easytag
 ebalistyka
@@ -1780,6 +1797,7 @@ eden-cheats-manager
 eden-nightly
 edex-ui
 edgeterm
+edithere
 eduke32
 eez-studio
 eget
@@ -2151,6 +2169,7 @@ fluxdown
 fluxer
 fluxora
 fluxtty
+flybudget
 flybywire
 flycast
 flycast-dojo
@@ -2269,6 +2288,7 @@ funsync-player
 fuoevolve
 furnace
 fused-render
+futureboard-studio
 fw-fanctrl-gui
 fwaun-tools
 fx
@@ -2422,6 +2442,7 @@ gitr
 gitroot
 gitsight
 gitstudio
+gitswitch
 gitty
 gittyup
 gitui
@@ -2464,6 +2485,7 @@ heimdall
 helixai
 hello-halo
 hexokit
+hexomanager
 histv-universal
 hive
 hna-code
@@ -2477,6 +2499,7 @@ hyprmark
 ie-r
 imap-cleanup-tool
 infinite-monitor-desktop
+insomnium
 inspector-rust
 irc-client
 iriunwebcam
@@ -2510,8 +2533,10 @@ kith
 klaussy-desktop
 kondi
 koushi-matrix
+kryoto-desktop
 kubeguard-lite
 kvault
+lab-ledger-dental
 lc-launcher
 lecture-subtitle-translator
 ledger
@@ -2520,8 +2545,10 @@ librefastbootfirmwareflasher
 libreflash
 linksight
 lintd
+lithic-uk
 llm-wiki
 locademy
+localbrain
 localitfy
 localmind
 locator-labs-app
@@ -2538,6 +2565,7 @@ lyra-music
 mabiao
 mailove
 make-my-figure
+malgel
 marginalia
 mariokartsupercircuitrecomp
 marionette
@@ -2556,6 +2584,7 @@ mergev
 messenger
 meterm
 metermaid
+micromatrix-workbench
 mimo-studio
 mindmapvault-foss
 mistermorph
@@ -2584,6 +2613,7 @@ myanso
 mycelium
 myshows-scrobbler
 n8n-desktop
+nagametv
 naiweaver
 nanotracker
 nativepi
@@ -2600,6 +2630,7 @@ nerves-desktop
 ness
 nesso
 netdia
+neteasemusicdownloader
 netflix-linux
 networksimulator
 neurolingsce-qt
@@ -2612,6 +2643,7 @@ nimbus
 nmlinux
 noah-for-tinkerers
 noctodeus
+nodebookmd
 noema-atlas
 noofy
 nori
@@ -2632,6 +2664,7 @@ octo-shrink
 octopal
 ofs-ng
 ogad
+oh-my-pi-gui
 ohmail
 ohmyshot
 okf-studio
@@ -2640,9 +2673,11 @@ omnyssh
 one-click-coding-agent
 one-click-research-agent
 open-git-control
+open-nectar
 open-publisher
 open-recruiter
 open-slap
+openabyss
 openanime-linux
 opencami
 openclaw-manager
@@ -2650,6 +2685,7 @@ openclawd
 openclawx
 opencode-visualizer-cn
 opencomic-nightly
+opencompanion
 openconcho
 openconverter
 opencrawlengine
@@ -2684,17 +2720,21 @@ osu-radio
 outlook-for-linux
 pairux-com
 pakfu
+panpdf-rs
 paperman
 parla
 pdf-master
 perfectmd
 perms-desktop
+personaljarvis
 petpet
 phantom
 phase
 pheron
 photo-tinder-desktop
+pi-app
 pi-gui
+pic
 pigeoneye
 pikura
 pilos-agents
@@ -2726,6 +2766,7 @@ qeth
 queryden
 quiver-launcher
 qunica
+quobi
 quriodb
 r-passmanager
 r2-youloader
@@ -2733,6 +2774,7 @@ r3x
 r64u
 raccordai
 railreader2
+rails
 raincast
 ramag
 randmatqugea
@@ -2743,20 +2785,24 @@ recompose
 recopied
 red-request
 red-ui
+reemoat
 refilla
 reinforcement-studio
 remota
 remoteai
 remotex
+repotunnel
 requesto
 respeaker-console
 retrogbfull-toolkit
 rez2ans-next
 rhema
 rhwp-desktop
+ricercar
 rigroom
 ringcentral-community-app
 ringdrop-gui
+rleapp
 rmdv
 rms-memory-mcp
 rms-threads-assistant-public
@@ -2778,14 +2824,18 @@ samba-util
 sanity
 scamp
 scipen-studio
+screenpolish
 scribedog
 scriptplayer-plus
 scriptty
 sea-web
 seance
+sector-files
 seeky
 seerrng
+sei
 self-hosted-git-client
+senpwai
 senweavercoding
 sessionview
 shandianshuo
@@ -2800,16 +2850,19 @@ slopinator
 smartswitch-explorer
 snip
 songloft-player
+sonicthehedgehog2recomp
 soothsayer
 soromi
 sotto
 speech-studio
 speechfony
 spherse
+spotifast
 sqlshelf
 srelens
 srt-router
 stagekit
+staragent
 statewave-admin
 steam-manifest-downloader
 stelekit
@@ -2844,6 +2897,7 @@ th2xr-portable
 the-office
 the-pair
 threadknot
+tiangong
 tidebreak
 tikman
 tldraw-offline-nightly
@@ -2863,6 +2917,7 @@ tutabridge
 tuzi-switch
 typeward
 ultimavless
+ultrastarkaraokemaker
 universal-session-viewer
 university-helper
 unseen
@@ -2874,14 +2929,18 @@ verba
 veronica
 vi-ime
 vibe3d
+vibeclip-pro
+vici
 vicu
 vigil-cli
 visigit
 vkrt
+vleapp
 vm-curator
 vorynth
 voyageai-cli
 vrcnext
+wake
 wallpaperem
 warpdrv
 watchtower
@@ -2893,18 +2952,25 @@ whatsapp-mcp-server
 whatsvelte-rust
 whisper-studio
 whispernow
+wishtoken-desktop
 wmux
 wondersuite-ai-bug-bounty
 workflowy-local-mcp
 worklog
 wrzdj
 wshawk
+x-markdown
+yachiyo
 yames
 yank
 yawn
+yetanothersshclient
 zap-browser
 zcode-account-switcher
+zedsecure
+zhongyu-english-copybook-hengshui
 zigy
 zlack
+zmd-charge-plus
 zplab
 zuse
