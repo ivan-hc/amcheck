@@ -3,8 +3,8 @@ name: "AMCHECK"
 on:
   push:
     branches: main
-    #paths:
-    #  - 'programs/x86_64/**'
+    paths:
+      - results/*
 
   repository_dispatch:
     types: [check]
