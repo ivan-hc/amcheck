@@ -1042,6 +1042,7 @@ cerious-aasm
 cf-compass
 cgtimer
 chaca-scanner
+chacrypt
 chain-desktop-wallet
 chainlesschain
 chainx-signer
@@ -3562,6 +3563,7 @@ kova
 kovobs
 kpat
 kpix
+kps
 kraken-player
 krate
 krita
@@ -4483,6 +4485,7 @@ myhondaplus-desktop
 mykvm
 mynetwork
 mypaint
+myrifetch
 myshows-scrobbler
 myskills
 mystiq
@@ -5157,6 +5160,7 @@ osc-dreamchatbox
 oscar
 oscleash
 osecbox
+oshot
 osrs-tools
 ossia-score
 ossue
@@ -6230,6 +6234,7 @@ runhq
 runic-ssh
 runjs
 running-dinner-tool
+ruscord-net
 rust-dicom-station
 rust-meow
 rust-sqlite
@@ -7339,6 +7344,7 @@ trifa-material
 trilium
 trim
 trinity-desktop
+trinity-launcher
 trip-viewer
 trndi
 tron
@@ -7447,6 +7453,7 @@ undertale-spaghetti-project
 unetbootin
 unfocus
 ungoogled-chromium
+uniclipboard
 unifi-access-orchestrator
 unified-auctions-ui
 unilaunch
@@ -7478,6 +7485,7 @@ unveil
 unwall
 unyo
 unyo-app
+uo-outlands
 up2b
 updatedeployqt
 upgit
@@ -7885,6 +7893,7 @@ wine-stable
 wine-staging
 wine-staging-ge-proton
 wine32-deploy
+winebar
 winegui
 wingsv-dex
 winpodx
