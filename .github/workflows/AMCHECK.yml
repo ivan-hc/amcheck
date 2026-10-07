@@ -5,6 +5,7 @@ on:
     branches: main
     paths:
       - results/*
+      - .github/workflows/AMCHECK.yml
 
   repository_dispatch:
     types: [check]
