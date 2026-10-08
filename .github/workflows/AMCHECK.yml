@@ -4,7 +4,7 @@ on:
   push:
     branches: main
     paths:
-      - results/*
+  #    - results/*
       - .github/workflows/AMCHECK.yml
 
   repository_dispatch:
@@ -33,8 +33,8 @@ on:
         default: ''
         type: integer
 
-  #schedule:
-  #  - cron: '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
