@@ -68,7 +68,6 @@ advanced-rest-client
 adventshow
 aegis-vault-v7
 aegisub
-aegisubqt
 aero-sync
 aerofoil
 aeroftp
@@ -942,6 +941,7 @@ cachibot
 cacoco
 cadabra2
 cadassistant
+cadcraft
 cadence
 cadmus
 cae
@@ -1707,6 +1707,7 @@ deb2appimage
 debriddownloader
 debrify
 deckboard
+deckcraft
 deckwerk
 decky-sunshine-res-helper
 decodium-4-0-core-shannon
@@ -2776,6 +2777,7 @@ gitfourchette
 gitgud
 githoard
 github-desktop-plus
+github-stars-manager
 gitify
 gitjournal
 gitkraken
@@ -2927,6 +2929,7 @@ greentunnel
 greybeard
 gridcast
 gridcoin-research
+gridcraft
 gridea
 gridea-pro
 gridix
@@ -3571,6 +3574,7 @@ kino-ssh-manager
 kinopio
 kinopub-gui
 kiri-moto
+kiro
 kiro-account-manager
 kiro-gateway-deploy
 kiro-manager-lite
@@ -5463,6 +5467,7 @@ pdf4qt
 pdfapps
 pdfcompress
 pdfcrackgui
+pdfcraft
 pdfoxjs
 pdfquirk
 pdmaner
@@ -5804,7 +5809,6 @@ prime-world-editor
 primehack
 principia
 print-bridge
-printcraft
 printerclient
 printnotes
 printventory
@@ -6842,6 +6846,7 @@ soulcut
 sound-space-plus
 soundcloud-desktop-en
 soundcloud-rpc
+soundcraft
 soundninja
 soundvisualizer
 source2viewer-d2pfx
@@ -8130,6 +8135,7 @@ wooting-analog-midi
 wootomation
 wora
 word-sys-pdf-editor
+wordcraft
 work-review
 workbuddy-switch
 workbuddy-switch2api
