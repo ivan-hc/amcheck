@@ -44,6 +44,7 @@ accord
 accordserver
 accshift
 ace-gui
+ace-step-studio
 acestep-cpp-ui
 acestream
 acp-inspector
@@ -106,6 +107,7 @@ agent-smith
 agent-smith-reloaded
 agent-switchboard
 agent-teams-ai
+agent-toolkit
 agentbox
 agentbrainsystem
 agentdex
@@ -444,6 +446,7 @@ arokiyam-app
 arrowdl
 arroxy
 ars-magica-character-generator
+artcraft-toolbox
 artdaddy
 arte-ogre
 arterm
@@ -1422,6 +1425,7 @@ composer-bridge
 compresso
 concat
 concordium-desktop-wallet
+concrete
 conduction
 condui
 conduit-desktop
@@ -1529,6 +1533,7 @@ crabdrop
 crabfetch
 crabport
 crabshell
+craft-launcher
 craftos-pc
 crankshaft
 crawl-ncurses
@@ -1581,6 +1586,7 @@ crystalexplorer
 cs-demo-manager
 cscrypto
 csoundqt
+ctass
 ctool
 ctop
 ctrdx-editor
@@ -1875,10 +1881,12 @@ docs-for-dev
 docsie-screen-recorder
 document-ai-assistant
 documentaai
+dodaios
 dofek
 dofuemu
 doggo
 doggy-player
+dogi
 doka
 dokimodmanager
 dolphin-emu
@@ -1968,6 +1976,7 @@ dsh-desktop-pet
 dsh-desktop-unofficial
 dsh-dock
 dsh-evoresearch
+dsh-java-desktop
 dsh-nexus
 dsh-piggy
 dsh-portable
@@ -2589,6 +2598,7 @@ freetexturepacker
 freetube
 freetube-enhanced
 freetunnel
+freevideo
 freeze
 freezer
 freight-fate
@@ -3001,6 +3011,7 @@ haos-usb-creator
 hapee
 happy-desktop
 happy-friday-lite
+happyvibe
 haram-music-remover
 harbor-db
 hardwarevisualizer
@@ -3262,6 +3273,7 @@ inkterface
 inkue
 inkvec
 inkwell
+inky
 inlark
 innerbreeze
 innerzero
@@ -3398,6 +3410,7 @@ jiv-881-synth
 jiyi
 jklubtv
 jless
+jlivertool
 jlucourse
 jnv
 joaldesktop
@@ -3527,6 +3540,7 @@ kettleclient
 kevatapp
 kevedit
 key-b0x
+keyboard-lock
 keyboardclient
 keybrix
 keycache
@@ -3605,6 +3619,7 @@ kl4a
 klaudio-panels
 klaussy-desktop
 kleiner-brauhelfer-2
+kliksnap
 klip
 kliveide
 klogg
@@ -3680,6 +3695,7 @@ kubeguard-lite
 kubeli
 kubeman
 kubenav
+kubenimbus
 kubepit
 kubermeister
 kubetable
@@ -3994,6 +4010,7 @@ lovr-playspace
 lovshot
 lowend-forge-official
 lowfi
+lowkey
 lpub3d
 lrc
 lrcget
@@ -4014,6 +4031,7 @@ ludusavi
 luffy-create
 lug-helper
 lukan
+lumabrowser
 lume
 lumen
 lumi
@@ -4140,6 +4158,7 @@ mark-o-down
 mark-shot
 marka
 markd
+markdown-cornell-notes
 markdown-editor
 markdown-explorer
 markdown-reader
@@ -4305,6 +4324,7 @@ metermaid
 metis
 metrik
 metroidprimehuntersrecomp
+metroidprimeport
 meuxe
 mewtion
 mgba
@@ -4358,6 +4378,7 @@ minififa
 minigalaxy
 minimal-podcasts-player
 minimax-agent-gui
+minimax-music3-studio
 minion-mind
 minions
 miniscope-daq
@@ -4525,6 +4546,7 @@ mterm
 mtgatool-desktop
 mts-fogplay-client
 mtsync
+mttl-w01-app
 mudita-center
 mudlet
 muffon
@@ -4726,6 +4748,7 @@ nextcowork
 nextgenup
 nextplayer
 nextshell
+nexttabletdriver
 nexube
 nexus
 nexus-account-manager
@@ -4840,6 +4863,7 @@ notion-electron
 notlogi
 noutube
 nova
+nova-browser
 nova-prism
 novel
 novel-studio
@@ -4937,6 +4961,7 @@ offdesk
 offline-translator
 offlinesearchengine
 ofs-ng
+ofxrawhost
 ogad
 ognom
 ogresync
@@ -5339,6 +5364,7 @@ p2pderivatives
 p3x-redis-ui
 pa-website-validator-gui
 pabloagent
+pace
 packetsender
 packsquash
 paclear
@@ -5864,6 +5890,7 @@ promptzy
 proofkeeper
 propel
 prospect-mail
+prosper
 protasovvpn
 protocol_10
 protoman
@@ -5924,6 +5951,7 @@ purlis
 pushnav
 puush-qt
 puzzle-moppet
+pvfine
 pxmodrim
 py-gpt
 pyappimage
@@ -6129,6 +6157,7 @@ rclone-browser
 rclone-gui-manager
 rclone-manager
 rclone-ui
+rcloneexplorer
 rcloneview
 rd
 re-sputnik
@@ -6278,6 +6307,7 @@ ricochet
 ricochlime
 ridereceipts
 rift
+riftlift
 riftroute
 rig-control-web
 rigelengine
@@ -6503,6 +6533,7 @@ scrcpy-webcam
 scrcpygui
 screenarc
 screencloud
+screenmagnet
 screenpolish
 screentranslator
 scribble
@@ -6617,6 +6648,7 @@ sheepshaver
 sheetopia
 sheikah
 shell
+shell-rs
 shellcanvas
 shellcheck
 shellharden
@@ -6634,6 +6666,7 @@ shmoney
 shockolate
 shockwave
 shoopdaloop
+shotai
 shotcut
 shotwell
 shotx
@@ -7192,6 +7225,7 @@ syronius-frame
 sysd-manager
 system-monitoring-center
 system-sl
+systemd-pilot
 sysz
 szyszka
 t-money
@@ -7548,6 +7582,7 @@ tty7
 ttyper
 tube-ultimate-player
 tube2go
+tubefast
 tuck
 tuff
 tuim
@@ -7942,6 +7977,7 @@ vscodium
 vst-ace
 vt
 vtm
+vtubeleaf
 vtx
 vue-calc
 vuerd
@@ -8365,6 +8401,7 @@ yts-streaming
 ytsage
 ytubic
 yubikey-manager
+yue2-studio
 yup
 yuview
 yzpzcode
@@ -8403,6 +8440,7 @@ zegarek
 zegrapher
 zelda64-recompiled
 zelda64recomp
+zeldawwhdrecomp
 zellij
 zen-app-manager
 zen-browser
