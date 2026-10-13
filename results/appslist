@@ -4212,7 +4212,6 @@ mc-gdk-launcher-gui
 mced
 mcfly
 mcp-desktop
-mcp-dock
 mcp-manager
 mcp-mux
 mcpanel
@@ -4341,7 +4340,6 @@ miaz
 micky
 microbrowser
 microemacs
-micromatrix-workbench
 micropad
 microsoft-edge
 microsoft-edge-beta
