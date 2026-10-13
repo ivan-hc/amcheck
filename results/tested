@@ -21,8 +21,6 @@
 5ire
 6502-emulator
 7zip
-86box
-86box-enhanced
 8b
 8voice
 9launcher
@@ -514,9 +512,7 @@ atuin
 atuin-server
 atv-player
 audacious
-audacity
 audacity-dev
-audacity-enhanced
 audapolis
 audex-player
 audio-sharing
@@ -536,8 +532,6 @@ audiorelay
 audiorestorationvst
 audiosync
 augur
-augustus
-augustus-enhanced
 aura
 aura-player
 auralis
@@ -580,8 +574,6 @@ avidemux-qt
 avlcode
 avogadro2
 avw
-awakened-poe-trade
-awakened-poe-trade-enhanced
 aws-loggy
 aws-ssm-manager
 axe-electrum
@@ -597,8 +589,6 @@ aya
 ayandict
 aynite
 ayuz
-azahar
-azahar-enhanced
 azaharplus
 azaharplus-pkg-extractor
 azeron-linux
@@ -1076,8 +1066,6 @@ celestia-enanched
 cellforge
 cells
 celoterminal-bin
-cemu
-cemu-enhanced
 centrality
 cerebral-debugger
 cerebro
@@ -1308,8 +1296,6 @@ cloudini
 cloudterm
 cloudvoyager
 clownmaped
-clownmdemu
-clownmdemu-enhanced
 clutch
 clypra
 cmd-k
@@ -1471,8 +1457,6 @@ copperline
 copybrainapp
 copyclip
 copypaste
-copyq
-copyq-enhanced
 copyspeak
 copytranslator
 cordial
@@ -1501,8 +1485,6 @@ corkscrew
 coroslink
 correlation
 corsair-xeneon-edge-linux
-corsixth
-corsixth-enhanced
 cortask
 cortex
 corv-gcs
@@ -1554,8 +1536,6 @@ croc
 croc-desktop
 croc-gui
 crock
-cromagrally
-cromagrally-enhanced
 cromberg
 cromite
 cron-manager
@@ -1746,9 +1726,7 @@ deeptags
 deepthink
 deerportal
 deeting
-deezer
 deezer-discord-rpc
-deezer-enhanced
 defichain-app
 defold
 delive
@@ -1789,8 +1767,6 @@ devdocs-desktop
 devfleet
 devhub
 deviload
-devilutionx
-devilutionx-enhanced
 devinstaller
 devnexus
 devo
@@ -1994,8 +1970,6 @@ dubinstante
 duckcoding
 duckling
 duckstation
-duckstation-gpl
-duckstation-gpl-enhanced
 ducky
 duduclaw
 duf
@@ -2493,9 +2467,7 @@ fluxora
 fluxtty
 flybudget
 flybywire
-flycast
 flycast-dojo
-flycast-enhanced
 flyctl
 flying
 flyingcarpet
@@ -2597,8 +2569,6 @@ freeshow
 freessh
 freestyle
 freetexturepacker
-freetube
-freetube-enhanced
 freetunnel
 freevideo
 freeze
@@ -3065,8 +3035,6 @@ helion
 helios
 helioslauncher
 heliox-os
-helium
-helium-browser-enhanced
 helix
 helixai
 helixnotes
@@ -3327,8 +3295,6 @@ irccloud-desktop
 ircuitry
 ire
 ireader
-iris
-iris-enhanced
 iriunwebcam
 iroh-fm
 ironbullet
@@ -3340,8 +3306,6 @@ irscrutinizer
 isai
 isd
 isle-editor
-isle-portable
-isle-portable-enhanced
 isobar
 isolate
 ispoofermotion-v2
@@ -3517,9 +3481,7 @@ kdashboard
 kde-webapp-gen
 kdeconnect
 kdegames
-kdenlive
 kdenlive-daily
-kdenlive-enhanced
 kdeutils
 kdiskmark
 kedip
@@ -4063,8 +4025,6 @@ luxclient
 lvgl-editor
 lvji-travel
 lwe
-lx-music-desktop
-lx-music-desktop-enhanced
 lxtask
 lychi-core
 lynel-desktop
@@ -4269,8 +4229,6 @@ melo
 melocoton
 melodia
 melodie
-melonds
-melonds-enhanced
 melonmix
 mem
 memento
@@ -4329,8 +4287,6 @@ metroidprimehuntersrecomp
 metroidprimeport
 meuxe
 mewtion
-mgba
-mgba-enhanced
 mgp-vn-tool
 mgzon-cli
 mhywarp
@@ -4885,8 +4841,6 @@ nuclia
 nuclino
 nucssist
 nudelta
-nugget-doom
-nugget-doom-enhanced
 nui-sftp
 nukera
 null-e
@@ -4905,8 +4859,6 @@ nvtop
 nw-wrld
 nx-optimizer
 nx-software-center
-nxengine-evo
-nxengine-evo-enhanced
 nxshell
 nxshell20
 nyaa
