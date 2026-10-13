@@ -22,7 +22,6 @@
 6502-emulator
 7zip
 86box
-86box-enhanced
 8b
 8voice
 9launcher
@@ -516,7 +515,6 @@ atv-player
 audacious
 audacity
 audacity-dev
-audacity-enhanced
 audapolis
 audex-player
 audio-sharing
@@ -537,7 +535,6 @@ audiorestorationvst
 audiosync
 augur
 augustus
-augustus-enhanced
 aura
 aura-player
 auralis
@@ -581,7 +578,6 @@ avlcode
 avogadro2
 avw
 awakened-poe-trade
-awakened-poe-trade-enhanced
 aws-loggy
 aws-ssm-manager
 axe-electrum
@@ -598,7 +594,6 @@ ayandict
 aynite
 ayuz
 azahar
-azahar-enhanced
 azaharplus
 azaharplus-pkg-extractor
 azeron-linux
@@ -1077,7 +1072,6 @@ cellforge
 cells
 celoterminal-bin
 cemu
-cemu-enhanced
 centrality
 cerebral-debugger
 cerebro
@@ -1309,7 +1303,6 @@ cloudterm
 cloudvoyager
 clownmaped
 clownmdemu
-clownmdemu-enhanced
 clutch
 clypra
 cmd-k
@@ -1472,7 +1465,6 @@ copybrainapp
 copyclip
 copypaste
 copyq
-copyq-enhanced
 copyspeak
 copytranslator
 cordial
@@ -1502,7 +1494,6 @@ coroslink
 correlation
 corsair-xeneon-edge-linux
 corsixth
-corsixth-enhanced
 cortask
 cortex
 corv-gcs
@@ -1555,7 +1546,6 @@ croc-desktop
 croc-gui
 crock
 cromagrally
-cromagrally-enhanced
 cromberg
 cromite
 cron-manager
@@ -1748,7 +1738,6 @@ deerportal
 deeting
 deezer
 deezer-discord-rpc
-deezer-enhanced
 defichain-app
 defold
 delive
@@ -1790,7 +1779,6 @@ devfleet
 devhub
 deviload
 devilutionx
-devilutionx-enhanced
 devinstaller
 devnexus
 devo
@@ -1995,7 +1983,6 @@ duckcoding
 duckling
 duckstation
 duckstation-gpl
-duckstation-gpl-enhanced
 ducky
 duduclaw
 duf
@@ -2495,7 +2482,6 @@ flybudget
 flybywire
 flycast
 flycast-dojo
-flycast-enhanced
 flyctl
 flying
 flyingcarpet
@@ -2598,7 +2584,6 @@ freessh
 freestyle
 freetexturepacker
 freetube
-freetube-enhanced
 freetunnel
 freevideo
 freeze
@@ -3066,7 +3051,6 @@ helios
 helioslauncher
 heliox-os
 helium
-helium-browser-enhanced
 helix
 helixai
 helixnotes
@@ -3328,7 +3312,6 @@ ircuitry
 ire
 ireader
 iris
-iris-enhanced
 iriunwebcam
 iroh-fm
 ironbullet
@@ -3341,7 +3324,6 @@ isai
 isd
 isle-editor
 isle-portable
-isle-portable-enhanced
 isobar
 isolate
 ispoofermotion-v2
@@ -3519,7 +3501,6 @@ kdeconnect
 kdegames
 kdenlive
 kdenlive-daily
-kdenlive-enhanced
 kdeutils
 kdiskmark
 kedip
@@ -4064,7 +4045,6 @@ lvgl-editor
 lvji-travel
 lwe
 lx-music-desktop
-lx-music-desktop-enhanced
 lxtask
 lychi-core
 lynel-desktop
@@ -4330,7 +4310,6 @@ metroidprimeport
 meuxe
 mewtion
 mgba
-mgba-enhanced
 mgp-vn-tool
 mgzon-cli
 mhywarp
@@ -4886,7 +4865,6 @@ nuclino
 nucssist
 nudelta
 nugget-doom
-nugget-doom-enhanced
 nui-sftp
 nukera
 null-e
@@ -4906,7 +4884,6 @@ nw-wrld
 nx-optimizer
 nx-software-center
 nxengine-evo
-nxengine-evo-enhanced
 nxshell
 nxshell20
 nyaa
@@ -4943,7 +4920,6 @@ octa
 octave
 octi-desktop
 octo-agent
-octo-shrink
 octodo
 octolyzer
 octopal
@@ -5206,7 +5182,6 @@ openra-red-alert
 openra-tiberian-dawn
 openramodsdk
 openrct2
-openrct2-enhanced
 openreelio
 openresearch
 openrgb
@@ -5690,7 +5665,6 @@ platinum-md
 platypusgit
 play
 play-2048
-play-enhanced
 playback
 playbox
 playerctl
@@ -5851,7 +5825,6 @@ prisma-desk
 prisma-studio
 prismgb-app
 prismlauncher
-prismlauncher-enhanced
 prismlauncher-qt5
 prismos-ai
 privacy.sexy
@@ -5973,7 +5946,6 @@ qaterialgallery
 qaterialhotreload
 qawl
 qbittorrent
-qbittorrent-enhanced
 qbz-downloader
 qcadesigner-e
 qcanvasapp
@@ -6002,7 +5974,6 @@ qmidictl
 qmidinet
 qmmp
 qmplay2
-qmplay2-enhanced
 qmud
 qnapi
 qopy
@@ -6168,7 +6139,6 @@ reactotron
 readany
 reader
 readest
-readest-enhanced
 readmd
 reado
 real-video-enhancer
@@ -6338,7 +6308,6 @@ rleapp
 rmdv
 rme-control-gui
 rmg
-rmg-enhanced
 rms-memory-mcp
 rms-threads-assistant-public
 rmw
@@ -6428,7 +6397,6 @@ rustatio
 rustconn
 rustcraft-public
 rustdesk
-rustdesk-enhanced
 rustdict
 rustfox
 rustle
@@ -6833,7 +6801,6 @@ snapsort
 snaptium
 snes-ide
 snes9x
-snes9x-enhanced
 sniffnet
 snip
 snipforge
@@ -6862,6 +6829,7 @@ solars
 solarwallet
 solarxy
 solenoid
+solidping
 sollin-music-desktop
 solomd
 sonami
@@ -7605,7 +7573,6 @@ tusk
 tusk-gnome
 tutabridge
 tutanota
-tutanota-enhanced
 tux-manager
 tuxfootball
 tuxlink
@@ -7837,7 +7804,6 @@ vibehub
 vibemux
 vibeprint-studio
 viber
-viber-enhanced
 vibeshell
 vibex
 vibeyard
@@ -8045,7 +8011,6 @@ webamp-desktop-enhanced
 webcamoid
 webchat2api
 webcord
-webcord-enhanced
 webcraft
 webdesktop
 webgal-craft
@@ -8234,7 +8199,6 @@ x-pixiv
 xandsuite
 xapkdetector
 xash3d-fwgs
-xash3d-fwgs-enhanced
 xava
 xbooxp
 xbox360-game-scraper
@@ -8249,7 +8213,6 @@ xdg-ninja
 xed
 xelfviewer
 xemu
-xemu-enhanced
 xenia-canary
 xenia-dashboard
 xenia-edge
@@ -8419,7 +8382,6 @@ zapkube
 zaplo
 zaptide
 zapzap
-zapzap-enhanced
 zarmanager
 zathuradbg
 zcode
