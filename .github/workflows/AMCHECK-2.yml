@@ -502,29 +502,32 @@ jobs:
         run: |
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
-          if git diff-index --quiet HEAD; then
+          if [ ! -s results/tested ] && [ ! -s results/excluded ]; then
+            echo "⚠️ no shard results came back — nothing recorded, results/ not committed" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          git add results
+          if git diff --cached --quiet HEAD; then
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
           else
-            git add results
             git commit -m "check"
             git push --force-with-lease && echo "sync successful" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
           fi
 
-  already-tested:
-    name: "all 🏁"
-    runs-on: ubuntu-latest
-    needs: generate-matrix
-    if: needs.generate-matrix.outputs.skip == 'true'
-    steps:
-      - name: "Checkout"
-        uses: actions/checkout@v7
-
-      - name: "Reset all tested"
+      - name: "Close the sweep 🏁"
         run: |
-          echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
-          echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
           git config --global user.name web-flow
           git config --global user.email "noreply@github.com"
-          git rm -rf results 2>/dev/null || rm -rf results
-          git commit -m "reset stats" || echo "nothing to commit"
-          git push --force
+          echo "### 🏁 sweep complete — resetting stats" >> $GITHUB_STEP_SUMMARY
+          if [ -d results ]; then
+            t=0; x=0
+            if [ -s results/tested ];   then t=$(wc -l < results/tested); fi
+            if [ -s results/excluded ]; then x=$(wc -l < results/excluded); fi
+            echo "- final sweep: **$t** tested · **$x** excluded (failed at least once)" >> $GITHUB_STEP_SUMMARY
+            echo "- results/ wiped — the next sweep re-tests everything from zero" >> $GITHUB_STEP_SUMMARY
+            git rm -rf results
+            git commit -m "reset stats"
+            git push --force
+          else
+            echo "- results/ already absent — nothing to reset" >> $GITHUB_STEP_SUMMARY
+          fi
