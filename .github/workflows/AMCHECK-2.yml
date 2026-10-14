@@ -4,7 +4,7 @@ on:
   push:
     branches: main
     paths:
-      - .github/workflows/AMCHECK.yml
+      - .github/workflows/AMCHECK-2.yml   # ⚠️ must match this file's actual name
 
   repository_dispatch:
     types: [check]
@@ -27,7 +27,7 @@ on:
         default: ""
         type: string
       how_many:
-        description: "Max apps per RUN (empty = TOTEST)"
+        description: "Pending apps to test this run (empty = TOTEST)"
         required: false
         default: ""
         type: string
@@ -40,18 +40,19 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  actions: read
-  contents: write
+  actions: read     # fetch job URLs for the failure report
+  contents: write   # push results/ back to this repository
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
-  TOTEST: 250        # pending apps per scheduled/push run (safe to raise a lot, see knobs)
-  APPS_PER_JOB: 35   # target apps per shard/job
-  MAX_JOBS: 250      # hard cap on shards per run
-  TIMEOUT: 900       # per-app install timeout, seconds (old value: 1800)
+  TOTEST: 250        # pending apps per scheduled/push run
+  APPS_PER_JOB: 35   # apps tested per shard/job
+  MAX_JOBS: 250      # hard cap on shards per run (GitHub matrix limit: 256)
+  TIMEOUT: 900       # per-app install timeout, seconds (old workflow: 1800)
 
 jobs:
+
+  # Kept from the original workflow (no-op placeholder). Delete if unused.
   triggered:
     if: github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
@@ -112,7 +113,8 @@ jobs:
         if: github.event.inputs.reset_stats != 'true'
         id: stats
         run: |
-          tested=0; excluded=0
+          tested=0
+          excluded=0
           if [ -f results/tested ];   then tested=$(wc -l < results/tested); fi
           if [ -f results/excluded ]; then excluded=$(wc -l < results/excluded); fi
           echo "tested=$tested" >> $GITHUB_OUTPUT
@@ -131,8 +133,8 @@ jobs:
 
   generate-matrix:
     name: "matrix 🌀"
-    if: github.event.inputs.reset_stats != 'true'
     needs: show-stats
+    if: github.event.inputs.reset_stats != 'true'
     runs-on: ubuntu-latest
     outputs:
       skip: ${{ steps.set-matrix.outputs.skip }}
@@ -148,58 +150,82 @@ jobs:
 
       - name: "Generate shards 🏆"
         id: set-matrix
+        env:
+          WHAT_TEST: ${{ github.event.inputs.what_test }}
+          HOW_MANY: ${{ github.event.inputs.how_many }}
+          RETEST_EXCLUDED: ${{ github.event.inputs.retest_excluded }}
         run: |
           set -uo pipefail
 
-          if [[ -f results/tested ]] && diff -q appslist results/tested >/dev/null; then
-            echo "### 🏁 Everything already tested" >> $GITHUB_STEP_SUMMARY
+          total=$(wc -l < appslist)
+          tested_n=0
+          excluded_n=0
+          if [ -f results/tested ];   then tested_n=$(wc -l < results/tested); fi
+          if [ -f results/excluded ]; then excluded_n=$(wc -l < results/excluded); fi
+
+          {
+            echo "### 🌀 pending check"
+            echo "- appslist: **$total** · tested: **$tested_n** · excluded: **$excluded_n**"
+            if [ ! -d results ]; then
+              echo "- 🆕 **first run**: results/ is absent — this sweep starts from zero and will recreate it"
+            fi
+          } >> $GITHUB_STEP_SUMMARY
+
+          if [ -f results/tested ] && diff -q appslist results/tested >/dev/null; then
+            echo "- ✅ **already tested**: results/tested covers the whole appslist — 'all 🏁' will reset results for a new sweep" >> $GITHUB_STEP_SUMMARY
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          if [[ -f results/tested ]]; then
+          if [ -f results/tested ]; then
             comm -23 appslist results/tested > totest_tmp.list
           else
             cp appslist totest_tmp.list
           fi
 
-          if [[ -f results/excluded ]]; then
-            comm -23 totest_tmp.list results/excluded > totest.list || true
+          if [ -f results/excluded ]; then
+            comm -23 totest_tmp.list results/excluded > totest.list
           else
             mv totest_tmp.list totest.list
           fi
 
           if [ ! -s totest.list ]; then
-            echo "### 🏁 Nothing to test" >> $GITHUB_STEP_SUMMARY
+            echo "- 🏁 **nothing pending**: tested+excluded cover all $total apps — 'all 🏁' will reset results for a new sweep" >> $GITHUB_STEP_SUMMARY
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          if [ -n "${{ github.event.inputs.what_test }}" ]; then
-            echo "Testing only: ${{ github.event.inputs.what_test }}"
-            echo "${{ github.event.inputs.what_test }}" | tr ' ' '\n' > totest.list
-          elif [[ "${{ github.event.inputs.retest_excluded }}" == 'true' ]]; then
+          # explicit app list wins over tested/excluded filtering (allows targeted retests)
+          if [ -n "$WHAT_TEST" ]; then
+            echo "Testing only: $WHAT_TEST"
+            echo "$WHAT_TEST" | tr ' ' '\n' | sed '/^$/d' > totest.list
+          elif [ "$RETEST_EXCLUDED" = 'true' ]; then
             echo "Retesting excluded apps"
-            if [ ! -s results/excluded ]; then
-              echo "### Nothing excluded!" >> $GITHUB_STEP_SUMMARY
+            if [ -s results/excluded ]; then
+              cp results/excluded totest.list
+            else
+              echo "::error title=nothing excluded::results/excluded is missing or empty"
               exit 1
             fi
-            cp results/excluded totest.list
           else
-            how_many="${{ github.event.inputs.how_many }}"
-            case "$how_many" in ''|*[!0-9]*) how_many="$TOTEST";; esac
+            how_many="$TOTEST"
+            case "$HOW_MANY" in
+              ''|*[!0-9]*) : ;;
+              *) how_many="$HOW_MANY" ;;
+            esac
             echo "Testing the first $how_many pending apps"
-            head -n "$how_many" totest.list > totest.head
-            mv totest.head totest.list
+            head -n "$how_many" totest.list > totest.head && mv totest.head totest.list
           fi
 
           n=$(wc -l < totest.list)
           njobs=$(( (n + APPS_PER_JOB - 1) / APPS_PER_JOB ))
-          [ "$njobs" -gt "$MAX_JOBS" ] && njobs=$MAX_JOBS
-          [ "$njobs" -lt 1 ] && njobs=1
+          if [ "$njobs" -gt "$MAX_JOBS" ]; then njobs=$MAX_JOBS; fi
+          if [ "$njobs" -lt 1 ]; then njobs=1; fi
 
           MATRIX='{"include":['
-          for i in $(seq 1 "$njobs"); do MATRIX+="{\"shard\":$i},"; done
+          for i in $(seq 1 "$njobs"); do
+            MATRIX+="{\"shard\":$i},"
+          done
           MATRIX="${MATRIX%,}]}"
 
           echo "njobs=$njobs" >> "$GITHUB_OUTPUT"
@@ -207,7 +233,7 @@ jobs:
 
           {
             echo "### 🌀 sharding"
-            echo "- pending apps this run: **$n**"
+            echo "- apps this run: **$n**"
             echo "- shards (jobs): **$njobs** (~$(( (n + njobs - 1) / njobs )) apps each)"
           } >> $GITHUB_STEP_SUMMARY
 
@@ -224,9 +250,9 @@ jobs:
   run-actions:
     name: "shard-${{ matrix.shard }}"
     needs: generate-matrix
+    if: needs.generate-matrix.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 340
-    if: needs.generate-matrix.outputs.skip != 'true'
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
@@ -260,7 +286,7 @@ jobs:
           AMDATADIR="${XDG_DATA_HOME:-$HOME/.local/share}/AM"
           mkdir -p "$AMDATADIR" || exit 1
           cp -r programs/x86_64-apps "$AMDATADIR"/ || exit 1
-          # patches, applied once per job instead of once per app
+          # one-time patches (were re-applied per app in the old workflow)
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
           sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
 
@@ -269,57 +295,86 @@ jobs:
         with:
           name: totest-list
 
+      - name: "Sanity check 🧪"
+        run: |
+          if [ ! -s totest.list ]; then
+            echo "::error title=empty totest.list::artifact 'totest-list' missing or empty — generate-matrix did not upload it"
+            exit 1
+          fi
+          if ! command -v am >/dev/null 2>&1; then
+            echo "::error title=am not installed::the 'am' binary is missing — the 'Install AM manually' step failed"
+            exit 1
+          fi
+          echo "apps queued this run: $(wc -l < totest.list)"
+
       - name: "Test apps 🔨"
         working-directory: programs/x86_64
         env:
-          CHECK_BIN: '1'     # set to 0 to make binary check informational only (old behavior)
-          CHECK_DESKTOP: '1' # set to 0 to make launcher check informational only (old behavior)
+          CHECK_BIN: '1'     # 0 = binary check informational only (old behavior)
+          CHECK_DESKTOP: '1' # 0 = launcher check informational only (old behavior)
         run: |
           set -uo pipefail
           OUT=shard-out
           mkdir -p "$OUT/logs"
           TSV="$OUT/results-${SHARD}.tsv"
           printf 'shard\tapp\tstatus\treason\n' > "$TSV"
-
           record() { printf '%s\t%s\t%s\t%s\n' "$SHARD" "$1" "$2" "$3" >> "$TSV"; }
 
           # round-robin slice: shard N takes every NJOBS-th line
           awk -v n="$NJOBS" -v s="$SHARD" 'NR % n == s % n' ../totest.list > shard.list
-          echo "shard $SHARD: $(wc -l < shard.list) apps" >> $GITHUB_STEP_SUMMARY
 
-          DEADLINE=$(( SECONDS + 16200 ))  # 4h30 safety net, rest is retried next run
+          if [ ! -s shard.list ]; then
+            echo "::error title=empty shard::shard $SHARD/$NJOBS got 0 apps (NJOBS='$NJOBS', SHARD='$SHARD')"
+            exit 1
+          fi
+          echo "shard $SHARD: $(wc -l < shard.list) apps (first: $(head -1 shard.list), last: $(tail -1 shard.list))" >> $GITHUB_STEP_SUMMARY
+
+          DEADLINE=$(( SECONDS + 16200 ))  # 4h30 safety net; the rest is retried next run
 
           while read -r APP; do
-            [ -z "$APP" ] && continue
-            pure_arg="${APP%-appimage}"; pure_arg="${pure_arg##*/}"
+            if [ -z "$APP" ]; then continue; fi
+            pure_arg="${APP%-appimage}"
+            pure_arg="${pure_arg##*/}"
 
             if [ "$SECONDS" -gt "$DEADLINE" ]; then
               record "$APP" skipped "job time budget reached, retried next run"
               continue
             fi
 
-            # blacklists (unchanged)
+            # --- blacklists (unchanged from the original workflow) ---
             if [[ "$pure_arg" =~ (animashooter-junior|animashooter-pioneer|kiwix|ryujinx|ryujinx-canary) ]]; then
-              record "$APP" ok "blacklisted (slow download)"; continue
+              record "$APP" ok "blacklisted (slow download)"
+              continue
             fi
             if [[ "$pure_arg" =~ (mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11) ]]; then
-              record "$APP" ok "blacklisted (runner)"; continue
+              record "$APP" ok "blacklisted (runner)"
+              continue
             fi
             if [[ "$pure_arg" =~ (koreader-nightly) ]]; then
-              record "$APP" ok "blacklisted (pending issue)"; continue
+              record "$APP" ok "blacklisted (pending issue)"
+              continue
             fi
 
             LOG="$OUT/logs/$APP.log"
             {
               echo "APP=\"$APP\""
-              grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$APP" 2>/dev/null && echo "APPIMAGE='yes'" || echo "APPIMAGE='no'"
-              grep -q "api.github.com" "$APP" 2>/dev/null && echo "GITHUB='yes'" || echo "GITHUB='no'"
+              if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$APP" 2>/dev/null; then
+                echo "APPIMAGE='yes'"
+              else
+                echo "APPIMAGE='no'"
+              fi
+              if grep -q "api.github.com" "$APP" 2>/dev/null; then
+                echo "GITHUB='yes'"
+              else
+                echo "GITHUB='no'"
+              fi
               if grep -q "^SITE=" "$APP" 2>/dev/null; then
                 SITE=$(eval echo "$(grep -i '^SITE=' "$APP" | head -1 | sed 's/SITE=//g')")
                 echo "SITE=\"$SITE\""
               fi
             } > "$LOG"
 
+            # pre-answer to interactive prompts (as in the original)
             if grep -qe "^read \|SITE1=" "$APP" 2>/dev/null || [[ "$pure_arg" =~ (wine) ]]; then
               FEED=1
             else
@@ -337,7 +392,7 @@ jobs:
               fi
               AFTER=$(find /opt -maxdepth 2 -name remove 2>/dev/null | sort)
               APPDIR=$(comm -13 <(printf '%s\n' "$BEFORE") <(printf '%s\n' "$AFTER") | head -1)
-              [ -n "$APPDIR" ] && break
+              if [ -n "$APPDIR" ]; then break; fi
               sleep 30
             done
 
@@ -345,15 +400,17 @@ jobs:
               record "$APP" fail "install failed after 3 attempts"
               continue
             fi
-            LASTDIR=${APPDIR#/opt/}; LASTDIR=${LASTDIR%/remove}
+            LASTDIR=${APPDIR#/opt/}
+            LASTDIR=${LASTDIR%/remove}
 
             echo "--- installed in /opt/$LASTDIR ---" >> "$LOG"
             ls "/opt/$LASTDIR" >> "$LOG" 2>&1
             if compgen -G "/opt/$LASTDIR/icons/*" >/dev/null; then
               mkdir -p "$OUT/icons"
-              cp -r /opt/"$LASTDIR"/icons/* "$OUT/icons"/ 2>/dev/null || true
+              cp -r "/opt/$LASTDIR/icons/"* "$OUT/icons"/ 2>/dev/null || true
             fi
 
+            # binary in /usr/local/bin
             if [ "$CHECK_BIN" = '1' ] && ! command -v "$pure_arg" >/dev/null 2>&1 && ! command -v "$LASTDIR" >/dev/null 2>&1; then
               ls /usr/local/bin >> "$LOG"
               am -R "$LASTDIR" >/dev/null 2>&1 || true
@@ -362,11 +419,14 @@ jobs:
             fi
             echo "command: $(command -v "$pure_arg" || command -v "$LASTDIR")" >> "$LOG"
 
-            if [ "$CHECK_DESKTOP" = '1' ] && ! find /usr/local/share/applications -maxdepth 1 -name '*AM.desktop' 2>/dev/null | grep -q .; then
-              if ! grep -qe "appimage-extract.*desktop" "$APP" 2>/dev/null; then
-                am -R "$LASTDIR" >/dev/null 2>&1 || true
-                record "$APP" fail "installed, but no *AM.desktop launcher in /usr/local/share/applications"
-                continue
+            # launcher in /usr/local/share/applications
+            if [ "$CHECK_DESKTOP" = '1' ]; then
+              if ! find /usr/local/share/applications -maxdepth 1 -name '*AM.desktop' 2>/dev/null | grep -q .; then
+                if ! grep -qe "appimage-extract.*desktop" "$APP" 2>/dev/null; then
+                  am -R "$LASTDIR" >/dev/null 2>&1 || true
+                  record "$APP" fail "installed, but no *AM.desktop launcher in /usr/local/share/applications"
+                  continue
+                fi
               fi
             fi
             find /usr/local/share/applications -maxdepth 1 -name '*AM.desktop' >> "$LOG" 2>/dev/null || true
@@ -380,7 +440,7 @@ jobs:
 
           FAILS=$(tail -n +2 "$TSV" | awk -F'\t' '$3=="fail"' | wc -l)
           echo "shard $SHARD done: $FAILS failures" >> $GITHUB_STEP_SUMMARY
-          [ "$FAILS" -eq 0 ]   # red X on failing shards = heatmap on the run page
+          [ "$FAILS" -eq 0 ]   # intentional: red X on failing shards = heatmap on the run page
 
       - name: "Upload shard results ⬆️"
         if: always()
@@ -393,7 +453,12 @@ jobs:
   update-results:
     name: "results 📰"
     needs: [generate-matrix, run-actions]
-    if: ${{ always() && !cancelled() && needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true' }}
+    if: >-
+      always() &&
+      !cancelled() &&
+      needs.generate-matrix.result == 'success' &&
+      needs.generate-matrix.outputs.skip != 'true' &&
+      github.event.inputs.reset_stats != 'true'
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
@@ -416,22 +481,26 @@ jobs:
 
       - name: "Collect job links 🔗"
         continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           : > jobs.tsv
           page=1
           while :; do
-            curl -sf -H "Authorization: Bearer ${{ github.token }}" \
+            curl -sf -H "Authorization: Bearer $GH_TOKEN" \
               "https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs?per_page=100&page=$page" > page.json || break
             jq -r '.jobs[] | "\(.name)\t\(.html_url)"' page.json >> jobs.tsv
-            [ "$(jq '.jobs | length' page.json)" -lt 100 ] && break
+            if [ "$(jq '.jobs | length' page.json)" -lt 100 ]; then break; fi
             page=$((page+1))
           done
           rm -f page.json
 
       - name: "Process results 🧮"
+        env:
+          NJOBS: ${{ needs.generate-matrix.outputs.njobs }}
         run: |
           set -uo pipefail
-          mkdir -p results
+          mkdir -p raw results
           touch results/tested results/excluded
           : > failing
           : > failed.tsv
@@ -443,11 +512,12 @@ jobs:
 
           : > all.tsv
           for f in raw/results-*.tsv; do
-            [ -f "$f" ] || continue
-            tail -n +2 "$f" >> all.tsv
+            if [ -f "$f" ]; then
+              tail -n +2 "$f" >> all.tsv
+            fi
           done
 
-          awk -F'\t' '$3=="ok"'  all.tsv | awk -F'\t' '{print $2}' | sort -u >> results/tested
+          awk -F'\t' '$3=="ok"' all.tsv | awk -F'\t' '{print $2}' | sort -u >> results/tested
           sort -u results/tested -o results/tested
 
           awk -F'\t' '$3=="fail"' all.tsv > failed.tsv
@@ -457,12 +527,14 @@ jobs:
             awk -F'\t' '{print $2}' failed.tsv | sort -u >> failing
             {
               echo "=== run $GITHUB_RUN_ID $(date -u) ==="
-              while IFS=$'\t' read -r shard app status reason; do echo "--- $app: $reason"; done < failed.tsv
+              while IFS=$'\t' read -r shard app status reason; do
+                echo "--- $app: $reason"
+              done < failed.tsv
             } >> results/log
           fi
 
           # apps that passed a retest leave the excluded list
-          sort -u results/excluded results/tested | sort | uniq -d > both.tmp
+          sort -u results/excluded results/tested | uniq -d > both.tmp
           if [ -s both.tmp ]; then
             sort results/excluded both.tmp both.tmp | uniq -u > excluded.tmp && mv excluded.tmp results/excluded
           fi
@@ -470,16 +542,22 @@ jobs:
 
           {
             echo "## 📰 run results"
-            tested=$(wc -l < results/tested); excluded=$(wc -l < results/excluded)
+            tested=$(wc -l < results/tested)
+            excluded=$(wc -l < results/excluded)
             total=$(wc -l < appslist)
-            remaining=$(( total - tested - excluded )); (( remaining < 0 )) && remaining=0
+            remaining=$(( total - tested - excluded ))
+            if [ "$remaining" -lt 0 ]; then remaining=0; fi
             fails=$(wc -l < failing)
+            skipped=$(awk -F'\t' '$3=="skipped"' all.tsv | wc -l)
             echo "🏁 tested overall: **$tested** · :x: excluded: **$excluded** · 🛅 remaining: **$remaining**"
-            echo "🔥 failed this run: **$fails**"
-            expected=${{ needs.generate-matrix.outputs.njobs }}
+            echo "🔥 failed this run: **$fails** · ⏭️ skipped (retried next run): **$skipped**"
             missing=""
-            for i in $(seq 1 "$expected"); do [ -f "raw/results-$i.tsv" ] || missing="$missing $i"; done
-            [ -n "$missing" ] && echo "⚠️ shards with no results (job died — apps retry next run):$missing"
+            for i in $(seq 1 "$NJOBS"); do
+              if [ ! -f "raw/results-$i.tsv" ]; then missing="$missing $i"; fi
+            done
+            if [ -n "$missing" ]; then
+              echo "⚠️ shards with no results (job died — their apps retry next run):$missing"
+            fi
             if [ "$fails" -gt 0 ]; then
               echo ""
               echo "### ❌ Failed apps"
@@ -487,13 +565,14 @@ jobs:
               echo "|---|---|---|"
               while IFS=$'\t' read -r shard app status reason; do
                 url="${JOB_URL[shard-$shard]:-}"
-                link="shard-$shard"; [ -n "$url" ] && link="[shard-$shard]($url)"
+                link="shard-$shard"
+                if [ -n "$url" ]; then link="[shard-$shard]($url)"; fi
                 echo "| **$app** | $reason | $link |"
               done < failed.tsv
             fi
           } >> $GITHUB_STEP_SUMMARY
 
-          # annotations (max 10 per step, the table above is the source of truth)
+          # annotations (GitHub caps these at 10 per step — the table above is the source of truth)
           head -n 10 failed.tsv | while IFS=$'\t' read -r shard app status reason; do
             echo "::error title=$app::$reason (see job shard-$shard)"
           done
@@ -511,8 +590,22 @@ jobs:
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
           else
             git commit -m "check"
-            git push --force-with-lease && echo "sync successful" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
+            if git push --force-with-lease; then
+              echo "sync successful" >> $GITHUB_STEP_SUMMARY
+            else
+              git diff && git status
+              exit 1
+            fi
           fi
+
+  already-tested:
+    name: "all 🏁"
+    runs-on: ubuntu-latest
+    needs: generate-matrix
+    if: needs.generate-matrix.outputs.skip == 'true'
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
 
       - name: "Close the sweep 🏁"
         run: |
@@ -520,7 +613,8 @@ jobs:
           git config --global user.email "noreply@github.com"
           echo "### 🏁 sweep complete — resetting stats" >> $GITHUB_STEP_SUMMARY
           if [ -d results ]; then
-            t=0; x=0
+            t=0
+            x=0
             if [ -s results/tested ];   then t=$(wc -l < results/tested); fi
             if [ -s results/excluded ]; then x=$(wc -l < results/excluded); fi
             echo "- final sweep: **$t** tested · **$x** excluded (failed at least once)" >> $GITHUB_STEP_SUMMARY
