@@ -113,8 +113,8 @@ jobs:
         id: stats
         run: |
           tested=0; excluded=0
-          [ -f results/tested ]   && tested=$(wc -l < results/tested)
-          [ -f results/excluded ] && excluded=$(wc -l < results/excluded)
+          if [ -f results/tested ];   then tested=$(wc -l < results/tested); fi
+          if [ -f results/excluded ]; then excluded=$(wc -l < results/excluded); fi
           echo "tested=$tested" >> $GITHUB_OUTPUT
           echo "excluded=$excluded" >> $GITHUB_OUTPUT
 
@@ -122,8 +122,12 @@ jobs:
         if: github.event.inputs.reset_stats != 'true'
         run: |
           echo "### 🎬 apps: ${{ steps.count.outputs.all }}" >> $GITHUB_STEP_SUMMARY
-          [ "${{ steps.stats.outputs.tested }}" != '0' ]   && echo " 🏁 ${{ steps.stats.outputs.tested }} tested" >> $GITHUB_STEP_SUMMARY
-          [ "${{ steps.stats.outputs.excluded }}" != '0' ] && echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.stats.outputs.tested }}" != '0' ]; then
+            echo " 🏁 ${{ steps.stats.outputs.tested }} tested" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "${{ steps.stats.outputs.excluded }}" != '0' ]; then
+            echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
+          fi
 
   generate-matrix:
     name: "matrix 🌀"
