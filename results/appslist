@@ -283,6 +283,7 @@ ani-cli
 ani-gui
 ani-mime
 ani2xcursor
+anibox
 animalese-typing-desktop
 animashooter-junior
 animashooter-pioneer
@@ -770,6 +771,7 @@ bionic
 biowatch
 biplanes-revival
 birda-gui
+birdbrain
 birdfont
 birdman64
 birds-kitchen
@@ -911,6 +913,7 @@ build123d-studio
 building-sunlight-simulator
 bulbul
 bulk-email-sender
+bulka
 bulkreviewer
 bulkurlopener
 bulky
@@ -974,6 +977,7 @@ calm-circles
 calm-fan
 calm-meditator
 calm-mondrian
+cambuz-pdf
 camelot
 campp
 can-playground
@@ -1080,6 +1084,7 @@ celestia-enanched
 cellforge
 cells
 celoterminal-bin
+celpix
 cemu
 centrality
 cerebral-debugger
@@ -1452,6 +1457,7 @@ connectio
 connectiq-sdk-manager
 connecttool-qt
 connexio
+consisterm
 consoleworkbench
 constrict
 containerlab-app
@@ -1711,6 +1717,7 @@ dbgate
 dbgate-premium
 dbi-backend
 dbin
+dbine
 dbptk-desktop
 dbv-md-reader
 dbv-typst-editor
@@ -1861,6 +1868,7 @@ discord
 discord-bot-client
 discord-qt
 discord-quest-helper
+discover-ai
 discrakt
 diskern
 diskfmt
@@ -2165,6 +2173,7 @@ emailops
 embedded-ide
 ember
 ember-p2p
+emberr
 emdash
 emerald
 emo
@@ -2218,6 +2227,7 @@ equibop
 er-save-manager
 era
 ergemd
+ergopti
 erings
 erscaffold
 es-de
@@ -2245,6 +2255,7 @@ ethic-latex
 etichetta
 etlegacy
 ets2-live-radio-editor
+ettin-edit
 eudic
 eumetcastview
 eussh
@@ -2314,6 +2325,7 @@ fabother-world
 face-crop-studio
 facenox
 factorai
+factoruide
 factwallet
 fafarunner
 fairshare
@@ -2368,6 +2380,7 @@ feetech-servo-tool
 feishin
 feishu-cursor-bridge
 ferdium
+ferestre
 ferrisscope
 ferriteweazle
 ferrix
@@ -2379,6 +2392,7 @@ ferx
 fetch-github-hosts
 fetchit
 ff-password-exporter
+ffcceot-recomp
 ffdec
 ffdec-nightly
 fflogs-uploader
@@ -2648,6 +2662,8 @@ frieren-desktop
 frigoligo
 frink
 friture
+frog-pond-launcher
+frogg
 fromscratch
 front-porch-ai
 frontimer
@@ -3035,6 +3051,7 @@ guitarlab
 gum
 gumdrop-studio
 gurushots-auto-vote
+gutterberg
 gvim
 gwenview
 gxc-smart-contract-ide
@@ -3075,6 +3092,7 @@ hashverifier
 hastyheroes
 hatari
 hatch-sh
+hatoba
 hats
 haven
 haven-desktop
@@ -3756,6 +3774,7 @@ kubenav
 kubenimbus
 kubepit
 kubermeister
+kubescope
 kubetable
 kubeverse
 kuby
@@ -4004,6 +4023,7 @@ loa-logs
 loach
 loaderly
 loadout
+loaf-fm
 lobe-chat
 lobehub
 loby
@@ -4079,6 +4099,7 @@ lovshot
 lowend-forge
 lowfi
 lowkey
+lp-engine
 lpub3d
 lrc
 lrcget
@@ -4132,6 +4153,7 @@ lvji-travel
 lwe
 lx-music-desktop
 lxtask
+lyceum
 lychi-core
 lynel-desktop
 lynx
@@ -4333,6 +4355,7 @@ megamanxsnesrecomp
 meganimus
 megawhisper
 meguri
+meiro
 melee-pc
 melia-app
 mellowplayer
@@ -4675,6 +4698,7 @@ musichammer
 musicott
 mustaphatr-s-d2k-mod
 muster
+muster-code
 mutool
 muttontext
 muwire
@@ -4781,6 +4805,7 @@ neostation-frontend
 neosurf
 neovide
 neovide-nightly
+neowarp
 nepaliunicode
 neptune
 nerd-dictum
@@ -5048,6 +5073,7 @@ offlinesearchengine
 ofs-ng
 ofxrawhost
 ogad
+ogma
 ognom
 ogresync
 oh
@@ -5175,6 +5201,7 @@ open-switch
 open-thymos
 open-toon
 open-typer
+open-typora
 open-video-downloader
 open-webui
 open3dcalc
@@ -5197,6 +5224,7 @@ openboxgl
 openburningsuite
 opencad
 opencadstudio
+opencalque
 opencami
 openchamber
 openchatcut
@@ -5336,6 +5364,7 @@ opentimetracker
 opentm
 opentodolist
 opentoonz
+opentrader
 opentrans
 opentrons
 openttd
@@ -5351,6 +5380,7 @@ openxcom
 openxcom-extended
 openxjv
 openxray
+openzt2
 opera
 opera-beta
 opera-dev
@@ -5486,6 +5516,7 @@ palot
 palworld-server-manager
 palworldsavetools
 pan-agent
+panbeh-matrix-client
 panconvert
 panda-reader
 pandagamingdesktop
@@ -5677,7 +5708,6 @@ photopealoader
 photoqt
 photoquick
 photos-backup-desktop
-photosuite
 photovault
 php-gtk3
 phreshplayer
@@ -5753,6 +5783,7 @@ pireal
 pisper
 pist
 pistisai-app
+pitivi
 pivotsearch
 pix
 pixcode
@@ -6015,6 +6046,7 @@ ps4-game-scraper
 ps5-ffpfs-cli
 ps5-game-scraper
 ps5-image-forge
+ps5pcem
 psf-guard
 psi+
 psp-game-scraper
@@ -6401,6 +6433,7 @@ rgitui
 rgs-iso-flasher
 rhb
 rhema
+rhine-music-database
 rhwp-desktop
 rhyolite
 rhythmbox
@@ -6563,6 +6596,7 @@ saberriderstarsheriffunofficial
 saccade
 sacdextractgui
 safe-box
+safe-disk-cleaner
 safe-multisig
 safelight
 sageport
@@ -6599,6 +6633,7 @@ satty
 saturn
 saucedacity
 save-sync
+savedesktop
 savestate
 savvycan
 sayonara
@@ -6766,6 +6801,7 @@ shelo
 shield-optimizer
 shift
 shinden-client
+shiny-egg
 shioaji-pro-app
 shiori
 shipyard
@@ -6793,6 +6829,7 @@ sideka
 sidekick
 sidenote
 sideswapclient
+sidetone
 sidplaywx
 sidra
 sigdigger
@@ -6896,6 +6933,7 @@ skyemu
 skylerx
 skylight-wallet
 skype
+skyport
 skytwin
 slack
 slackbackup
@@ -7100,6 +7138,7 @@ srb2kart
 srelens
 srt-router
 srt-subtitle-translator-validator
+srt4u-subtitle-processor
 ss14editor
 ssb-runner
 ssh-at
@@ -7581,6 +7620,7 @@ timg
 tine
 ting
 tinkerbox
+tiny-player
 tinywiibackupmanager
 tipitaka-pali-reader
 tipsy
@@ -7655,8 +7695,10 @@ torzu
 tost
 totoronext-avalonia
 touchhle
+touri
 tp2intervals
 tpf2-multiplayer
+tracedraw
 trackaudio
 tracky-mouse
 tractedit
@@ -7692,6 +7734,7 @@ trenchbroom
 trenino
 trezor-suite
 trgui-ng
+triaevum
 triagem-touch
 trial-submission-studio
 trifa-material
@@ -8065,6 +8108,7 @@ vlc
 vlc-git
 vlcmediaplayerv2
 vleapp
+vltn-tone-studio
 vm-curator
 vmix-utility
 vn
@@ -8109,6 +8153,7 @@ vpaint
 vpn-parser
 vrcd
 vrcft-avalonia
+vrchat-livetranslate
 vrchat-photo-uploader
 vrchat-scanner
 vrcnext
@@ -8249,6 +8294,7 @@ whisper-studio
 whisperclick-desktop-app
 whisperdesk
 whispering
+whisperio
 whispernow
 whisply
 whistle-client
@@ -8608,6 +8654,7 @@ zephyr
 zeppbridge
 zero-limit
 zeroclaw
+zeroed
 zeronet
 zerotier-qt
 zerowhats
