@@ -35,7 +35,7 @@ on:
 
   schedule:
     - cron: '15/30 0-23 * * *'
-      timezone: 'America/New_york'
+      timezone: 'America/New_York'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
