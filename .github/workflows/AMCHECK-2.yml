@@ -1,11 +1,11 @@
 name: "AMCHECK 2"
 
 on:
-  push:
-    branches: main
-    paths:
-      - results/*
-      - .github/workflows/AMCHECK.yml
+  #push:
+  #  branches: main
+  #  paths:
+  #    - results/*
+  #    - .github/workflows/AMCHECK.yml
 
   repository_dispatch:
     types: [check]
@@ -33,8 +33,8 @@ on:
         default: ""
         type: string
 
-  schedule:
-    - cron: '13,43 * * * *'
+  #schedule:
+  #  - cron: '13,43 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
