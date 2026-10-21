@@ -34,7 +34,7 @@ on:
         type: integer
 
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/30 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -47,7 +47,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 5
+  TOTEST: 256
 
 jobs:
   triggered:
