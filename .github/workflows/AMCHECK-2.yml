@@ -58,7 +58,7 @@ jobs:
     name: "prepare 🌀"
     runs-on: ubuntu-latest
     outputs:
-      skip: ${{ steps.wave.outputs.skip }}
+      skip: ${{ steps.wave.outputs.skip || steps.reset.outputs.skip }}
       matrix: ${{ steps.wave.outputs.matrix }}
       all: ${{ steps.wave.outputs.all }}
     env:
@@ -67,22 +67,24 @@ jobs:
       RETEST_EXCLUDED: ${{ github.event.inputs.retest_excluded || '' }}
       HOW_MANY: ${{ github.event.inputs.how_many || '' }}
     steps:
+      - name: "Checkout amcheck"
+        uses: actions/checkout@v7
+
       - name: "Checkout AM"
         if: env.RESET != 'true'
         uses: actions/checkout@v7
         with:
           repository: ${{ env.REPO }}
+          path: am-src
 
       - name: "Count programs 📊"
         if: env.RESET != 'true'
         run: |
-          sort programs/x86_64-apps | grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-\|am-utils" | awk '{print $2}' | sort -u > appslist
+          sort am-src/programs/x86_64-apps | grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-\|am-utils" | awk '{print $2}' | sort -u > appslist
           echo "Catalog: $(wc -l < appslist) apps"
 
-      - name: "Checkout"
-        uses: actions/checkout@v7
-
       - name: "Reset stats"
+        id: reset
         if: env.RESET == 'true'
         run: |
           git config --global user.name web-flow
@@ -93,6 +95,7 @@ jobs:
             git commit -m "reset stats"
             git push
           fi
+          echo "skip=true" >> "$GITHUB_OUTPUT"
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
 
       - name: "Build wave 🏆"
