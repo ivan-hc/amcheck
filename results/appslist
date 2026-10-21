@@ -55,6 +55,7 @@ activitywatch
 actone-screenplay
 actual
 ada
+adawat
 adbkit
 adelie
 adeorq
@@ -536,6 +537,7 @@ audiomoth-live-app
 audiomoth-time-app
 audiomoth-usb-microphone-app
 audion
+audionaut
 audiorelay
 audiorestorationvst
 audiosync
@@ -561,6 +563,7 @@ autoapply
 autobyteus-workspace
 autoedit2
 autoglm-gui
+autojob
 automaker
 automarker-clay
 autopilotv
@@ -868,6 +871,7 @@ bottles
 bottom
 boxplayer
 boxxy
+brain-in-a-box
 braincue
 braincup
 brainproxy
@@ -877,6 +881,7 @@ brainwaves
 bramble
 branch-deck
 branchdeck
+branchdial
 branchloom
 brassworkslauncher
 brave
@@ -2405,6 +2410,7 @@ ffdec-nightly
 fflogs-uploader
 ffmpeg
 ffsend
+ffta-recomp
 ffui
 ffxiv-best-craft
 ffxiv-timeline-app
@@ -3205,6 +3211,7 @@ holyscreen
 homelander
 homematic-manager
 honeycomb
+hongguo-tv
 honkhonk
 hookecho
 hootvoice
@@ -3848,6 +3855,7 @@ lapower
 lararadio
 laravel-kit
 lasrecomp
+latch
 latent-library
 latent-model-organizer
 latte
@@ -4230,6 +4238,7 @@ manager-io
 manbo-tts
 mandelbulber2
 manent
+manga-cleaner
 manga-reader
 manga-tui
 manga-typesetter
@@ -4377,6 +4386,7 @@ meganimus
 megawhisper
 meguri
 meiro
+meitouclient
 melee-pc
 melia-app
 mellowplayer
@@ -4506,6 +4516,7 @@ minitor
 minizinc-ide
 minke
 minnow
+mio-music
 miosub
 miqaat
 mira-backup
@@ -4525,6 +4536,7 @@ mithka
 mivra
 mixdog
 mixi
+mixmusic
 mixxx
 miyolist-public
 miyou.tv
@@ -4624,6 +4636,7 @@ morph-browser
 morpheus-lumerin-node
 morphly
 morphto
+morrow
 mosaic
 mosaic-companion
 most
@@ -4764,6 +4777,7 @@ nak
 nam-editor
 nam-mixer
 name-seeker
+namehold-wallet
 nami
 namida
 nanokvm-usb
@@ -5381,6 +5395,7 @@ opentable
 opentainer
 opentang
 openterface-qt
+openterminal
 opentesarena
 opentimetracker
 opentm
@@ -5542,6 +5557,7 @@ pan-agent
 panbeh-matrix-client
 panconvert
 panda-reader
+pandacode
 pandagamingdesktop
 pandia
 pandoc
@@ -5879,6 +5895,7 @@ pocket-browser
 pocket-sync
 pocketcasts-electron
 pocketpaw
+pocox
 podcaster
 poddr
 podium
@@ -6268,6 +6285,7 @@ radioss
 radix-wallet
 radmin-vpn
 raffi
+ragnarokoffline-app
 rai-pal
 railreader2
 rails
@@ -6355,6 +6373,7 @@ red-request
 red-ui
 redact
 redasm
+redcolumn
 redeclipse
 redis-desktop-client
 redis-gui
@@ -6452,6 +6471,7 @@ revpdf
 revu
 revya-desktop
 rewaita
+rexadb
 rexpo-debugger
 rez2ans-next
 rezeptor
@@ -6926,6 +6946,7 @@ skales
 skeepto
 skerryssh
 sketchover
+skiesofarcadialegends-recomp
 skiff
 skill-buddy
 skill-deck
@@ -7263,6 +7284,7 @@ storytel-player
 strans
 strata
 strata-manager
+stratas
 strawberry
 strawverse
 streak
@@ -7587,6 +7609,7 @@ the-sieve
 the-way
 thedesk
 theframe
+thehumanbox
 theia-blueprint
 theia-ide
 themagi
@@ -7641,6 +7664,7 @@ tilde-podcast
 tiled
 tilegrabber
 tilinggenerator
+time-warp-studio
 timelapse-creator
 timenaut
 timeseries-explorer
@@ -7841,6 +7865,7 @@ typability
 typefree
 typer
 typeward
+typewriter-nocturne
 typioca
 typos
 typsastra
@@ -8427,10 +8452,13 @@ wow-font-changer
 wowthing-sync
 wowup
 wox
+wozai
 wps-office
+wps-office-cn
 wpx
 wrangler
 wrapbox
+wrenyard
 writ
 writeflow
 wrzdj
