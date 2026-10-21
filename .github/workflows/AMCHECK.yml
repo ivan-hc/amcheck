@@ -34,7 +34,7 @@ on:
         type: integer
 
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '13,43 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -233,6 +233,7 @@ jobs:
     name: "🔨"
     needs: generate-matrix
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
     strategy:
       fail-fast: false
