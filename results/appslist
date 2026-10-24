@@ -678,6 +678,7 @@ bazecor
 bb
 bbdump
 bbg
+bbport
 bbt
 bcashjr-wallet
 bcd-sys
@@ -1480,6 +1481,7 @@ connexio
 consisterm
 consoleworkbench
 constrict
+container-desktop
 containerlab-app
 containerus
 contop
@@ -5956,7 +5958,6 @@ podium
 podium-app
 podlogs
 podman
-podman-desktop-companion
 podscape
 podsteer
 poe-campaign-copilot
