@@ -7,6 +7,12 @@ on:
       - results/*
   #    - .github/workflows/AMCHECK.yml
 
+  workflow_run:
+    workflows: ["AMCHECK-2"]
+    types:
+      - completed
+    branches: main
+
   repository_dispatch:
     types: [check]
 
