@@ -1,10 +1,10 @@
 name: "AMCHECK"
 
 on:
-  #push:
-  #  branches: main
-  #  paths:
-  #    - results/*
+  push:
+    branches: main
+    paths:
+      - results/*
   #    - .github/workflows/AMCHECK.yml
 
   repository_dispatch:
