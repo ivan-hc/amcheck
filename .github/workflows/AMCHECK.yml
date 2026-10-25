@@ -5,7 +5,7 @@ on:
     branches: main
     paths:
       - results/*
-  #    - .github/workflows/AMCHECK.yml
+      - .github/workflows/AMCHECK.yml
 
   workflow_run:
     workflows: ["AMCHECK-2"]
@@ -39,9 +39,9 @@ on:
         default: ''
         type: integer
 
-  #schedule:
-  #  - cron: '15/30 0-23 * * *'
-  #    timezone: 'America/New_York'
+  schedule:
+    - cron: '15/30 0-23 * * *'
+      timezone: 'America/New_York'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -54,7 +54,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
-  TOTEST: 10
+  TOTEST: 256
 
 jobs:
   triggered:
