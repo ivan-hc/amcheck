@@ -10,12 +10,6 @@ on:
   repository_dispatch:
     types: [check]
 
-  workflow_run:
-    workflows: ["AMCHECK"]
-    types:
-      - completed
-    branches: main
-
   workflow_dispatch:
     inputs:
       reset_stats:
