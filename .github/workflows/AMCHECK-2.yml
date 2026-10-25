@@ -8,7 +8,7 @@ on:
   #    - .github/workflows/AMCHECK.yml
 
   workflow_run:
-    workflows: ["AMCHECK"]
+    workflows: ["AMCHECK-1"]
     types:
       - completed
     branches: main
