@@ -4,6 +4,7 @@
 0xchat-app-main
 0xfx
 0xsynth
+121gw-open-firmware
 12to11
 1aivault
 1devtool
@@ -122,6 +123,7 @@ agentflow
 agentglass
 agenthub
 agentica
+agenticos
 agentkib
 agentlas-desktop
 agentmux
@@ -650,6 +652,7 @@ bableredit
 backend-ai-go
 backlog
 backlogtracker
+backplane
 backplane-bend
 backspace
 backspn
@@ -792,6 +795,7 @@ bidirectional
 bidsheet
 biflow
 bifrost
+big-star-editor
 bigbud
 bigcode
 bigmoeonedge
@@ -886,6 +890,7 @@ bmherorecomp
 boar
 boardgamestar
 boardown
+bobix
 bodacious
 bodegaone
 bodhi
@@ -913,6 +918,7 @@ boracall
 boris
 boss-claw
 botframework-emulator
+botloft
 botroster
 bottlebats
 bottles
@@ -1236,6 +1242,7 @@ chronicler
 chronograph
 chronomi
 chrysalis-bin
+chupathingyce
 ciaa-suite
 cialai-platform
 cicada
@@ -1612,6 +1619,7 @@ cosmou
 cotect
 cotoami-remake
 couchcode
+couchtunes
 coucou
 cove-nexus
 cove-universal-converter
@@ -1741,6 +1749,7 @@ d-code
 d-editor
 d-lan
 d1x-rebirth
+d2-web
 d2d
 d2rloader
 d2x-rebirth
@@ -1889,6 +1898,7 @@ deployerx
 designcraft
 designguarddesktopapp
 deskarcade
+deskfleet
 deskly
 deskop-nano-cortex
 deskpad
@@ -2089,6 +2099,7 @@ drexius-terminal
 drh-launcher
 drift
 drill
+drivedeck
 drm-receiver
 droidcam
 droidective
@@ -2305,6 +2316,7 @@ emojimart
 emrg
 emucenter
 emudeck
+emulebb-rust
 emulsion
 emuze
 en-croissant
@@ -2516,6 +2528,7 @@ ferestre
 ferrisscope
 ferriteweazle
 ferrix
+ferrocad
 ferrotag
 ferrumkix
 ferrumpix
@@ -3228,6 +3241,7 @@ hackintosh-for-all-computers
 hackman3d-control-deck
 hades-emu
 haejeokrisuai
+hairharpy
 hakimi-agent
 hammer
 hanami
@@ -3762,6 +3776,7 @@ kanri
 kanso
 kant
 kanvaz
+kanzonaspdf
 kao
 kaon
 kappastream
@@ -3854,6 +3869,7 @@ kickstartfx
 kid3
 kiibohd-configurator
 kika
+kiki
 kikoe
 kiku
 kimaitray
@@ -4015,6 +4031,7 @@ kuro
 kurobayomi
 kute
 kvault
+kwant
 kwave
 kwesi
 kyaraben
@@ -4058,6 +4075,7 @@ latent-library
 latent-model-organizer
 lattice-term
 launcher
+launchme
 lawvault
 laya
 layerive
@@ -4080,6 +4098,7 @@ lcedit
 ldoce5viewerx
 ldtk
 leadstinger
+leafdesk
 leaflet
 leagent
 leanstudio
@@ -4889,6 +4908,7 @@ morphly
 morphto
 morrow
 morse
+mortar
 mosaic
 mosaic-companion
 most
@@ -4896,6 +4916,7 @@ motobudsdesktoputility
 motrix
 motrix-next
 mousai
+mousely-hub
 mouzi
 movena
 movie-monad
@@ -4903,6 +4924,7 @@ movie-vault
 movscript
 moyu
 mp3-tagger
+mp4-recomp
 mp4grep
 mpc-qt
 mpesa2csv
@@ -5805,6 +5827,7 @@ ouroboros
 ourprompt
 out-loud
 outer-wilds-mod-manager
+outl
 outline-client
 outline-manager
 outlook-for-linux
@@ -5829,6 +5852,7 @@ oxideterm
 oxidom
 oxiguitar
 oxish-session
+oxyn
 ozendb
 p-ai
 p2p-chat
@@ -5891,6 +5915,7 @@ paperboat
 paperboy
 papercanvas
 papercraft
+paperduet
 paperflow
 paperfold
 papergen
@@ -6367,6 +6392,7 @@ procspin
 procyon
 producer-player
 programmer-browser
+project-blue-moon
 project-carminium
 project-friday
 project-indexer
@@ -6672,6 +6698,7 @@ ravikoodi-server
 raw2film
 rawmakase
 rawtherapee
+rawtonic
 rayburst
 rbdl-toolkit
 rbdoom-3
@@ -6699,6 +6726,7 @@ readmd
 readme-templates
 reado
 real-video-enhancer
+realm
 realm-studio
 reaper
 rebase-git
@@ -7130,8 +7158,10 @@ secops
 secret-of-goku
 secrets
 sector-files
+sectorforge
 secure-file-vault
 securevault
+sedotdeck
 seed
 seedit
 seeksy
@@ -7370,6 +7400,7 @@ skippy-xd
 sklauncher
 skriuw
 skyemu
+skykeep
 skylerx
 skylight-wallet
 skype
@@ -7596,6 +7627,7 @@ ss14editor
 ssb-runner
 ssf2t-hd-remix-recompiled
 ssh-at
+ssh-key-manager
 ssh-mitm
 sshclient
 sshfire
@@ -7661,6 +7693,7 @@ stellaris-galaxy-forge
 stellarium
 stellarmaps
 stelliberty
+stellio
 stem
 stemkit
 stemwerk-reaper
@@ -7873,6 +7906,7 @@ table-craft
 table-x
 tables
 tabless
+tabletist
 tablexplore
 tablio
 tablo-tools
@@ -7978,6 +8012,7 @@ termi
 termic
 termigo
 termimus-ssh
+terminal-delight
 terminalos-sim
 terminalpolyominos
 terminalvibe
@@ -8275,6 +8310,7 @@ tuim
 tuma
 tumblr-downloader-gui
 tumblr-scraper
+tunarrtube
 tunelle
 tunepack
 tunneldock
@@ -8888,6 +8924,7 @@ wiretrace
 wirewright
 wishdemo
 wishtoken-desktop
+wisp
 wisp-science
 wisper
 wispr-flow-linux
@@ -8978,6 +9015,7 @@ xapkdetector
 xarch-theme-studio
 xash3d-fwgs
 xava
+xbased
 xbooxp
 xbox360-game-scraper
 xbydriver
@@ -9048,6 +9086,7 @@ xshell
 xsnow
 xstl
 xstreamingdesktop
+xtermium
 xtomarkdown
 xtool
 xtralab
