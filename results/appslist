@@ -338,6 +338,7 @@ anothervaporauth
 anql
 ansel
 ant-downloader
+ant-renamer-qt
 antares
 anti-power
 antiafk-rbx-sober
@@ -546,6 +547,7 @@ audacity
 audacity-dev
 audapolis
 audex-player
+audio-forge
 audio-sharing
 audioabcomparator
 audiobash
@@ -587,6 +589,7 @@ autoapply
 autobyteus-workspace
 autochart
 autocheckin-engineering
+autodock
 autoedit2
 autoglm-gui
 autojob
@@ -696,6 +699,7 @@ battleship
 battop
 baudrun
 bauh
+baum
 bava
 bawkterm
 bayesian-ssh
@@ -790,6 +794,7 @@ bigcode
 bigmoeonedge
 bigpemu
 biji2md-tauri
+bili-danmaku
 bili-liveluckdraw
 bilibili
 bilibili-danmu-crawling
@@ -872,6 +877,7 @@ blueglow
 bluelink-refresh-token
 blueprint
 bluetuith
+bluewake
 blurfer
 bm64recomp
 bmf-vangard-renpy-ide
@@ -913,6 +919,7 @@ bottlebats
 bottles
 bottom
 boxplayer
+boxshelf-beta
 boxxy
 bpmninja
 brain-in-a-box
@@ -987,6 +994,7 @@ butterup
 buzz
 buzzcast
 byan
+bydlo
 byedpi-gtk
 bymr-desktop-launcher
 bypass-cors
@@ -1025,6 +1033,7 @@ callai
 calligra
 callimachus
 calliope-ai-desktop
+callmeclaude
 calm-circles
 calm-fan
 calm-meditator
@@ -1045,6 +1054,7 @@ canvastty
 capacitytester
 capilot-ide
 capptivo
+capri-desktop
 caprine
 caprock
 capsulecraft
@@ -1098,6 +1108,7 @@ catpasswd-hash-extract
 cattr
 caveviewer
 cavoke
+cawget
 cbetar2
 cbird
 cc-box
@@ -1475,6 +1486,7 @@ colormc
 colorpicker
 colorstatic-bash
 coloryourmodel
+colosseum-launcher
 comail
 comate
 combatlog
@@ -1572,6 +1584,7 @@ corehunt
 coreimage
 coreinfo
 corekeyboard
+coreops
 corepad
 corepaint
 corepins
@@ -1664,6 +1677,7 @@ crossover
 crossplatformdownloadmanager
 crow-desktop
 crow-translate
+crowbar
 crucible
 crunchyroll-linux
 crush-forensics
@@ -2024,6 +2038,7 @@ dopeiptv
 doping-hafiza-linux
 dora
 dorion
+doriterm
 dosbox-automation
 dosbox-pure-unleashed
 dosbox-x
@@ -2224,6 +2239,7 @@ eez-studio
 efd-unpacker
 effectcraft
 eget
+eglantine
 ehdev-shell
 eidos
 eigen
@@ -2277,8 +2293,10 @@ emacs-nox
 emailops
 embedded-ide
 ember
+ember-bots
 ember-p2p
 emberr
+emc2
 emdash
 emerald
 emo
@@ -2736,6 +2754,7 @@ frameworkdeck
 francetv
 frank-mangaplus
 frank-scanlation
+frankmdfast
 franksherlock
 franz
 frappebooks
@@ -2829,9 +2848,11 @@ gaiasky
 galculator
 gale
 galefling
+gall
 gallery-dl
 gallery-dl-nightly
 game-cheetah
+game-release-tracker
 gamebasebox
 gameconqueror
 gameflow-deck
@@ -3099,6 +3120,7 @@ got
 gotimer
 goto
 goverlay
+gow-pc-port
 goxel
 gpg-tui
 gpgfrontend
@@ -3180,6 +3202,7 @@ gtk-llm-chat
 guarda
 guglielmo
 gugufly
+gui-for-cli
 guide-studio
 guidedreel
 guiscrcpy
@@ -3229,6 +3252,7 @@ harnessforge-public
 harnss
 harubble
 haruna
+haruspex
 hascard
 hash-gui
 hashcat-reactor
@@ -3354,6 +3378,7 @@ hope-agent
 hope-re
 hoppscotch-app
 hoptodesk
+hortensia
 hoshiro
 hotclip
 hotsheet
@@ -3393,6 +3418,7 @@ husk
 huwinterpreter
 hw-probe
 hxlinux
+hybridslicecraft
 hycreator
 hydra
 hydravpn
@@ -3566,6 +3592,7 @@ ire
 ireader
 iris
 iriunwebcam
+irodori-table
 iroh-fm
 ironbullet
 irontick
@@ -3864,6 +3891,7 @@ kitsas
 kitshn
 kitty
 kitty-pro
+kittytunedesktop
 kivarro
 kiwano
 kiwix
@@ -3921,6 +3949,7 @@ kondo
 konjugate
 koodo-reader
 kooix-cut
+kookapictura
 kopia-ui
 kopuz
 korda
@@ -4017,6 +4046,7 @@ lanius
 lanscanner
 lanshare
 lantern-control
+lantern-recomp
 lanyard
 lanzou-next
 lap
@@ -4245,6 +4275,7 @@ local-media-server
 local-notebook-lm-app
 local-operator-ui
 local-security-pass-vault
+local-upscale
 localbrain
 localchat
 localflow
@@ -4461,6 +4492,7 @@ mapeo
 mapiah
 mapic
 maplateditor
+mapng
 mapollage
 mapsetverifier
 mapton
@@ -4655,6 +4687,7 @@ meterm
 metermaid
 metis
 metrik
+metroid-dread-recomp
 metroidprime2port
 metroidprimehuntersrecomp
 metroidprimeport
@@ -4685,6 +4718,7 @@ mightymike
 mignon-ui
 migu
 migurdex
+mihrab
 milagre
 milkdown-editor
 milkytracker
@@ -4718,6 +4752,7 @@ minimax-agent-gui
 minimax-music3-studio
 minion-mind
 minions
+minipro-rs
 miniscope-daq-qt
 miniserve-gui
 miniter
@@ -4743,6 +4778,7 @@ mitcad
 miteiru
 mithka
 mivra
+mix-agent
 mixdog
 mixi
 mixmusic
@@ -4926,6 +4962,7 @@ multistream
 multiworldgg
 multizen-browser
 multron-download-manager
+mumcord
 mumdia
 mundus
 munify-chase
@@ -5135,16 +5172,19 @@ nexus
 nexus-account-manager
 nexus-explorer
 nexus-mods
+nexus-ports
 nexus-wallet
 nexusflight-suite
 nfctools
 nfsiise
+ng2recomp
 ngbrecomp
 ngpost
 ngrev
 ngxsmk-wallet
 nheko
 nicebucket
+nicedb
 niceness
 nida-adhan-app
 niffler
@@ -5464,11 +5504,13 @@ open-generative-ai
 open-geotechniek-studio
 open-git-control
 open-historia
+open-markdown-lane
 open-markup-editor
 open-media-converter
 open-merchant
 open-nectar
 open-note
+open-office-studio
 open-orpheus
 open-pencil
 open-planner-studio
@@ -5776,6 +5818,7 @@ outpost-kaloki-x-recompiled
 overbind
 overlayed
 overleaf-app
+overseer
 oversteer
 overte
 ovideo
@@ -5850,6 +5893,7 @@ panoply
 panpdf-rs
 panwriter
 paper
+paper-cut
 paper-design
 paperback
 paperboat
@@ -6391,6 +6435,7 @@ ps5-image-forge
 ps5-usb-formatierer
 ps5-y2jb-installer
 ps5pcem
+ps5upload
 psf-guard
 psi+
 psp-game-scraper
@@ -6440,6 +6485,7 @@ pylon-player
 pymacrorecord
 pyqt-aosp-rom
 pyquark
+pyrocade
 pyrowave-streaming
 python
 pyuploadtool
@@ -6755,6 +6801,7 @@ reqable
 requesto
 rerac-launcher
 reright
+researchloom
 resgrid-unit
 reshadelinux
 reshadowtower
@@ -6973,6 +7020,7 @@ sacdextractgui
 safe-box
 safe-disk-cleaner
 safe-multisig
+safehouse
 safelight
 sageport
 sai
@@ -7125,6 +7173,7 @@ serein
 sereingram
 sergd-lofityan
 serial-studio
+serialarm-core
 serialgui-rs
 serialloops
 serialplot
@@ -7331,6 +7380,7 @@ skinstrackr
 skippy-xd
 sklauncher
 skriuw
+skwir
 skyemu
 skykeep
 skylerx
@@ -7693,6 +7743,7 @@ study-buddy
 studymd
 stunt-car-remake
 stunts-hd
+stviewer
 styr
 styx-app
 sub8
@@ -7890,6 +7941,7 @@ taurvia
 taut
 tauthy
 tavern
+taxonero
 tbc-video-export
 tc
 tc-launcher
@@ -8137,6 +8189,7 @@ topstatsaio
 tor-browser
 tor-browser-alpha
 torchat
+torchlight-recomp
 torcs
 tore-fighters
 torflix
@@ -8230,6 +8283,7 @@ tube2go
 tubefast
 tubeglass
 tuck
+tuck-filemanager
 tuff
 tuim
 tuma
@@ -8263,6 +8317,7 @@ tuxpusher
 tuxrgb
 tuxtalk
 tuzi-switch
+tvhplayer
 twake
 tweakphp
 tweaks-for-cosmic
@@ -8275,6 +8330,7 @@ twinsanityevolved
 twinverse
 twirchat
 twitch-drops-miner
+twitch-miner
 twitch-retold
 twitch-wrapper
 tx
@@ -8297,6 +8353,7 @@ uad-ng
 uartx
 ubiquity
 ubports-installer
+ubuntu-macos-theme
 udcalc
 udcap-control
 udeler-reborn
@@ -8580,6 +8637,7 @@ viva
 vivaldi-snapshot
 vivaldi-stable
 vivestream-revived
+vivi
 vivi-music-de
 vivifylive
 vivifyscrum
@@ -8674,6 +8732,7 @@ vzt-flow
 w2vgrep
 wabcut
 waddamburo
+wage-slave-motivator
 waifudownloaderqt
 wake
 walc
@@ -8709,6 +8768,7 @@ wavescope
 wavesink
 wavespeed-desktop
 waveterm
+wavo-app
 waydir
 waydroid
 waydroid-helper
@@ -8813,6 +8873,7 @@ will-be-done
 win11-clipboard-history
 winampfy
 winboat
+winc
 window-pet
 window-switcher
 windows-app-for-linux
@@ -8939,6 +9000,7 @@ xava
 xbased
 xbooxp
 xbox360-game-scraper
+xc2-recomp
 xchat
 xclicker
 xclock
@@ -9146,6 +9208,7 @@ zeebx-emu
 zeedle
 zegarek
 zegrapher
+zelda-totk-port
 zelda64-recompiled
 zelda64recomp
 zeldawwhdrecomp
