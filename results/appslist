@@ -594,7 +594,6 @@ auto-wall
 autoapply
 autobyteus-workspace
 autochart
-autocheckin-engineering
 autodock
 autoedit2
 autoglm-gui
@@ -625,7 +624,6 @@ awakened-poe-trade
 aws-loggy
 aws-ssm-manager
 axe-electrum
-axe-os-multitool
 axibridge
 axichat
 axiom
@@ -644,7 +642,6 @@ azeron-linux
 azit
 azmx
 azterm
-azura
 babelchat
 babeldoc-gui
 bableredit
@@ -682,7 +679,6 @@ bar-lobby
 bar-none-ultrawide-fixer
 baram
 baras
-barcode-emulator-electron
 barkos
 barnacal
 barrel
@@ -747,7 +743,6 @@ bedrockonlinux
 bedrud
 beekeeper-studio
 beeref
-bees
 belay
 belfryscad
 believers-sword
@@ -6954,6 +6949,7 @@ ripcord
 ripes
 ripgrep
 ripgrep-all
+riplay
 riseup-vpn
 rishah
 ristretto
