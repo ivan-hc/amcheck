@@ -667,6 +667,7 @@ azaharplus-pkg-extractor
 azeron-linux
 azit
 azmx
+aztek
 azterm
 babelchat
 babeldoc-gui
@@ -823,6 +824,7 @@ bigbud
 bigcode
 bigmoeonedge
 bigpemu
+bigtext
 biji2md-tauri
 bili-danmaku
 bili-liveluckdraw
@@ -893,6 +895,7 @@ blobbies
 blobdrop
 block-dx
 blockbench
+blocksbeyondthestars
 blockstream-green
 blog2epub
 blogly
@@ -1112,6 +1115,7 @@ captureplayer
 capubridge
 capybudget
 capyinn
+caravel-agent
 carbide
 carbon
 carbonyl
@@ -1401,6 +1405,7 @@ cleanmylinux
 cleansys
 clearcore
 clearcote-profile-manager
+clearskies
 cleepdesktop
 clementine
 clementineremote
@@ -1595,6 +1600,7 @@ conecode
 configforge
 conflicto
 conker-recomped-and-reloaded
+conkio
 conky
 conky-manager-g
 conky-studio
@@ -1801,6 +1807,7 @@ cursor-tool-free
 cursorcine
 custom-ssh
 customrpc
+cut-craft
 cutawan
 cutechess
 cutepeaks
@@ -1897,6 +1904,7 @@ dcf77-soundwave
 ddev-manager
 ddnet
 ddt4all
+de-koi
 de-rclone
 de-story
 dead-rising-2-case-west-xenon-recomp
@@ -2150,6 +2158,7 @@ dotto
 doublecmd-gtk
 doublecmd-qt
 douchat
+douyindatareview
 dove
 downhill-revived
 downkyicore
@@ -2502,7 +2511,6 @@ eudic
 eumetcastview
 eussh
 eva-agent
-evalit
 eve-fit-assistant
 eve-intel-checker
 eve-settings-manager
@@ -2828,7 +2836,6 @@ focra
 focus
 focus-diff
 focus-flow
-focus-flow-cloud
 focus-island
 focusatwill
 focust
@@ -2951,7 +2958,6 @@ fspy
 fss-mini-rag
 fthr-clips
 ftm
-fukayo
 fulgur
 fundacad
 funkin
@@ -3639,6 +3645,7 @@ illusion-agent
 iloader
 ima2-gen
 image-toolkit
+imageglass
 imagemagick
 imagemagick-clang
 imagemagick-gcc
@@ -4031,6 +4038,7 @@ kimi-work-linux
 kimitzu-client
 kimix
 kimo
+kin
 kindling
 kindling-cli
 kinema
@@ -4125,6 +4133,7 @@ kooix-cut
 kookapictura
 kopia-ui
 kopuz
+kora-framework
 korda
 koreader
 koreader-nightly
@@ -4178,6 +4187,7 @@ kuhlers-gelumpe
 kuickshare
 kuiqr
 kukuri
+kuml
 kun
 kunger
 kunkun
@@ -4436,6 +4446,7 @@ llama-recipe-manager
 llama-server-manager
 llauncher
 llm-advisor
+llm-hub
 llm-model-manager
 llm-protocol-gateway
 llm-wiki
@@ -4831,6 +4842,7 @@ melia-app
 mellowplayer
 melo
 melocoton
+melodex-music
 melodia
 melodie
 melonds
@@ -4935,6 +4947,7 @@ milkdown-editor
 milkytracker
 mimi
 mimic-flow
+mimick
 mimo-studio
 mind-cleaner
 mindflock
@@ -5280,6 +5293,7 @@ nanosaur2
 nanotorrent
 nanotracker
 nanovault
+nanternet
 nap
 napcatqq-desktop
 narratrix
@@ -5328,6 +5342,7 @@ neoavdc
 neobes-gui
 neochat
 neocord
+neodisk
 neodlp
 neohtop
 neomacs
@@ -5416,6 +5431,7 @@ ng2recomp
 ngbrecomp
 ngpost
 ngrev
+ngterm
 ngxsmk-wallet
 nheko
 nicebucket
@@ -5471,6 +5487,7 @@ nocx
 node
 node-pdf
 nodebookmd
+nodecloak
 nodeflow
 nodes
 nodeterm
@@ -6044,6 +6061,7 @@ ormah
 oronbox
 orra
 orrery
+orta-recompiled
 ortu
 oryn
 oryxis
@@ -6124,6 +6142,7 @@ pace
 packageflow
 packetsender
 packsquash
+packwright
 paclear
 pacto-app
 padloc
@@ -6315,6 +6334,7 @@ pentestpath
 pepomote
 perastage
 percho
+perfboard-studio
 perfect-dark
 perfectmd
 performous
@@ -6571,6 +6591,7 @@ polypane
 polypore
 polyuploader
 polywms
+polyzonmaker
 pom1
 pom2
 pomatez
@@ -6586,6 +6607,7 @@ poncho-wonky
 pond
 poorman
 pop
+popamp
 popdroidcam
 popsicle
 poptracker
@@ -6602,6 +6624,7 @@ portcove
 porthole
 portkeeper
 portkeydrop
+portly
 portpilot
 portprotonqt
 portunus
@@ -6778,6 +6801,7 @@ purevox
 purffle-grab
 purlis
 pushnav
+putiacnc
 puush-qt
 puzzle-moppet
 pvfine
@@ -7255,6 +7279,7 @@ roboticsstudio
 robrix
 rock.so
 rockapiclient
+rockbot
 rockchip-flash-tool
 rocket-r
 rocketchat
@@ -7487,6 +7512,7 @@ sdr-j-fm
 sdrconnect-ft8-module
 sdrloggerplus
 sdroxide
+sdrpp-aia
 sea-web
 seafari
 seafile
@@ -8442,6 +8468,7 @@ thai-font-kit
 the-darkness-recomp
 the-fretboard-game
 the-lab
+the-melody-of-oblivion-remake
 the-office
 the-oracles-project
 the-pair
@@ -8680,6 +8707,7 @@ tssh
 tsukuyomi
 tsumugi
 tt
+tterm
 ttrpg-convert-cli-ui
 tts-now
 ttth
@@ -8926,6 +8954,7 @@ velopopuli
 velorn
 veloxdb
 velq
+velta
 veluna
 venera-next
 venerax
@@ -9172,6 +9201,7 @@ walk
 walker
 wallettech
 wallpaperem
+walph
 wanlaicode
 wanyao-client
 wardian
@@ -9240,6 +9270,7 @@ weft-studio
 wekan
 weline
 wello-code
+weltbon
 wemd
 wemeet
 weport
@@ -9380,6 +9411,7 @@ workbuddy-switch2api
 workflowy
 workflowy-local-mcp
 worklog
+workplan-with-ai
 workpulse
 workrave
 worktree-manager
@@ -9428,6 +9460,7 @@ x-loc
 x-markdown
 x-minecraft-launcher
 x-pixiv
+x86sim
 xandsuite
 xapkdetector
 xarch-theme-studio
@@ -9533,6 +9566,7 @@ yamagi-quake-ii
 yamata-launcher
 yames
 yamusic
+yamusic-md3
 yana
 yandex-browser
 yandex-browser-beta
