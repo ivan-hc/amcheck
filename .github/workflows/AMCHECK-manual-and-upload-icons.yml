@@ -1,0 +1,51 @@
+name: "AMCHECK (manual + upload icons)"
+
+on:
+  repository_dispatch:
+    types: [check]
+
+  # No push trigger: install scripts live in the AM repo, not here.
+  # Dispatch with what_test set to app names for targeted runs.
+  workflow_dispatch:
+    inputs:
+      reset_stats:
+        description: "RESET stats"
+        required: true
+        default: false
+        type: boolean
+      retest_excluded:
+        description: "TEST excluded"
+        required: true
+        default: false
+        type: boolean
+      what_test:
+        description: "App names: (space between)"
+        required: false
+        default: ""
+        type: string
+      how_many:
+        description: "Number of apps: (max 500)"
+        required: false
+        default: ''
+        type: integer
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  check:
+    uses: ./.github/workflows/_amcheck-core.yml
+    with:
+      totest: 500
+      chunk_size: 10
+      upload_icons: true
+      reset_stats: ${{ inputs.reset_stats == true && 'true' || 'false' }}
+      retest_excluded: ${{ inputs.retest_excluded == true && 'true' || 'false' }}
+      what_test: ${{ inputs.what_test }}
+      how_many: ${{ inputs.how_many }}
+    secrets: inherit

@@ -1,0 +1,35 @@
+name: "Setup AMCHECK runner"
+description: "Install apt deps, relax AppArmor, install AM manually (moved verbatim from AMCHECK run-actions)"
+outputs:
+  am_version:
+    description: "First line of am --version"
+    value: ${{ steps.amver.outputs.am_version }}
+runs:
+  using: "composite"
+  steps:
+    - name: "Cache dependencies"
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        # ripgrep is needed for bat
+        packages: curl libnotify-bin ripgrep wget
+        version: 1.0
+    - name: "Fix AppArmor"
+      shell: bash
+      run: |
+        sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+        sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+    - name: "Install AM manually"
+      shell: bash
+      run: |
+        sudo mkdir -p /opt/am/modules /usr/local/bin || exit 1
+        sudo cp -r ./APP-MANAGER /opt/am/APP-MANAGER && sudo chmod a+x /opt/am/APP-MANAGER || exit 1
+        sudo ln -fs /opt/am/APP-MANAGER /usr/local/bin/am || exit 1
+        sudo touch /opt/am/remove || exit 1
+        sudo cp -r modules/*.am /opt/am/modules/
+        export AMDATADIR="${XDG_DATA_HOME:-$HOME/.local/share}"/AM
+        mkdir -p "$AMDATADIR" || exit 1
+        cp -r programs/x86_64-apps "$AMDATADIR"/ || exit 1
+    - name: "Record AM version"
+      id: amver
+      shell: bash
+      run: echo "am_version=$(am --version 2>/dev/null | head -1)" >> "$GITHUB_OUTPUT"
