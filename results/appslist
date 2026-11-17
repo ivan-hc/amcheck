@@ -3680,8 +3680,6 @@ ima2-gen
 image-toolkit
 imageglass
 imagemagick
-imagemagick-clang
-imagemagick-gcc
 imagemosaicwall
 imageviewer-usingc
 imap-cleanup-tool
