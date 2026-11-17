@@ -3,7 +3,7 @@
 # Lines starting with # are comments.
 animashooter-junior|animashooter-pioneer|kiwix|ryujinx|ryujinx-canary
 mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11
-koreader-nightly
+#SAMPLE
 ^(node|npm)$
 wine
 bat-extras
