@@ -376,7 +376,7 @@ jobs:
 
           # Blocklist enforced by the static-checks job; install every app that reaches here.
           
-            if grep -qe "^read \|SITE1=" "$app" 1>/dev/null; then
+            if grep -qe -- " read -r response\|SITE1=" "$app" 1>/dev/null; then
 
               echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
               ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
