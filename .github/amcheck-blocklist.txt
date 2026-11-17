@@ -1,0 +1,9 @@
+# AMCHECK install blocklist: one extended regex per line, matched with grep -E -f
+# against app names. A match means "do not install; record as excluded".
+# Lines starting with # are comments.
+animashooter-junior|animashooter-pioneer|kiwix|ryujinx|ryujinx-canary
+mudlet|openxcom|openxcom-extended|vhc-viewer-wayland|vhc-viewer-x11
+koreader-nightly
+^(node|npm)$
+wine
+bat-extras

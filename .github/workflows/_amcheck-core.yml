@@ -1,0 +1,676 @@
+name: "AMCHECK core (reusable)"
+
+on:
+  workflow_call:
+    inputs:
+      totest:
+        description: "Apps per sweep"
+        required: false
+        default: 500
+        type: number
+      chunk_size:
+        description: "Apps per runner"
+        required: false
+        default: 10
+        type: number
+      upload_icons:
+        description: "Upload per-chunk icon artifacts"
+        required: false
+        default: false
+        type: boolean
+      reset_stats:
+        description: "RESET stats"
+        required: false
+        default: 'false'
+        type: string
+      retest_excluded:
+        description: "TEST excluded"
+        required: false
+        default: 'false'
+        type: string
+      what_test:
+        description: "App names (space separated)"
+        required: false
+        default: ""
+        type: string
+      how_many:
+        description: "Number of apps"
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  actions: write
+  contents: write
+
+env:
+  REPO: ${{ github.repository_owner }}/AM
+  TOTEST: ${{ inputs.totest }}
+  CHUNK_SIZE: ${{ inputs.chunk_size }}
+  # List files (tested/excluded/appslist) are order-sensitive: comm --check-order
+  # and sort must agree on byte order on every runner and every local machine.
+  LC_ALL: C
+
+jobs:
+  show-stats:
+    name: "stats 📝"
+    runs-on: ubuntu-26.04
+    outputs:
+      all: ${{ steps.count.outputs.all }}
+      tested: ${{ steps.stats.outputs.tested }}
+      excluded: ${{ steps.stats.outputs.excluded }}
+    steps:
+      - name: "Checkout AM"
+        if: inputs.reset_stats != 'true'
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Count programs 📊"
+        if: inputs.reset_stats != 'true'
+        id: count
+        run: |
+          grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"\| ffwa-\|am-utils" programs/x86_64-apps | awk '{print $2}' | sort -u > appslist
+          x64Count=$(wc -l < appslist)
+          echo "all=$x64Count" >> $GITHUB_OUTPUT
+
+      - name: "Upload appslist"
+        if: inputs.reset_stats != 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: appslist
+          path: appslist
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Checkout"
+        uses: actions/checkout@v7
+
+      - name: "Reset stats"
+        if: inputs.reset_stats == 'true'
+        run: |
+          echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
+          rm -rf results
+          git config --global user.name web-flow
+          git config --global user.email "noreply@github.com"
+          git rm -r results
+          git commit -m "reset stats"
+          git push --force
+          git clean -f
+
+      - name: "Count stats 📊"
+        if: inputs.reset_stats != 'true'
+        id: stats
+        run: |
+          if [ -f results/tested ]; then
+            tested=$(wc -l < results/tested)
+          else
+            tested='0'
+          fi
+          if [ -f results/excluded ]; then
+            excluded=$(wc -l < results/excluded)
+          else
+            excluded='0'
+          fi
+          echo "tested=$tested" >> $GITHUB_OUTPUT
+          echo "excluded=$excluded" >> $GITHUB_OUTPUT
+
+      - name: "Show stats 📊"
+        if: inputs.reset_stats != 'true'
+        run: |
+          echo "### 🎬 apps: ${{ steps.count.outputs.all }}" >> $GITHUB_STEP_SUMMARY
+          if [[ "${{ steps.stats.outputs.tested }}" != '0' ]]; then
+            echo "🔨 tests:" >> $GITHUB_STEP_SUMMARY
+            echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [[ "${{ steps.stats.outputs.excluded }}" != '0' ]]; then
+            echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  generate-matrix:
+    name: "matrix 🌀"
+    if: inputs.reset_stats != 'true'
+    needs: show-stats
+    runs-on: ubuntu-26.04
+    outputs:
+      skip: ${{ steps.set-matrix.outputs.skip }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
+
+      - name: "Download appslist"
+        uses: actions/download-artifact@v8
+        with:
+          name: appslist
+
+      - name: "Generate Matrix 🏆"
+        id: set-matrix
+        run: |
+          if [[ -f results/tested ]]; then
+            echo "tested exist"
+            if diff -q appslist results/tested; then
+              echo "Everything checked"
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            else
+              echo "Getting temp list"
+              comm --check-order -23 appslist results/tested > totest_tmp.list
+            fi
+          else
+            echo "First run!"
+            cp appslist totest_tmp.list
+          fi
+          if [[ -f results/excluded ]]; then
+            echo "Excluded exists — retesting excluded apps too"
+          fi
+          mv totest_tmp.list totest.list
+          TOTEST_LIST=$(mktemp)
+          if [ ! -z "${{ inputs.what_test }}" ]; then
+            echo "Testing only: ${{ inputs.what_test }}"
+            echo "${{ inputs.what_test }}" | tr ' ' '\n' | grep -v '^$' | sort -u > "$TOTEST_LIST"
+          elif [ "${{ inputs.retest_excluded }}" == 'true' ]; then
+            echo "Testing excluded"
+            if [ -f results/excluded ]; then
+              cat results/excluded | tr ' ' '\n' | grep -v '^$' | sort -u > "$TOTEST_LIST"
+            else
+              echo "Nothing excluded!"
+              echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
+              exit 1
+            fi
+          else
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              echo "Used workflow dispatch"
+              how_many="${{ inputs.how_many }}"
+              if [ -z "$how_many" ]; then
+                echo "Don't have numbers"
+                how_many="${{ env.TOTEST }}"
+              fi
+            else
+              echo "Shedule or push?"
+              echo "how_many=${{ env.TOTEST }}"
+              how_many=${{ env.TOTEST }}
+              if [ -z "$how_many" ]; then
+                echo "Still don't exist"
+                how_many="$TOTEST"
+              fi
+            fi
+            head -n "$how_many" totest.list > "$TOTEST_LIST" || cp totest.list "$TOTEST_LIST"
+          fi
+          if [ ! -s "$TOTEST_LIST" ]; then
+            echo "No apps selected (empty what_test/how_many/excluded?) — failing loudly instead of running an empty matrix." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          echo '-------------------------------------------------------------'
+          echo 'Testing files:'
+          echo '-------------------------------------------------------------'
+          cat "$TOTEST_LIST"
+          echo '-------------------------------------------------------------'
+          CHUNK_SIZE="${CHUNK_SIZE:-10}"
+          i=0; n=0; chunk_files=""
+          MATRIX="{\"include\": ["
+          while IFS= read -r app || [ -n "$app" ]; do
+            [ -z "$app" ] && continue
+            if [ -z "$chunk_files" ]; then chunk_files="$app"; else chunk_files="$chunk_files $app"; fi
+            n=$((n+1))
+            if [ "$n" -ge "$CHUNK_SIZE" ]; then
+              MATRIX+="{\"chunk\": \"$i\", \"files\": \"$chunk_files\"},"
+              i=$((i+1)); n=0; chunk_files=""
+            fi
+          done < "$TOTEST_LIST"
+          if [ -n "$chunk_files" ]; then
+            MATRIX+="{\"chunk\": \"$i\", \"files\": \"$chunk_files\"},"
+          fi
+          MATRIX="${MATRIX%,}]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          cp "$TOTEST_LIST" totest_selected.list
+          rm -f "$TOTEST_LIST"
+
+      - name: "Upload totest list"
+        if: ${{ steps.set-matrix.outputs.skip != 'true' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: totest
+          path: totest_selected.list
+          if-no-files-found: error
+          retention-days: 1
+
+  static-checks:
+    name: "static 🔍"
+    needs: generate-matrix
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    runs-on: ubuntu-26.04
+    timeout-minutes: 15
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Checkout AMCHECK"
+        uses: actions/checkout@v7
+        with:
+          path: amcheck
+
+      - name: "Download totest"
+        uses: actions/download-artifact@v8
+        with:
+          name: totest
+
+      - name: "Static checks"
+        working-directory: programs/x86_64
+        run: |
+          set -uo pipefail
+          mkdir -p "$GITHUB_WORKSPACE/static"
+          grep -v -e '^#' -e '^$' "$GITHUB_WORKSPACE/amcheck/.github/amcheck-blocklist.txt" > /tmp/blocklist || true
+          while IFS= read -r app || [ -n "$app" ]; do
+            [ -z "$app" ] && continue
+            out="$GITHUB_WORKSPACE/static/out-$app"
+            echo "APP=\"$app\"" >> "$out"
+            if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$app" 1>/dev/null; then
+              echo "APPIMAGE='yes'" >> "$out"
+            else
+              echo "APPIMAGE='no'" >> "$out"
+            fi
+            if grep -q "api.github.com" "$app" 2>/dev/null; then
+              echo "GITHUB='yes'" >> "$out"
+            else
+              echo "GITHUB='no'" >> "$out"
+            fi
+            if grep -q "^SITE=" "$app" 2>/dev/null; then
+              SITE=$(eval echo "$(grep -i '^SITE=' "$app" | head -1 | sed 's/SITE=//g')")
+              echo "SITE=\"$SITE\"" >> "$out"
+            fi
+            if echo "$app" | grep -Eqf /tmp/blocklist; then
+              echo "$app: blocklisted, install skipped" >> "$out"
+              echo "$app" >> "$GITHUB_WORKSPACE/static/skip-$app"
+            fi
+          done < "$GITHUB_WORKSPACE/totest_selected.list"
+
+      - name: "Upload static results"
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: static
+          path: static
+          retention-days: 1
+
+  run-actions:
+    name: "🔨"
+    needs: [generate-matrix, static-checks]
+    runs-on: ubuntu-26.04
+    timeout-minutes: 45
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    env:
+      TIMEOUT: 23
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Checkout AMCHECK"
+        uses: actions/checkout@v7
+        with:
+          path: amcheck
+
+      - name: "Download static results"
+        uses: actions/download-artifact@v8
+        with:
+          name: static
+          path: programs/x86_64/static
+
+      - name: "Setup runner"
+        uses: ./amcheck/.github/actions/setup-runner
+
+      - name: "Create directory"
+        working-directory: programs/x86_64
+        run: |
+          echo "Creating results directory"
+          mkdir -p results
+
+      - name: "test chunk ${{ matrix.chunk }} 🚧"
+        id: test
+        working-directory: programs/x86_64
+        run: |
+          set -uo pipefail
+          CHUNK="${{ matrix.chunk }}"
+          mkdir -p results/job-$CHUNK
+          for app in ${{ matrix.files }}; do
+            start=$(date +%s)
+            TIMEOUT_S=$(( ${TIMEOUT:-23} * 60 ))
+            out="results/job-$CHUNK/out-$app"
+            if [ -f "static/skip-$app" ]; then
+              cat "static/out-$app" >> "$out"
+              echo "$app" >> "results/job-$CHUNK/skip-$app"
+              echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+              continue
+            fi
+            cat "static/out-$app" >> "$out"
+
+          # Static greps moved into the "test chunk" loop above.
+
+          # Enter developer mode
+          #am --devmode-enable
+
+          # Define the content of the script || Alow testing non existent (for workflow tests)
+          script_content=$(cat $app) || echo "Testing non exist file! (for workflow test only)"
+          # Define the pure name of the app
+          pure_arg=$(echo "$app" | sed 's/\-appimage$//g' | sed 's:.*/::')
+
+          # Allow installing applications even if the command already exists
+          sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
+
+          # Special patches
+          if [[ "$pure_arg" =~ (node|npm) ]]; then
+            sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
+          fi
+
+          #########################
+          # INSTALL THE APPLICATION
+          #########################
+
+          # Blocklist enforced by the static-checks job; install every app that reaches here.
+          
+            if grep -qe "^read \|SITE1=" "$app" 1>/dev/null; then
+
+              echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 10
+                echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+              fi
+
+            else
+
+              echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+              if [ "$ARGSNUMB" = 1 ]; then
+                sleep 10
+                echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+              fi
+
+            fi
+
+            LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+
+            # If an application is blacklisted, ignore it
+            if [ "$LASTDIR" = am ]; then
+              echo "### 💀 $app" >> $GITHUB_STEP_SUMMARY
+              echo "$app" >> results/job-$CHUNK/log-$app
+              echo "$app" >> results/job-$CHUNK/ko-$app
+              echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+              continue
+
+            # If the last modified directory contains a file named "remove", check the installed files
+            elif test -f /opt/"$LASTDIR"/remove; then
+
+              printf "\n-------------------------------------------------------------\n\n"
+
+              # Check structure of directories in /opt
+              echo " Structure of the directory in /opt"
+              echo ""
+              ls /opt/"$LASTDIR" | tee -a results/log-"$app"
+
+              if test -f /opt/"$LASTDIR"/icons/*; then
+                mkdir -p results/job-$CHUNK/icons
+                cp -r /opt/"$LASTDIR"/icons/* results/job-$CHUNK/icons/
+              fi
+
+              printf "\n-------------------------------------------------------------\n\n"
+
+              # Check the command in /usr/local/bin
+              echo " Command in \$PATH"
+              echo ""
+              command -v "$pure_arg" | tee -a results/log-"$app" || command -v "$LASTDIR" | tee -a results/log-"$app" || ls /usr/local/bin | tee -a results/log-"$app"
+
+              printf "\n-------------------------------------------------------------\n\n"
+
+              # Check launchers in /usr/local/share/applications
+              echo " Launchers in /usr/local/share/applications" | tee -a results/log-"$app"
+              echo ""
+              if [ -n "$(find /usr/local/share/applications/ -type f -name *AM.desktop 2>/dev/null)" ]; then
+                 find /usr/local/share/applications/ -type f -name *AM.desktop | tee -a results/log-"$app"
+              elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
+                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"$app"
+              else
+                 echo "No .desktop file available" | tee -a results/log-"$app"
+              fi
+
+              printf "\n-------------------------------------------------------------\n\n"
+
+              # Remove the application
+              am -R "$LASTDIR" && echo "$app" >> results/job-$CHUNK/ok-$app || { echo "$app" >> results/job-$CHUNK/log-$app; echo "$app" >> results/job-$CHUNK/ko-$app; }
+
+            # Any other result is a failure
+            else
+              echo "$app install produced no removable directory" | tee -a results/job-$CHUNK/log-$app
+              echo "$app" >> results/job-$CHUNK/ko-$app
+              echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+              continue
+            fi
+          echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+          done
+
+      - name: "Upload chunk results ⬆️"
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: results-chunk-${{ matrix.chunk }}
+          path: programs/x86_64/results/job-${{ matrix.chunk }}
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Upload icons ⬆️"
+        if: always() && inputs.upload_icons
+        uses: actions/upload-artifact@v7
+        with:
+          name: icons-chunk-${{ matrix.chunk }}
+          path: programs/x86_64/results/job-${{ matrix.chunk }}/icons
+          retention-days: 1
+
+  update-results:
+    name: "results 📰"
+    needs: [generate-matrix, run-actions]
+    # Serialize all results/ pushes across concurrent runs: the job queued
+    # behind another checks out after it finishes, so --force-with-lease
+    # never meets a stale base and no sweep's commit is lost.
+    concurrency:
+      group: amcheck-results-push
+      cancel-in-progress: false
+    runs-on: ubuntu-26.04
+    if: (always() && inputs.reset_stats != 'true')
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: "Download results ⬇️"
+        # No chunk artifacts exist when the sweep was skipped: fail neither the
+        # step nor the job, the loop below simply finds no files.
+        if: ${{ needs.run-actions.result != 'skipped' }}
+        uses: actions/download-artifact@v8
+        with:
+          # Chunk outputs only: the static artifact carries same-named
+          # out-<app> files (metadata without install evidence); merging it
+          # would nondeterministically overwrite the chunk results.
+          path: results
+          pattern: results-chunk-*
+          merge-multiple: true
+
+      - name: "Download appslist"
+        uses: actions/download-artifact@v8
+        with:
+          name: appslist
+
+      - name: "Git Config"
+        run: |
+          git config --global user.name web-flow
+          git config --global user.email "noreply@github.com"
+
+      - name: "Process log results"
+        run: bash .github/aggregate-results.sh
+
+      - name: "Show results"
+        if: ${{ needs.generate-matrix.outputs.skip != 'true' && inputs.reset_stats != 'true' }}
+        run: |
+          if [[ -f results/tested ]]; then
+            tested=$(wc -l < results/tested 2>/dev/null || echo 0)
+          else
+            tested='0'
+          fi
+          if [[ -f results/excluded ]]; then
+            excluded=$(wc -l < results/excluded 2>/dev/null || echo 0)
+          else
+            excluded='0'
+          fi
+          if [[ -f failing ]]; then
+            fail=$(wc -l < failing 2>/dev/null || echo 0)
+          else
+            fail='0'
+          fi
+          count=$(wc -l < appslist)
+          remaining=$((count - tested - excluded))
+          (( remaining < 0 )) && remaining=0
+          echo "🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
+          if [[ "$fail" != '0' ]]; then
+            echo ":x: $fail excluded now" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [[ "$excluded" != '0' ]]; then
+            echo "😱 $excluded excluded" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+          rm -f appslist
+          rm -f results/ok-*
+          echo '-----------------------------------------------------------------'
+          echo "Missed results:"
+          echo '-----------------------------------------------------------------'
+          ls -R results/
+          echo '-----------------------------------------------------------------'
+
+      - name: "Push"
+        if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --global user.name web-flow
+          git config --global user.email "noreply@github.com"
+          if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
+            echo "This is a Pull Request. Not saving results."
+            exit 0
+          elif git diff-index --quiet HEAD; then
+            echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          else
+            git add results
+            git commit -m "check"
+            if git push --force-with-lease; then
+              echo "sync successfull" >> $GITHUB_STEP_SUMMARY
+              exit 0
+            fi
+            # Lost a push race: this job checked out its dispatch SHA while a
+            # sibling run committed first. Rebuild (never rebase): both sides
+            # append+resort the lists, which would conflict under rebase, but
+            # the aggregation is a pure function of base lists + artifacts.
+            echo "Push raced; rebuilding the same aggregation on fresh main…" | tee -a "$GITHUB_STEP_SUMMARY"
+            git fetch origin main || exit 1
+            git reset --hard origin/main || exit 1
+            retry_dl=$(mktemp -d)
+            gh run download "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY" --dir "$retry_dl" || exit 1
+            mkdir -p results
+            got=0
+            for d in "$retry_dl"/results-chunk-*/; do
+              [ -d "$d" ] || continue
+              cp -r "$d"* results/ && got=$((got+1))
+            done
+            [ "$got" -gt 0 ] || { echo "no chunk artifacts re-downloaded"; exit 1; }
+            bash .github/aggregate-results.sh || exit 1
+            git diff-index --quiet HEAD && { echo "nothing to commit after rebuild"; exit 0; }
+            git commit -m "check"
+            git push --force-with-lease && echo "sync successfull (2nd attempt)" >> $GITHUB_STEP_SUMMARY || (git diff && git status && exit 1)
+          fi
+
+  verdict:
+    name: "verdict 📋"
+    needs: [generate-matrix, run-actions, update-results]
+    # Fails the run when any app failed, so the Actions list stays honest:
+    # green means nothing needs fixing, red means open the run. Chunk jobs
+    # stay green on app failures (infra signal intact); results are already
+    # committed by update-results before this reports.
+    if: ${{ always() && needs.generate-matrix.outputs.skip != 'true' && needs.run-actions.result != 'skipped' }}
+    runs-on: ubuntu-26.04
+    steps:
+      - name: "Download chunk results ⬇️"
+        uses: actions/download-artifact@v8
+        with:
+          path: verdict
+          pattern: results-chunk-*
+          merge-multiple: true
+
+      - name: "Report failed apps"
+        run: |
+          fails=$(find verdict -name 'ko-*' | sed 's:.*/ko-::' | sort -u)
+          skipped=$(find verdict -name 'skip-*' | sed 's:.*/skip-::' | sort -u)
+          unknowns=$(for f in $(find verdict -name 'out-*'); do
+            a=$(basename "$f" | cut -d'-' -f2-)
+            d=$(dirname "$f")
+            [ -f "$d/ok-$a" ] || [ -f "$d/ko-$a" ] || [ -f "$d/skip-$a" ] || echo "$a"
+          done | sort -u)
+          {
+            echo "## Verdict"
+            echo ""
+            echo "Failed apps (ko marker, in results/excluded):"
+            if [ -z "$fails" ]; then echo "- (none)"; else echo "$fails" | sed 's/^/- /'; fi
+            echo ""
+            echo "Skipped by policy (blocklist/static, not failures):"
+            if [ -z "$skipped" ]; then echo "- (none)"; else echo "$skipped" | sed 's/^/- /'; fi
+            echo ""
+            echo "No-result apps (output but no marker, will retry):"
+            if [ -z "$unknowns" ]; then echo "- (none)"; else echo "$unknowns" | sed 's/^/- /'; fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$fails$unknowns" ]; then
+            echo "::error::apps need attention, see summary"
+            exit 1
+          fi
+          echo "all apps passed ✅" >> "$GITHUB_STEP_SUMMARY"
+
+  already-tested:
+    name: "all 🏁"
+    runs-on: ubuntu-26.04
+    needs: generate-matrix
+    # Same push-serializing group as update-results: rotation also commits.
+    concurrency:
+      group: amcheck-results-push
+      cancel-in-progress: false
+    if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v7
+
+      - name: "Git Config"
+        run: |
+           git config --global user.name web-flow
+           git config --global user.email "noreply@github.com"
+
+      - name: "Rotate tested list"
+        run: |
+          echo "Sweep complete, rotating tested list..." >> $GITHUB_STEP_SUMMARY
+          git mv -f results/tested results/tested.prev
+          git commit -m "cycle complete: rotate tested to tested.prev"
+          if git push --force-with-lease; then
+            exit 0
+          fi
+          # Same staleness as the results push (pinned checkout SHA): redo the
+          # trivially reproducible rotation on the fresh base instead of rebasing.
+          echo "Push raced; redoing rotation on fresh main…" | tee -a "$GITHUB_STEP_SUMMARY"
+          git fetch origin main || exit 1
+          git reset --hard origin/main || exit 1
+          git mv -f results/tested results/tested.prev || { echo "nothing left to rotate"; exit 0; }
+          git commit -m "cycle complete: rotate tested to tested.prev"
+          git push --force-with-lease || exit 1
