@@ -358,7 +358,16 @@ jobs:
             #am --devmode-enable
 
             # Define the content of the script || Alow testing non existent (for workflow tests)
-            script_content=$(cat $app) || echo "Testing non exist file! (for workflow test only)"
+            script_content=""
+            script_content=$(curl -Ls "https://raw.githubusercontent.com/ivan-hc/AM/main/programs/x86_64/$app" 2>/dev/null)
+            wait
+            sleep 5
+            if ! echo "$script_content" | grep -q "APP="; then
+              script_content=""
+            fi
+            if [ -z "$script_content" ]; then
+              echo "Testing non exist file! (for workflow test only)"
+            fi
             # Define the pure name of the app
             pure_arg=$(echo "$app" | sed 's/\-appimage$//g' | sed 's:.*/::')
 
