@@ -358,10 +358,14 @@ jobs:
             #am --devmode-enable
 
             # Define the content of the script || Alow testing non existent (for workflow tests)
-            script_content=""
-            script_content=$(curl -Ls "https://raw.githubusercontent.com/ivan-hc/AM/main/programs/x86_64/$app" 2>/dev/null)
+            SCRIPTDIR="${SCRIPTDIR:-$(xdg-user-dir DESKTOP 2>/dev/null)}"
+            if [ ! -d "$SCRIPTDIR" ]; then
+              SCRIPTDIR="$PWD"
+            fi
+            am -d "$app"
             wait
-            sleep 5
+
+            script_content=$(cat "$SCRIPTDIR/$app")
             if ! echo "$script_content" | grep -q "APP="; then
               script_content=""
             fi
