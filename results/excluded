@@ -25,3 +25,12 @@ ryujinx
 ryujinx-canary
 vhc-viewer-wayland
 vhc-viewer-x11
+wine
+wine-devel
+wine-stable
+wine-staging
+wine-staging-ge-proton
+wine32-deploy
+winebar
+winegui
+xmmusic
