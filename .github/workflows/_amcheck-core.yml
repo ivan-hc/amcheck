@@ -358,14 +358,7 @@ jobs:
             #am --devmode-enable
 
             # Define the content of the script || Alow testing non existent (for workflow tests)
-            SCRIPTDIR="${SCRIPTDIR:-$(xdg-user-dir DESKTOP 2>/dev/null)}"
-            if [ ! -d "$SCRIPTDIR" ]; then
-              SCRIPTDIR="$PWD"
-            fi
-            am -d "$app"
-            wait
-
-            script_content=$(cat "$SCRIPTDIR/$app")
+            script_content=$(cat ./"$app")
             if ! echo "$script_content" | grep -q "APP="; then
               script_content=""
             fi
@@ -393,7 +386,7 @@ jobs:
 
             # Blocklist enforced by the static-checks job; install every app that reaches here.
 
-              if echo "$script_content" | grep -qe -- " read -r response\|SITE1="; then
+              if grep -qe -- " read -r response\|SITE1=" ./"$app"; then
 
                 echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
                 ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
