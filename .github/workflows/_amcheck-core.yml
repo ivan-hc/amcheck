@@ -352,108 +352,112 @@ jobs:
             fi
             cat "static/out-$app" >> "$out"
 
-          # Static greps moved into the "test chunk" loop above.
+            # Static greps moved into the "test chunk" loop above.
 
-          # Enter developer mode
-          #am --devmode-enable
+            # Enter developer mode
+            #am --devmode-enable
 
-          # Define the content of the script || Alow testing non existent (for workflow tests)
-          script_content=$(cat $app) || echo "Testing non exist file! (for workflow test only)"
-          # Define the pure name of the app
-          pure_arg=$(echo "$app" | sed 's/\-appimage$//g' | sed 's:.*/::')
+            # Define the content of the script || Alow testing non existent (for workflow tests)
+            script_content=$(cat $app) || echo "Testing non exist file! (for workflow test only)"
+            # Define the pure name of the app
+            pure_arg=$(echo "$app" | sed 's/\-appimage$//g' | sed 's:.*/::')
 
-          # Allow installing applications even if the command already exists
-          sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
+            # Allow installing applications even if the command already exists
+            sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
 
-          # Special patches
-          if [[ "$pure_arg" =~ (node|npm) ]]; then
-            sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
-          fi
+            # Special patches
+            if [[ "$pure_arg" =~ (node|npm) ]]; then
+              sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
+            fi
 
-          #########################
-          # INSTALL THE APPLICATION
-          #########################
+            #########################
+            # INSTALL THE APPLICATION
+            #########################
 
-          # Blocklist enforced by the static-checks job; install every app that reaches here.
-          
-            if grep -qe -- " read -r response\|SITE1=" "$app" 1>/dev/null; then
+            printf "\n-------------------------------------------------------------\n\n"
+            echo " $app"
+            printf "\n-------------------------------------------------------------\n\n"
 
-              echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 10
+            # Blocklist enforced by the static-checks job; install every app that reaches here.
+
+              if echo "$script_content" | grep -qe -- " read -r response\|SITE1="; then
+
                 echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
-              fi
+                ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+                if [ "$ARGSNUMB" = 1 ]; then
+                  sleep 10
+                  echo 1 | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+                fi
 
-            else
-
-              echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
-              ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
-              if [ "$ARGSNUMB" = 1 ]; then
-                sleep 10
-                echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
-              fi
-
-            fi
-
-            LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
-
-            # If an application is blacklisted, ignore it
-            if [ "$LASTDIR" = am ]; then
-              echo "### 💀 $app" >> $GITHUB_STEP_SUMMARY
-              echo "$app" >> results/job-$CHUNK/log-$app
-              echo "$app" >> results/job-$CHUNK/ko-$app
-              echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
-              continue
-
-            # If the last modified directory contains a file named "remove", check the installed files
-            elif test -f /opt/"$LASTDIR"/remove; then
-
-              printf "\n-------------------------------------------------------------\n\n"
-
-              # Check structure of directories in /opt
-              echo " Structure of the directory in /opt"
-              echo ""
-              ls /opt/"$LASTDIR" | tee -a results/log-"$app"
-
-              if test -f /opt/"$LASTDIR"/icons/*; then
-                mkdir -p results/job-$CHUNK/icons
-                cp -r /opt/"$LASTDIR"/icons/* results/job-$CHUNK/icons/
-              fi
-
-              printf "\n-------------------------------------------------------------\n\n"
-
-              # Check the command in /usr/local/bin
-              echo " Command in \$PATH"
-              echo ""
-              command -v "$pure_arg" | tee -a results/log-"$app" || command -v "$LASTDIR" | tee -a results/log-"$app" || ls /usr/local/bin | tee -a results/log-"$app"
-
-              printf "\n-------------------------------------------------------------\n\n"
-
-              # Check launchers in /usr/local/share/applications
-              echo " Launchers in /usr/local/share/applications" | tee -a results/log-"$app"
-              echo ""
-              if [ -n "$(find /usr/local/share/applications/ -type f -name *AM.desktop 2>/dev/null)" ]; then
-                 find /usr/local/share/applications/ -type f -name *AM.desktop | tee -a results/log-"$app"
-              elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
-                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"$app"
               else
-                 echo "No .desktop file available" | tee -a results/log-"$app"
+
+                echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+                ARGSNUMB=$(find /opt -maxdepth 2 -name 'remove' -print 2>/dev/null | sed 's|/remove||g' | tr ' ' '\n' | wc -l)
+                if [ "$ARGSNUMB" = 1 ]; then
+                  sleep 10
+                  echo y | timeout "$TIMEOUT_S" am -i "$app" --debug 2>&1 | grep -vE --line-buffered ' ([3-9]|[1-8][0-9]|9[0-7])%( |$)' || test "${PIPESTATUS[1]}" -eq 0
+                fi
+
               fi
 
-              printf "\n-------------------------------------------------------------\n\n"
+              LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
 
-              # Remove the application
-              am -R "$LASTDIR" && echo "$app" >> results/job-$CHUNK/ok-$app || { echo "$app" >> results/job-$CHUNK/log-$app; echo "$app" >> results/job-$CHUNK/ko-$app; }
+              # If an application is blacklisted, ignore it
+              if [ "$LASTDIR" = am ]; then
+                echo "### 💀 $app" >> $GITHUB_STEP_SUMMARY
+                echo "$app" >> results/job-$CHUNK/log-$app
+                echo "$app" >> results/job-$CHUNK/ko-$app
+                echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+                continue
 
-            # Any other result is a failure
-            else
-              echo "$app install produced no removable directory" | tee -a results/job-$CHUNK/log-$app
-              echo "$app" >> results/job-$CHUNK/ko-$app
-              echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
-              continue
-            fi
-          echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+              # If the last modified directory contains a file named "remove", check the installed files
+              elif test -f /opt/"$LASTDIR"/remove; then
+
+                printf "\n-------------------------------------------------------------\n\n"
+
+                # Check structure of directories in /opt
+                echo " Structure of the directory in /opt"
+                echo ""
+                ls /opt/"$LASTDIR" | tee -a results/log-"$app"
+
+                if test -f /opt/"$LASTDIR"/icons/*; then
+                  mkdir -p results/job-$CHUNK/icons
+                  cp -r /opt/"$LASTDIR"/icons/* results/job-$CHUNK/icons/
+                fi
+
+                printf "\n-------------------------------------------------------------\n\n"
+
+                # Check the command in /usr/local/bin
+                echo " Command in \$PATH"
+                echo ""
+                command -v "$pure_arg" | tee -a results/log-"$app" || command -v "$LASTDIR" | tee -a results/log-"$app" || ls /usr/local/bin | tee -a results/log-"$app"
+
+                printf "\n-------------------------------------------------------------\n\n"
+
+                # Check launchers in /usr/local/share/applications
+                echo " Launchers in /usr/local/share/applications" | tee -a results/log-"$app"
+                echo ""
+                if [ -n "$(find /usr/local/share/applications/ -type f -name *AM.desktop 2>/dev/null)" ]; then
+                   find /usr/local/share/applications/ -type f -name *AM.desktop | tee -a results/log-"$app"
+                elif echo "$script_content" | grep -q -- '^./"$APP" --appimage-extract.*./"$APP".desktop$'; then
+                   ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"$app"
+                else
+                   echo "No .desktop file available" | tee -a results/log-"$app"
+                fi
+
+                printf "\n-------------------------------------------------------------\n\n"
+
+                # Remove the application
+                am -R "$LASTDIR" && echo "$app" >> results/job-$CHUNK/ok-$app || { echo "$app" >> results/job-$CHUNK/log-$app; echo "$app" >> results/job-$CHUNK/ko-$app; }
+
+              # Any other result is a failure
+              else
+                echo "$app install produced no removable directory" | tee -a results/job-$CHUNK/log-$app
+                echo "$app" >> results/job-$CHUNK/ko-$app
+                echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
+                continue
+              fi
+            echo "DURATION=$(( $(date +%s) - start ))" >> "$out"
           done
 
       - name: "Upload chunk results ⬆️"
